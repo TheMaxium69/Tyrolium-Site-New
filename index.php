@@ -22,6 +22,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oxanium&display=swap" rel="stylesheet">
 
+    <!--FontAwesome-->
+    <link href="fontawesome-5.15.4/css/all.css" rel="stylesheet">
+
     <!--TyroLink-->
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
     <script src="main.js"></script>
@@ -33,39 +36,34 @@
 <header>
     <section id="NavBar">
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
+        <nav class="navbar navbar-expand-custom navbar-mainbg navbar-dark">
+            <img style="margin-left: 20px" src="http://tyrolium.fr/Contenu/Image/Tyrolium Site.png" alt="TyroliumLogo" width="40px" class="d-inline-block align-text-top">
+            <a class="navbar-brand navbar-logo" href="#">Tyrolium</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav ml-auto">
+                    <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0);"><i class="fas fa-home"></i>Home</a>
+                    </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="javascript:void(0);"><i class="fas fa-tags"></i>Service</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
+                        <a class="nav-link" href="javascript:void(0);"><i class="fas fa-dice-d6"></i>Projet</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
+                        <a class="nav-link" href="javascript:void(0);"><i class="far fa-handshake"></i>Colaboration</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0);"><i class="fas fa-book"></i>Histoire</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0);"><i class="far fa-user"></i>Compte</a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
             </div>
         </nav>
 
