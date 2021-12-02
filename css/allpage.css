@@ -1,0 +1,14 @@
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    background-color: #131313;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+i {
+    margin-right: 10px;
+}
+

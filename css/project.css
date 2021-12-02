@@ -1,0 +1,116 @@
+/******************************
+        CLASSES GLOBALES
+******************************/
+
+#projet {
+    text-align: center;
+    border: 2px solid #131313;
+    padding: 30px 20px 0;
+    background-color: #131313;
+    color: white;
+}
+
+#projet .btn {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    margin-top: 10px;
+}
+#projet .btn:hover {
+    background-color: rgb(193, 193, 193);
+    color: black;
+}
+
+#projet .icon{
+    width: 20px;
+}
+
+#projet ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+#projet ul li#a0{
+    background: linear-gradient(
+            to right,
+            #151515 30%,
+            rgba(0, 0, 0, 0.2) 50%
+    ),
+    url("https://tyrolium.fr/Contenu/Image/Background6.png");
+    background-size: cover;
+    background-position: center 35%;
+}
+
+#projet ul li{
+    width: 100%;
+    padding-right: 50%;
+    margin-bottom: 60px;
+}
+
+#projet ul li:last-child{
+    background-size: cover;
+    background-position: center 35%;
+    width: 100%;
+    padding-right: 50%;
+    margin-bottom: 30px;
+}
+
+
+#projet ul li p#notgras{
+    font-weight: normal;
+}
+
+#projet ul li p{
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+#projet ul li h3 {
+    margin-bottom: 0;
+}
+#projet ul li#start a.btn:first-of-type {
+    width: 70%;
+}
+#projet ul li#start a.btn {
+    width: 10%;
+}
+#projet ul li a.btn:first-of-type {
+    width: 90%;
+}
+#projet ul li img.logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+#projet ul li img:hover {
+    border-radius: 5%;
+}
+
+@media (max-width: 1056px) {
+
+    #projet ul li {
+        width: 100%;
+    }
+
+    #projet ul li a.btn:first-of-type {
+        width: 60%;
+    }
+}
+
+@media (max-width: 800px) {
+
+    #projet ul li#start {
+        background: #151515;
+        width: 100%;
+        padding-right: 0%;
+    }
+
+    #projet ul li#start a.btn {
+        width: unset;
+    }
+}
