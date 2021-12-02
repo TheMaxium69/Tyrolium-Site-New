@@ -7,14 +7,14 @@
 
         <?php require_once "app/navbar.php";
 
-        navbar(1);
+        navbar(2);
 
         ?>
 
     </section>
     <section id="BackGround">
 
-<p><?php echo $env_logoUrl ?></p>
+        <p>Test 2</p>
 
     </section>
 </header>
