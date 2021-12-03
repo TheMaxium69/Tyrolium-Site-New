@@ -2,7 +2,7 @@ particlesJS('particles-js',
     {
         "particles": {
             "number": {
-                "value": 100,
+                "value": 145,
                 "density": {
                     "enable": true,
                     "value_area": 800
@@ -37,7 +37,7 @@ particlesJS('particles-js',
                 }
             },
             "size": {
-                "value": 5,
+                "value": 3,
                 "random": true,
                 "anim": {
                     "enable": false,
@@ -56,10 +56,11 @@ particlesJS('particles-js',
             "move": {
                 "enable": true,
                 "speed": 6,
-                "direction": "none",
+                "direction": "top-right",
                 "random": false,
                 "straight": false,
                 "out_mode": "out",
+                "bounce": false,
                 "attract": {
                     "enable": false,
                     "rotateX": 600,
@@ -72,11 +73,11 @@ particlesJS('particles-js',
             "events": {
                 "onhover": {
                     "enable": true,
-                    "mode": "repulse"
+                    "mode": "grab"
                 },
                 "onclick": {
                     "enable": true,
-                    "mode": "push"
+                    "mode": "repulse"
                 },
                 "resize": true
             },
@@ -95,7 +96,8 @@ particlesJS('particles-js',
                     "speed": 3
                 },
                 "repulse": {
-                    "distance": 200
+                    "distance": 200,
+                    "duration": 0.4
                 },
                 "push": {
                     "particles_nb": 4
@@ -105,15 +107,7 @@ particlesJS('particles-js',
                 }
             }
         },
-        "retina_detect": true,
-        "config_demo": {
-            "hide_card": false,
-            "background_color": "#b61924",
-            "background_image": "",
-            "background_position": "50% 50%",
-            "background_repeat": "no-repeat",
-            "background_size": "cover"
-        }
+        "retina_detect": true
     }
 
 );

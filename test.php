@@ -5,20 +5,13 @@
 </head>
 <body>
 <header>
-    <section id="NavBar">
 
         <?php navbar($page); ?>
 
-    </section>
-    <section id="BackGround">
-
-        <p>Test 2</p>
-
-    </section>
 </header>
 
 <main>
-
+    <?php particule() ?>
 </main>
 
 <footer>
