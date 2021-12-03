@@ -1,17 +1,12 @@
-<!doctype html>
+<?php include "app/app.php"; $page = 3; ?><!doctype html>
 <html lang="fr">
-<head><?php include "app/app.php"; ?></head>
+<head>
+    <?php head($page); ?>
+</head>
 <body>
 <header>
-
-        <?php require_once "app/navbar.php";
-
-        navbar(3);
-
-        ?>
-
+    <?php navbar($page); ?>
 </header>
-
 <main>
     <section id="projet">
         <br>

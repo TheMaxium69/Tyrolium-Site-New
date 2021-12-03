@@ -1,5 +1,9 @@
 <?php
 
+//PROD or DEV
+$APP_ENV = "DEV";
+
+
 $env_url = "https://tyrolium.fr";
 
 $env_urlImage = $env_url . "/Contenu/Image/";
