@@ -21,6 +21,6 @@ function redirect(page){
     }
 
     if (page === 6){
-        window.location.href='./test';
+        window.location.href='./account';
     }
 }

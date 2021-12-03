@@ -1,3 +1,9 @@
+#particule{
+    border: none;
+    width: 100%;
+    height: 500px;
+}
+
 #particule div#head{
     position: absolute;
     width: 50%;
