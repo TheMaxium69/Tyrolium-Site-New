@@ -14,7 +14,9 @@
     </section>
     <section id="BackGround">
 
-<p><?php echo $env_logoUrl ?></p>
+        <div id="particule">
+        <?php require_once "composant/particule.phtml"; ?>
+        </div>
 
     </section>
 </header>
