@@ -5,7 +5,7 @@ function redirect(page){
     }
 
     if (page === 2){
-        window.location.href='./test';
+        window.location.href='./service';
     }
 
     if (page === 3){
@@ -13,11 +13,11 @@ function redirect(page){
     }
 
     if (page === 4){
-        window.location.href='./test';
+        window.location.href='./collaboration';
     }
 
     if (page === 5){
-        window.location.href='./test';
+        window.location.href='./story';
     }
 
     if (page === 6){
