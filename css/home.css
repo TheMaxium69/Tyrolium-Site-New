@@ -14,21 +14,24 @@
 
 #particule div#head h1{
     text-align: center;
-    font-size: 100px;
-    color: #0022ff;
+    font-size: 110px;
+    color: #1325d7;
     margin-bottom: unset;
+
+    font-family: 'Lato', sans-serif;
+    text-shadow: 0 0 1em #787878;
 }
 #particule div#head h1:hover{
-    font-size: 110px;
+    font-size: 120px;
 }
 
 #particule div#head p{
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     color: white;
 }
 #particule div#head p:hover{
-    font-size: 50px;
+    font-size: 35px;
 }
 
 /******************************

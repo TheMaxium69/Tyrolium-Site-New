@@ -1,19 +1,14 @@
-<?php include "app/app.php"; $page = 1; ?><!doctype html>
-<html lang="fr">
-<head>
-    <?php head($page); ?>
-</head>
-<body>
-<header>
-        <?php navbar($page); ?>
-</header>
+<?php include "app/app.php"; $page = 1; head($page); ?>
+<body> <header> <?php navbar($page); ?> </header>
 
 <main>
     <section id="particule">
         <div id="particule">
             <div id="head">
                 <h1>Tyrolium</h1>
-                <p>Meilleur entreprise</p>
+                <a href="#accueil"><p>
+                    DÉCOUVREZ NOTRE UNIVERS
+                </p></a>
             </div>
             <?php particule() ?>
         </div>
@@ -31,19 +26,4 @@
     </section>
 </main>
 
-<footer>
-
-    <div style="background-color: red">
-        zaeziauheazu_iheazje<br>
-        zeaz<br>
-        eza<br>
-        ea<br>
-        ze<br>
-        a<br>
-
-    </div>
-
-</footer>
-
-</body>
-</html>
+<footer> <?php footer(); ?> </footer> </body> </html>

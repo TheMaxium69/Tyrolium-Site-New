@@ -12,7 +12,7 @@
     color: #0045f6;
 }
 .navbar-mainbg{
-    background-color: #444343;
+    background-color: #26272b;
     padding: 0px;
 }
 #navbarSupportedContent{
@@ -41,7 +41,7 @@
     position: relative;
 }
 #navbarSupportedContent>ul>li.active>a{
-    color: #0234a8;
+    color: #0049ee;
     background-color: transparent;
     transition: all 0.7s;
 }
@@ -95,7 +95,7 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #444343;
+    background-color: #26272b;
 }
 .hori-selector .right:before{
     bottom: 0;
