@@ -12,9 +12,9 @@
         <div id="title"><h2>Projet de développement</h2></div>
         <?php
             $nbBack = count($env_back);
-
+            echo '<style> @media (min-width: 801px) {';
             for ($i = 0; $i <= $nbBack-1; $i++) {
-                echo '<style>
+                echo '
                 #projet ul li#a'. $i .'{
                     background: linear-gradient(
                             to right,
@@ -24,14 +24,33 @@
                     url("'. $env_back[$i] .'");
                     background-size: cover;
                     background-position: center 35%;
+                }';
+            }
+            echo '} @media (max-width: 800px) {';
+
+            for ($i = 0; $i <= $nbBack-1; $i++) {
+                echo '
+                    #projet ul li#a'. $i .'{
+                        background: linear-gradient(
+                                to top,
+                                #151515 60%,
+                                rgba(0, 0, 0, 0.2) 30%
+                        ),
+                        url("'. $env_back[$i] .'");
+                        background-size: cover;';
+                if ($i == 0){
+                    echo 'background-position: center 300%;';
+                } else {
+                    echo 'background-position: center 0%;';
                 }
-            </style>';
-            } ?>
+                echo '}';
+            }
+
+            echo '} </style>'; ?>
         <ul>
             <li id="a0">
                 <img class="logo" src="http://tyrolium.fr/Contenu/Image/Tyrolium ServerMC S2.png" alt="TyroservLogo">
                 <h2>TyroServ</h2>
-                <p id="notgras">Le plus important de nos projets,<br> il est à l'origine même de la création de l'entreprise.</p>
                 <p>Serveur moddé sur le jeu Minecraft.</p>
                 <small>Disponible entièrement sur le site officiel.</small><br>
                 <a href="http://tyroserv.fr/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
@@ -68,9 +87,6 @@
                 <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/> Allez sur notre Discord</a><br>
                 <a href="https://www.instagram.com/tyroliumstudio/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
             </li>
-        </ul>
-        <div id="title"><h2>Projet artistique</h2></div>
-        <ul>
             <li id="a4">
                 <img class="logo" src="http://tyrolium.fr/Contenu/Image/Wonderlium.png" alt="WonderliumLogo">
                 <h2>Wonderlium</h2>
