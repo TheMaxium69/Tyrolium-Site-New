@@ -1,6 +1,5 @@
 <?php include "app/app.php"; $page = 1; head($page); ?>
 <body> <header> <?php navbar($page); ?> </header>
-
 <main>
     <section id="particule">
         <div id="particule">
