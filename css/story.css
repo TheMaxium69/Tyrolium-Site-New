@@ -1,3 +1,12 @@
+#storyhead{
+    text-align: center;
+    border: 2px solid #131313;
+    padding: 30px 20px 0;
+    background-color: #131313;
+    color: white;
+}
+
+
 body#story {
     overflow-x: hidden;
 }
@@ -9,7 +18,7 @@ main#story {
 }
 
 main#story section {
-    padding: 100px 0;
+    padding: 30px 0;
 }
 
 main#story h1 {
@@ -53,7 +62,7 @@ main#story h1 {
     top: 30px;
     left: -15px;
     border-width: 10px 15px 10px 0;
-    border-color: transparent #f5f5f5 transparent transparent;
+    border-color: transparent #8d8c8c transparent transparent;
 }
 .timeline-item::after {
     content: "";
@@ -65,8 +74,8 @@ main#story h1 {
     position: relative;
     width: 45%;
     padding: 10px 30px;
-    border-radius: 4px;
-    background: #f5f5f5;
+    border-radius: 6px;
+    background: #8d8c8c;
     box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
 }
 .timeline-content::after {
@@ -78,20 +87,24 @@ main#story h1 {
     top: 30px;
     right: -15px;
     border-width: 10px 0 10px 15px;
-    border-color: transparent transparent transparent #f5f5f5;
+    border-color: transparent transparent transparent #8d8c8c;
 }
 
 .timeline-content h2{
     font-size: 30px;
     margin-top: 20px;
     margin-bottom: 10px;
-    color: red;
+    color: #0045f6;
+}
+
+.js--fadeInLeft h2{
+    max-width: 60%;
 }
 
 .timeline-img {
     width: 30px;
     height: 30px;
-    background: #3F51B5;
+    background: #0045f6;
     border-radius: 50%;
     position: absolute;
     left: 50%;
@@ -100,7 +113,7 @@ main#story h1 {
 }
 
 main#story a {
-    background: #3F51B5;
+    background: #0045f6;
     color: #FFFFFF;
     padding: 8px 20px;
     text-transform: uppercase;
@@ -112,7 +125,7 @@ main#story a {
     box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.6);
 }
 main#story a:hover, a:active, a:focus {
-    background: #32408f;
+    background: #002a99;
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -138,7 +151,7 @@ main#story a:hover, a:active, a:focus {
     margin-bottom: 20px;
 }
 .timeline-img-header h2 {
-    color: #FFFFFF;
+    color: #0045f6;
     position: absolute;
     bottom: 5px;
     left: 20px;
@@ -146,21 +159,22 @@ main#story a:hover, a:active, a:focus {
 
 blockquote {
     margin-top: 30px;
-    color: #757575;
+    color: black;
     padding: 0 20px;
     margin: 0 0 20px;
     font-size: 17.5px;
-    border-left: 5px solid #000dff;
+    border-left: 5px solid #0045f6;
 }
 
 .date {
-    background: #FF4081;
+    background: #0045f6;
     display: inline-block;
     color: #FFFFFF;
     padding: 10px;
     position: absolute;
     top: 0;
     right: 0;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 768px) {
