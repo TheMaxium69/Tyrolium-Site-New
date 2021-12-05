@@ -5,6 +5,8 @@ $(document).keyup(function (e) {
 
     if (e.keyCode == 37 || e.keyCode == 38 || e.keyCode == 39 || e.keyCode == 40 || e.keyCode == 65 || e.keyCode == 66) {
         cheatcode("key" + e.keyCode + "|");
+    } else {
+        cmd = null;
     }
 
 });

@@ -63,4 +63,4 @@
     </div>
 </main>
 
-<?php //footer(); ?><!-- </body> </html>-->
+<?php footer(); ?> </body> </html>

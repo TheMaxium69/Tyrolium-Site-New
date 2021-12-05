@@ -124,7 +124,7 @@ main#story a {
     border-radius: 2px;
     box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.6);
 }
-main#story a:hover, a:active, a:focus {
+main#story a:hover,main#story a:active,main#story a:focus {
     background: #002a99;
     color: #FFFFFF;
     text-decoration: none;
