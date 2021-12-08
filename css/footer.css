@@ -144,13 +144,23 @@ i.footer {
 {
     background-color:#3b5998
 }
+.social-icons a.instagram:hover
+{
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+
+}
 .social-icons a.twitter:hover
 {
     background-color:#00aced
 }
+.social-icons a.discord:hover
+{
+    background-color: #404EED
+}
 .social-icons a.linkedin:hover
 {
-    background-color:#007bb6
+    background-color: #0A66C2
 }
 .social-icons a.youtube:hover
 {
