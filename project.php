@@ -47,7 +47,7 @@
             }
 
             echo '} </style>'; ?>
-        <ul>
+        <ul class="container">
             <li id="a0">
                 <img class="logo" src="http://tyrolium.fr/Contenu/Image/Tyrolium ServerMC S2.png" alt="TyroservLogo">
                 <h2>TyroServ</h2>

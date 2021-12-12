@@ -1,65 +1,101 @@
-/******************************
-        credit
-******************************/
+.our-team {
+    padding: 30px 0 40px;
+    margin-bottom: 30px;
+    background-color: black;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
 
-#credit {
-    background-image: linear-gradient(
-            to right,
-            #131313 44%,
-            rgba(0, 0, 0, 0.2) 66%
-    ),
-    url("http://tyrolium.fr/Contenu/Image/Background2.png");
-    background-size: cover;
-    background-position: center 35%;
+.our-team .picture {
+    display: inline-block;
+    height: 130px;
+    width: 130px;
+    margin-bottom: 50px;
+    z-index: 1;
+    position: relative;
+}
+
+.our-team .picture::before {
+    content: "";
+    width: 100%;
+    height: 0;
+    border-radius: 50%;
+    background-color: #1325d7;
+    position: absolute;
+    bottom: 135%;
+    right: 0;
+    left: 0;
+    opacity: 0.9;
+    transform: scale(3);
+    transition: all 0.3s linear 0s;
+}
+
+.our-team:hover .picture::before {
+    height: 100%;
+}
+
+.our-team .picture::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #1325d7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.our-team .picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 0.9s ease 0s;
+}
+
+.our-team:hover .picture img {
+    box-shadow: 0 0 0 14px #f7f5ec;
+    transform: scale(0.7);
+}
+
+.our-team .title {
+    display: block;
+    font-size: 15px;
+    color: #4e5052;
+    text-transform: capitalize;
+}
+
+.our-team .social {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #1325d7;
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    transition: all 0.5s ease 0s;
+}
+
+.our-team:hover .social {
+    bottom: 0;
+}
+
+.our-team .social li {
+    display: inline-block;
+}
+
+.our-team .social li a {
+    display: block;
+    padding: 10px;
+    font-size: 17px;
     color: white;
-    padding: 50px 0 80px;
-}
-#credit div {
-    display: flex;
-    justify-content: flex-start;
-}
-#credit article {
-    width: 40%;
-}
-#credit article h2 {
-    margin-left: 160px;
-    text-transform : uppercase;
-}
-#credit article h3 {
-    margin-left: 80px;
-}
-#credit article p {
-    margin-left: 100px;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
 }
 
-@media (max-width: 767px) {
-    #credit {
-        background-image: linear-gradient(
-                to right,
-                #151515 90%,
-                rgba(0, 0, 0, 0.2) 10%
-        ),
-        url("http://tyrolium.fr/Contenu/Image/Background2.png");
-        color: white;
-        padding: 20px;
-    }
-    #credit article {
-        width: 100%;
-    }
-    #credit article h2 {
-        margin-left: 0;
-    }
-}
-
-@media (max-width: 564px) {
-    #credit {
-        background: #151515;
-    }
-
-    #credit article h3 {
-        margin-left: 60px;
-    }
-    #credit article p {
-        margin-left: 30px;
-    }
+.our-team .social li a:hover {
+    color: #1325d7;
+    background-color: #f7f5ec;
 }
