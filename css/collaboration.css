@@ -1,0 +1,65 @@
+/******************************
+        credit
+******************************/
+
+#credit {
+    background-image: linear-gradient(
+            to right,
+            #131313 44%,
+            rgba(0, 0, 0, 0.2) 66%
+    ),
+    url("http://tyrolium.fr/Contenu/Image/Background2.png");
+    background-size: cover;
+    background-position: center 35%;
+    color: white;
+    padding: 50px 0 80px;
+}
+#credit div {
+    display: flex;
+    justify-content: flex-start;
+}
+#credit article {
+    width: 40%;
+}
+#credit article h2 {
+    margin-left: 160px;
+    text-transform : uppercase;
+}
+#credit article h3 {
+    margin-left: 80px;
+}
+#credit article p {
+    margin-left: 100px;
+}
+
+@media (max-width: 767px) {
+    #credit {
+        background-image: linear-gradient(
+                to right,
+                #151515 90%,
+                rgba(0, 0, 0, 0.2) 10%
+        ),
+        url("http://tyrolium.fr/Contenu/Image/Background2.png");
+        color: white;
+        padding: 20px;
+    }
+    #credit article {
+        width: 100%;
+    }
+    #credit article h2 {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 564px) {
+    #credit {
+        background: #151515;
+    }
+
+    #credit article h3 {
+        margin-left: 60px;
+    }
+    #credit article p {
+        margin-left: 30px;
+    }
+}

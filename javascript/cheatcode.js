@@ -74,17 +74,24 @@ function cheatcode(arg) {
         console.log(cmd);
     }
 
+    let game;
     if(arg == "konamicode" || cmd == konamiCode){
-        alert("GG!");
         cmd = null;
+        game = getRandomInt(3)
+        alert("GG ! Le jeu n°" + (game+1) + " vas se lancer" );
+
     }
-    if(arg == "flappybird"){
+    if(arg == "flappybird" || game == 0){
         window.location.href='https://themaxium69.github.io/Flappium/'
     }
-    if(arg == "clavier"){
+    if(arg == "clavier" || game == 1){
         window.location.href='https://themaxium69.github.io/Clavium/'
     }
-    if(arg == "echec"){
+    if(arg == "echec" || game == 2){
         window.location.href='https://themaxium69.github.io/Echec-ium/'
     }
+}
+
+function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
 }

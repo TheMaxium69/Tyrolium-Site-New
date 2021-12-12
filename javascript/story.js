@@ -1,3 +1,4 @@
+/*
 $(function(){
 
     window.sr = ScrollReveal();
@@ -48,4 +49,4 @@ $(function(){
     });
 
 
-});
+});*/

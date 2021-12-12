@@ -27,6 +27,7 @@
 
     <hr style="background: rgb(161, 161, 161); margin-top: 80px; margin-bottom: 120px" class="container">
 
+    <div class="home-desktop">
     <section id="home-service" class="container row">
         <div class="container col-4">
             <article>
@@ -118,8 +119,7 @@
             </article>
         </div>
     </section>
-
-
+    </div>
 
 </main>
 

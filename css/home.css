@@ -12,6 +12,14 @@
     margin-right: 25%;
 }
 
+@media (max-width: 991px){
+    #particule div#head{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
 #particule div#head h1{
     text-align: center;
     font-size: 110px;
@@ -21,6 +29,7 @@
     font-family: 'Lato', sans-serif;
     text-shadow: 0 0 1em #787878;
 }
+
 #particule div#head h1:hover{
     font-size: 120px;
 }
@@ -32,6 +41,24 @@
 }
 #particule div#head p:hover{
     font-size: 35px;
+}
+
+@media (max-width: 535px){
+    #particule div#head h1{
+        font-size: 80px;
+    }
+    #particule div#head h1:hover{
+        font-size: 90px;
+    }
+    #particule div#head p{
+        font-size: 20px;
+    }
+    #particule div#head p:hover{
+        font-size: 25px;
+    }
+    #particule{
+        height: 400px;
+    }
 }
 
 /******************************
@@ -103,6 +130,10 @@ main #accueil article p {
     }
 }
 
+
+/* other*/
+
+
 #home-story, #home-french, #home-account, #home-service, #home-project, #home-collaboration {
     margin-bottom: 120px;
 }
@@ -121,3 +152,9 @@ p.art{
     padding-bottom: 30px;
 }
 
+
+@media (max-width: 991px) {
+    .home-desktop{
+        display: none;
+    }
+}
