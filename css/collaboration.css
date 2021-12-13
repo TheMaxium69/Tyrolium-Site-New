@@ -1,10 +1,11 @@
 .our-team {
-    padding: 30px 0 40px;
+    padding: 30px 0 25px;
     margin-bottom: 30px;
-    background-color: black;
+    background-color: #1c1d22;
     text-align: center;
     overflow: hidden;
     position: relative;
+    min-height: 302px;
 }
 
 .our-team .picture {
@@ -63,7 +64,7 @@
 .our-team .title {
     display: block;
     font-size: 15px;
-    color: #4e5052;
+    color: #7a7b7c;
     text-transform: capitalize;
 }
 
@@ -99,3 +100,69 @@
     color: #1325d7;
     background-color: #f7f5ec;
 }
+
+
+
+/******************************
+        recrutement
+******************************/
+main #recrut {
+    text-align: center;
+    border: 2px solid #131313;
+    padding: 30px 20px 0;
+    background-color: #131313;
+    color: white;
+    padding-bottom: 30px;
+}
+
+#recrut span{
+    margin: 0;
+    padding: 0;
+    height: 29.75px;
+    width: 10%;
+}
+
+#recrut ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+#recrut ul li {
+    width: 30%;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+
+#recrut ul li h3{
+
+    font-size: 20px;
+}
+
+@media (max-width: 1056px) {
+
+    #recrut ul li {
+        width: 50%;
+    }
+    #recrut ul li:last-of-type {
+        width: 100%;
+    }
+
+    #recrut ul {
+        margin-top: 0px;
+    }
+
+    #recrut ul:first-of-type {
+        margin-top: 50px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    #recrut ul li {
+        width: 100%;
+    }
+
+}
+
