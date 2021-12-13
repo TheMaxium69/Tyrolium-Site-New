@@ -22,7 +22,7 @@
                         <div class="picture">
                             <img class="img-fluid" src="
                             <?php if(!empty($perso['icon'])) {
-                                echo $perso['icon'];
+                                echo $env_pp . $perso['icon'];
                             } else {
                                 echo $env_pp_default;
                             } ?>
@@ -74,7 +74,7 @@
                 <?php tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLSer9XcD21PCCqawiHfF82hhX1O-RUWattlnGf0o1iWu5mdLwg/viewform?usp=sf_link", "recru", "Accedez au formulaire");?>
             </li>
             <li>
-                <h3>GRAPHISTE/DESIGNER</h3>
+                <h3>GRAPHISTE-DESIGNER</h3>
                 <br>
                 <?php tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLSeqvsgsvkItfJyu09LvRGLyMyOczVliqTg2bF5QWFUi6GSIcw/viewform?usp=sf_link", "recru", "Accedez au formulaire");?>
             </li>
@@ -89,12 +89,12 @@
                 <?php tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLScKQkZcm5bEyT1P06yWF3NSR9-23wE_msztn_QcDf9G-HRU5g/viewform?usp=sf_link", "recru", "Accedez au formulaire");?>
             </li>
             <li>
-                <h3>COMPOSITEUR/MUSICIEN/CHANTEUR</h3>
+                <h3>COMPOSITEUR-MUSICIEN-CHANTEUR</h3>
                 <br>
                 <?php tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLSfV4Nb3D_S1EALC-INAt7M5uxwQHv3h0j3ltms1rtqVOgGWYQ/viewform?usp=sf_link", "recru", "Accedez au formulaire");?>
             </li>
             <li>
-                <h3>MODÉRATEUR/ASSISTANT</h3>
+                <h3>MODÉRATEUR-ASSISTANT</h3>
                 <br>
                 <?php tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLSc9DeAU_koGj3UJNYiB7judKpzkIPDUvDXGmvvs9z3cDF7XpA/viewform?usp=sf_link", "recru", "Accedez au formulaire");?>
             </li>

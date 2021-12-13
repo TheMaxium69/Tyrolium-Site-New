@@ -3,6 +3,9 @@
 //PROD or DEV
 $APP_ENV = "DEV";
 
+// FALSE or TRUE
+$env_isAccount = true;
+
 
 $env_url = "https://tyrolium.fr";
 
@@ -31,13 +34,13 @@ $env_perso = array(
 
     array("name" => "Maxime Tournier",
         "role" => "Directeur-Fondateur,<br> développer",
-        "icon" => $env_pp . "Maxime_Tournier.jpg",
+        "icon" => "Maxime_Tournier.jpg",
         "facebook" => "https://facebook.com/",
         "twitter" => "https://twitter.com/"),
 
     array("name" => "Norman Jorge De Freitas",
         "role" => "Manager,<br> Compositeur",
-        "icon" => null,
+        "icon" => "Norman_Jorge_De_Freitas.jpg",
         "facebook" => null,
         "twitter" => null),
 
@@ -49,7 +52,7 @@ $env_perso = array(
 
     array("name" => "Dylan Argentino",
         "role" => "Designer,<br> Dessinateur",
-        "icon" => null,
+        "icon" => "Dylan_Argentino.jpg",
         "facebook" => null,
         "twitter" => null),
 
@@ -67,7 +70,7 @@ $env_perso = array(
 
     array("name" => "Théotime Vandevoorde Rostankowski",
         "role" => "Builder, Graphiste",
-        "icon" => $env_pp . "Théotime_Vandevoorde_Rostankowski.jpg",
+        "icon" => "Théotime_Vandevoorde_Rostankowski.jpg",
         "facebook" => null,
         "twitter" => null),
 
@@ -79,13 +82,13 @@ $env_perso = array(
 
     array("name" => "Flavien Dechoz",
         "role" => "Modérateur",
-        "icon" => $env_pp . "Flavien_Dechoz.jpg",
+        "icon" => "Flavien_Dechoz.jpg",
         "facebook" => null,
         "twitter" => null),
 
     array("name" => "L&eacute;na Chervier",
         "role" => "Assitante<br> de modération",
-        "icon" => $env_pp . "Léna_Chervier.jpg",
+        "icon" => "Léna_Chervier.jpg",
         "facebook" => null,
         "twitter" => null),
 

@@ -32,9 +32,9 @@
                 echo '
                     #projet ul li#a'. $i .'{
                         background: linear-gradient(
-                                to top,
-                                #151515 60%,
-                                rgba(0, 0, 0, 0.2) 30%
+                                to bottom,
+                                rgba(0, 0, 0, 0.2) 130px,
+                                #151515 30%
                         ),
                         url("'. $env_back[$i] .'");
                         background-size: cover;';
@@ -47,7 +47,7 @@
             }
 
             echo '} </style>'; ?>
-        <ul class="container">
+        <ul>
             <li id="a0">
                 <img class="logo" src="http://tyrolium.fr/Contenu/Image/Tyrolium ServerMC S2.png" alt="TyroservLogo">
                 <h2>TyroServ</h2>

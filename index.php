@@ -73,6 +73,8 @@
         </div>
     </section>
 
+        <?php if($env_isAccount == true) { ?>
+
     <section id="home-account">
         <div class="container row">
             <div class="col-6">
@@ -113,13 +115,44 @@
             <article>
                 <h2 class="art">France</h2>
                 <p class="art">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,</p>
-                <div style="text-align: center">
-                    <?php tyrobtn("collaboration", "story", "Plus d'info");?>
-                </div>
             </article>
         </div>
     </section>
     </div>
+
+        <?php } else { ?>
+
+        <section id="home-account">
+            <div class="container row">
+                <div class="col-6">
+                    <img src="assets/Timeline_Monochromatic.png">
+                </div>
+                <div class="container col-4">
+                    <article>
+                        <h2 class="art">Histoire</h2>
+                        <p class="art">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,</p>
+                        <div style="text-align: center">
+                            <?php tyrobtn("story", "story", "Plus d'info");?>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="home-story" class="container row">
+            <div class="container col-4">
+                <article>
+                    <h2 class="art">France</h2>
+                    <p class="art">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,</p>
+
+                </article>
+            </div>
+            <div class="col-6">
+                <img src="assets/Paris_Monochromatic.png">
+            </div>
+        </section>
+    <?php } ?>
+
 
 </main>
 
