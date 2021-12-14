@@ -17,7 +17,7 @@ $env_assets = "assets/";
 
 $env_pp = $env_assets . "pp/";
 
-$env_pp_default = $env_pp . "default.jpg";
+$env_pp_default = $env_pp . "Default.jpg";
 
 
 $env_back = array (
@@ -58,13 +58,13 @@ $env_perso = array(
 
     array("name" => "Edward Thouvenin",
         "role" => "Compositeur",
-        "icon" => null,
+        "icon" => "Edward_Thouvenin.jpg",
         "facebook" => null,
         "twitter" => null),
 
     array("name" => "Maewan Marthelot",
         "role" => "Graphiste",
-        "icon" => null,
+        "icon" => "Maewan_Marthelot.jpg",
         "facebook" => null,
         "twitter" => null),
 
@@ -76,7 +76,7 @@ $env_perso = array(
 
     array("name" => "Arthur Verschelde",
         "role" => "Builder, Graphiste",
-        "icon" => null,
+        "icon" => "Arthur_Verschelde.jpg",
         "facebook" => null,
         "twitter" => null),
 
