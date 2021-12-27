@@ -5,11 +5,10 @@
     <section id="projet">
         <br>
         <h2>Nos Projets</h2>
-        <p>Les projets sont créés avec une passion commune au sein de l'entreprise nous souhaitons toujours proposer le meilleur.</p>
+        <p class="container">Tout nos projet appertien a l'entreprise Tyrolium et est gérer par notre équipe, mais il reste indépendant dans leurs communications, gestion et administration, elle sont financer par tyrolium et dans l'unique but est de vivre de nos passion respectevie dans chachun de ces projet, tout le but de tyrolium est de vivre de notre passion.</p>
         <br>
         <hr style="background: rgb(161, 161, 161);">
         <br>
-        <div id="title"><h2>Projet de développement</h2></div>
         <?php
             $nbBack = count($env_back);
             echo '<style> @media (min-width: 801px) {';
@@ -66,7 +65,6 @@
                 <img class="logo" src="http://tyrolium.fr/Contenu/Image/Gamenium.png" alt="GameniumLogo">
                 <h2>Gamenium</h2>
                 <p>Site d'actualités et de critiques<br> de jeux-vidéos.</p>
-                <small>Site en cours de Développement, et il y a l'actualité<br> et les sondages disponible sur notre Discord.</small><br>
                 <a href="https://www.instagram.com/gamenium/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/> Allez sur notre Instagram</a><br>
                 <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
                 <a href="https://www.tiktok.com/@gamenium?" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/tiktok.png" alt="tiktok"/></a>
@@ -76,14 +74,12 @@
                 <img class="logo" src="https://tyrolium.fr/Contenu/Image/TyroDiscord.png" alt="TyroDiscord">
                 <h2>TyroDiscord</h2>
                 <p>Projet de bot et logiciel pour<br> améliorer l'expérience de Discord.</p>
-                <small>Site en cours de Développement,<br> et information sur le projet sur Discord.</small><br>
                 <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/> Allez sur notre Discord</a><br>
             </li>
             <li id="a3">
                 <img class="logo" src="http://tyrolium.fr/Contenu/Image/Tyrolium Studio.png" alt="StudioLogo">
                 <h2>Studio</h2>
                 <p>Projet d'un studio de développement<br> de jeux-vidéo.</p>
-                <small>En cours de rélfexion<br> et de création.</small><br>
                 <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/> Allez sur notre Discord</a><br>
                 <a href="https://www.instagram.com/tyroliumstudio/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
             </li>
@@ -91,7 +87,6 @@
                 <img class="logo" src="http://tyrolium.fr/Contenu/Image/Wonderlium.png" alt="WonderliumLogo">
                 <h2>Wonderlium</h2>
                 <p>Collectif réalisant des vidéos<br> sur l'univers geek.</p>
-                <small>Des vidéos en cours de création.</small><br>
                 <a href="https://www.youtube.com/channel/UC8tEUehEz2p53Pw8wSky3TQ" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/youtube.png" alt="youtube"/> Allez sur notre chaine</a><br>
                 <a href="http://site.wonderlium.yt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/></a>
                 <a href="https://www.instagram.com/wonderlium/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
@@ -101,7 +96,6 @@
                 <img class="logo" src="https://tyrolium.fr/Contenu/Image/Selemusium.png" alt="SelemusiumLogo">
                 <h2>Sélémusium</h2>
                 <p>Projet de création de musiques.</p>
-                <small>Des prods en création déjà disponibles sur<br> notre Discord, et un site en développement.</small><br>
                 <a href="https://www.instagram.com/selemusium/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/> Allez sur notre Instagram</a><br>
                 <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
             </li>
@@ -110,7 +104,6 @@
                 <img class="logo" src="https://tyrolium.fr/Contenu/Image/TyroShop.png" alt="ShopLogo">
                 <h2>TyroShop</h2>
                 <p>Notre boutique avec des collections<br> faites par nos graphistes.</p>
-                <small>Une nouvelle collection en cours de création.</small><br>
                 <a href="http://shop.tyrolium.fr/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
                 <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
                 <a href="https://www.instagram.com/tyroliumshop/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>

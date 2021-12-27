@@ -61,80 +61,9 @@
     }
 }
 
-/******************************
-        ACCEUIL
-******************************/
-
-main #accueil {
-    background-image: linear-gradient(
-            to right,
-            rgba(0, 0, 0, 0.2) 50%,
-            #111111 50%
-    ),
-    url("http://tyrolium.fr/Contenu/Image/Background4.png");
-    background-size: cover;
-    background-position: center 35%;
-    color: white;
-    padding: 50px 0 50px;
-    margin-bottom: 30px;
-}
-main #accueil div {
-    display: flex;
-    justify-content: flex-end;
-}
-main #accueil article {
-    width: 40%;
-}
-main #accueil article h2 {
-    margin-left: -70px;
-}
-main #accueil article p {
-    margin-bottom: 40px;
-}
-
-@media (max-width: 767px) {
-    main #accueil {
-        background-image: linear-gradient(
-                to right,
-                #282828 90%,
-                rgba(0, 0, 0, 0.2) 9%
-        ),
-        url("http://tyrolium.fr/Contenu/Image/Background4.png");
-        color: white;
-        padding-top: 30px;
-        padding-bottom: 5px;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    main #accueil article {
-        width: 100%;
-    }
-    main #accueil article h2 {
-        margin-left: 0;
-    }
-
-    main #accueil article p {
-        margin-left: 0px;
-        margin-right: 30px;
-        margin-bottom: 20px;
-    }
-}
-
-@media (max-width: 500px) {
-    main #accueil {
-        background: #282828;
-    }
-    main #accueil article p {
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-}
-
 
 /* other*/
-
-
-#home-story, #home-french, #home-account, #home-service, #home-project, #home-collaboration {
+#home-tyro, #home-story, #home-french, #home-account, #home-service, #home-project, #home-collaboration {
     margin-bottom: 120px;
 }
 

@@ -2,10 +2,10 @@
 <body> <header> <?php navbar($page); ?> </header>
 
 <main>
-    <section id="projet">
+    <section id="projet" class="container">
         <br>
         <h2>Notre Équipe</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla .</p>
+        <p>Nous sommes une équipe de passionné par notre travail et ce que nous créon tout les jours, nous somme jeune mais plein d'envie pour notre future.</p>
         <br>
     </section>
 

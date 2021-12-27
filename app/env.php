@@ -4,7 +4,7 @@
 $APP_ENV = "DEV";
 
 // FALSE or TRUE
-$env_isAccount = true;
+$env_isAccount = false;
 
 
 $env_url = "https://tyrolium.fr";

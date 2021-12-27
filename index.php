@@ -13,21 +13,26 @@
             <?php particule() ?>
         </div>
     </section>
-    <section id="accueil" class="container">
-        <div class="container">
-            <article>
-                <h2>TYROLIUM ENTERTAINMENT</h2>
+
+
+    <div class="home-desktop">
+
+    <section id="home-tyro" class="container row">
+        <div class="col-6">
+            <img src="assets/Tyrolium_home.png">
+        </div>
+        <div class="container col-4">
+            <article id="art-home">
+                <h2 class="art">TYROLIUM ENTERTAINMENT</h2>
+                <h3 class="art">L'informatique au coeur de notre société.</h3>
                 <br>
-                <h3>L'informatique au coeur de notre société.</h3>
-                <br>
-                <p>De nos jours, nous sommes beaucoup à rêver de créer des projets en informatique. Tyrolium a réussi le pari de réaliser les rêves de nos employés passionés. Nous sommes fiers de ce que nous accomplissons tous les jours. Nous vous proposons des projets informatiques de grande ampleur toujours avec la passion de tous nos employés. Tyrolium veut vous proposer des services et des projets bien realisés, de quoi vous divertir.</p>
+                <p class="art">De nos jours, nous sommes beaucoup à rêver de créer des projets en informatique. Tyrolium a réussi le pari de réaliser les rêves de nos employés passionés. Nous sommes fiers de ce que nous accomplissons tous les jours. Nous vous proposons des projets informatiques de grande ampleur toujours avec la passion de tous nos employés. Tyrolium veut vous proposer des services et des projets bien realisés, de quoi vous divertir.</p>
             </article>
         </div>
     </section>
 
     <hr style="background: rgb(161, 161, 161); margin-top: 80px; margin-bottom: 120px" class="container">
 
-    <div class="home-desktop">
     <section id="home-service" class="container row">
         <div class="container col-4">
             <article>

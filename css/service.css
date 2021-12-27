@@ -1,3 +1,32 @@
+#service-start {
+    text-align: center;
+    border: 2px solid #131313;
+    padding: 0px 20px 0;
+    background-color: #131313;
+    color: white;
+}
+#service-start p {
+    font-size: 15px;
+}
+#service-start-but {
+    border: 2px solid #131313;
+    padding: 16px 20px 0;
+    background-color: #131313;
+    color: white;
+}
+
+#service-second{
+    text-align: center;
+    border: 2px solid #131313;
+    padding: 20px 60px 0;
+    color: white;
+}
+
+#service-second-but{
+    text-align: center;
+    padding: 50px 60px 0;
+}
+
 .service-page {
     font-family: 'Open Sans', sans-serif;
 }
@@ -87,6 +116,7 @@
     display: block;
     font-size: 32px;
     font-weight: 700;
+    margin-bottom: 15px;
 }
 
 a.pricing-button{
@@ -117,4 +147,13 @@ a.pricing-button{
 .pricing-button.is-featured:hover,
 .pricing-button.is-featured:active {
     background-color: #269aff;
+}
+
+.titleS{
+    font-size: 25px;
+    text-align: center;
+}
+
+.titleP{
+    font-size: 28px;
 }

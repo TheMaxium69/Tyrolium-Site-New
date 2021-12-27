@@ -24,3 +24,10 @@ i {
     }
 }
 
+.underline {
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bold;
+}

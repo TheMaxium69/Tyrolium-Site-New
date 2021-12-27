@@ -1,10 +1,10 @@
 <?php include "app/app.php"; $page = 5; head($page); ?>
 <body id="story"> <header> <?php navbar($page); ?> </header>
 
-<section id="storyhead">
+<section id="storyhead" class="container">
     <br>
     <h2 style="text-align: center">Notre Histoire</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla .</p>
+    <p>Tyrolium est un project qui à été créer il y a des année et en hommage en tout les moment important de notre histoire nous avont réalisé cette page pour notre souvenir et pour vous montré tout les grand moment qui nous on anmener ou nous somme aujourd'hui</p>
     <br>
     <hr style="background: rgb(161, 161, 161);">
     <br>
