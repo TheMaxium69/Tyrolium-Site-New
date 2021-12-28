@@ -45,16 +45,16 @@
 
 @media (max-width: 535px){
     #particule div#head h1{
-        font-size: 80px;
+        font-size: 65px;
     }
     #particule div#head h1:hover{
-        font-size: 90px;
+        font-size: 65px;
     }
     #particule div#head p{
         font-size: 20px;
     }
     #particule div#head p:hover{
-        font-size: 25px;
+        font-size: 20px;
     }
     #particule{
         height: 400px;
@@ -81,9 +81,29 @@ p.art{
     padding-bottom: 30px;
 }
 
+h2.art-res{
+    padding-top: 40px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+p.art-res{
+    padding-bottom: 0px;
+}
+
 
 @media (max-width: 991px) {
     .home-desktop{
+        display: none;
+    }
+
+    #home-tyro, #home-story, #home-french, #home-account, #home-service, #home-project, #home-collaboration {
+        margin-bottom: 26px;
+    }
+}
+
+@media (min-width: 992px) {
+    .home-res{
         display: none;
     }
 }

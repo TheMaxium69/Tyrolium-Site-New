@@ -31,7 +31,7 @@
         </div>
     </section>
 
-    <hr style="background: rgb(161, 161, 161); margin-top: 80px; margin-bottom: 120px" class="container">
+    <hr style="background: rgb(161, 161, 161); margin-top: 80px; margin-bottom: 120px" >
 
     <section id="home-service" class="container row">
         <div class="container col-4">
@@ -123,7 +123,6 @@
             </article>
         </div>
     </section>
-    </div>
 
         <?php } else { ?>
 
@@ -157,6 +156,34 @@
             </div>
         </section>
     <?php } ?>
+
+    </div>
+
+    <div class="home-res">
+        <section id="home-service" class="container">
+            <div class="container col-4">
+                <article>
+                    <h2 class="art-res">Service</h2>
+                    <p class="art-res">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,</p>
+                    <div>
+                        <div class="" style="width: 60%; margin-left: 20%">
+                            <img src="assets/Team_work_Monochromatic.png" width="100%" height="100%">
+                        </div>
+                        <div class="" style="text-align: center; margin-top: 15px" >
+                            <?php tyrobtn("service", "service", "Plus d'info");?>
+                            <style>
+                                .tyrobutton{
+                                    width: 100%;
+                                }
+                            </style>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </div>
+
+
 
 
 </main>

@@ -5,14 +5,14 @@
     <section id="projet">
         <br>
         <h2 class="titleP">Nos Prestations</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla .</p>
+        <p>Cette page contient les prestations, avec ci-dessous toutes les différentes prestations que nous vendons.</p>
         <br>
         <hr style="background: rgb(161, 161, 161);">
         <br>
     </section>
     <section id="service-start">
         <h2 class="titleS">Site Web</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla .</p>
+        <p>Ci-dessous les différentes formules sont affichées, nous faisons majoritairement de la création de sites web, les différents tarifs sont également affichés.</p>
         <br>
     </section>
     <section class="service-page">
@@ -59,7 +59,7 @@
     </section>
     <section id="service-start-but">
         <br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla .</p>
+        <p style="text-align: center">Tout l'argent que vous reversez à Tyrolium sera réinvesti dans les projets de l'entreprise.</p>
         <br>
         <hr style="background: rgb(161, 161, 161);">
         <br>
