@@ -83,12 +83,6 @@
         <br>
         <?php tyrobtn("service", "service", "Plus d'info");?>
     </section>
-    <section id="service-second-but">
-        <h2>zahbeazbeaziuheai</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla .</p>
-        <br>
-        <?php tyrobtn("service", "service", "Plus d'info");?>
-    </section>
     <br><br>
 </main>
 
