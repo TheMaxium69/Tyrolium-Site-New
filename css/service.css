@@ -60,6 +60,11 @@
     text-transform: uppercase;
 }
 
+.pricing-table button {
+    text-align: center;
+    text-transform: none;
+}
+
 .pricing-plan {
     border-bottom: 1px solid #e1f1ff;
     padding: 25px;
