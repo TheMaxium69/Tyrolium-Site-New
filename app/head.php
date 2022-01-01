@@ -1,9 +1,18 @@
 <?php
-function head($page){
+function head($page)
+{
 
 
-    if ($page == 1){
+    if ($page == 1) {
         $title = "Tyrolium Site";
+    } else if ($page == 2){
+        $title = "Prestation | Tyrolium Site";
+    } else if ($page == 3){
+        $title = "Projet | Tyrolium Site";
+    } else if ($page == 4){
+        $title = "Colaboration | Tyrolium Site";
+    } else if ($page == 5){
+        $title = "Histoire | Tyrolium Site";
     } else {
         $title = "404 | Tyrolium Site";
     }

@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-6">
-            <h6>à propos</h6>
+                <h6>à propos</h6>
                 <p class="text-justify">Tyrolium est une entreprise multifonction qui travaille sur plusieurs projets, notamment du développement de jeux vidéos ou d'applications web, de la musique, ou de l'audiovisuel.
 
                     Elle propose principalement des prestations de services de création de site Web et d'applications pour les particuliers et les professionnels.
@@ -10,23 +10,32 @@
                     Les profits générés par ces prestations seront directement investies dans les projets de l'entreprise.</p>
             </div>
 
-            <div class="col-xs-6 col-md-3">
-            <h6>CATÉGORIES</h6>
-            <ul class="footer-links">
-                    <li><a href="javascript:redirect(1);">Home</a></li>
-                    <li><a href="javascript:redirect(2);">Service</a></li>
-                    <li><a href="javascript:redirect(3);">Projet</a></li>
-                    <li><a href="javascript:redirect(4);">Collaboration</a></li>
-                    <li><a href="javascript:redirect(5);">Histoire</a></li>
-                    <li><a href="javascript:redirect(6);">Compte</a></li>
+            <div class="footlink col-xs-6 col-md-3">
+                <h6>CATÉGORIES</h6>
+                <ul class="footer-links">
+                    <?php  $nbBack = count($env_page);
+
+                    for ($i = 0; $i <= $nbBack-1; $i++) {
+                        $j = 0;
+                        $j = $i+1;
+
+                        if ($env_isAccount == false && $j <= 5){
+                            echo '<li><a href="javascript:redirect('. $j .');">'. $env_page[$i] .'</a></li>';
+                        } else if ($env_isAccount == true) {
+                            echo '<li><a href="javascript:redirect('. $j .');">'. $env_page[$i] .'</a></li>';
+                        }
+
+                    }?>
                 </ul>
             </div>
 
-            <div class="col-xs-6 col-md-3">
+            <div class="footlink col-xs-6 col-md-3">
                 <h6>LIENS RAPIDES</h6>
                 <ul class="footer-links">
                     <li><a href="#">About Us</a></li>
-                    <li><a href="#">CGU</a></li>
+                    <?php if ($env_isAccount == true){ ?>
+                        <li><a href="#">CGU</a></li>
+                    <?php } ?>
                     <li><a href="https://tyrolium.fr/Panel/">Panel Admin</a></li>
                     <li><a href="https://tyrolium.fr/Status/">Status Server</a></li>
                     <li><a href="#">Github</a></li>

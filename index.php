@@ -41,7 +41,7 @@
                 <h2 class="art">Nos Prestations</h2>
                 <p class="art">Tyrolium vous propose des prestations de services, notamment dans le développement de sites Web, d'applications, l'hébergement de serveurs, le développement minecraft et des bots (discord ou autre) pour les particuliers et les professionnels. Les fonds générés par ces prestations seront investis dans les projets de l'entreprise.</p>
                 <div style="text-align: center">
-                    <?php tyrobtn("service", "service", "Liste de nos Prestations");?>
+                    <?php tyrobtn("service.php", "service", "Liste de nos Prestations");?>
                 </div>
             </article>
         </div>
@@ -62,7 +62,7 @@
                     Nous vous proposons des projets de grande ampleur toujours avec la passion de tous nos équipes.
                     Tyrolium veut vous proposer des services et des projets bien realisés, de quoi vous divertir ou vous simplifier la vie. </p>
                 <div style="text-align: center">
-                    <?php tyrobtn("project", "project", "Tout nos Projets");?>
+                    <?php tyrobtn("project.php", "project", "Tout nos Projets");?>
                 </div>
             </article>
         </div>
@@ -77,7 +77,7 @@
 
                     Nous recrutons tous types de profils, les seuls pré-requis sont d'être intéressé et motivé par les projets qui vous attires. </p>
                 <div style="text-align: center">
-                    <?php tyrobtn("collaboration", "collaboration", "Nos Collaborations");?>
+                    <?php tyrobtn("collaboration.php", "collaboration", "Nos Collaborations");?>
                 </div>
             </article>
         </div>
@@ -99,7 +99,7 @@
                     <h2 class="art">Account</h2>
                     <p class="art">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,</p>
                     <div style="text-align: center">
-                        <?php tyrobtn("account", "account", "Plus d'info");?>
+                        <?php tyrobtn("account.php", "account", "Plus d'info");?>
                     </div>
                 </article>
             </div>
@@ -115,7 +115,7 @@
 
                     N'oubliez pas cependant que l'évolution n'est pas la fin, elle n'est que le début de la poussée qui nous emmènera au sommet, tant que l'on peux faire mieux ça ne sera jamais terminé.</p>
                 <div style="text-align: center">
-                    <?php tyrobtn("story", "story", "Voir l'Histoire de Tyrolium");?>
+                    <?php tyrobtn("story.php", "story", "Voir l'Histoire de Tyrolium");?>
                 </div>
             </article>
         </div>
@@ -157,7 +157,7 @@
 
                             N'oubliez pas cependant que l'évolution n'est pas la fin, elle n'est que le début de la poussée qui nous emmènera au sommet, tant que l'on peux faire mieux ça ne sera jamais terminé.</p>
                         <div style="text-align: center">
-                            <?php tyrobtn("story", "story", "Voir l'Histoire de Tyrolium");?>
+                            <?php tyrobtn("story.php", "story", "Voir l'Histoire de Tyrolium");?>
                         </div>
                     </article>
                 </div>
@@ -188,7 +188,7 @@
 
     <div class="home-res">
 
-        <section id="home-tyro" class="container">
+        <section id="home-tyro">
             <div class="container col-4">
                 <article>
                     <h2 class="art-res">A propos de Tyrolium</h2>
@@ -210,7 +210,7 @@
         <hr style="background: rgb(161, 161, 161); margin-top: 40px; margin-bottom: 40px">
 
 
-                <section id="home-service" class="container">
+                <section id="home-service">
                     <div class="container col-4">
                         <article>
                             <h2 class="art-res">Nos Prestations</h2>
@@ -220,7 +220,7 @@
                                     <img src="assets/Team_work_Monochromatic.png" width="100%" height="100%">
                                 </div>
                                 <div class="" style="text-align: center; margin-top: 15px" >
-                                    <?php tyrobtn("service", "service", "Liste de nos Prestations");?>
+                                    <?php tyrobtn("service.php", "service", "Liste de nos Prestations");?>
                                     <style>
                                         .tyrobutton{
                                             width: 100%;
@@ -232,7 +232,7 @@
                     </div>
                 </section>
 
-                <section id="home-project" class="container">
+                <section id="home-project">
                     <div class="container col-4">
                         <article>
                             <h2 class="art-res">Nos Projets</h2>
@@ -245,7 +245,7 @@
                                     <img src="assets/Startup_Monochromatic.png" width="100%" height="100%">
                                 </div>
                                 <div class="" style="text-align: center; margin-top: 15px" >
-                                    <?php tyrobtn("project", "project", "Tout nos Projets");?>
+                                    <?php tyrobtn("project.php", "project", "Tout nos Projets");?>
                                     <style>
                                         .tyrobutton{
                                             width: 100%;
@@ -258,7 +258,7 @@
                 </section>
 
 
-                <section id="home-collaboration" class="container">
+                <section id="home-collaboration">
                     <div class="container col-4">
                         <article>
                             <h2 class="art-res">Nos Collaborations</h2>
@@ -271,7 +271,7 @@
                                     <img src="assets/Brainstorming_session_Monochromatic.png" width="100%" height="100%">
                                 </div>
                                 <div class="" style="text-align: center; margin-top: 15px" >
-                                    <?php tyrobtn("collaboration", "collaboration", "Nos Collaborations");?>
+                                    <?php tyrobtn("collaboration.php", "collaboration", "Nos Collaborations");?>
                                     <style>
                                         .tyrobutton{
                                             width: 100%;
@@ -287,7 +287,7 @@
         <?php if($env_isAccount == true) { ?>
             <!-- MOBILE - ACCOUNT -->
 
-            <section id="home-account" class="container">
+            <section id="home-account">
                 <div class="container col-4">
                     <article>
                         <h2 class="art-res">Account</h2>
@@ -297,7 +297,7 @@
                                 <img src="assets/Information_flow_Monochromatic.png" width="100%" height="100%">
                             </div>
                             <div class="" style="text-align: center; margin-top: 15px" >
-                                <?php tyrobtn("account", "account", "Plus d'info");?>
+                                <?php tyrobtn("account.php", "account", "Plus d'info");?>
                                 <style>
                                     .tyrobutton{
                                         width: 100%;
@@ -311,7 +311,7 @@
 
         <?php } ?>
 
-            <section id="home-story" class="container">
+            <section id="home-story">
                 <div class="container col-4">
                     <article>
                         <h2 class="art-res">Notre Histoire</h2>
@@ -324,7 +324,7 @@
                                 <img src="assets/Timeline_Monochromatic.png" width="100%" height="100%">
                             </div>
                             <div class="" style="text-align: center; margin-top: 15px" >
-                                <?php tyrobtn("story", "story", "Voir l'Histoire de Tyrolium");?>
+                                <?php tyrobtn("story.php", "story", "Voir l'Histoire de Tyrolium");?>
                                 <style>
                                     .tyrobutton{
                                         width: 100%;
@@ -336,7 +336,7 @@
                 </div>
             </section>
 
-            <section id="home-french" class="container">
+            <section id="home-french">
                 <div class="container col-4">
                     <article>
                         <h2 class="art-res">Indépendant et Français</h2>

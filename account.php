@@ -1,6 +1,7 @@
 <?php include "app/app.php"; $page = 6; head($page); ?>
 <body> <header> <?php navbar($page); ?> </header>
 
+<?php if($env_isAccount == true) { ?>
 <main>
     <div id="particule-acc">
         <section id="account">
@@ -63,4 +64,4 @@
     </div>
 </main>
 
-
+<?php } ?>

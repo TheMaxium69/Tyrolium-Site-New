@@ -21,6 +21,7 @@ $env_pp_default = $env_pp . "Default.jpg";
 
 
 $env_back = array (
+
     $env_urlImage . "Background6",
     $env_urlImage . "Background2",
     $env_urlImage . "Background10",
@@ -91,9 +92,17 @@ $env_perso = array(
         "icon" => "Léna_Chervier.jpg",
         "facebook" => null,
         "twitter" => null),
+);
+
+$env_page = array(
+    "Accueil",
+    "Prestation",
+    "Projet",
+    "Colaboration",
+    "Histoire",
+    "Compte",
+);
 
 
-
-)
 
 ?>

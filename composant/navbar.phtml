@@ -1,0 +1,43 @@
+<nav class="navbar navbar-expand-custom navbar-mainbg navbar-dark fixed-top">
+    <img style="margin-left: 20px" src="http://tyrolium.fr/Contenu/Image/Tyrolium Site.png" alt="TyroliumLogo" width="40px" class="d-inline-block align-text-top">
+    <a class="navbar-brand navbar-logo" href="javascript:redirect(1)">Tyrolium</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
+            <?php $nbBack = count($env_page);
+
+for ($i = 0; $i <= $nbBack-1; $i++) {
+    $j = 0;
+    $j = $i+1;
+
+
+    if ($env_isAccount == false && $j <= 5){
+            if ($j == $page){
+                echo '<li class="nav-item active">
+                          <a class="nav-link active" href="javascript:void(0);"><i class="fas fa-home"></i>'. $env_page[$i] .'</a>
+                      </li>';
+            } else {
+                echo '<li class="nav-item">
+                          <a class="nav-link" href="javascript:redirect('. $j .');"><i class="fas fa-tags"></i>'. $env_page[$i] .'</a>
+                      </li>';
+            }
+
+    } else if ($env_isAccount == true) {
+        if ($j == $page){
+            echo '<li class="nav-item active">
+                          <a class="nav-link active" href="javascript:void(0);"><i class="fas fa-home"></i>'. $env_page[$i] .'</a>
+                      </li>';
+        } else {
+            echo '<li class="nav-item">
+                          <a class="nav-link" href="javascript:redirect('. $j .');"><i class="fas fa-tags"></i>'. $env_page[$i] .'</a>
+                      </li>';
+        }
+    }
+
+}?>
+        </ul>
+    </div>
+</nav>
