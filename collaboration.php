@@ -34,16 +34,35 @@
                         </div>
                         <ul class="social">
 
-                            <?php if(!empty($perso['facebook'])) { ?>
+                            <?php
+                            if(!empty($perso['facebook'])) { ?>
                                 <li><a href="<?php echo $perso['facebook']; ?>" class="fab fa-facebook" aria-hidden="true"></a></li>
+                            <?php }
+                            if(!empty($perso['instagram'])) { ?>
+                                <li><a href="<?php echo $perso['instagram']; ?>" class="fab fa-instagram" aria-hidden="true"></a></li>
                             <?php }
                             if(!empty($perso['twitter'])) { ?>
                                 <li><a href="<?php echo $perso['twitter']; ?>" class="fab fa-twitter" aria-hidden="true"></a></li>
-                            <?php } ?>
+                            <?php }
+                            if(!empty($perso['github'])) { ?>
+                                <li><a href="<?php echo $perso['github']; ?>" class="fab fa-github" aria-hidden="true"></a></li>
+                            <?php }
+                            if(!empty($perso['youtube'])) { ?>
+                                <li><a href="<?php echo $perso['youtube']; ?>" class="fab fa-youtube" aria-hidden="true"></a></li>
+                            <?php }
+                            if(!empty($perso['soundcloud'])) { ?>
+                                <li><a href="<?php echo $perso['soundcloud']; ?>" class="fab fa-soundcloud" aria-hidden="true"></a></li>
+                            <?php }
+                            if(!empty($perso['linkedin'])) { ?>
+                                <li><a href="<?php echo $perso['linkedin']; ?>" class="fab fa-linkedin" aria-hidden="true"></a></li>
+                            <?php }
 
 
-                            <li><a href="https://codepen.io/collection/XdWJOQ/" class="fab fa-google-plus" aria-hidden="true"></a></li>
-                            <li><a href="https://codepen.io/collection/XdWJOQ/" class="fab fa-linkedin" aria-hidden="true"></a></li>
+
+
+
+
+                            ?>
                         </ul>
                     </div>
                 </div>

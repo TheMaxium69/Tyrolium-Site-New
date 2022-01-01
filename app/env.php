@@ -24,11 +24,11 @@ $env_back = array (
 
     $env_urlImage . "Background6",
     $env_urlImage . "Background2",
-    $env_urlImage . "Background10",
-    $env_urlImage . "Background10",
+    $env_assets . "test/BackgroundTest3.jpg",
+    $env_assets . "test/BackgroundTest2.jpg",
     $env_urlImage . "Background7",
-    $env_urlImage . "Background10",
-    $env_urlImage . "Background10",
+    $env_assets . "test/BackgroundTest4.jpg",
+    $env_assets . "test/BackgroundTest.jpg",
 );
 
 $env_perso = array(
@@ -36,62 +36,74 @@ $env_perso = array(
     array("name" => "Maxime Tournier",
         "role" => "Directeur-Fondateur,<br> développer",
         "icon" => "Maxime_Tournier.jpg",
-        "facebook" => "https://facebook.com/",
-        "twitter" => "https://twitter.com/"),
+        "instagram" => "https://instagram.com/the_maxime_san",
+        "twitter" => "https://twitter.com/MaximeTournier2",
+        "github" => "https://github.com/TheMaxium69",
+        "linkedin" => "https://linkedin.com/in/maxime-tournier-tyrolium",
+
+        ),
 
     array("name" => "Norman Jorge De Freitas",
-        "role" => "Manager,<br> Compositeur",
+        "role" => "Manager, Écrivain,<br> Compositeur, Rappeur",
         "icon" => "Norman_Jorge_De_Freitas.jpg",
-        "facebook" => null,
-        "twitter" => null),
+        "instagram" => "https://www.instagram.com/rayquacondasensei_off/",
+        "linkedin" => "https://www.linkedin.com/in/norman-jorge-de-freitas-0a736a203/",
+
+        ),
 
     array("name" => "Pierre-Louis",
         "role" => "Conseillez Technique,<br> Responsable Communication",
         "icon" => null,
-        "facebook" => null,
-        "twitter" => "https://twitter.com/"),
+
+        ),
 
     array("name" => "Dylan Argentino",
         "role" => "Designer,<br> Dessinateur",
         "icon" => "Dylan_Argentino.jpg",
-        "facebook" => null,
-        "twitter" => null),
+
+
+        ),
 
     array("name" => "Edward Thouvenin",
-        "role" => "Compositeur",
+        "role" => "Compositeur,<br> Beatmaker",
         "icon" => "Edward_Thouvenin.jpg",
-        "facebook" => null,
-        "twitter" => null),
+        "soundcloud" => "https://soundcloud.com/wared-22283149",
+
+        ),
 
     array("name" => "Maewan Marthelot",
-        "role" => "Graphiste",
+        "role" => "Graphiste, Vidéaste,<br> Monteur-vidéo",
         "icon" => "Maewan_Marthelot.jpg",
-        "facebook" => null,
-        "twitter" => null),
+        "youtube" => "https://www.youtube.com/c/MA3WAN",
+        "linkedin" => "https://www.linkedin.com/in/ma%C3%ABwan-marthelot-01744b203"
+
+        ),
 
     array("name" => "Théotime Vandevoorde Rostankowski",
         "role" => "Builder, Graphiste",
         "icon" => "Théotime_Vandevoorde_Rostankowski.jpg",
-        "facebook" => null,
-        "twitter" => null),
+
+        ),
 
     array("name" => "Arthur Verschelde",
         "role" => "Builder, Graphiste",
         "icon" => "Arthur_Verschelde.jpg",
-        "facebook" => null,
-        "twitter" => null),
+
+        ),
 
     array("name" => "Flavien Dechoz",
         "role" => "Modérateur",
         "icon" => "Flavien_Dechoz.jpg",
-        "facebook" => null,
-        "twitter" => null),
+
+        ),
 
     array("name" => "L&eacute;na Chervier",
         "role" => "Assitante<br> de modération",
         "icon" => "Léna_Chervier.jpg",
-        "facebook" => null,
-        "twitter" => null),
+        "instagram" => "https://www.instagram.com/lena_cherv/",
+        "linkedin" => "https://www.linkedin.com/in/l%C3%A9na-chervier-645470228/",
+
+        ),
 );
 
 $env_page = array(
@@ -102,6 +114,15 @@ $env_page = array(
     "Histoire",
     "Compte",
 );
+
+$env_page_logo = array(
+    "fas fa-home",
+    "fas fa-tags",
+    "fas fa-dice-d6",
+    "far fa-handshake",
+    "fas fa-book",
+    "far fa-user",
+)
 
 
 
