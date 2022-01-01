@@ -5,7 +5,10 @@
     <section id="projet">
         <br>
         <h2>Nos Projets</h2>
-        <p class="container">Tout nos projet appertien a l'entreprise Tyrolium et est gérer par notre équipe, mais il reste indépendant dans leurs communications, gestion et administration, elle sont financer par tyrolium et dans l'unique but est de vivre de nos passion respectevie dans chachun de ces projet, tout le but de tyrolium est de vivre de notre passion.</p>
+        <p class="container">Tout nos projets appartiennent à l'entreprise Tyrolium et sont gérés par nos équipes.
+            Les projets restent indépendants dans leurs communications, leur gestion et leur administration.
+            Ils sont financés par Tyrolium, l'unique but de ceux-ci est de vivre de nos passions respectives dans chacun de ces projets.
+            Tout le but de Tyrolium est de vivre de notre passion.</p>
         <br>
         <hr style="background: rgb(161, 161, 161);">
         <br>

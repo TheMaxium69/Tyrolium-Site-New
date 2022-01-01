@@ -6,7 +6,7 @@
         <div id="particule">
             <div id="head">
                 <h1>Tyrolium</h1>
-                <a href="#home-tyro"><p>
+                <a href="#btn-up"><p>
                     DÉCOUVREZ QUI NOUS SOMMES
                 </p></a>
             </div>
@@ -14,6 +14,7 @@
         </div>
     </section>
 
+    <div id="btn-up"></div>
     <!-- PC -->
     <div class="home-desktop">
 
@@ -24,7 +25,7 @@
         <div class="container col-5">
             <article id="art-home">
                 <h2 class="art">A propos de Tyrolium</h2>
-                <h3 class="art">Tyrolium est une entreprise multifonction qui travaille sur plusieurs projets, notamment du développement de jeux vidéos ou d'applications web, de la musique, ou de l'audiovisuel.</h3>
+                <h3 class="art">Tyrolium est une entreprise multisectorielle qui travaille sur plusieurs projets, principalement sur du développemnt Web mais aussi notamment du développement de jeux vidéos ou d'applications, de la musique, ou de l'audiovisuel.</h3>
                 <br>
                 <h3 class="art">Elle propose principalement des prestations de services de création de site Web et d'applications pour les particuliers et les professionnels.</h3>
                 <br>
@@ -60,7 +61,7 @@
                 <p class="art">De nos jours, nous sommes beaucoup à rêver de créer nos propres projets. Tyrolium a réussi le pari de réaliser les rêves de nos employés passionnés.
                     Nous sommes fiers de ce que nous accomplissons tous les jours.
                     Nous vous proposons des projets de grande ampleur toujours avec la passion de tous nos équipes.
-                    Tyrolium veut vous proposer des services et des projets bien realisés, de quoi vous divertir ou vous simplifier la vie. </p>
+                    Tyrolium veut vous proposer des projets bien realisés, de quoi vous divertir ou vous simplifier la vie. </p>
                 <div style="text-align: center">
                     <?php tyrobtn("project.php", "project", "Tout nos Projets");?>
                 </div>
@@ -111,7 +112,7 @@
             <article>
                 <h2 class="art">Notre Histoire</h2>
                 <p class="art">Voilà depuis 2017 que Tyrolium existe et fait mûrir des projets et les gens qui ont travaillés et travaillent encore dessus.
-                    Pendant ces 4 années, une évolution s'est faite sentir et nous allons détailler cette évolution en historique et vous raconter les points clés de celle-ci.
+                    Pendant ces 4 années, une évolution s'est faite sentir et nous allons détailler cette évolution dans l'ordre chronologique et vous raconter les points clés de celle-ci.
 
                     N'oubliez pas cependant que l'évolution n'est pas la fin, elle n'est que le début de la poussée qui nous emmènera au sommet, tant que l'on peux faire mieux ça ne sera jamais terminé.</p>
                 <div style="text-align: center">
@@ -153,7 +154,7 @@
                     <article>
                         <h2 class="art">Notre Histoire</h2>
                         <p class="art">Voilà depuis 2017 que Tyrolium existe et fait mûrir des projets et les gens qui ont travaillés et travaillent encore dessus.
-                            Pendant ces 4 années, une évolution s'est faite sentir et nous allons détailler cette évolution en historique et vous raconter les points clés de celle-ci.
+                            Pendant ces 4 années, une évolution s'est faite sentir et nous allons détailler cette évolution dans l'ordre chronologique et vous raconter les points clés de celle-ci.
 
                             N'oubliez pas cependant que l'évolution n'est pas la fin, elle n'est que le début de la poussée qui nous emmènera au sommet, tant que l'on peux faire mieux ça ne sera jamais terminé.</p>
                         <div style="text-align: center">
@@ -192,7 +193,7 @@
             <div class="container col-4">
                 <article>
                     <h2 class="art-res">A propos de Tyrolium</h2>
-                    <p class="art-res">Tyrolium est une entreprise multifonction qui travaille sur plusieurs projets, notamment du développement de jeux vidéos ou d'applications web, de la musique, ou de l'audiovisuel.</p>
+                    <p class="art-res">Tyrolium est une entreprise multisectorielle qui travaille sur plusieurs projets, principalement sur du développemnt Web mais aussi notamment du développement de jeux vidéos ou d'applications, de la musique, ou de l'audiovisuel.</p>
                     <br>
                     <p class="art-res">Elle propose principalement des prestations de services de création de site Web et d'applications pour les particuliers et les professionnels.</p>
                     <br>
@@ -239,7 +240,7 @@
                             <p class="art-res">De nos jours, nous sommes beaucoup à rêver de créer nos propres projets. Tyrolium a réussi le pari de réaliser les rêves de nos employés passionnés.
                                 Nous sommes fiers de ce que nous accomplissons tous les jours.
                                 Nous vous proposons des projets de grande ampleur toujours avec la passion de tous nos équipes.
-                                Tyrolium veut vous proposer des services et des projets bien realisés, de quoi vous divertir ou vous simplifier la vie.</p>
+                                Tyrolium veut vous proposer des projets bien realisés, de quoi vous divertir ou vous simplifier la vie.</p>
                             <div>
                                 <div class="" style="width: 60%; margin-left: 20%">
                                     <img src="assets/Startup_Monochromatic.png" width="100%" height="100%">
@@ -316,7 +317,7 @@
                     <article>
                         <h2 class="art-res">Notre Histoire</h2>
                         <p class="art-res">Voilà depuis 2017 que Tyrolium existe et fait mûrir des projets et les gens qui ont travaillés et travaillent encore dessus.
-                            Pendant ces 4 années, une évolution s'est faite sentir et nous allons détailler cette évolution en historique et vous raconter les points clés de celle-ci.
+                            Pendant ces 4 années, une évolution s'est faite sentir et nous allons détailler cette évolution dans l'ordre chronologique et vous raconter les points clés de celle-ci.
 
                             N'oubliez pas cependant que l'évolution n'est pas la fin, elle n'est que le début de la poussée qui nous emmènera au sommet, tant que l'on peux faire mieux ça ne sera jamais terminé. </p>
                         <div>

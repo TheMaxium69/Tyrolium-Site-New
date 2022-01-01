@@ -67,19 +67,23 @@
     </section>
     <section id="service-second">
         <h2>Minecraft</h2>
-        <p>Prestations où nous réalison le developpement de votre mod ou de votre plugin, nous pouvons aussi configurez votre serveur, notre équipe a beaucoup travail avec ce jeux, et nous somme en mesure de réalisé toute vos demande concernant ce jeux .</p>
+        <p>Prestation où nous réalisons le développement de votre mod ou de votre plugin.<br>
+            Nous pouvons également configurer votre serveur, nos équipes ont beaucoup de travail avec ce jeu et nous sommes en mesure de réaliser toutes vos demandes concernant celui-ci.</p>
         <br>
         <?php tyrobtn("contact.php?name=mc", "contact", "Contactez-nous pour cette prestation");?>
     </section>
     <section id="service-second-but">
         <h2>Bot Discord</h2>
-        <p>Nous sommes capable de vous créer votre discord, autant pour automatiser ou personnaliser les moindre commande de vos serveur discord, mais aussi de le lier a des api, et autre logiciel ou applications .</p>
+        <p>Nous sommes capable de vous créer votre bot discord, autant pour automatiser ou personnaliser les moindres fonctionnalités de vos serveurs discord.
+            Nous pouvons aussi le lier à des API et autres logiciels ou applications.</p>
         <br>
         <?php tyrobtn("contact.php?name=bot", "contact", "Contactez-nous pour cette prestation");?>
     </section>
     <section id="service-second-but">
         <h2>Configurations Serveur</h2>
-        <p>On peut vous conseillez ou vous configurez serveur, Linux est parfois compliqué a comprendre et nous pouvous installez mettre place toute vos demande sur votre serveur en fonction de votre besoin .</p>
+        <p>Nous pouvons vous conseiller ou vous configurer vos serveurs.
+            Linux est parfois compliqué à comprendre.
+            Nous pouvons installer et mettre en place toutes vos demandes sur vos serveurs en fonction de vos besoin. </p>
         <br>
         <?php tyrobtn("contact.php?name=serv", "contact", "Contactez-nous pour cette prestation");?>
     </section>
