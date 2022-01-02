@@ -295,9 +295,9 @@ select{
     outline-offset: -3px;
 }
 [include*="form-input-select()"] select[disabled], [include*="form-input-select()"] select:disabled {
-    opacity: 0.4;
     cursor: not-allowed;
 }
 [include*="form-input-select()"] select:not(:focus):invalid {
     color: #C7C7C7;
 }
+

@@ -22,13 +22,41 @@
                         <div class="dynamicSelect">
                                 <span class="dynamicSelect-dropdown">
                                     <div include="form-input-select()">
+                                            <?php if(!empty($_GET['name'])) { ?>
+
+                                        <select class="dynamicSelect-select" name="raison" disabled>
+                                                <option hidden value="form-1">Prestations >
+                                                    <?php if ($_GET['name'] == "web") {
+                                                        echo "Site Web > ";
+
+                                                        if ($_GET['form'] == "1") {
+                                                            echo "Site personnel";
+                                                        } else if ($_GET['form'] == "2") {
+                                                            echo "Site de Projet";
+                                                        } else if ($_GET['form'] == "3") {
+                                                            echo "Application Web";
+                                                        } else {
+                                                            echo "Autre";
+                                                        }
+
+                                                    } else if ($_GET['name'] == "mc") {
+                                                        echo "Minecraft";
+                                                    } else if ($_GET['name'] == "bot") {
+                                                        echo "Bot Discord";
+                                                    } else if ($_GET['name'] == "serv") {
+                                                        echo "Serveur";
+                                                    } ?>
+                                                </option>
+                                            <?php } else { ?>
+
                                         <select class="dynamicSelect-select" name="raison" required>
-                                            <option hidden value="">Choisi la raison</option>
-                                            <option value="form-1">Prestations</option>
-                                            <option value="form-2">Projets</option>
-                                            <option value="form-3">Colaboration</option>
-                                            <option value="form-4">Aide/Bug</option>
-                                            <option value="form-5">Autre</option>
+                                                <option hidden value="">Choisi la raison</option>
+                                            <?php } ?>
+                                                <option value="form-1">Prestations</option>
+                                                <option value="form-2">Projets</option>
+                                                <option value="form-3">Colaboration</option>
+                                                <option value="form-4">Aide/Bug</option>
+                                                <option value="form-5">Autre</option>
                                         </select>
                                     </div>
                                 </span>
@@ -39,7 +67,21 @@
                                             <span class="dynamicSelect-dropdown">
                                                  <div include="form-input-select()">
                                                 <select class="dynamicSelect-select" name="prestation">
-                                                    <option hidden value="null">Choisir une prestations</option>
+                                                    <?php if(!empty($_GET['name'])) { ?>
+
+                                                                    <?php if ($_GET['name'] == "web") {
+                                                                        $pGet = "p0";
+                                                                    } else if ($_GET['name'] == "mc") {
+                                                                        $pGet = "p1";
+                                                                    } else if ($_GET['name'] == "bot") {
+                                                                        $pGet = "p2";
+                                                                    } else if ($_GET['name'] == "serv") {
+                                                                        $pGet = "p3";
+                                                                    } ?>
+                                                        <option hidden value="form-<?php echo $pGet?>">null</option>
+                                                    <?php } else { ?>
+                                                        <option hidden value="null">Choisir une prestations</option>
+                                                    <?php } ?>
 
                                                     <?php  $nbPresta = count($env_presta);
 
@@ -58,7 +100,19 @@
 
                                                     <div include="form-input-select()">
                                                     <select class="dynamicSelect-select" name="web">
-                                                        <option hidden value="null">Choisir la formule</option>
+                                                        <?php if(!empty($_GET['name']) && !empty($_GET['form']) && $_GET['name'] == "web") { ?>
+
+                                                            <?php if ($_GET['form'] == "1") {
+                                                                $wGet = "0";
+                                                            } else if ($_GET['name'] == "2") {
+                                                                $wGet = "1";
+                                                            } else if ($_GET['name'] == "3") {
+                                                                $wGet = "2";
+                                                            } ?>
+                                                            <option hidden value="<?php echo $wGet?>">null</option>
+                                                        <?php } else { ?>
+                                                            <option hidden value="null">Choisir la formule</option>
+                                                        <?php } ?>
 
                                                         <?php  $nbPrestaW = count($env_presta_web);
 
