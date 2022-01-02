@@ -1,0 +1,303 @@
+.dynamicSelect-form {
+    display: none;
+}
+
+.form-visible {
+    display: block;
+}
+
+
+.section-contact {
+    padding: 50px 120px;
+}
+
+.section-contact .header-section .title {
+    position: relative;
+    margin-bottom: 17px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.section-contact .header-section .title .dot {
+    display: inline-block;
+    position: absolute;
+    bottom: 8px;
+    width: 8px;
+    height: 8px;
+    margin-left: 3px;
+    background-color: #df383f;
+}
+
+.section-contact .header-section .description {
+    font-family: "Roboto", sans-serif;
+    color: #2a6287;
+}
+
+.section-contact .header-section .big-title {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translate(-50%,70%);
+    font-size: 120px;
+    font-weight: 700;
+    opacity: 0.15;
+}
+
+.section-contact .form-contact {
+
+}
+
+.section-contact .form-contact .single-input {
+    position: relative;
+    margin-top: 40px;
+}
+
+.section-contact .form-contact .single-input i {
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    color: #0049ee;
+}
+
+.section-contact .form-contact .single-input input,
+.section-contact .form-contact .single-input textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    padding-left: 50px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: border .3s;
+    background: transparent;
+    color: white;
+}
+
+.section-contact .form-contact .single-input input::placeholder,
+.section-contact .form-contact .single-input textarea::placeholder {
+    color: #a0a0a0;
+}
+
+.section-contact .form-contact .single-input input:focus,
+.section-contact .form-contact .single-input textarea:focus {
+    border-color: #0049ee;
+}
+
+.section-contact .form-contact .single-input textarea {
+    height: 150px;
+    min-height: 50px;
+}
+
+.section-contact .form-contact .submit-input input {
+    margin-top: 40px;
+    padding: 15px 50px;
+    background-color: #0049ee;
+    color: #fff;
+    border: none;
+    font-weight: 700;
+    transition: background-color .3s;
+}
+
+.section-contact .form-contact .submit-input input:hover {
+    background-color: #0030a1;
+}
+
+@media (max-width: 575.99px) {
+    .section-contact {
+        padding: 50px 0px;
+    }
+
+    .section-contact .header-section .title {
+        font-size: 40px;
+    }
+
+    .section-contact .header-section .big-title {
+        font-size: 80px;
+    }
+
+    .section-contact .header-section .description {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+    .section-contact {
+        padding: 50px 60px;
+    }
+
+    .section-contact .header-section .title {
+        font-size: 45px;
+    }
+
+    .section-contact .header-section .big-title {
+        font-size: 100px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+    .section-contact {
+        padding: 50px 60px;
+    }
+
+    .section-contact .header-section .title {
+        font-size: 45px;
+    }
+
+    .section-contact .header-section .big-title {
+        font-size: 100px;
+    }
+}
+
+select{
+    width: 100%;
+    text-align: center;
+}
+
+[include*="form-input-select()"] {
+    display: block;
+    padding: 0;
+    position: relative;
+    /* Set options to normal weight */
+    /* ------------------------------------  */
+    /* START OF UGLY BROWSER-SPECIFIC HACKS */
+    /* ----------------------------------  */
+    /* FIREFOX won't let us hide the native select arrow, so we have to make it wider than needed and clip it via overflow on the parent container.
+       The percentage width is a fallback since FF 4+ supports calc() so we can just add a fixed amount of extra width to push the native arrow out of view. We're applying this hack across all FF versions because all the previous hacks were too fragile and complex.
+       You might want to consider not using this hack and using the native select arrow in FF. Note this makes the menus wider than the select button because they display at the specified width and aren't clipped. Targeting hack via http://browserhacks.com/#hack-758bff81c5c32351b02e10480b5ed48e */
+    /* Show only the native arrow */
+    color: #005BA6;
+    display: block;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 16px;
+    margin-top: 9px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+[include*="form-input-select()"]::before, [include*="form-input-select()"]::after {
+    content: "";
+    display: block;
+    position: absolute;
+    pointer-events: none;
+    z-index: 2;
+}
+[include*="form-input-select()"] select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: none;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    border: 1px solid transparent;
+    font-size: 16px;
+    outline: none;
+    /* Focus style */
+}
+[include*="form-input-select()"] select:focus {
+    background-color: transparent;
+    outline: none;
+}
+[include*="form-input-select()"] option {
+    font-weight: normal;
+}
+[include*="form-input-select()"] x:-o-prefocus, [include*="form-input-select()"]::after {
+    display: none;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    [include*="form-input-select()"] select::-ms-expand {
+        display: none;
+    }
+    [include*="form-input-select()"] select:focus::-ms-value {
+        background: transparent;
+        color: #000;
+    }
+}
+@-moz-document url-prefix() {
+    [include*="form-input-select()"] {
+        overflow: hidden;
+    }
+    [include*="form-input-select()"] select {
+        width: 120%;
+        width: calc(100% + 3em);
+        /* Firefox focus has odd artifacts around the text, this kills that. See https://developer.mozilla.org/en-US/docs/Web/CSS/:-moz-focusring */
+    }
+    @supports (-moz-appearance: none) {
+        [include*="form-input-select()"] select {
+            width: 100%;
+        }
+    }
+    [include*="form-input-select()"] select:-moz-focusring {
+        color: transparent;
+        text-shadow: 0 0 0 #000;
+    }
+}
+@supports (-moz-appearance: none) {
+    [include*="form-input-select()"] {
+        width: 100%;
+    }
+}
+[include*="form-input-select()"]::before, [include*="form-input-select()"]::after {
+    content: "";
+    display: block;
+    position: absolute;
+    pointer-events: none;
+    border: 1px solid transparent;
+    width: 0;
+    height: 0;
+    right: 16px;
+}
+[include*="form-input-select()"]::before {
+    bottom: 55%;
+    border-width: 0 6.5px 8px 6.5px;
+    border-bottom-color: #D6D6D6;
+}
+[include*="form-input-select()"]::after {
+    border-width: 8px 6.5px 0 6.5px;
+    border-top-color: #D6D6D6;
+    top: 55%;
+}
+@-moz-document url-prefix() {
+    [include*="form-input-select()"] {
+        border-right: 3px solid #E6E6E6;
+    }
+    [include*="form-input-select()"]:hover {
+        border-right: 3px solid #005BA6;
+    }
+}
+[include*="form-input-select()"]:hover select {
+    box-shadow: 0 2px 3px rgba(0, 91, 166, 0.1) inset;
+    border-color: #005BA6;
+}
+[include*="form-input-select()"]:hover select:focus {
+    outline-color: transparent;
+}
+[include*="form-input-select()"]:hover::before {
+    border-bottom-color: #005BA6;
+}
+[include*="form-input-select()"]:hover::after {
+    border-top-color: #005BA6;
+}
+[include*="form-input-select()"] select {
+    border: 3px solid #E6E6E6;
+    border-radius: 0;
+    font-weight: 400;
+    color: inherit;
+    padding: 11px 15px;
+    line-height: normal;
+    transition: border-color 0.2s ease, outline 0.2s ease;
+}
+[include*="form-input-select()"] select:focus {
+    box-shadow: 0 3px 4px rgba(0, 91, 166, 0.3) inset;
+    outline: 3px solid #005BA6;
+    outline-offset: -3px;
+}
+[include*="form-input-select()"] select[disabled], [include*="form-input-select()"] select:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+[include*="form-input-select()"] select:not(:focus):invalid {
+    color: #C7C7C7;
+}

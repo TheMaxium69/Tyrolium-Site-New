@@ -19,6 +19,8 @@ $env_pp = $env_assets . "pp/";
 
 $env_pp_default = $env_pp . "Default.jpg";
 
+$env_bd_contact = "http://localhost/";
+
 
 $env_back = array (
 
