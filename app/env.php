@@ -51,15 +51,16 @@ $env_perso = array(
 
         ),
 
-    array("name" => "Pierre-Louis",
+    array("name" => "Pierre-Louis Devaud",
         "role" => "Conseillez Technique,<br> Responsable Communication",
-        "icon" => null,
+        "icon" => "Pierre-Louis_Devaud.jpg",
 
         ),
 
     array("name" => "Dylan Argentino",
         "role" => "Designer,<br> Dessinateur",
         "icon" => "Dylan_Argentino.jpg",
+        "instagram" => "https://www.instagram.com/viking_senpai/",
 
 
         ),
@@ -67,13 +68,15 @@ $env_perso = array(
     array("name" => "Edward Thouvenin",
         "role" => "Compositeur,<br> Beatmaker",
         "icon" => "Edward_Thouvenin.jpg",
+        "instagram" => "https://www.instagram.com/edward_el_renard/",
         "soundcloud" => "https://soundcloud.com/wared-22283149",
 
         ),
 
     array("name" => "Maewan Marthelot",
-        "role" => "Graphiste, Vidéaste,<br> Monteur-vidéo",
+        "role" => "Graphiste, Monteur-vidéo,<br> Vidéaste, Photographe",
         "icon" => "Maewan_Marthelot.jpg",
+        "instagram" => "https://www.instagram.com/maewanm/",
         "youtube" => "https://www.youtube.com/c/MA3WAN",
         "linkedin" => "https://www.linkedin.com/in/ma%C3%ABwan-marthelot-01744b203"
 
@@ -122,8 +125,40 @@ $env_page_logo = array(
     "far fa-handshake",
     "fas fa-book",
     "far fa-user",
-)
+);
 
+$env_projet = array(
+    "TyroServ",
+    "Gamenium",
+    "TyroDiscord",
+    "TyroStudio",
+    "Wonderlium",
+    "Sélémusium",
+    "TyroShop",
+    "Autre",
+);
+
+$env_presta = array(
+    "Site Web",
+    "Minecraft",
+    "Bot Discord",
+    "Serveur",
+    "Autre",
+);
+
+$env_presta_web = array(
+    "Site Personnel",
+    "Site de Projet",
+    "Application Web",
+    "Autre",
+);
+
+$env_presta_mc = array(
+    "Mod",
+    "Plugin",
+    "Serveur",
+    "Autre",
+);
 
 
 ?>

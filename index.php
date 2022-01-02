@@ -25,7 +25,7 @@
         <div class="container col-5">
             <article id="art-home">
                 <h2 class="art">A propos de Tyrolium</h2>
-                <h3 class="art">Tyrolium est une entreprise multisectorielle qui travaille sur plusieurs projets, principalement sur du développemnt Web mais aussi notamment du développement de jeux vidéos ou d'applications, de la musique, ou de l'audiovisuel.</h3>
+                <h3 class="art">Tyrolium est une entreprise multisectorielle qui travaille sur plusieurs projets, principalement sur du développement Web mais aussi notamment du développement de jeux vidéos ou d'applications, de la musique, ou de l'audiovisuel.</h3>
                 <br>
                 <h3 class="art">Elle propose principalement des prestations de services de création de site Web et d'applications pour les particuliers et les professionnels.</h3>
                 <br>
@@ -193,7 +193,7 @@
             <div class="container col-4">
                 <article>
                     <h2 class="art-res">A propos de Tyrolium</h2>
-                    <p class="art-res">Tyrolium est une entreprise multisectorielle qui travaille sur plusieurs projets, principalement sur du développemnt Web mais aussi notamment du développement de jeux vidéos ou d'applications, de la musique, ou de l'audiovisuel.</p>
+                    <p class="art-res">Tyrolium est une entreprise multisectorielle qui travaille sur plusieurs projets, principalement sur du développement Web mais aussi notamment du développement de jeux vidéos ou d'applications, de la musique, ou de l'audiovisuel.</p>
                     <br>
                     <p class="art-res">Elle propose principalement des prestations de services de création de site Web et d'applications pour les particuliers et les professionnels.</p>
                     <br>
@@ -358,5 +358,6 @@
 
     </div>
 </main>
+
 
 <?php footer(); ?> </body> </html>

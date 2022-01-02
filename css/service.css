@@ -92,6 +92,10 @@
     max-width: 100%;
 }
 
+.pricing-img:hover{
+    filter: invert(100%);
+}
+
 .pricing-header {
     color: #888;
     font-weight: 600;

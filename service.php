@@ -22,7 +22,7 @@
 
                     <div class="pricing-plan">
                         <img src="assets/paper-plane.png" alt="PaperPlane" class="pricing-img">
-                        <h2 class="pricing-header">Site Personnel</h2>
+                        <h2 class="pricing-header"><?php echo $env_presta_web['0'] ?></h2>
                         <ul class="pricing-features">
                             <li class="pricing-features-item"><span class="underline bold">Concretement</span> : Il s'agit d'une formule bien pour les porte-folio, les site de presentations juste textuel d'un projet</li>
                             <li class="pricing-features-item"><span class="underline bold">Techniquement</span> : il s'agit simple d'une/ou plusieur pages où l'on travaillera juste avec des languague de front-end, aucune relation avec une api ou une base de donné sera faite avec cette formule</li>
@@ -33,7 +33,7 @@
 
                     <div class="pricing-plan">
                         <img src="assets/plane.png" alt="Plane" class="pricing-img">
-                        <h2 class="pricing-header">Site de Projet</h2>
+                        <h2 class="pricing-header"><?php echo $env_presta_web['1'] ?></h2>
                         <ul class="pricing-features">
                             <li class="pricing-features-item">Lorem ipsum dolor sit amet</li>
                             <li class="pricing-features-item">Techniquement :</li>
@@ -44,7 +44,7 @@
 
                     <div class="pricing-plan">
                         <img src="assets/space-ship.png" alt="SpaceShip" class="pricing-img">
-                        <h2 class="pricing-header">Applications Web</h2>
+                        <h2 class="pricing-header"><?php echo $env_presta_web['2'] ?></h2>
                         <ul class="pricing-features">
                             <li class="pricing-features-item">Lorem ipsum dolor sit amet</li>
                             <li class="pricing-features-item">Techniquement :</li>
@@ -63,7 +63,7 @@
         <br>
         <hr style="background: rgb(161, 161, 161);">
         <br>
-        <h2 class="titleS">Autre Service</h2>
+        <h2 class="titleS">Autres Prestations</h2>
     </section>
     <section id="service-second">
         <h2>Minecraft</h2>
