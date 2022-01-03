@@ -24,8 +24,11 @@
                         <img src="assets/paper-plane.png" alt="PaperPlane" class="pricing-img">
                         <h2 class="pricing-header"><?php echo $env_presta_web['0'] ?></h2>
                         <ul class="pricing-features">
-                            <li class="pricing-features-item"><span class="underline bold">Concretement</span> : Il s'agit d'une formule bien pour les porte-folio, les site de presentations juste textuel d'un projet</li>
-                            <li class="pricing-features-item"><span class="underline bold">Techniquement</span> : il s'agit simple d'une/ou plusieur pages où l'on travaillera juste avec des languague de front-end, aucune relation avec une api ou une base de donné sera faite avec cette formule</li>
+                            <li class="pricing-features-item"><span class="underline bold">Concrètement</span> : Il s'agit d'une formule bien pour les porte-folios.
+                                Les sites de présentation juste avec du texte pour présenter un projet.
+                            </li>
+                            <li class="pricing-features-item"><span class="underline bold">Techniquement</span> : Il s'agit d'une simple ou de plusieurs pages où l'on travaille juste avec des langages de front-end.
+                                Aucune relation avec une API ou une base de données ne sera faite avec cette formule.</li>
                         </ul>
                         <span class="pricing-price">30€</span>
                         <?php tyrobtn("contact.php?name=web&form=1", "contact", "Contactez-nous pour cette formule");?>
@@ -35,8 +38,8 @@
                         <img src="assets/plane.png" alt="Plane" class="pricing-img">
                         <h2 class="pricing-header"><?php echo $env_presta_web['1'] ?></h2>
                         <ul class="pricing-features">
-                            <li class="pricing-features-item">Lorem ipsum dolor sit amet</li>
-                            <li class="pricing-features-item">Techniquement :</li>
+                            <li class="pricing-features-item"><span class="underline bold">Concrètement</span> :</li>
+                            <li class="pricing-features-item"><span class="underline bold"> Techniquement</span> : </li>
                         </ul>
                         <span class="pricing-price">175€</span>
                         <?php tyrobtn("contact.php?name=web&form=2", "contact", "Contactez-nous pour cette formule");?>
@@ -46,8 +49,8 @@
                         <img src="assets/space-ship.png" alt="SpaceShip" class="pricing-img">
                         <h2 class="pricing-header"><?php echo $env_presta_web['2'] ?></h2>
                         <ul class="pricing-features">
-                            <li class="pricing-features-item">Lorem ipsum dolor sit amet</li>
-                            <li class="pricing-features-item">Techniquement :</li>
+                            <li class="pricing-features-item"><span class="underline bold">Concrètement</span> :</li>
+                            <li class="pricing-features-item"><span class="underline bold"> Techniquement</span> : </li>
                         </ul>
                         <span class="pricing-price">500€</span>
                         <?php tyrobtn("contact.php?name=web&form=3", "contact", "Contactez-nous pour cette formule");?>

@@ -56,11 +56,9 @@
                             if(!empty($perso['linkedin'])) { ?>
                                 <li><a href="<?php echo $perso['linkedin']; ?>" class="fab fa-linkedin" aria-hidden="true"></a></li>
                             <?php }
-
-
-
-
-
+                            if(!empty($perso['twitch'])) { ?>
+                                <li><a href="<?php echo $perso['twitch']; ?>" class="fab fa-twitch" aria-hidden="true"></a></li>
+                            <?php }
 
                             ?>
                         </ul>

@@ -145,23 +145,31 @@ main#story a:hover,main#story a:active,main#story a:focus {
 }
 
 #st1{
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("https://tyrolium.fr/Contenu/Image/Tyrolium%20Old.png") center center no-repeat;
-
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55)), url("https://tyrolium.fr/Contenu/Image/Tyrolium%20Old.png") center center no-repeat;
 }
 #st2{
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("https://tyrolium.fr/Contenu/Image/Wonderlium Old.png") center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55)), url("../assets/story/Wonderlium.png") center center no-repeat;
 }
 #st3{
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("https://tyrolium.fr/Contenu/Image/Tyrolium%20Music%20Old.png") center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55)), url("../assets/story/TyroMusic.png") center center no-repeat;
 }
 #st4{
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("https://tyrolium.fr/Contenu/Image/Tyrolium%20ServerMC.png") center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55)), url("https://tyrolium.fr/Contenu/Image/Tyrolium%20ServerMC.png") center center no-repeat;
 }
 #st5{
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("https://tyrolium.fr/Contenu/Image/Gamenium%20Old.png") center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55)), url("https://tyrolium.fr/Contenu/Image/Gamenium%20Old.png") center center no-repeat;
 }
 #st6{
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("https://tyrolium.fr/Contenu/Image/Tyrolium%20Studio.png") center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55)), url("https://tyrolium.fr/Contenu/Image/Tyrolium%20Studio.png") center center no-repeat;
+}
+#st7{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55)), url("https://tyrolium.fr/Contenu/Image/Freenium.png") center center no-repeat;
+}
+#st8 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55)), url("https://tyrolium.fr/Contenu/Image/Tyrolium%20Music.png") center center no-repeat;
+}
+#st9 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55)), url("https://tyrolium.fr/Contenu/Image/Tyrolium%20Studio.png") center center no-repeat;
 }
 
 .timeline-img-header {

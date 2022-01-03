@@ -56,6 +56,8 @@ $env_perso = array(
     array("name" => "Pierre-Louis Devaud",
         "role" => "Conseillez Technique,<br> Responsable Communication",
         "icon" => "Pierre-Louis_Devaud.jpg",
+        "instagram" => "https://www.instagram.com/pl_dev54/",
+        "twitch" => "https://www.twitch.tv/piplextv",
 
         ),
 

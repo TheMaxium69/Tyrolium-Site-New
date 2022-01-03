@@ -83,7 +83,7 @@
             <h2 style="margin-top: 20px;text-align: center; margin-bottom: 10px; color: #0049ee"><i class="fas fa-balance-scale"></i>Droits</h2>
             <div style="text-align: center">
                 <p class="no-p bold">L'intégralité du site et de ses contenus postés sur les serveurs, les contenus mis en ligne et rendus publiques, les images, les textes et tout les écrits, le design, le code source, les logos, les visuels, les photos ainsi que les produits, appartiennent entièrement à Tyrolium.
-                    <br>Cela grâce au copyright (2022 Tyrolium, Ent.)
+                    <br>Cela grâce au copyright (© 2022 Tyrolium, Ent.)
                     <br>Et à l'article L111-1 du code de la propriété intellectuelle française.</p>
             </div>
             <br>
