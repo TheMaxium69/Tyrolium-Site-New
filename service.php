@@ -38,8 +38,8 @@
                         <img src="assets/plane.png" alt="Plane" class="pricing-img">
                         <h2 class="pricing-header"><?php echo $env_presta_web['1'] ?></h2>
                         <ul class="pricing-features">
-                            <li class="pricing-features-item"><span class="underline bold">Concrètement</span> :</li>
-                            <li class="pricing-features-item"><span class="underline bold"> Techniquement</span> : </li>
+                            <li class="pricing-features-item"><span class="underline bold">Concrètement</span> : Il s'agit d'une formule bien pour les entreprise, les sites, que demande un plus que du simple, texte, mais une presention, qui pourra afficher des informations, a modiifer, avec possiblité de panel administrateur.</li>
+                            <li class="pricing-features-item"><span class="underline bold">Techniquement</span> : Il s'agit de plusieur pages qui pourra etre modifiable,on pouura  ce connectez a des apis simple , ou utilisera plus regulièrement des framework front-end, avec Php Object.</li>
                         </ul>
                         <span class="pricing-price">175€</span>
                         <?php tyrobtn("contact.php?name=web&form=2", "contact", "Contactez-nous pour cette formule");?>
@@ -49,8 +49,9 @@
                         <img src="assets/space-ship.png" alt="SpaceShip" class="pricing-img">
                         <h2 class="pricing-header"><?php echo $env_presta_web['2'] ?></h2>
                         <ul class="pricing-features">
-                            <li class="pricing-features-item"><span class="underline bold">Concrètement</span> :</li>
-                            <li class="pricing-features-item"><span class="underline bold"> Techniquement</span> : </li>
+                            <li class="pricing-features-item"><span class="underline bold">Concrètement</span> : Il s'agit d'une bonne formule notamment pour un gros projet.
+                                Créer un réseau social, créer une boutique en ligne, un blog, une application de gestion personnalisée.</li>
+                            <li class="pricing-features-item"><span class="underline bold"> Techniquement</span> : Cette formule se fera avec un framework front-end et back-end, avec une base de donnée, une création d'API obligatoire, gestion de compte et panel administrateur.</li>
                         </ul>
                         <span class="pricing-price">500€</span>
                         <?php tyrobtn("contact.php?name=web&form=3", "contact", "Contactez-nous pour cette formule");?>

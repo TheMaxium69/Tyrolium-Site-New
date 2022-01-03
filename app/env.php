@@ -1,6 +1,6 @@
 <?php
 
-//PROD or DEV
+//PROD or DEV or TEST
 $APP_ENV = "DEV";
 
 // FALSE or TRUE
@@ -19,18 +19,24 @@ $env_pp = $env_assets . "pp/";
 
 $env_pp_default = $env_pp . "Default.jpg";
 
-$env_bd_contact = "http://localhost/";
+if ($APP_ENV == "PROD"){
+    $env_bd_contact = "api/get.php";
+} else if ($APP_ENV == "DEV"){
+    $env_bd_contact = "api/get.php";
+} else if ($APP_ENV == "TEST"){
+    $env_bd_contact = "https://tyrolium.fr/api/get.php";
+}
 
 
 $env_back = array (
 
     $env_urlImage . "Background6",
     $env_urlImage . "Background2",
-    $env_assets . "test/BackgroundTest3.jpg",
-    $env_assets . "test/BackgroundTest2.jpg",
+    $env_urlImage . "Background16",
+    $env_urlImage . "Background15",
     $env_urlImage . "Background7",
-    $env_assets . "test/BackgroundTest4.jpg",
-    $env_assets . "test/BackgroundTest.jpg",
+    $env_urlImage . "Background17",
+    $env_urlImage . "Background14",
 );
 
 $env_perso = array(

@@ -10,6 +10,7 @@
         <br>
         <hr style="background: rgb(161, 161, 161);">
     </section>
+
     <section id="formulaire">
 
 
@@ -24,7 +25,7 @@
                                 <span class="dynamicSelect-dropdown">
                                     <div include="form-input-select()">
                                             <?php if(!empty($_GET['name'])) { ?>
-
+                                        <input type="hidden" name="raison" value="form-1">
                                         <select class="dynamicSelect-select" name="raison" disabled style="color: #0854ff">
                                                 <option hidden value="form-1">Prestations >
                                                     <?php if ($_GET['name'] == "web") {
@@ -234,6 +235,35 @@
 
     </section>
     <script src="javascript/form.js"></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src='https://unpkg.com/izitoast/dist/js/iziToast.min.js'></script>
+    <script  src="javascript/notif.js"></script>
+
+
+    <?php if (!empty($_GET['err'])) {?>
+    <script>
+        if(Text != 1){
+            iziToast.error({
+                title: 'Erreur',
+                position: 'bottomRight',
+                message: 'Une erreur est survenue | Code : <?php echo $_GET['err']; ?>'
+            });
+        }
+    </script>
+    <?php } ?>
+
+    <?php if (!empty($_GET['true'])) {?>
+        <script>
+            if(Text != 1){
+                iziToast.success({
+                    title: 'OK',
+                    position: 'bottomRight',
+                    message: 'Votre demande a bien été envoyé !'
+                });
+            }
+        </script>
+    <?php } ?>
 
 </main>
 

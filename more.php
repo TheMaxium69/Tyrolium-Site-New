@@ -16,7 +16,7 @@
                 <p>Tyrolium est une entreprise à but lucratif, toute création de l'entreprise nous appartient.</p>
                 <p>Copyright © Tyrolium. 2017-2022<br> © 2022 Tyrolium, Ent.<br>All Right Reserved ©Tyrolium</p>
                 <p>Fondé par Maxime Tournier</p>
-                <p>Siège Social : <br> 252, Avenue Jean Jaurès 69150 Décines-Charpieux</p>
+                <p>Siège Social : <br> 252, Avenue Jean Jaurès 69150 Décines-Charpieu</p>
                 <p>Contact : <br> officiel@tyrolium.fr <br> maxime.tournier@tyrolium.fr<br> +33 6 11 11 26 69</p>
             </div>
             <h2 style="margin-top: 20px;text-align: center; color: #0049ee"><i class="fas fa-paperclip"></i>Credit du Site Web</h2>
@@ -66,6 +66,7 @@
                     <small>- Iconscout-2.1.9</small><br>
                     <small>- Normalize</small><br>
                     <small>- GoogleFront</small><br>
+                    <small>- iziToast</small><br>
                     <p class="no-p">Extentions</p>
                     <small>- GoogleAnalytics</small><br>
                     <small>- PhpMyAdmin</small><br>
