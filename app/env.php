@@ -89,6 +89,7 @@ $env_perso = array(
     array("name" => "Théotime Vandevoorde Rostankowski",
         "role" => "Builder, Graphiste",
         "icon" => "Théotime_Vandevoorde_Rostankowski.jpg",
+        "instagram" => "https://www.instagram.com/theotimevr_/",
 
         ),
 
@@ -101,7 +102,10 @@ $env_perso = array(
     array("name" => "Flavien Dechoz",
         "role" => "Modérateur",
         "icon" => "Flavien_Dechoz.jpg",
-
+        "twitter" => "https://twitter.com/flavien_dechoz",
+        "instagram" => "https://www.instagram.com/flaviendechoz/",
+        "youtube" => "https://www.youtube.com/channel/UCx-qCuv3FRGKbls2UckYkcQ",
+        "facebook" => "https://www.facebook.com/flavien.dechoz69",
         ),
 
     array("name" => "L&eacute;na Chervier",

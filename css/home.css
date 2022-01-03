@@ -91,6 +91,14 @@ p.art-res{
     padding-bottom: 0px;
 }
 
+@media (max-width: 1050px) {
+
+    .img-home{
+        width: 90%;
+    }
+
+}
+
 
 @media (max-width: 991px) {
     .home-desktop{
@@ -99,6 +107,10 @@ p.art-res{
 
     #home-tyro, #home-story, #home-french, #home-account, #home-service, #home-project, #home-collaboration {
         margin-bottom: 26px;
+    }
+
+    .img-home{
+        width: unset;
     }
 }
 

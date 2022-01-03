@@ -20,7 +20,7 @@
 
     <section id="home-tyro" class="container row">
         <div class="col-6" style="text-align: end">
-            <img src="assets/Tyrolium_home.png" style="width: 96%; height: 100%">
+            <img class="img-home" src="assets/Tyrolium_home.png" style="width: 96%; height: 100%">
         </div>
         <div class="container col-5">
             <article id="art-home">
@@ -47,13 +47,13 @@
             </article>
         </div>
         <div class="col-6">
-            <img src="assets/Team_work_Monochromatic.png">
+            <img class="img-home" src="assets/Team_work_Monochromatic.png">
         </div>
     </section>
 
     <section id="home-project" class="container row">
         <div class="col-6">
-            <img src="assets/Startup_Monochromatic.png">
+            <img class="img-home" src="assets/Startup_Monochromatic.png">
         </div>
         <div class="container col-4">
             <article>
@@ -83,7 +83,7 @@
             </article>
         </div>
         <div class="col-6">
-            <img src="assets/Brainstorming_session_Monochromatic.png">
+            <img class="img-home" src="assets/Brainstorming_session_Monochromatic.png">
         </div>
     </section>
 
@@ -93,7 +93,7 @@
     <section id="home-account">
         <div class="container row">
             <div class="col-6">
-                <img src="assets/Information_flow_Monochromatic.png">
+                <img class="img-home" src="assets/Information_flow_Monochromatic.png">
             </div>
             <div class="container col-4">
                 <article>
@@ -121,13 +121,13 @@
             </article>
         </div>
         <div class="col-6">
-            <img src="assets/Timeline_Monochromatic.png">
+            <img class="img-home" src="assets/Timeline_Monochromatic.png">
         </div>
     </section>
 
     <section id="home-french" class="container row">
         <div class="col-6">
-            <img src="assets/Paris_Monochromatic.png">
+            <img class="img-home" src="assets/Paris_Monochromatic.png">
         </div>
         <div class="container col-4">
             <article>
@@ -148,7 +148,7 @@
         <section id="home-account">
             <div class="container row" style="padding-bottom: 30px">
                 <div class="col-6">
-                    <img src="assets/Timeline_Monochromatic.png">
+                    <img class="img-home" src="assets/Timeline_Monochromatic.png">
                 </div>
                 <div class="container col-4">
                     <article>
@@ -179,7 +179,7 @@
                 </article>
             </div>
             <div class="col-6">
-                <img src="assets/Paris_Monochromatic.png">
+                <img class="img-home" src="assets/Paris_Monochromatic.png">
             </div>
         </section>
     <?php } ?>
