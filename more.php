@@ -25,7 +25,7 @@
                     <h3 style="margin-bottom: 12px; margin-top: 20px; color: #588aff">Remerciements</h3>
                     <p class="no-p">Développeur</p>
                     <small>- Maxime Tournier</small><br>
-                    <p class="no-p">Web-Disgneur</p>
+                    <p class="no-p">Web-Designeur</p>
                     <small>- Maxime Tournier</small><br>
                     <p class="no-p">Informations écrites</p>
                     <small>- Maxime Tournier</small><br>

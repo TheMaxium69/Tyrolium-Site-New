@@ -6,7 +6,7 @@
         <br>
         <h2>Nous Contacter</h2>
         <p class="container">Voici la page pour nous contacter, nous vous enverrons un mail à la suite de cette demande.
-            Le délais de réponse seras entre 24h et 72h..</p>
+            Le délais de réponse seras entre 24h et 72h.</p>
         <br>
         <hr style="background: rgb(161, 161, 161);">
     </section>
