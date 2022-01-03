@@ -31,3 +31,8 @@ i {
 .bold {
     font-weight: bold;
 }
+
+.no-p{
+    padding: unset;
+    margin: unset;
+}

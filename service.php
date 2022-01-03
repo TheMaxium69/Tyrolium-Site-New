@@ -38,7 +38,7 @@
                             <li class="pricing-features-item">Lorem ipsum dolor sit amet</li>
                             <li class="pricing-features-item">Techniquement :</li>
                         </ul>
-                        <span class="pricing-price">75€</span>
+                        <span class="pricing-price">175€</span>
                         <?php tyrobtn("contact.php?name=web&form=2", "contact", "Contactez-nous pour cette formule");?>
                     </div>
 

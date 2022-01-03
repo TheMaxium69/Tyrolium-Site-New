@@ -159,14 +159,6 @@ select{
     display: block;
     padding: 0;
     position: relative;
-    /* Set options to normal weight */
-    /* ------------------------------------  */
-    /* START OF UGLY BROWSER-SPECIFIC HACKS */
-    /* ----------------------------------  */
-    /* FIREFOX won't let us hide the native select arrow, so we have to make it wider than needed and clip it via overflow on the parent container.
-       The percentage width is a fallback since FF 4+ supports calc() so we can just add a fixed amount of extra width to push the native arrow out of view. We're applying this hack across all FF versions because all the previous hacks were too fragile and complex.
-       You might want to consider not using this hack and using the native select arrow in FF. Note this makes the menus wider than the select button because they display at the specified width and aren't clipped. Targeting hack via http://browserhacks.com/#hack-758bff81c5c32351b02e10480b5ed48e */
-    /* Show only the native arrow */
     color: #005BA6;
     display: block;
     border-radius: 0;
@@ -194,7 +186,6 @@ select{
     border: 1px solid transparent;
     font-size: 16px;
     outline: none;
-    /* Focus style */
 }
 [include*="form-input-select()"] select:focus {
     background-color: transparent;
@@ -221,8 +212,7 @@ select{
     }
     [include*="form-input-select()"] select {
         width: 120%;
-        width: calc(100% + 3em);
-        /* Firefox focus has odd artifacts around the text, this kills that. See https://developer.mozilla.org/en-US/docs/Web/CSS/:-moz-focusring */
+        width: calc(100% + 3em);s
     }
     @supports (-moz-appearance: none) {
         [include*="form-input-select()"] select {

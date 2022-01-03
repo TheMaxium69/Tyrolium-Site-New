@@ -4,8 +4,9 @@
 <main>
     <section id="projet">
         <br>
-        <h2>Nous Contactez</h2>
-        <p class="container">Voici la page pour nous contactez, nous vous esseyerons un mail, a la suite de cette demande. Le delaie ce situe entre 24h à 72h.</p>
+        <h2>Nous Contacter</h2>
+        <p class="container">Voici la page pour nous contacter, nous vous enverrons un mail à la suite de cette demande.
+            Le délais de réponse seras entre 24h et 72h..</p>
         <br>
         <hr style="background: rgb(161, 161, 161);">
     </section>
@@ -17,14 +18,14 @@
                 <div class="form-contact">
                     <form method="get" action="<?php echo $env_bd_contact; ?>">
 
-                        <h2 style="text-align: center">Raison de la prise de contact</h2>
+                        <h2 style="text-align: center">Motif de contact</h2>
                         <br>
                         <div class="dynamicSelect">
                                 <span class="dynamicSelect-dropdown">
                                     <div include="form-input-select()">
                                             <?php if(!empty($_GET['name'])) { ?>
 
-                                        <select class="dynamicSelect-select" name="raison" disabled>
+                                        <select class="dynamicSelect-select" name="raison" disabled style="color: #0854ff">
                                                 <option hidden value="form-1">Prestations >
                                                     <?php if ($_GET['name'] == "web") {
                                                         echo "Site Web > ";
@@ -50,7 +51,7 @@
                                             <?php } else { ?>
 
                                         <select class="dynamicSelect-select" name="raison" required>
-                                                <option hidden value="">Choisi la raison</option>
+                                                <option hidden value="">Choisis le motif</option>
                                             <?php } ?>
                                                 <option value="form-1">Prestations</option>
                                                 <option value="form-2">Projets</option>
@@ -80,7 +81,7 @@
                                                                     } ?>
                                                         <option hidden value="form-<?php echo $pGet?>">null</option>
                                                     <?php } else { ?>
-                                                        <option hidden value="null">Choisir une prestations</option>
+                                                        <option hidden value="null">Choisis une prestation</option>
                                                     <?php } ?>
 
                                                     <?php  $nbPresta = count($env_presta);
@@ -104,14 +105,14 @@
 
                                                             <?php if ($_GET['form'] == "1") {
                                                                 $wGet = "0";
-                                                            } else if ($_GET['name'] == "2") {
+                                                            } else if ($_GET['form'] == "2") {
                                                                 $wGet = "1";
-                                                            } else if ($_GET['name'] == "3") {
+                                                            } else if ($_GET['form'] == "3") {
                                                                 $wGet = "2";
                                                             } ?>
                                                             <option hidden value="<?php echo $wGet?>">null</option>
                                                         <?php } else { ?>
-                                                            <option hidden value="null">Choisir la formule</option>
+                                                            <option hidden value="null">Choisis une formule</option>
                                                         <?php } ?>
 
                                                         <?php  $nbPrestaW = count($env_presta_web);
@@ -133,7 +134,7 @@
 
                                                     <div include="form-input-select()">
                                                     <select class="dynamicSelect-select" name="mc">
-                                                        <option hidden value="null">Choisir la formule</option>
+                                                        <option hidden value="null">Choisis une formule</option>
 
                                                         <?php  $nbPrestaM = count($env_presta_mc);
 
@@ -179,7 +180,7 @@
                             <div class="col-md-6">
                                 <div class="single-input">
                                     <i class="fas fa-user"></i>
-                                    <input type="text" name="firstName" placeholder="Entrez votre prenom" required>
+                                    <input type="text" name="firstName" placeholder="Entrez votre prénom" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -220,13 +221,14 @@
             </div>
         </div>
 
-        <p style="text-align: center; font-size: 10px; padding: 0px 40px">* toute vos information serve uniquement dans la communications avec nous, et ne serons pas utiliser a quelqu'autre utiliser que ça, il ne sera ni revendu, ni partager</p>
+        <p style="text-align: center; font-size: 10px; padding: 0px 40px">* Toutes vos informations servent uniquement aux communications entre vous et Tyrolium.
+            Elles ne serviront jamais à quelques autres utilisations. Elle ne seront donc jamais revendues, ou partagées.</p>
 
         <section id="projet">
 
             <hr style="background: rgb(161, 161, 161);">
             <br>
-            <p class="container">Vous pouvez aussi prendre contact avec nous par notre mail ou avec par numéro téléphone <br> <i>officiel@tyrolium.fr</i><br><i>+33 6 11 11 26 69</i></p>
+            <p class="container">Vous pouvez également prendre contact avec nous par notre mail ou par téléphone. <br> <i>officiel@tyrolium.fr</i><br><i>+33 6 11 11 26 69</i></p>
             <br>
         </section>
 
