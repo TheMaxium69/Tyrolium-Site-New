@@ -104,6 +104,7 @@
                     <small>Yellorium</small><br>
                     <small>Volcanium</small><br>
                     <p class="no-p"> © 2022 Tyrolium, Ent.</p>
+                    <br>
                 </div>
                 <div class="col-6 textmore">
                     <p class="no-p" style="margin-bottom: 10px">- Tous les logos utilisés appartiennent à leur créateur.

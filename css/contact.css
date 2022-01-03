@@ -159,7 +159,7 @@ select{
     display: block;
     padding: 0;
     position: relative;
-    color: #005BA6;
+    color: #0049ee;
     display: block;
     border-radius: 0;
     box-shadow: none;
@@ -254,21 +254,21 @@ select{
         border-right: 3px solid #E6E6E6;
     }
     [include*="form-input-select()"]:hover {
-        border-right: 3px solid #005BA6;
+        border-right: 3px solid #0049ee;
     }
 }
 [include*="form-input-select()"]:hover select {
     box-shadow: 0 2px 3px rgba(0, 91, 166, 0.1) inset;
-    border-color: #005BA6;
+    border-color: #0049ee;
 }
 [include*="form-input-select()"]:hover select:focus {
     outline-color: transparent;
 }
 [include*="form-input-select()"]:hover::before {
-    border-bottom-color: #005BA6;
+    border-bottom-color: #0049ee;
 }
 [include*="form-input-select()"]:hover::after {
-    border-top-color: #005BA6;
+    border-top-color: #0049ee;
 }
 [include*="form-input-select()"] select {
     border: 3px solid #E6E6E6;
@@ -281,7 +281,7 @@ select{
 }
 [include*="form-input-select()"] select:focus {
     box-shadow: 0 3px 4px rgba(0, 91, 166, 0.3) inset;
-    outline: 3px solid #005BA6;
+    outline: 3px solid #0049ee;
     outline-offset: -3px;
 }
 [include*="form-input-select()"] select[disabled], [include*="form-input-select()"] select:disabled {
