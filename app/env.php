@@ -175,4 +175,154 @@ $env_presta_mc = array(
 );
 
 
+$env_story = array(
+
+
+    array(
+        "date" => '9 juillet 2017',
+        "title" => 'Création du projet',
+        "content" => 'Imaginez comme un serveur minecraft dit "PVP/Faction Moddé"',
+    ),
+
+    array(
+        "date" => '12 juillet 2017',
+        "title" => 'Invention du nom "Tyrolium"',
+        "content" => 'Le nom "Tyrolium" est à l\'origine une contraction d\'un mineraix et d\'un metal : la "Tyrolite" et le "Paladium", Le "Tyrolium" avant tout un mineraix créer pour notre Serveur minecraft',
+
+    ),
+
+    array(
+        "date" => '29 Juillet 2019',
+        "title" => 'Création de Tyrolium Ent.',
+        "content" => 'Transformations du projet en une entreprise multisectorielle, l\'entreprise s\'appel a ce moment là "Tyrolium Entertainment"',
+    ),
+
+    array(
+        "date" => '1 août 2019',
+        "title" => 'Premier Logo de l\'entreprise',
+        "content" => 'Création du logo de l\'entreprise, il duera presque 3 ans, avant de changer',
+        "picture" => 'https://tyrolium.fr/Contenu/Image/Tyrolium%20Old.png',
+        "btn" => array(
+            "url" => 'https://tyrolium.fr/Contenu/Image/Tyrolium Old.png',
+            "text" => 'Voir l\'image'
+        ),
+    ),
+    array(
+        "date" => '17 Octobre 2019',
+        "title" => 'Début du developpement du TyroMod',
+        "content" => 'Début du developpement du TyroMod, il s\'agit de l\'extention Utiliser pour modifier le jeux minecraft dans le projet "TyroServ"',
+        "btn" => array(
+            "url" => 'https://www.curseforge.com/minecraft/mc-mods/tyromod/',
+            "text" => 'Page du TyroMod'
+        ),
+    ),
+    array(
+        "date" => '15 Novembre 2019',
+        "title" => 'Création de Wonderlium',
+        "content" => 'À l\'origine il s\'agit d\'un projet qui s\'appel "Les Omegastar" et racheter par Tyrolium, il se transformera en wonderlium, avec la nouvelle charte graphique<br>Il s\'agit d\'un projet réalisant des vidéos sur l\'univers geek.',
+        "picture" => $env_assets . 'story/Wonderlium.png',
+        "btn" => array(
+            "url" => 'https://tyrolium.fr/Contenu/Image/Wonderlium Old.png',
+            "text" => 'Voir l\'image'
+        ),
+    ),
+    array(
+        "date" => '29 Novembre 2019',
+        "title" => 'Première vidéo de Wonderlium',
+        "content" => 'Il s\'agit de la première vidéo du projet Wonderlium, sur le sujet de la Console appeler SNES.',
+    ),
+    array(
+        "date" => '5 Décembre 2019',
+        "title" => 'Création de TyroMusic',
+        "content" => 'Création du projet TyroMusic avec ça charte graphique, il s\'agit d\'un projet muscial',
+        "picture" => $env_assets . 'story/TyroMusic.png',
+        "btn" => array(
+            "url" => 'https://tyrolium.fr/Contenu/Image/Tyrolium%20Music%20Old.png',
+            "text" => 'Voir l\'image'
+        ),
+    ),
+    array(
+        "date" => '22 MARS 2020',
+        "title" => 'Lancement du site de Tyrolium Ent.',
+        "content" => 'Lancement de la première version du site internet de l\'entreprise, il fera que se mettre a jour jusqu\'a début 2022 avec la nouvelle version refaite de 0',
+    ),
+    array(
+        "date" => '23 Mars 2020',
+        "title" => 'Création de Freenium',
+        "content" => 'Création du projet Freenium avec ça charte graphique, il s\'agit d\'un projet de freelance, qui aura pas jamais vraiment abouti',
+        "picture" => 'https://tyrolium.fr/Contenu/Image/Freenium.png',
+        "btn" => array(
+            "url" => 'https://tyrolium.fr/Contenu/Image/Freenium.png',
+            "text" => 'Voir l\'image'
+        ),
+    ),
+    array(
+        "date" => '25 Mars 2020',
+        "title" => 'Changement de logo pour TyroMusic',
+        "content" => 'Changement du logo du Projet TyroMusic, il rechangera encore quelque fois plutard',
+        "picture" => 'https://tyrolium.fr/Contenu/Image/Tyrolium%20Music.png',
+        "btn" => array(
+            "url" => 'https://tyrolium.fr/Contenu/Image/Tyrolium%20Music.png',
+            "text" => 'Voir l\'image'
+        ),
+    ),
+    array(
+        "date" => '',
+        "title" => '',
+        "content" => '',
+        "picture" => '',
+        "btn" => array(
+            "url" => '',
+            "text" => ''
+        ),
+    ),
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    array(
+        "date" => 'Lorem',
+        "title" => 'Lorem',
+        "content" => 'Lorem',
+        "picture" => 'Lorem',
+        "btn" => array(
+            "url" => 'Lorem',
+            "text" => 'Lorem'
+        ),
+    ),
+
+);
+
+
 ?>

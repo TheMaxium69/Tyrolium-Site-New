@@ -41,6 +41,8 @@ main#story h1 {
     transform: translateX(-50%);
 }
 
+
+
 .timeline-item {
     width: 100%;
     margin-bottom: 70px;
@@ -53,6 +55,17 @@ main#story h1 {
     right: auto;
     left: 0;
 }
+
+.timeline-item:nth-child(even) .timeline-content h2 {
+    max-width: 100%;
+}
+
+/*Si marche pas desactive ça (pense a la media aussi)*/
+/* :nth-last-child(even) */
+.timeline-item:nth-last-child(even) .timeline-content h2{
+    max-width: 60%;
+}
+
 .timeline-item:nth-child(even) .timeline-content::after {
     content: "";
     position: absolute;
@@ -97,9 +110,7 @@ main#story h1 {
     color: #0045f6;
 }
 
-.js--fadeInLeft h2{
-    max-width: 60%;
-}
+
 
 .timeline-img {
     width: 30px;
@@ -142,34 +153,6 @@ main#story a:hover,main#story a:active,main#story a:focus {
 
 .timeline-item .timeline-img-header {
     background-size: cover;
-}
-
-#st1{
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55)), url("https://tyrolium.fr/Contenu/Image/Tyrolium%20Old.png") center center no-repeat;
-}
-#st2{
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55)), url("../assets/story/Wonderlium.png") center center no-repeat;
-}
-#st3{
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55)), url("../assets/story/TyroMusic.png") center center no-repeat;
-}
-#st4{
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55)), url("https://tyrolium.fr/Contenu/Image/Tyrolium%20ServerMC.png") center center no-repeat;
-}
-#st5{
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55)), url("https://tyrolium.fr/Contenu/Image/Gamenium%20Old.png") center center no-repeat;
-}
-#st6{
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55)), url("https://tyrolium.fr/Contenu/Image/Tyrolium%20Studio.png") center center no-repeat;
-}
-#st7{
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55)), url("https://tyrolium.fr/Contenu/Image/Freenium.png") center center no-repeat;
-}
-#st8 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55)), url("https://tyrolium.fr/Contenu/Image/Tyrolium%20Music.png") center center no-repeat;
-}
-#st9 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55)), url("https://tyrolium.fr/Contenu/Image/Tyrolium%20Studio.png") center center no-repeat;
 }
 
 .timeline-img-header {
@@ -228,6 +211,19 @@ blockquote {
         top: 30px;
         left: -15px;
         border-width: 10px 15px 10px 0;
-        border-color: transparent #f5f5f5 transparent transparent;
+        border-color: transparent #8d8c8c transparent transparent;
+    }
+
+    .timeline-content{
+        padding: 40px 30px 10px 30px;
+    }
+
+    .date{
+        right: auto;
+        left: 0;
+    }
+
+    .timeline-item:nth-last-child(even) .timeline-content h2{
+        max-width: 100%;
     }
 }

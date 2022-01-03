@@ -13,149 +13,36 @@
 <main id="story">
     <section class="timeline">
         <div class="container">
-            <div class="timeline-item">
-                <div class="timeline-img"></div>
 
-                <div class="timeline-content js--fadeInLeft">
-                    <h2>Création du projet</h2>
-                    <div class="date">9 juillet 2017</div>
-                    <p>Imaginez comme un serveur minecraft dit "PVP/Faction Moddé"</p>
-                </div>
-            </div>
+            <?php  $nbStory = count($env_story);
 
-            <div class="timeline-item">
+            for ($i = 0; $i <= $nbStory-1; $i++) { ?>
 
-                <div class="timeline-img"></div>
-
-                <div class="timeline-content js--fadeInRight">
-                    <h2>Invention du nom "Tyrolium"</h2>
-                    <div class="date">12 juillet 2017</div>
-                    <p>Le nom "Tyrolium" est à l'origine une contraction d'un mineraix et d'un metal : la "Tyrolite" et le "Paladium", Le "Tyrolium" avant tout un mineraix créer pour notre Serveur minecraft</p>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-img"></div>
-
-                <div class="timeline-content js--fadeInLeft">
-                    <h2>Création de Tyrolium Ent.</h2>
-                    <div class="date">29 Juillet 2019</div>
-                    <p>Transformations du projet en une entreprise multisectorielle, l'entreprise s'appel a ce moment là "Tyrolium Entertainment"</p>
-                </div>
-            </div>
-
-
-
-            <div class="timeline-item">
-
-                <div class="timeline-img"></div>
-
-                <div class="timeline-content timeline-card js--fadeInRight">
-                    <div class="timeline-img-header" id="st1">
-                        <h2>Premier Logo de l'entreprise</h2>
+                <div class="timeline-item">
+                    <div class="timeline-img"></div>
+                    <?php if (!empty($env_story[$i]['picture'])) { ?>
+                    <div class="timeline-content timeline-card">
+                        <div class="timeline-img-header" id="st<?php echo $i; ?>">
+                            <h2><?php echo $env_story[$i]['title']; ?></h2>
+                        </div>
+                    <?php } else {?>
+                    <div class="timeline-content">
+                        <h2><?php echo $env_story[$i]['title']; ?></h2>
+                    <?php } ?>
+                        <div class="date"><?php echo $env_story[$i]['date']; ?></div>
+                        <p><?php echo $env_story[$i]['content']; ?></p>
+                        <?php if (!empty($env_story[$i]['btn'])){ ?>
+                            <a class="btn-more" href="<?php echo $env_story[$i]['btn']['url']; ?>"><?php echo $env_story[$i]['btn']['text']; ?></a>
+                        <?php } ?>
                     </div>
-                    <div class="date">1 août 2019</div>
-                    <p>Création du logo de l'entreprise, il duera presque 3 ans, avant de changer</p>
-                    <a class="btn-more" href="https://tyrolium.fr/Contenu/Image/Tyrolium Old.png">Voir l'image</a>
                 </div>
 
-            </div>
+            <?php }?>
 
 
 
-            <div class="timeline-item">
-
-                <div class="timeline-img"></div>
-
-                <div class="timeline-content js--fadeInLeft">
-                    <h2>Début du developpement du TyroMod</h2>
-                    <div class="date">17 Octobre 2019</div>
-                    <p>Début du developpement du TyroMod, il s'agit de l'extention Utiliser pour modifier le jeux minecraft dans le projet "TyroServ"</p>
-                    <a class="btn-more" href="https://www.curseforge.com/minecraft/mc-mods/tyromod/">Page du TyroMod</a>
-                </div>
-            </div>
 
 
-            <div class="timeline-item">
-
-                <div class="timeline-img"></div>
-
-                <div class="timeline-content timeline-card js--fadeInRight">
-                    <div class="timeline-img-header" id="st2">
-                        <h2>Création de Wonderlium</h2>
-                    </div>
-                    <div class="date">15 Novembre 2019</div>
-                    <p>À l'origine il s'agit d'un projet qui s'appel "Les Omegastar" et racheter par Tyrolium, il se transformera en wonderlium, avec la nouvelle charte graphique<br>Il s'agit d'un projet réalisant des vidéos
-                        sur l'univers geek.</p>
-                    <a class="btn-more" href="https://tyrolium.fr/Contenu/Image/Wonderlium Old.png">Voir l'image</a>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-
-                <div class="timeline-img"></div>
-
-                <div class="timeline-content js--fadeInRight">
-                    <h2>Première vidéo de Wonderlium</h2>
-                    <div class="date">29 Novembre 2019</div>
-                    <p>Il s'agit de la première vidéo du projet Wonderlium, sur le sujet de la Console appeler SNES.</p>
-                </div>
-            </div>
-
-
-
-            <div class="timeline-item">
-
-                <div class="timeline-img"></div>
-
-                <div class="timeline-content timeline-card js--fadeInLeft">
-                    <div class="timeline-img-header" id="st3">
-                        <h2>Création de TyroMusic</h2>
-                    </div>
-                    <div class="date">5 Décembre 2019</div>
-                    <p>Création du projet TyroMusic avec ça charte graphique, il s'agit d'un projet muscial</p>
-                    <a class="btn-more" href="https://tyrolium.fr/Contenu/Image/Tyrolium%20Music%20Old.png">Voir l'image</a>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-
-                <div class="timeline-img"></div>
-
-                <div class="timeline-content js--fadeInRight">
-                    <h2>Lancement du site de Tyrolium Ent.</h2>
-                    <div class="date">22 MARS 2020</div>
-                    <p>Lancement de la première version du site internet de l'entreprise, il fera que se mettre a jour jusqu'a début 2022 avec la nouvelle version refaite de 0</p>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-
-                <div class="timeline-img"></div>
-
-                <div class="timeline-content timeline-card js--fadeInLeft">
-                    <div class="timeline-img-header" id="st7">
-                        <h2>Création de Freenium</h2>
-                    </div>
-                    <div class="date">23 Mars 2020</div>
-                    <p>Création du projet Freenium avec ça charte graphique, il s'agit d'un projet de freelance, qui aura pas jamais vraiment abouti</p>
-                    <a class="btn-more" href="https://tyrolium.fr/Contenu/Image/Freenium.png">Voir l'image</a>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-
-                <div class="timeline-img"></div>
-
-                <div class="timeline-content timeline-card js--fadeInLeft">
-                    <div class="timeline-img-header" id="st8">
-                        <h2>Changement de logo pour TyroMusic</h2>
-                    </div>
-                    <div class="date">25 Mars 2020</div>
-                    <p>Changement du logo du Projet TyroMusic, il rechangera encore quelque fois plutard</p>
-                    <a class="btn-more" href="https://tyrolium.fr/Contenu/Image/Tyrolium%20Music.png">Voir l'image</a>
-                </div>
-            </div>
 
 
             <div class="timeline-item">
@@ -265,8 +152,8 @@
                 <div class="timeline-img"></div>
 
                 <div class="timeline-content js--fadeInLeft">
-                    <div class="date">4 septembre 2020</div>
                     <h2>TyroServ Attein les 10000 Joueur</h2>
+                    <div class="date">4 septembre 2020</div>
                     <p>Après 5 mois, TyroServ attent le chiffre de 10 000 Joueur Unique connectez sur le serveur.</p>
 
                 </div>
@@ -332,10 +219,46 @@
     </section>
 
 
+    <style>
+
+    <?php for ($i = 0; $i <= $nbStory-1; $i++) { ?>
+
+        <?php if (!empty($env_story[$i]['picture'])) { ?>
+
+            #st<?php echo $i; ?>{
+                background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55)), url("<?php echo $env_story[$i]['picture']; ?>") center center no-repeat;
+            }
+
+        <?php }
+    }?>
 
 
-
-
+        /*
+        #st2{
+            background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55)), url("assets/story/Wonderlium.png") center center no-repeat;
+        }
+        #st3{
+            background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55)), url("assets/story/TyroMusic.png") center center no-repeat;
+        }
+        #st4{
+            background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55)), url("https://tyrolium.fr/Contenu/Image/Tyrolium%20ServerMC.png") center center no-repeat;
+        }
+        #st5{
+            background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55)), url("https://tyrolium.fr/Contenu/Image/Gamenium%20Old.png") center center no-repeat;
+        }
+        #st6{
+            background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55)), url("https://tyrolium.fr/Contenu/Image/Tyrolium%20Studio.png") center center no-repeat;
+        }
+        #st7{
+            background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55)), url("https://tyrolium.fr/Contenu/Image/Freenium.png") center center no-repeat;
+        }
+        #st8 {
+            background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55)), url("https://tyrolium.fr/Contenu/Image/Tyrolium%20Music.png") center center no-repeat;
+        }
+        #st9 {
+            background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.55)), url("https://tyrolium.fr/Contenu/Image/Tyrolium%20Studio.png") center center no-repeat;
+        }*/
+    </style>
 
 </main>
 
