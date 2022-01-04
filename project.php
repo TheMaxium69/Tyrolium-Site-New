@@ -7,8 +7,7 @@
         <h2>Nos Projets</h2>
         <p class="container">Tout nos projets appartiennent à l'entreprise Tyrolium et sont gérés par nos équipes.
             Les projets restent indépendants dans leurs communications, leur gestion et leur administration.
-            Ils sont financés par Tyrolium, l'unique but de ceux-ci est de vivre de nos passions respectives dans chacun de ces projets.
-            Tout le but de Tyrolium est de vivre de notre passion.</p>
+            Ils sont financés par entreprise, le but de Tyrolium est de vivre de nos passions.</p>
         <br>
         <hr style="background: rgb(161, 161, 161);">
         <br>
@@ -67,7 +66,7 @@
             <li id="a1">
                 <img class="logo" src="http://tyrolium.fr/Contenu/Image/Gamenium.png" alt="GameniumLogo">
                 <h2>Gamenium</h2>
-                <p>Site d'actualités et de critiques<br> de jeux-vidéos.</p>
+                <p>Site d'actualités et de critiques<br> de jeux-vidéo.</p>
                 <a href="https://www.instagram.com/gamenium/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/> Allez sur notre Instagram</a><br>
                 <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
                 <a href="https://www.tiktok.com/@gamenium?" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/tiktok.png" alt="tiktok"/></a>
@@ -98,7 +97,7 @@
             <li id="a5">
                 <img class="logo" src="https://tyrolium.fr/Contenu/Image/Selemusium.png" alt="SelemusiumLogo">
                 <h2>Sélémusium</h2>
-                <p>Projet de création de musiques.</p>
+                <p>Projet de création de musique.</p>
                 <a href="http://selemusium.xyz/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
                 <a href="https://soundcloud.com/selemusium" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/soundcloud.png" alt="soundcloud"/></a>
                 <a href="https://www.instagram.com/selemusium/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>

@@ -19,7 +19,7 @@
                 <p>Siège Social : <br> 252, Avenue Jean Jaurès 69150 Décines-Charpieu</p>
                 <p>Contact : <br> officiel@tyrolium.fr <br> maxime.tournier@tyrolium.fr<br> +33 6 11 11 26 69</p>
             </div>
-            <h2 style="margin-top: 20px;text-align: center; color: #0049ee"><i class="fas fa-paperclip"></i>Credit du Site Web</h2>
+            <h2 style="margin-top: 20px;text-align: center; color: #0049ee"><i class="fas fa-paperclip"></i>Crédit du Site Web</h2>
             <div class="row">
                 <div class="col-6 textmore">
                     <h3 style="margin-bottom: 12px; margin-top: 20px; color: #588aff">Remerciements</h3>
@@ -35,12 +35,13 @@
                     <p class="no-p">Correction des textes</p>
                     <small>- Norman Jorge De Freitas</small><br>
                     <small>- Myriam Tournier</small><br>
+                    <small>- Steeve Tournier</small><br>
                     <p class="no-p">Maquettage</p>
                     <small>- Maxime Tournier</small><br>
                     <p class="no-p">Graphismes</p>
                     <small>- Maxime Tournier</small><br>
                     <small>- Maewan Marthelot</small><br>
-                    <p class="no-p">Investiseurs</p>
+                    <p class="no-p">Investisseurs</p>
                     <small>- Maxime Tournier</small><br>
                     <small>- Norman Jorge De Freitas</small><br>
                     <small>- Pierre-Louis Devaud</small><br>
@@ -51,6 +52,7 @@
                     <small>- Mattéo Ferrer</small><br>
                     <small>- Edward Thouvenin</small><br>
                     <small>- Myriam Tournier</small><br>
+                    <small>- Steeve Tournier</small><br>
                     <p class="no-p">Photographe de la banière de Sélémusium</p>
                     <small>- Norman Jorge De Freitas</small>
                 </div>
@@ -83,7 +85,7 @@
             </div>
             <h2 style="margin-top: 20px;text-align: center; margin-bottom: 10px; color: #0049ee"><i class="fas fa-balance-scale"></i>Droits</h2>
             <div style="text-align: center">
-                <p class="no-p bold">L'intégralité du site et de ses contenus postés sur les serveurs, les contenus mis en ligne et rendus publiques, les images, les textes et tout les écrits, le design, le code source, les logos, les visuels, les photos ainsi que les produits, appartiennent entièrement à Tyrolium.
+                <p class="no-p bold">L'intégralité du site et de ses contenus postés sur les serveurs, les contenus mis en ligne qui sont rendus publics, les images, les textes et tout les écrits, le design, le code-source, les logos, les visuels, les photos ainsi que les produits, appartiennent entièrement à Tyrolium.
                     <br>Cela grâce au copyright (© 2022 Tyrolium, Ent.)
                     <br>Et à l'article L111-1 du code de la propriété intellectuelle française.</p>
             </div>
@@ -91,19 +93,19 @@
             <div class="row">
                 <div class="col-6 textmore">
                     <p class="no-p" style="margin-bottom: 10px">- Toutes les marques listées appartiennent à Tyrolium. (Nom, produit et visuel associé.) </p>
-                    <small>Tyrolium</small><br>
-                    <small>TyroServ</small><br>
-                    <small>TyroDiscord</small><br>
-                    <small>TyroShop</small><br>
-                    <small>TyroStudio</small><br>
-                    <small>Gamenium</small><br>
-                    <small>Sélémusium</small><br>
-                    <small >Wonderlium</small><br>
+                    <small>Tyrolium ®</small><br>
+                    <small>TyroServ ®</small><br>
+                    <small>TyroDiscord ®</small><br>
+                    <small>TyroShop ®</small><br>
+                    <small>TyroStudio ®</small><br>
+                    <small>Gamenium ®</small><br>
+                    <small>Sélémusium ®</small><br>
+                    <small >Wonderlium ®</small><br>
                     <small>-Minerais TyroServ protégés-</small><br>
-                    <small>Rhodonium</small><br>
-                    <small>Aventurium</small><br>
-                    <small>Yellorium</small><br>
-                    <small>Volcanium</small><br>
+                    <small>Rhodonium ®</small><br>
+                    <small>Aventurium ®</small><br>
+                    <small>Yellorium ®</small><br>
+                    <small>Volcanium ®</small><br>
                     <p class="no-p"> © 2022 Tyrolium, Ent.</p>
                     <br>
                 </div>
@@ -121,6 +123,7 @@
                     <small>© 2022 Twitch Interactive, Inc.</small><br>
                     <small>© 2022 TikTok</small><br>
                     <small>© 2022 SoundCloud Operations, Inc. / copyright@soundcloud.com</small><br>
+                    <small>Mojang © 2009-2022</small><br>
                 </div>
             </div>
         </div>

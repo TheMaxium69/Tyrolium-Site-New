@@ -6,7 +6,7 @@
         <br>
         <h2>Nous Contacter</h2>
         <p class="container">Voici la page pour nous contacter, nous vous enverrons un mail à la suite de cette demande.
-            Le délais de réponse seras entre 24h et 72h.</p>
+            Le délai de réponse sera entre 24h et 72h.</p>
         <br>
         <hr style="background: rgb(161, 161, 161);">
     </section>
@@ -223,7 +223,7 @@
         </div>
 
         <p style="text-align: center; font-size: 10px; padding: 0px 40px">* Toutes vos informations servent uniquement aux communications entre vous et Tyrolium.
-            Elles ne serviront jamais à quelques autres utilisations. Elle ne seront donc jamais revendues, ou partagées.</p>
+            Elles ne serviront jamais à une autre utilisation. Elle ne seront donc jamais revendues, ou partagées.</p>
 
         <section id="projet">
 

@@ -38,8 +38,8 @@
                         <img src="assets/plane.png" alt="Plane" class="pricing-img">
                         <h2 class="pricing-header"><?php echo $env_presta_web['1'] ?></h2>
                         <ul class="pricing-features">
-                            <li class="pricing-features-item"><span class="underline bold">Concrètement</span> : Il s'agit d'une formule bien pour les entreprise, les sites, que demande un plus que du simple, texte, mais une presention, qui pourra afficher des informations, a modiifer, avec possiblité de panel administrateur.</li>
-                            <li class="pricing-features-item"><span class="underline bold">Techniquement</span> : Il s'agit de plusieur pages qui pourra etre modifiable,on pouura  ce connectez a des apis simple , ou utilisera plus regulièrement des framework front-end, avec Php Object.</li>
+                            <li class="pricing-features-item"><span class="underline bold">Concrètement</span> : Il s'agit d'une formule bien pour les entreprises, les sites qui demande plus qu'un simple texte mais une présention qui pourra afficher des informations. Avec cette formule le site pourra être modifier grâce à un panel administrateur.</li>
+                            <li class="pricing-features-item"><span class="underline bold">Techniquement</span> : Il s'agit de plusieurs pages qui pourra être modifiable, on pourra se connecter à des API simple, où l'on utilisera plus régulièrement des FrameWork front-end, avec Php-Object.</li>
                         </ul>
                         <span class="pricing-price">175€</span>
                         <?php tyrobtn("contact.php?name=web&form=2", "contact", "Contactez-nous pour cette formule");?>
@@ -49,9 +49,9 @@
                         <img src="assets/space-ship.png" alt="SpaceShip" class="pricing-img">
                         <h2 class="pricing-header"><?php echo $env_presta_web['2'] ?></h2>
                         <ul class="pricing-features">
-                            <li class="pricing-features-item"><span class="underline bold">Concrètement</span> : Il s'agit d'une bonne formule notamment pour un gros projet.
-                                Créer un réseau social, créer une boutique en ligne, un blog, une application de gestion personnalisée.</li>
-                            <li class="pricing-features-item"><span class="underline bold"> Techniquement</span> : Cette formule se fera avec un framework front-end et back-end, avec une base de donnée, une création d'API obligatoire, gestion de compte et panel administrateur.</li>
+                            <li class="pricing-features-item"><span class="underline bold">Concrètement</span> : Il s'agit d'une bonne formule notamment pour un gros projet,
+                                créer un réseau social, créer une boutique en ligne, un blog ou une application de gestion personnalisée.</li>
+                            <li class="pricing-features-item"><span class="underline bold"> Techniquement</span> : Cette formule se fera avec un FrameWork front-end et back-end, avec une base de donnée, une création d'API obligatoire, gestion de compte et panel administrateur.</li>
                         </ul>
                         <span class="pricing-price">500€</span>
                         <?php tyrobtn("contact.php?name=web&form=3", "contact", "Contactez-nous pour cette formule");?>
@@ -72,7 +72,7 @@
     <section id="service-second">
         <h2>Minecraft</h2>
         <p>Prestation où nous réalisons le développement de votre mod ou de votre plugin.<br>
-            Nous pouvons également configurer votre serveur, nos équipes ont beaucoup de travail avec ce jeu et nous sommes en mesure de réaliser toutes vos demandes concernant celui-ci.</p>
+            Nous pouvons également configurer votre serveur, nos équipes ont beaucoup travaillé avec ce jeu et nous sommes en mesure de réaliser toutes vos demandes concernant celui-ci.</p>
         <br>
         <?php tyrobtn("contact.php?name=mc", "contact", "Contactez-nous pour cette prestation");?>
     </section>
@@ -85,9 +85,9 @@
     </section>
     <section id="service-second-but">
         <h2>Configurations Serveur</h2>
-        <p>Nous pouvons vous conseiller ou vous configurer vos serveurs.
+        <p>Nous pouvons vous conseiller ou/et vous configurer vos serveurs.
             Linux est parfois compliqué à comprendre.
-            Nous pouvons installer et mettre en place toutes vos demandes sur vos serveurs en fonction de vos besoin. </p>
+            Nous pouvons installer et mettre en place toutes vos demandes sur vos serveurs en fonction de vos besoins. </p>
         <br>
         <?php tyrobtn("contact.php?name=serv", "contact", "Contactez-nous pour cette prestation");?>
     </section>

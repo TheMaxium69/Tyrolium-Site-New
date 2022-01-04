@@ -60,7 +60,7 @@
                 <h2 class="art">Nos Projets</h2>
                 <p class="art">De nos jours, nous sommes beaucoup à rêver de créer nos propres projets. Tyrolium a réussi le pari de réaliser les rêves de nos employés passionnés.
                     Nous sommes fiers de ce que nous accomplissons tous les jours.
-                    Nous vous proposons des projets de grande ampleur toujours avec la passion de tous nos équipes.
+                    Nous vous proposons des projets de grande ampleur toujours avec la passion de toutes nos équipes.
                     Tyrolium veut vous proposer des projets bien realisés, de quoi vous divertir ou vous simplifier la vie. </p>
                 <div style="text-align: center">
                     <?php tyrobtn("project.php", "project", "Tout nos Projets");?>
@@ -76,7 +76,7 @@
                 <p class="art">Tyrolium est une entreprise qui est formée de plusieurs équipes, elle sont dirigés principalement dans les projets de l'entreprise ainsi que les prestations proposées.
                     Ces équipes sont formées de personnes motivées, dynamiques et investies dans les projets et dans l'entreprise.
 
-                    Nous recrutons tous types de profils, les seuls pré-requis sont d'être intéressé et motivé par les projets qui vous attires. </p>
+                    Nous recrutons tout type de profil, les seuls pré-requis sont d'être intéressé et motivé par les projets qui vous attire. </p>
                 <div style="text-align: center">
                     <?php tyrobtn("collaboration.php", "collaboration", "Nos Collaborations");?>
                 </div>
@@ -153,8 +153,8 @@
                 <div class="container col-4">
                     <article>
                         <h2 class="art">Notre Histoire</h2>
-                        <p class="art">Voilà depuis 2017 que Tyrolium existe et fait mûrir des projets et les gens qui ont travaillés et travaillent encore dessus.
-                            Pendant ces 4 années, une évolution s'est faite sentir et nous allons détailler cette évolution dans l'ordre chronologique et vous raconter les points clés de celle-ci.
+                        <p class="art">Voilà depuis 2017 que Tyrolium existe et fait mûrir des projets et les gens qui ont travaillé et travaillent encore dessus.
+                            Pendant ces 4 années, une évolution s'est fait sentir et nous allons détailler cette évolution dans l'ordre chronologique et vous raconter les points clés de celle-ci.
 
                             N'oubliez pas cependant que l'évolution n'est pas la fin, elle n'est que le début de la poussée qui nous emmènera au sommet, tant que l'on peux faire mieux ça ne sera jamais terminé.</p>
                         <div style="text-align: center">
@@ -239,7 +239,7 @@
                             <h2 class="art-res">Nos Projets</h2>
                             <p class="art-res">De nos jours, nous sommes beaucoup à rêver de créer nos propres projets. Tyrolium a réussi le pari de réaliser les rêves de nos employés passionnés.
                                 Nous sommes fiers de ce que nous accomplissons tous les jours.
-                                Nous vous proposons des projets de grande ampleur toujours avec la passion de tous nos équipes.
+                                Nous vous proposons des projets de grande ampleur toujours avec la passion de toutes nos équipes.
                                 Tyrolium veut vous proposer des projets bien realisés, de quoi vous divertir ou vous simplifier la vie.</p>
                             <div>
                                 <div class="" style="width: 60%; margin-left: 20%">
@@ -266,7 +266,7 @@
                             <p class="art-res">Tyrolium est une entreprise qui est formée de plusieurs équipes, elle sont dirigés principalement dans les projets de l'entreprise ainsi que les prestations proposées.
                                 Ces équipes sont formées de personnes motivées, dynamiques et investies dans les projets et dans l'entreprise.
 
-                                Nous recrutons tous types de profils, les seuls pré-requis sont d'être intéressé et motivé par les projets qui vous attires. </p>
+                                Nous recrutons tout type de profil, les seuls pré-requis sont d'être intéressé et motivé par les projets qui vous attire </p>
                             <div>
                                 <div class="" style="width: 60%; margin-left: 20%">
                                     <img src="assets/Brainstorming_session_Monochromatic.png" width="100%" height="100%">
@@ -316,8 +316,8 @@
                 <div class="container col-4">
                     <article>
                         <h2 class="art-res">Notre Histoire</h2>
-                        <p class="art-res">Voilà depuis 2017 que Tyrolium existe et fait mûrir des projets et les gens qui ont travaillés et travaillent encore dessus.
-                            Pendant ces 4 années, une évolution s'est faite sentir et nous allons détailler cette évolution dans l'ordre chronologique et vous raconter les points clés de celle-ci.
+                        <p class="art-res">Voilà depuis 2017 que Tyrolium existe et fait mûrir des projets et les gens qui ont travaillé et travaillent encore dessus.
+                            Pendant ces 4 années, une évolution s'est fait sentir et nous allons détailler cette évolution dans l'ordre chronologique et vous raconter les points clés de celle-ci.
 
                             N'oubliez pas cependant que l'évolution n'est pas la fin, elle n'est que le début de la poussée qui nous emmènera au sommet, tant que l'on peux faire mieux ça ne sera jamais terminé. </p>
                         <div>

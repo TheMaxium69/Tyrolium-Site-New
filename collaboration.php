@@ -5,7 +5,7 @@
     <section id="projet" class="container">
         <br>
         <h2>Notre Équipe</h2>
-        <p>Nous sommes une équipe de passionné par notre travail et ce que nous créon tout les jours, nous somme jeune mais plein d'envie pour notre future.</p>
+        <p>Nous sommes une équipe de passionné par notre travail et ce que nous créons tout les jours, nous sommes jeune mais plein d'envie pour notre futur.</p>
         <br>
     </section>
 
