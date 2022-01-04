@@ -389,8 +389,6 @@ $env_story = array(
         "content" => 'Fermeture du projet Freenium, projet qui n\'a jamais vraiment démarré et qui après décision sera fermé, dans l\'idée il s\'agissait un peu de l\'ancêtre des prestations',
     ),
 
-
-//    --------------------------------------------------------------------------
     array(
         "date" => '23 Janvier 2021',
         "title" => 'Création du logo de TyroShop',
