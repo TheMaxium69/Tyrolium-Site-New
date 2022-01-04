@@ -1,7 +1,7 @@
 <?php
 
 //PROD or DEV or TEST
-$APP_ENV = "TEST";
+$APP_ENV = "PROD";
 
 // FALSE or TRUE
 $env_isAccount = false;
@@ -523,7 +523,7 @@ $env_story = array(
         "title" => 'Lancement du site de Sélémusium',
         "content" => 'Lancement du site du projet de création de musique Sélémusium',
         "btn" => array(
-            "url" => 'https://tyrolium.fr/Sélémusium',
+            "url" => 'https://tyrolium.fr/Selemusium',
             "text" => 'Allez sur le site'
         ),
     ),
