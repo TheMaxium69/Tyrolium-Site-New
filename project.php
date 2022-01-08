@@ -117,7 +117,7 @@
             <li id="a7">
                 <img class="logo" src="https://tyrolium.fr/Contenu/Image/DuoGramme.png" alt="Duo-Gramme">
                 <h2>DuoGramme</h2>
-                <p>Projet de plusieurs concepts divertissements et informatifs sur les réseaux sociaux.</p>
+                <p>Projet de plusieurs concepts divertissements<br> et informatifs sur les réseaux sociaux.</p>
                 <small>En colaboration avec l'entreprise "MA3WAN" .</small><br>
                 <a href="https://www.instagram.com/nftgramme/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/> Allez sur notre Instagram</a><br>
                 <a href="https://www.instagram.com/albumaugramme/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
