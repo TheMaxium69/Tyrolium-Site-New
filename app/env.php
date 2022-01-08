@@ -37,6 +37,7 @@ $env_back = array (
     $env_urlImage . "Background7",
     $env_urlImage . "Background17",
     $env_urlImage . "Background14",
+    $env_urlImage . "Background18.jpeg"
 );
 
 $env_perso = array(
