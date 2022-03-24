@@ -43,10 +43,9 @@ $env_back = array (
 $env_perso = array(
 
     array("name" => "Maxime Tournier",
-        "role" => "Directeur-Fondateur,<br> Développeur",
+        "role" => "PDG & Fondateur,<br> Développeur",
         "icon" => "Maxime_Tournier.jpg",
         "instagram" => "https://instagram.com/the_maxime_san",
-        "twitter" => "https://twitter.com/MaximeTournier2",
         "github" => "https://github.com/TheMaxium69",
         "linkedin" => "https://linkedin.com/in/maxime-tournier-tyrolium",
 
@@ -93,6 +92,13 @@ $env_perso = array(
 
         ),
 
+    array("name" => "Angélique Herard",
+        "role" => "Modérateur, Assistante",
+        "icon" => "Angélique_Herard.jpg",
+        "instagram" => "https://www.instagram.com/angelique.hrd/",
+
+        ),
+
     array("name" => "Théotime Vandevoorde Rostankowski",
         "role" => "Builder, Graphiste",
         "icon" => "Théotime_Vandevoorde_Rostankowski.jpg",
@@ -116,7 +122,7 @@ $env_perso = array(
         ),
 
     array("name" => "L&eacute;na Chervier",
-        "role" => "Assistante<br> de modération",
+        "role" => "Assistante<br> de direction",
         "icon" => "Léna_Chervier.jpg",
         "instagram" => "https://www.instagram.com/lena_cherv/",
         "linkedin" => "https://www.linkedin.com/in/l%C3%A9na-chervier-645470228/",

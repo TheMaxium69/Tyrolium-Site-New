@@ -30,7 +30,7 @@
                             <li class="pricing-features-item"><span class="underline bold">Techniquement</span> : Il s'agit d'une simple ou de plusieurs pages où l'on travaille juste avec des langages de front-end.
                                 Aucune relation avec une API ou une base de données ne sera faite avec cette formule.</li>
                         </ul>
-                        <span class="pricing-price">30€</span>
+                        <span class="pricing-price"></span>
                         <?php tyrobtn("contact.php?name=web&form=1", "contact", "Contactez-nous pour cette formule");?>
                     </div>
 
@@ -41,7 +41,7 @@
                             <li class="pricing-features-item"><span class="underline bold">Concrètement</span> : Il s'agit d'une formule bien pour les entreprises, les sites qui demande plus qu'un simple texte mais une présention qui pourra afficher des informations. Avec cette formule le site pourra être modifier grâce à un panel administrateur.</li>
                             <li class="pricing-features-item"><span class="underline bold">Techniquement</span> : Il s'agit de plusieurs pages qui pourra être modifiable, on pourra se connecter à des API simple, où l'on utilisera plus régulièrement des FrameWork front-end, avec Php-Object.</li>
                         </ul>
-                        <span class="pricing-price">175€</span>
+                        <span class="pricing-price"></span>
                         <?php tyrobtn("contact.php?name=web&form=2", "contact", "Contactez-nous pour cette formule");?>
                     </div>
 
@@ -53,7 +53,7 @@
                                 créer un réseau social, créer une boutique en ligne, un blog ou une application de gestion personnalisée.</li>
                             <li class="pricing-features-item"><span class="underline bold"> Techniquement</span> : Cette formule se fera avec un FrameWork front-end et back-end, avec une base de donnée, une création d'API obligatoire, gestion de compte et panel administrateur.</li>
                         </ul>
-                        <span class="pricing-price">500€</span>
+                        <span class="pricing-price"></span>
                         <?php tyrobtn("contact.php?name=web&form=3", "contact", "Contactez-nous pour cette formule");?>
                     </div>
 
