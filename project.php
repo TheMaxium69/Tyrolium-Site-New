@@ -49,6 +49,17 @@
 
             echo '} </style>'; ?>
         <ul>
+            <li id="a8">
+                <img class="logo" src="http://tyrolium.fr/Contenu/Image/SolidServ.png" alt="SolidServLogo">
+                <h2>SolidServ</h2>
+                <p>Projet d'hebergeur de serveur.</p>
+                <small>En fin de développement.</small><br>
+                <a href="https://solidserv.fr/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
+<!--                <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>-->
+                <a href="https://www.instagram.com/solidserv/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
+<!--                <a href="https://twitter.com/tyrolium" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/twitter.png" alt="twitter"/></a>-->
+                <a href="https://www.linkedin.com/company/solidserv" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/linkedIn.png" alt="linkedin"/></a>
+            </li>
             <li id="a0">
                 <img class="logo" src="http://tyrolium.fr/Contenu/Image/Tyrolium ServerMC S2.png" alt="TyroservLogo">
                 <h2>TyroServ</h2>
@@ -62,6 +73,7 @@
                 <a href="https://github.com/TyroServ" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/github.png" alt="github"/></a>
                 <a href="https://www.curseforge.com/minecraft/mc-mods/tyromod/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/curse.png" alt="curseforge"/></a>
                 <a href="https://www.tiktok.com/@tyroserv?" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/tiktok.png" alt="tiktok"/></a>
+                <a href="https://www.linkedin.com/company/tyroserv" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/linkedIn.png" alt="linkedin"/></a>
             </li>
             <li id="a1">
                 <img class="logo" src="http://tyrolium.fr/Contenu/Image/Gamenium.png" alt="GameniumLogo">
@@ -71,12 +83,14 @@
                 <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
                 <a href="https://www.tiktok.com/@gamenium?" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/tiktok.png" alt="tiktok"/></a>
                 <a href="https://www.twitch.tv/gamenium_off" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/twitch.png" alt="twitch"/></a>
+                <a href="https://www.linkedin.com/company/gamenium" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/linkedIn.png" alt="linkedin"/></a>
             </li>
             <li id="a2">
                 <img class="logo" src="https://tyrolium.fr/Contenu/Image/TyroDiscord.png" alt="TyroDiscord">
                 <h2>TyroDiscord</h2>
                 <p>Projet de bot et logiciel pour<br> améliorer l'expérience de Discord.</p>
                 <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/> Allez sur notre Discord</a><br>
+                <a href="https://www.linkedin.com/company/tyrodiscord" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/linkedIn.png" alt="linkedin"/></a>
             </li>
             <li id="a3">
                 <img class="logo" src="http://tyrolium.fr/Contenu/Image/Tyrolium Studio.png" alt="StudioLogo">
@@ -84,6 +98,7 @@
                 <p>Projet d'un studio de développement<br> de jeux-vidéo.</p>
                 <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/> Allez sur notre Discord</a><br>
                 <a href="https://www.instagram.com/tyroliumstudio/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
+                <a href="https://www.linkedin.com/company/tyrostudio" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/linkedIn.png" alt="linkedin"/></a>
             </li>
             <li id="a4">
                 <img class="logo" src="http://tyrolium.fr/Contenu/Image/Wonderlium.png" alt="WonderliumLogo">
@@ -93,6 +108,7 @@
                 <a href="http://site.wonderlium.yt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/></a>
                 <a href="https://www.instagram.com/wonderlium/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
                 <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
+                <a href="https://www.linkedin.com/company/wonderlium" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/linkedIn.png" alt="linkedin"/></a>
             </li>
             <li id="a5">
                 <img class="logo" src="https://tyrolium.fr/Contenu/Image/Selemusium.png" alt="SelemusiumLogo">
@@ -102,6 +118,7 @@
                 <a href="https://soundcloud.com/selemusium" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/soundcloud.png" alt="soundcloud"/></a>
                 <a href="https://www.instagram.com/selemusium/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
                 <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
+                <a href="https://www.linkedin.com/company/selemusium" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/linkedIn.png" alt="linkedin"/></a>
             </li>
 
             <li id="a6">
@@ -112,17 +129,34 @@
                 <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
                 <a href="https://www.instagram.com/tyroliumshop/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
                 <a href="https://www.tiktok.com/@tyroshop?" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/tiktok.png" alt="tiktok"/></a>
+                <a href="https://www.linkedin.com/company/tyroshop" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/linkedIn.png" alt="linkedin"/></a>
             </li>
 
             <li id="a7">
                 <img class="logo" src="https://tyrolium.fr/Contenu/Image/DuoGramme.png" alt="Duo-Gramme">
                 <h2>DuoGramme</h2>
                 <p>Projet de plusieurs concepts divertissements<br> et informatifs sur les réseaux sociaux.</p>
-                <small>En colaboration avec l'entreprise "MA3WAN" .</small><br>
+                <small>En colaboration avec l'entreprise "<a class="btn-part" href="https://www.youtube.com/c/MA3WAN">MA3WAN</a>" .</small><br>
                 <a href="https://www.instagram.com/nftgramme/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/> Allez sur notre Instagram</a><br>
                 <a href="https://www.instagram.com/albumaugramme/" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
+                <a href="https://www.linkedin.com/company/duogramme" class="btn" target="_blank" style="color: black;"><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/linkedIn.png" alt="linkedin"/></a>
+            </li>
+
+            <li id="a9">
+                <img class="logo" src="http://tyrolium.fr/Contenu/Image/Chantium.png" alt="ChantiumLogo">
+                <h2>Chantium</h2>
+                <p>SOON</p>
+                <small>En colaboration avec l'entreprise "<a class="btn-part" href="https://batirpositif.com">Bâtir Positif</a>" .</small><br>
             </li>
         </ul>
+
+        <style>
+
+            .btn-part:hover{
+                text-decoration: underline;
+            }
+
+        </style>
     </section>
 </main>
 
