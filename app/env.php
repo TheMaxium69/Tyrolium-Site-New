@@ -136,7 +136,7 @@ $env_page = array(
     "Accueil",
     "Prestation",
     "Projet",
-    "Colaboration",
+    "Collaboration",
     "Histoire",
     "Compte",
 );
@@ -540,6 +540,29 @@ $env_story = array(
         "title" => 'Lancement de la deuxième version du site de l\'entreprise ',
         "content" => 'Lancement du site où vous êtes actuellement',
     ),
+
+    array(
+        "date" => '8 Janvier 2022',
+        "title" => 'Création du projet Duo-Gramme ',
+        "content" => 'Projet de plusieurs concepts divertissements et informatifs sur les réseaux sociaux. En colaboration avec l\'entreprise "MA3WAN" .',
+        "picture" => $env_assets . 'story/DuoGramme.png',
+        "btn" => array(
+            "url" => 'https://tyrolium.fr/Contenu/Image/DuoGramme.png',
+            "text" => 'Voir l\'image'
+        ),
+    ),
+
+    array(
+        "date" => '24 Mars 2022',
+        "title" => 'Création du projet SolidServ',
+        "content" => 'Projet d\'hebergeur de serveur de jeux, de site internet et bien autre',
+        "picture" => $env_assets . 'story/SolidServ.png',
+        "btn" => array(
+            "url" => 'https://solidserv.fr',
+            "text" => 'Allez sur le site'
+        ),
+    ),
+
 
 );
 

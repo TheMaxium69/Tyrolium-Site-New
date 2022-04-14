@@ -16,6 +16,7 @@
                 <p>Tyrolium est une entreprise à but lucratif, toute création de l'entreprise nous appartient.</p>
                 <p>Copyright © Tyrolium. 2017-2022<br> © 2022 Tyrolium, Ent.<br>All Right Reserved ©Tyrolium</p>
                 <p>Fondé par Maxime Tournier</p>
+                <p>Siret : <br> 91027536100012</p>
                 <p>Siège Social : <br> 252, Avenue Jean Jaurès 69150 Décines-Charpieu</p>
                 <p>Contact : <br> officiel@tyrolium.fr <br> maxime.tournier@tyrolium.fr<br> +33 6 11 11 26 69</p>
             </div>
@@ -123,6 +124,7 @@
                     <small>© 2022 Twitch Interactive, Inc.</small><br>
                     <small>© 2022 TikTok</small><br>
                     <small>© 2022 SoundCloud Operations, Inc. / copyright@soundcloud.com</small><br>
+                    <small>2022 © BâtirPositif</small><br>
                     <small>Mojang © 2009-2022</small><br>
                 </div>
             </div>

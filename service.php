@@ -24,11 +24,11 @@
                         <img src="assets/paper-plane.png" alt="PaperPlane" class="pricing-img">
                         <h2 class="pricing-header"><?php echo $env_presta_web['0'] ?></h2>
                         <ul class="pricing-features">
-                            <li class="pricing-features-item"><span class="underline bold">Concrètement</span> : Il s'agit d'une formule bien pour les porte-folios.
-                                Les sites de présentation juste avec du texte pour présenter un projet.
+                            <li class="pricing-features-item"><div><span class="underline bold">Concrètement</span> : Il s'agit d'une formule bien pour les porte-folios.
+                                Les sites de présentation juste avec du texte pour présenter un projet.</div>
                             </li>
-                            <li class="pricing-features-item"><span class="underline bold">Techniquement</span> : Il s'agit d'une simple ou de plusieurs pages où l'on travaille juste avec des langages de front-end.
-                                Aucune relation avec une API ou une base de données ne sera faite avec cette formule.</li>
+                            <li class="pricing-features-item"><div><span class="underline bold">Techniquement</span> : Il s'agit d'une simple ou de plusieurs pages où l'on travaille juste avec des langages de front-end.
+                                Aucune relation avec une API ou une base de données ne sera faite avec cette formule.</div></li>
                         </ul>
                         <span class="pricing-price"></span>
                         <?php tyrobtn("contact.php?name=web&form=1", "contact", "Contactez-nous pour cette formule");?>
@@ -38,8 +38,8 @@
                         <img src="assets/plane.png" alt="Plane" class="pricing-img">
                         <h2 class="pricing-header"><?php echo $env_presta_web['1'] ?></h2>
                         <ul class="pricing-features">
-                            <li class="pricing-features-item"><span class="underline bold">Concrètement</span> : Il s'agit d'une formule bien pour les entreprises, les sites qui demande plus qu'un simple texte mais une présention qui pourra afficher des informations. Avec cette formule le site pourra être modifier grâce à un panel administrateur.</li>
-                            <li class="pricing-features-item"><span class="underline bold">Techniquement</span> : Il s'agit de plusieurs pages qui pourra être modifiable, on pourra se connecter à des API simple, où l'on utilisera plus régulièrement des FrameWork front-end, avec Php-Object.</li>
+                            <li class="pricing-features-item"><div><span class="underline bold">Concrètement</span> : Il s'agit d'une formule bien pour les entreprises, les sites qui demande plus qu'un simple texte mais une présention qui pourra afficher des informations. Avec cette formule le site pourra être modifier grâce à un panel administrateur.</div></li>
+                            <li class="pricing-features-item"><div><span class="underline bold">Techniquement</span> : Il s'agit de plusieurs pages qui pourra être modifiable, on pourra se connecter à des API simple, où l'on utilisera plus régulièrement des FrameWork front-end, avec Php-Object.</div></li>
                         </ul>
                         <span class="pricing-price"></span>
                         <?php tyrobtn("contact.php?name=web&form=2", "contact", "Contactez-nous pour cette formule");?>
@@ -49,9 +49,9 @@
                         <img src="assets/space-ship.png" alt="SpaceShip" class="pricing-img">
                         <h2 class="pricing-header"><?php echo $env_presta_web['2'] ?></h2>
                         <ul class="pricing-features">
-                            <li class="pricing-features-item"><span class="underline bold">Concrètement</span> : Il s'agit d'une bonne formule notamment pour un gros projet,
-                                créer un réseau social, créer une boutique en ligne, un blog ou une application de gestion personnalisée.</li>
-                            <li class="pricing-features-item"><span class="underline bold"> Techniquement</span> : Cette formule se fera avec un FrameWork front-end et back-end, avec une base de donnée, une création d'API obligatoire, gestion de compte et panel administrateur.</li>
+                            <li class="pricing-features-item"><div><span class="underline bold">Concrètement</span> : Il s'agit d'une bonne formule notamment pour un gros projet,
+                                créer un réseau social, créer une boutique en ligne, un blog ou une application de gestion personnalisée.</div></li>
+                            <li class="pricing-features-item"><div><span class="underline bold"> Techniquement</span> : Cette formule se fera avec un FrameWork front-end et back-end, avec une base de donnée, une création d'API obligatoire, gestion de compte et panel administrateur.</div></li>
                         </ul>
                         <span class="pricing-price"></span>
                         <?php tyrobtn("contact.php?name=web&form=3", "contact", "Contactez-nous pour cette formule");?>

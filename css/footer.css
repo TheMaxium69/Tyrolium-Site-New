@@ -177,6 +177,15 @@ i.footer {
 {
     background-color: #ff0000
 }
+.social-icons a.twitch:hover
+{
+    background-color: #9046FF
+}
+.social-icons a.github:hover
+{
+    background-color: #000000
+}
+
 @media (max-width:767px)
 {
     .social-icons li.title

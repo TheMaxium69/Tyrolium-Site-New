@@ -1,4 +1,4 @@
-var konamiCode = "↑↑↓↓←→←→AB";
+var konamiCode = "↑↑↓↓←→←→BA";
 var cmd = null
 
 $(document).keyup(function (e) {
@@ -54,17 +54,17 @@ function cheatcode(arg) {
         }
     }
 
-    if(arg == "key65|"){
+    if(arg == "key66|"){
         if(cmd == "↑↑↓↓←→←→"){
-            cmd = "↑↑↓↓←→←→A";
+            cmd = "↑↑↓↓←→←→B";
         } else {
             cmd = null;
         }
     }
 
-    if(arg == "key66|"){
-        if(cmd == "↑↑↓↓←→←→A"){
-            cmd = "↑↑↓↓←→←→AB";
+    if(arg == "key65|"){
+        if(cmd == "↑↑↓↓←→←→B"){
+            cmd = "↑↑↓↓←→←→BA";
         } else {
             cmd = null;
         }

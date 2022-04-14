@@ -66,10 +66,15 @@
     border-radius: 100%;
     object-fit: cover;
     object-position: center top;
+
+    transform: translate3d(0, 0, 0);
+    transition: transform 0.2s ease-out;
+    will-change: transform;
 }
 
-#projet ul li img:hover {
-    border-radius: 5%;
+#projet ul li img.logo:hover {
+    transform: translate(0, -8px);
+    transform: translate3d(0, -8px, 0);
 }
 
 @media (max-width: 1056px) {
