@@ -78,7 +78,7 @@
     <section id="projet" class="container">
         <br>
         <h2>Nos Partenaire</h2>
-        <p>Voici les entreprise, organisation et collectivité qui nous fait confiance, et qu'on travaille activement à l'amélioration et la création de projets.</p>
+        <p>Voici les entreprises, organisations et collectivités qui nous font confiance, et qu'on travaille activement à l'amélioration et la création de projets.</p>
         <br>
     </section>
 
