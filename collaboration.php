@@ -114,26 +114,6 @@
         <br>
     </section>
 
-    <style>
-        #partenaire{
-            margin-bottom: 50px;
-        }
-        #partenaire img{
-            width: 150px;
-            border-radius: 33px;
-
-            transform: translate3d(0, 0, 0);
-            transition: transform 0.2s ease-out;
-            will-change: transform;
-        }
-
-        #partenaire img:hover {
-            transform: translate(0, -15px);
-            transform: translate3d(0, -10px, 0)scale(1.1);
-        }
-
-    </style>
-
     <br>
     <hr class="container" style="background: rgba(161,161,161,0.6);">
 
