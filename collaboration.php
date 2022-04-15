@@ -73,7 +73,69 @@
     </section>
 
     <br>
-    <hr style="background: rgb(161, 161, 161);">
+    <hr class="container" style="background: rgba(161,161,161,0.6);">
+
+    <section id="projet" class="container">
+        <br>
+        <h2>Nos Partenaire</h2>
+        <p>Voici les entreprise, organisation et collectivité qui nous fait confiance, et qu'on travaille activement à l'amélioration et la création de projets.</p>
+        <br>
+    </section>
+
+
+    <section id="partenaire" class="container">
+        <div class="row">
+            <div class="col">
+                <a href="https://www.linkedin.com/company/lafrenchtech-onelse/">
+                    <img src="<?php echo $env_assets; ?>part/frenchtechlyon.png" alt="frenchtech">
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.youtube.com/channel/UCEc-KcQQcZ15htg1KT2H5xg">
+                    <img src="<?php echo $env_assets?>part/ma3wan.webp" alt="ma3wan">
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://batirpositif.com">
+                    <img src="<?php echo $env_assets; ?>part/bt.jpg" alt="batirpositif">
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.linkedin.com/company/maxime-serveur/">
+                    <img src="<?php echo $env_assets; ?>part/Maxime-SERVEUR.jpg" alt="maxime-serveur">
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.linkedin.com/company/maxime-minecraft/">
+                    <img src="<?php echo $env_assets; ?>part/Maxime-MINECRAFT.png" alt="maxime-minecraft">
+                </a>
+            </div>
+        </div>
+        <br>
+    </section>
+
+    <style>
+        #partenaire{
+            margin-bottom: 50px;
+        }
+        #partenaire img{
+            width: 150px;
+            border-radius: 33px;
+
+            transform: translate3d(0, 0, 0);
+            transition: transform 0.2s ease-out;
+            will-change: transform;
+        }
+
+        #partenaire img:hover {
+            transform: translate(0, -15px);
+            transform: translate3d(0, -10px, 0)scale(1.1);
+        }
+
+    </style>
+
+    <br>
+    <hr class="container" style="background: rgba(161,161,161,0.6);">
 
     <section id="projet" class="container">
         <br>
