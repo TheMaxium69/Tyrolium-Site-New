@@ -40,7 +40,7 @@ for ($i = 0; $i <= $nbBack-1; $i++) {
 }?>
         </ul>
         <div style="width: 40px;"></div>
-        <div class="btn-darkmode"><?php if ($_COOKIE["color"] == "light"){ ?><i class="fas fa-sun"></i><?php }else{ ?><i class="fas fa-moon"></i><?php } ?></div>
+        <div class="btn-darkmode"><?php if (empty($_COOKIE["color"])){ echo "<i class='fas fa-moon'></i>"; }else{ if ($_COOKIE["color"] == "light"){ ?><i class="fas fa-sun"></i><?php }else{ ?><i class="fas fa-moon"></i><?php }  } ?></div>
         <script src="javascript/darkmode.js"></script>
     </div>
 </nav>

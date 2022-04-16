@@ -1,5 +1,5 @@
 <?php include "app/app.php"; $page = 1; head($page); ?>
-<body class="<?php echo $_COOKIE["color"]; ?>"> <header> <?php navbar($page); ?> </header>
+<body onLoad="cookie()" class="<?php if (empty($_COOKIE["color"])){ echo "dark"; }else{echo $_COOKIE["color"]; } ?>"> <header> <?php navbar($page); ?> </header>
 
 <main>
     <section id="particule">
@@ -10,7 +10,8 @@
                     DÉCOUVREZ QUI NOUS SOMMES
                 </p></a>
             </div>
-            <?php particule($_COOKIE["color"]) ?>
+            <?php if (empty($_COOKIE["color"])){ $colorCookie = "dark"; }else{ $colorCookie = $_COOKIE["color"]; }
+            particule($colorCookie) ?>
         </div>
     </section>
 

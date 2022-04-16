@@ -1,5 +1,5 @@
 <?php include "app/app.php"; $page = 2; head($page); ?>
-<body class="<?php echo $_COOKIE["color"]; ?>"> <header> <?php navbar($page); ?> </header>
+<body onLoad="cookie()" class="<?php if (empty($_COOKIE["color"])){ echo "dark"; }else{echo $_COOKIE["color"]; } ?>"> <header> <?php navbar($page); ?> </header>
 
 <main>
     <section id="projet">
