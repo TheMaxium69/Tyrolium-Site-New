@@ -97,7 +97,7 @@
             </div>
             <div class="col">
                 <a>
-                    <img src="<?php echo $env_assets; ?>part/Solunias.png" alt="maxime-minecraft">
+                    <img src="<?php echo $env_assets; ?>part/solunias.png" alt="solunias">
                 </a>
             </div>
 
