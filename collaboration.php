@@ -91,15 +91,19 @@
                 </a>
             </div>
             <div class="col">
-                <a href="https://www.youtube.com/channel/UCEc-KcQQcZ15htg1KT2H5xg">
-                    <img src="<?php echo $env_assets?>part/ma3wan.webp" alt="ma3wan">
-                </a>
-            </div>
-            <div class="col">
                 <a href="https://batirpositif.com">
                     <img src="<?php echo $env_assets; ?>part/bt.jpg" alt="batirpositif">
                 </a>
             </div>
+            <div class="col">
+                <a>
+                    <img src="<?php echo $env_assets; ?>part/Solunias.png" alt="maxime-minecraft">
+                </a>
+            </div>
+
+
+        </div>
+        <div class="row">
             <div class="col">
                 <a href="https://www.linkedin.com/company/maxime-serveur/">
                     <img src="<?php echo $env_assets; ?>part/Maxime-SERVEUR.jpg" alt="maxime-serveur">
@@ -108,6 +112,11 @@
             <div class="col">
                 <a href="https://www.linkedin.com/company/maxime-minecraft/">
                     <img src="<?php echo $env_assets; ?>part/Maxime-MINECRAFT.png" alt="maxime-minecraft">
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.youtube.com/channel/UCEc-KcQQcZ15htg1KT2H5xg">
+                    <img src="<?php echo $env_assets?>part/ma3wan.webp" alt="ma3wan">
                 </a>
             </div>
         </div>
