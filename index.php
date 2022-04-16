@@ -1,5 +1,5 @@
 <?php include "app/app.php"; $page = 1; head($page); ?>
-<body> <header> <?php navbar($page); ?> </header>
+<body class="<?php echo $_COOKIE["color"]; ?>"> <header> <?php navbar($page); ?> </header>
 
 <main>
     <section id="particule">
@@ -10,11 +10,12 @@
                     DÉCOUVREZ QUI NOUS SOMMES
                 </p></a>
             </div>
-            <?php particule() ?>
+            <?php particule($_COOKIE["color"]) ?>
         </div>
     </section>
 
     <div id="btn-up"></div>
+
     <!-- PC -->
     <div class="home-desktop">
 
@@ -358,6 +359,5 @@
 
     </div>
 </main>
-
 
 <?php footer(); ?> </body> </html>

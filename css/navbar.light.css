@@ -1,0 +1,43 @@
+body.light .navbar-dark .navbar-brand {
+    color: #3e3e3e;
+}
+
+body.light .navbar-logo:hover{
+    color: #242424;
+}
+
+body.light .navbar-mainbg{
+    background-color: #e1e1e1;
+}
+
+body.light #navbarSupportedContent ul li a{
+    color: #3e3e3e;
+}
+
+body.light #navbarSupportedContent>ul>li.active>a{
+    color: #004af5;
+}
+
+body.light .hori-selector{
+    background-color: white;
+}
+
+body.light .hori-selector .right,
+body.light .hori-selector .left{
+    background-color: white;
+}
+
+body.light .hori-selector .right:before,
+body.light .hori-selector .left:before{
+    background-color: #e1e1e1;
+}
+
+body.light .navbar-dark .navbar-toggler-icon {
+    filter: unset;
+}
+
+@media (max-width: 991px) {
+    body.light .btn-darkmode{
+        background: #e1e1e1;
+    }
+}

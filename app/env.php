@@ -145,7 +145,7 @@ $env_page_logo = array(
     "fas fa-home",
     "fas fa-tags",
     "fas fa-dice-d6",
-    "far fa-handshake",
+    "fas fa-handshake",
     "fas fa-book",
     "far fa-user",
 );

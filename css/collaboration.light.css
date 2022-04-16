@@ -1,0 +1,12 @@
+body.light main #recrut {
+    border: 2px solid white;
+    color: #2a2a2a;
+}
+
+body.light #partenaire img{
+    box-shadow: 1px 5px 10px #bdb4b4;
+}
+
+body.light .our-team {
+    background-color: #e1e1e1;
+}

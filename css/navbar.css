@@ -8,7 +8,6 @@
     transform: scale(1.3);
 }
 
-
 .navbar-dark .navbar-brand {
     color: #cdcdcd;
 }
@@ -171,4 +170,36 @@
     }
 
 
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("../assets/burger-menu.png");
+    filter: invert(100%);
+}
+
+.navbar-dark .navbar-toggler {
+    color: unset;
+    border-color: #ffffff00;
+}
+
+.btn-darkmode{
+    display: block;
+    position: fixed;
+    right: 0;
+    color: #cdcdcd;
+    font-size: 22px;
+}
+
+@media (max-width: 991px) {
+    .btn-darkmode{
+        background: #26272b;
+        padding: 6px 13px;
+        font-size: 17px;
+        text-align: center;
+        border-bottom-left-radius: 10px;
+    }
+
+    .btn-darkmode i{
+        margin-right: unset;
+    }
 }

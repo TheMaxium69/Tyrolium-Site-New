@@ -1,0 +1,10 @@
+body.light #storyhead{
+    text-align: center;
+    border: 2px solid white;
+    padding: 30px 20px 0;
+    background-color: white;
+    color: #2a2a2a;
+}
+body.light .timeline-content{
+    background: #e1e1e1;
+}
