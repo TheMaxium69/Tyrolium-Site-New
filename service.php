@@ -12,7 +12,7 @@
     </section>
     <section id="service-start">
         <h2 class="titleS">Site Web</h2>
-        <p>Ci-dessous les différentes formules sont affichées, nous faisons majoritairement de la création de sites web, les différents tarifs sont également affichés.</p>
+        <p>Ci-dessous les différentes formules sont affichées, nous faisons majoritairement de la création de sites web.</p>
         <br>
     </section>
     <section class="service-page">
