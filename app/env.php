@@ -138,7 +138,7 @@ $env_page = array(
     "Projet",
     "Collaboration",
     "Histoire",
-    "Compte",
+    "Compte"
 );
 
 $env_page_logo = array(
@@ -152,12 +152,15 @@ $env_page_logo = array(
 
 $env_projet = array(
     "TyroServ",
+    "SolidServ",
     "Gamenium",
     "TyroDiscord",
     "TyroStudio",
     "Wonderlium",
     "Sélémusium",
     "TyroShop",
+    "DuoGramme",
+    "Chantium",
     "Autre",
 );
 

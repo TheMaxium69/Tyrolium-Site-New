@@ -26,15 +26,16 @@ for ($i = 0; $i <= $nbBack-1; $i++) {
             }
 
     } else if ($env_isAccount == true) {
-        if ($j == $page){
-            echo '<li class="nav-item active">
-                          <a class="nav-link active" href="javascript:void(0);"><i class="'. $env_page_logo[$i] .'"></i>'. $env_page[$i] .'</a>
-                      </li>';
-        } else {
-            echo '<li class="nav-item">
-                          <a class="nav-link" href="javascript:redirect('. $j .');"><i class="'. $env_page_logo[$i] .'"></i>'. $env_page[$i] .'</a>
-                      </li>';
-        }
+
+            if ($j == $page){
+                echo '<li class="nav-item active">
+                              <a class="nav-link active" href="javascript:void(0);"><i class="'. $env_page_logo[$i] .'"></i>'. $env_page[$i] .'</a>
+                          </li>';
+            } else {
+                echo '<li class="nav-item">
+                              <a class="nav-link" href="javascript:redirect('. $j .');"><i class="'. $env_page_logo[$i] .'"></i>'. $env_page[$i] .'</a>
+                          </li>';
+            }
     }
 
 }?>
