@@ -38,7 +38,7 @@ $env_back = array (
     $env_urlImage . "Background17",
     $env_urlImage . "Background14",
     $env_urlImage . "Background18.jpeg",
-    $env_urlImage . "Background19.webp",
+    $env_urlImage . "Background21.jpg",
     $env_urlImage . "Background20.jpg",
 );
 
@@ -560,6 +560,26 @@ $env_story = array(
         "title" => 'Création du projet SolidServ',
         "content" => 'Projet d\'hebergeur de serveur de jeux, de site internet et bien autre',
         "picture" => $env_assets . 'story/SolidServ.png',
+        "btn" => array(
+            "url" => 'https://tyrolium.fr/Contenu/Image/SolidServ.png',
+            "text" => 'Voir l\'image'
+        ),
+    ),
+
+    array(
+        "date" => '2 Mai 2022',
+        "title" => 'Lancement du site de TyroDiscord',
+        "content" => 'Lancement du site de presentation du projet d\'améliorer l\'expérience de Discord',
+        "btn" => array(
+            "url" => 'https://www.tyrodiscord.xyz',
+            "text" => 'Allez sur le site'
+        ),
+    ),
+
+    array(
+        "date" => '7 Mai 2022',
+        "title" => 'Lancement de SolidServ',
+        "content" => 'Lancement du site, des serveurs du projet',
         "btn" => array(
             "url" => 'https://solidserv.fr',
             "text" => 'Allez sur le site'
