@@ -79,7 +79,7 @@
 
 
             <li id="a8">
-                <img class="logo" src="http://tyrolium.fr/Contenu/Image/SolidServ.png" alt="SolidServLogo">
+                <img class="logo" src="http://tyrolium.fr/Contenu/Image/SolidServ Anim2.gif" alt="SolidServLogo">
                 <h2>SolidServ <span class="badge badge-warning">New</span></h2>
                 <p>Projet d'hébergeur de serveur.</p>
                 <small>Disponible entièrement sur le site officiel.</small><br>
@@ -173,7 +173,7 @@
                 <img class="logo" src="https://tyrolium.fr/Contenu/Image/DuoGramme.png" alt="Duo-Gramme">
                 <h2>DuoGramme</h2>
                 <p>Projet de plusieurs concepts divertissements<br> et informatifs sur les réseaux sociaux.</p>
-                <small>En colaboration avec l'entreprise "<a class="btn-part" href="https://www.youtube.com/c/MA3WAN">MA3WAN</a>" .</small><br>
+                <small>En collaboration avec l'entreprise "<a class="btn-part" href="https://www.youtube.com/c/MA3WAN">MA3WAN</a>" .</small><br>
                 <a href="https://www.instagram.com/nftgramme/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/> Allez sur notre Instagram</a><br>
                 <a href="https://www.instagram.com/albumaugramme/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
                 <a href="https://www.linkedin.com/company/duogramme" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/linkedIn.png" alt="linkedin"/></a>
@@ -183,7 +183,7 @@
                 <img class="logo" src="http://tyrolium.fr/Contenu/Image/Chantium.png" alt="ChantiumLogo">
                 <h2>Chantium</h2>
                 <p>SOON</p>
-                <small>En colaboration avec l'entreprise "<a class="btn-part" href="https://batirpositif.com">Bâtir Positif</a>" .</small><br>
+                <small>En collaboration avec l'entreprise "<a class="btn-part" href="https://batirpositif.com">Bâtir Positif</a>" .</small><br>
             </li>
         </ul>
 
