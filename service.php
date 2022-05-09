@@ -62,6 +62,48 @@
         </div>
     </section>
     <section id="service-start-but">
+        <div class="popups-cont">
+            <div class="popups-cont__overlay"></div>
+            <div class="popup">
+                <div class="popup__pieces"></div>
+                <div class="popup__content">
+                    <div class="popup__close"></div>
+                    <h3 class="popup__heading">Nos réalisations</h3>
+                    <p class="popup__text" style="">
+                        Voici les sites que nous avons réaliser
+                        <br><br>
+                        Bâtir Positif :
+                        <a target="_blank" href="https://batirpositif.com">Lien</a>
+                        <br><br>
+                        SolidServ :
+                        <a target="_blank" href="https://solidserv.fr">Lien</a>
+                        <br><br>
+                        TyroServ :
+                        <a target="_blank" href="https://tyroserv.fr">Lien</a>
+                        <br><br>
+                        TyroDiscord :
+                        <a target="_blank" href="https://www.tyrodiscord.xyz">Lien</a>
+                        <br><br>
+                        CLS-Habitat :
+                        <a target="_blank">Soon</a>
+                        <br><br>
+                        Solunias :
+                        <a target="_blank">Soon</a>
+                        <br><br>
+                        Groupe Cloudy :
+                        <a target="_blank">Soon</a>
+                        <br><br>
+                        Tyrolium :
+                        <a target="_blank">Ici</a>
+                        <br><br>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <button style="font-size: 13px;" type="button" id="btn-contact" class="tyrobuttonNone popup-btn">Voir nos réalisations</button>
+        <script src="javascript/popup.js"></script>
+        <br>
         <br>
         <p style="text-align: center">Tout l'argent que vous reversez à Tyrolium sera investi dans les projets de l'entreprise.</p>
         <br>
