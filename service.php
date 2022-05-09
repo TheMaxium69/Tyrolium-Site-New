@@ -78,6 +78,9 @@
                         SolidServ :
                         <a target="_blank" href="https://solidserv.fr">Lien</a>
                         <br><br>
+                        Sélémusium :
+                        <a target="_blank" href="https://selemusium.xyz">Lien</a>
+                        <br><br>
                         TyroServ :
                         <a target="_blank" href="https://tyroserv.fr">Lien</a>
                         <br><br>
