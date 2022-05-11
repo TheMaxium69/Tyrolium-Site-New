@@ -3,13 +3,27 @@
 
 <main>
     <section id="projet">
-        <br>
-        <h2>Nos Projets</h2>
-        <p class="container">Tout nos projets appartiennent à l'entreprise Tyrolium et sont gérés par nos équipes.
-            Les projets restent indépendants dans leurs communications, leur gestion et leur administration.
-            Ils sont financés par entreprise, le but de Tyrolium est de vivre de nos passions.</p>
-        <br>
-        <hr style="background: rgb(161, 161, 161);">
+        <div id="project-atom" class="row container">
+
+            <div class="col-8">
+                    <h2>Nos Projets</h2>
+                    <br id="991none">
+                    <p class="container">Tout nos projets appartiennent à l'entreprise Tyrolium et sont gérés par nos équipes.
+                        Les projets restent indépendants dans leurs communications, leur gestion et leur administration.
+                        Ils sont financés par entreprise, le but de Tyrolium est de vivre de nos passions.</p>
+            </div>
+            <div class="col-4">
+                <img src="https://tyrolium.fr/Contenu/Image/wallpaper/atom.png" style="width: 100%;">
+                <br>
+            </div>
+        </div>
+        <style>
+
+
+        </style>
+
+
+        <hr id="hratom" style="background: rgb(161, 161, 161);">
         <br>
         <?php
             $nbBack = count($env_back);

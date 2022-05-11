@@ -104,3 +104,47 @@
 @media (max-width: 586px) {
     
 }
+
+
+@media (max-width: 991px) {
+    br#991none{
+        display: none;
+    }
+    #hratom{
+        margin-top: 20px;
+    }
+    #project-atom{
+        max-width: unset!important;
+        margin-left: unset!important;
+        margin-right: unset!important;
+        width: 100%!important;
+
+        padding-right: unset;
+        padding-left: unset;
+
+        display: initial;
+        -ms-flex-wrap: unset;
+        flex-wrap: unset;
+
+    }
+
+    #project-atom .col-8{
+        -ms-flex: unset;
+        flex: unset;
+        max-width: unset;
+    }
+
+    #project-atom .col-4{
+        display: none;
+    }
+
+    #project-atom .col-8 p.container{
+        max-width: unset!important;
+        margin-left: unset!important;
+        margin-right: unset!important;
+        width: 100%!important;
+    }
+
+}
+
+
