@@ -53,27 +53,29 @@ $env_perso = array(
 
         ),
 
-    array("name" => "Norman Jorge De Freitas",
-        "role" => "Manager, Écrivain,<br> Compositeur, Rappeur",
-        "icon" => "Norman_Jorge_De_Freitas.jpg",
-        "instagram" => "https://www.instagram.com/rayquacondasensei_off/",
-        "linkedin" => "https://www.linkedin.com/in/norman-jorge-de-freitas-0a736a203/",
+    array("name" => "Maewan Marthelot",
+        "role" => "Graphiste, Monteur-vidéo,<br> Vidéaste, Animateur 2D",
+        "icon" => "Maewan_Marthelot.jpg",
+        "instagram" => "https://www.instagram.com/maewanm/",
+        "youtube" => "https://www.youtube.com/c/MA3WAN",
+        "linkedin" => "https://www.linkedin.com/in/ma%C3%ABwan-marthelot-01744b203"
 
-        ),
+    ),
 
     array("name" => "Pierre-Louis Devaud",
         "role" => "Conseillez Technique,<br> Responsable Communication",
         "icon" => "Pierre-Louis_Devaud.jpg",
         "instagram" => "https://www.instagram.com/pl_dev54/",
         "twitch" => "https://www.twitch.tv/piplextv",
+        "linkedin" => "https://www.linkedin.com/in/pierre-louis-devaud-574035236/"
 
-        ),
+    ),
 
-    array("name" => "Dylan Argentino",
-        "role" => "Designer,<br> Dessinateur",
-        "icon" => "Dylan_Argentino.jpg",
-        "instagram" => "https://www.instagram.com/viking_senpai/",
-
+    array("name" => "Norman Jorge De Freitas",
+        "role" => "Manager, Écrivain,<br> Compositeur",
+        "icon" => "Norman_Jorge_De_Freitas.jpg",
+        "instagram" => "https://www.instagram.com/rayquacondasensei_off/",
+        "linkedin" => "https://www.linkedin.com/in/norman-jorge-de-freitas-0a736a203/",
 
         ),
 
@@ -85,14 +87,37 @@ $env_perso = array(
 
         ),
 
-    array("name" => "Maewan Marthelot",
-        "role" => "Graphiste, Monteur-vidéo,<br> Vidéaste, Photographe",
-        "icon" => "Maewan_Marthelot.jpg",
-        "instagram" => "https://www.instagram.com/maewanm/",
-        "youtube" => "https://www.youtube.com/c/MA3WAN",
-        "linkedin" => "https://www.linkedin.com/in/ma%C3%ABwan-marthelot-01744b203"
+    array("name" => "Flavien Dechoz",
+        "role" => "Modérateur, <br> support technique",
+        "icon" => "Flavien_Dechoz.jpg",
+        "twitter" => "https://twitter.com/flavien_dechoz",
+        "instagram" => "https://www.instagram.com/flaviendechoz/",
+        "youtube" => "https://www.youtube.com/channel/UCx-qCuv3FRGKbls2UckYkcQ",
+        "facebook" => "https://www.facebook.com/flavien.dechoz69",
+    ),
 
-        ),
+    array("name" => "L&eacute;na Chervier",
+        "role" => "Assistante de direction,<br> community manager",
+        "icon" => "Léna_Chervier.jpg",
+        "instagram" => "https://www.instagram.com/lena_cherv/",
+        "linkedin" => "https://www.linkedin.com/in/l%C3%A9na-chervier-645470228/",
+
+    ),
+
+    array("name" => "Luigi Guyot",
+        "role" => "UX/UI Designer,<br> Modérateur",
+        "icon" => "Luigi_Guyot.jpg",
+        "linkedin" => "https://www.linkedin.com/in/luigi-guyot-56aa9722b/",
+
+    ),
+
+    array("name" => "Dylan Argentino",
+        "role" => "Designer,<br> Dessinateur",
+        "icon" => "Dylan_Argentino.jpg",
+        "instagram" => "https://www.instagram.com/viking_senpai/",
+    ),
+
+
 
     array("name" => "Angélique Herard",
         "role" => "Modérateur, Assistante",
@@ -114,22 +139,6 @@ $env_perso = array(
 
         ),
 
-    array("name" => "Flavien Dechoz",
-        "role" => "Modérateur",
-        "icon" => "Flavien_Dechoz.jpg",
-        "twitter" => "https://twitter.com/flavien_dechoz",
-        "instagram" => "https://www.instagram.com/flaviendechoz/",
-        "youtube" => "https://www.youtube.com/channel/UCx-qCuv3FRGKbls2UckYkcQ",
-        "facebook" => "https://www.facebook.com/flavien.dechoz69",
-        ),
-
-    array("name" => "L&eacute;na Chervier",
-        "role" => "Assistante<br> de direction",
-        "icon" => "Léna_Chervier.jpg",
-        "instagram" => "https://www.instagram.com/lena_cherv/",
-        "linkedin" => "https://www.linkedin.com/in/l%C3%A9na-chervier-645470228/",
-
-        ),
 );
 
 $env_page = array(
