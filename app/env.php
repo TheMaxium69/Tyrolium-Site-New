@@ -5,7 +5,7 @@ $APP_ENV = "PROD";
 
 // FALSE or TRUE
 $env_isAccount = false;
-$env_isEvent_5Year = true;
+$env_isEvent_5Year = false;
 
 
 $env_url = "https://tyrolium.fr";

@@ -133,7 +133,11 @@
             <div class="container col-5">
                 <article id="art-home">
                     <h2 class="art">Graphisme / Illustration</h2>
-                    <p class="art">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                    <p class="art">
+                    Dans ce domaine très important pour vos projets, nous sommes capables de vous faire l'entièreté de votre identité visuelle.<br>
+                    Nous vous accompagnerons pour créer votre logo, illustration ou même vos posts réseaux. 
+                    Nous sommes dans la capacité de vous aider à choisir et réaliser votre branding, votre charte graphique et vos couleurs.
+                    Cette prestation sers avant tout à vous accompagner dans les choix graphiques à votre projet.</p>
                     <div style="text-align: center">
                         <?php tyrobtn("contact.php?name=graph", "contact", "Contactez-nous pour cette prestation");?>
                     </div>
@@ -145,7 +149,11 @@
             <div class="container col-5">
                 <article>
                     <h2 class="art">Musicales</h2>
-                    <p class="art">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                    <p class="art">
+                    Cette prestation peut accompagner les entreprises dans leurs identités musicales.
+                    On l'oublie souvent, mais l'identité musicale est le meilleur moyen de ne pas vous faire oublier par vos clients.<br><br>
+                    De plus, nous proposons également des créations musicales pour les particuliers qui voudraient créer leur albums/EP/jingles/singles/domaine de l'audiovisuel. 
+                    </p>
                     <div style="text-align: center">
                         <?php tyrobtn("contact.php?name=music", "contact", "Contactez-nous pour cette prestation");?>
                     </div>
@@ -215,15 +223,22 @@
 
     <section id="service-second">
         <h2>Graphisme</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-        <br>
+        <p>
+                    Dans ce domaine très important pour vos projets, nous sommes capables de vous faire l'entièreté de votre identité visuelle.
+                    Nous vous accompagnerons pour créer votre logo, illustration ou même vos posts réseaux. 
+                    Nous sommes dans la capacité de vous aider à choisir et réaliser votre branding, votre charte graphique et vos couleurs.
+                    Cette prestation sers avant tout à vous accompagner dans les choix graphiques à votre projet.</p>
+                    <br>
         <?php tyrobtn("contact.php?name=graph", "contact", "Contactez-nous pour cette prestation");?>
     </section>
 
     <section id="service-second-but">
         <h2>Musicales</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-        <br>
+        <p>
+        Cette prestation peut accompagner les entreprises dans leurs identités musicales.
+        On l'oublie souvent, mais l'identité musicale est le meilleur moyen de ne pas vous faire oublier par vos clients.<br><br>
+        De plus, nous proposons également des créations musicales pour les particuliers qui voudraient créer leur albums/EP/jingles/singles/domaine de l'audiovisuel. 
+        </p><br>
         <?php tyrobtn("contact.php?name=music", "contact", "Contactez-nous pour cette prestation");?>
     </section>
 
@@ -235,13 +250,6 @@
         <?php tyrobtn("contact.php?name=mc", "contact", "Contactez-nous pour cette prestation");?>
     </section>
     <section id="service-second-but">
-        <h2>Bot Discord</h2>
-        <p>Nous sommes capable de vous créer votre bot discord, autant pour automatiser ou personnaliser les moindres fonctionnalités de vos serveurs discord.
-            Nous pouvons aussi le lier à des API et autres logiciels ou applications.</p>
-        <br>
-        <?php tyrobtn("contact.php?name=bot", "contact", "Contactez-nous pour cette prestation");?>
-    </section>
-    <section id="service-second-but">
         <h2>Configurations Serveur</h2>
         <p>Nous pouvons vous conseiller ou/et vous configurer vos serveurs.
             Linux est parfois compliqué à comprendre.
@@ -249,6 +257,14 @@
         <br>
         <?php tyrobtn("contact.php?name=serv", "contact", "Contactez-nous pour cette prestation");?>
     </section>
+    <section id="service-second-but">
+        <h2>Bot Discord</h2>
+        <p>Nous sommes capable de vous créer votre bot discord, autant pour automatiser ou personnaliser les moindres fonctionnalités de vos serveurs discord.
+            Nous pouvons aussi le lier à des API et autres logiciels ou applications.</p>
+        <br>
+        <?php tyrobtn("contact.php?name=bot", "contact", "Contactez-nous pour cette prestation");?>
+    </section>
+    
 
     </div>
     <br><br>
