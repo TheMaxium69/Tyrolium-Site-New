@@ -10,10 +10,17 @@
         <hr style="background: rgb(161, 161, 161);">
         <br>
     </section>
-    <section id="service-start">
-        <h2 class="titleS">Site Web</h2>
-        <p>Ci-dessous les différentes formules sont affichées, nous faisons majoritairement de la création de sites web.</p>
-        <br>
+    <section id="service-start" class="row container">
+        <div class="col-9">
+            <h2 class="titleS">Site Web</h2>
+            <br id="991none">
+            <p class="container">Ci-dessous les différentes formules sont affichées,<br> nous faisons majoritairement de la création de sites web.</p>
+            <br>
+        </div>
+        <div class="col-3">
+            <img src="assets/Coding%20_Monochromatic.png" style="width: 125px;margin-left: -185px;">
+            <br>
+        </div>
     </section>
     <section class="service-page">
         <div class="background">
@@ -88,7 +95,7 @@
                         <a target="_blank" href="https://www.tyrodiscord.xyz">Lien</a>
                         <br><br>
                         CLS-Habitat :
-                        <a target="_blank">Soon</a>
+                        <a target="_blank" href="https://cls-habitat.fr">Lien</a>
                         <br><br>
                         Solunias :
                         <a target="_blank">Soon</a>
@@ -114,7 +121,113 @@
         <br>
         <h2 class="titleS">Autres Prestations</h2>
     </section>
+
+
+    <!-- PC -->
+    <div class="home-desktop">
+
+        <section id="service-second" class="container row">
+            <div class="col-6" style="text-align: end">
+                <img class="img-home" src="assets/Designer%20_Monochromatic.png" style="width: 96%; height: 100%">
+            </div>
+            <div class="container col-5">
+                <article id="art-home">
+                    <h2 class="art">Graphisme / Illustration</h2>
+                    <p class="art">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                    <div style="text-align: center">
+                        <?php tyrobtn("contact.php?name=graph", "contact", "Contactez-nous pour cette prestation");?>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="service-second-but" class="container row">
+            <div class="container col-5">
+                <article>
+                    <h2 class="art">Musicales</h2>
+                    <p class="art">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                    <div style="text-align: center">
+                        <?php tyrobtn("contact.php?name=music", "contact", "Contactez-nous pour cette prestation");?>
+                    </div>
+                </article>
+            </div>
+            <div class="col-6">
+                <img class="img-home" src="assets/Music_Monochromatic.png">
+            </div>
+        </section>
+
+        <section id="service-second-but" class="container row">
+            <div class="col-6" style="text-align: end">
+                <img class="img-home" src="assets/Mc_Monochromatic.png" style="width: 96%; height: 100%">
+            </div>
+            <div class="container col-5">
+                <article id="art-home">
+                    <h2 class="art">Minecraft</h2>
+                    <p class="art">Prestation où nous réalisons le développement de votre mod ou de votre plugin.<br>
+                        Nous pouvons également configurer votre serveur, nos équipes ont beaucoup travaillé avec ce jeu et nous sommes en mesure de réaliser toutes vos demandes concernant celui-ci.</p>
+                    <div style="text-align: center">
+                        <?php tyrobtn("contact.php?name=mc", "contact", "Contactez-nous pour cette prestation");?>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="service-second-but" class="container row">
+            <div class="container col-5">
+                <article>
+                    <h2 class="art">Configurations Serveur</h2>
+                    <p class="art">Nous pouvons vous conseiller ou/et vous configurer vos serveurs.
+                        Linux est parfois compliqué à comprendre.
+                        Nous pouvons installer et mettre en place toutes vos demandes sur vos serveurs en fonction de vos besoins. </p>
+                    <div style="text-align: center">
+                        <?php tyrobtn("contact.php?name=bot", "contact", "Contactez-nous pour cette prestation");?>
+                    </div>
+                </article>
+            </div>
+            <div class="col-6">
+                <img class="img-home" src="assets/Online%20storage_Monochromatic.png">
+            </div>
+        </section>
+
+        <section id="service-second-but" class="container row">
+            <div class="col-6" style="text-align: end">
+                <img class="img-home" src="assets/Social%20Media_Monochromatic.png" style="width: 96%; height: 100%">
+            </div>
+            <div class="container col-5">
+                <article id="art-home">
+                    <h2 class="art">Bot Discord</h2>
+                    <p class="art">Nous sommes capable de vous créer votre bot discord, autant pour automatiser ou personnaliser les moindres fonctionnalités de vos serveurs discord.
+                        Nous pouvons aussi le lier à des API et autres logiciels ou applications.</p>
+                    <div style="text-align: center">
+                        <?php tyrobtn("contact.php?name=serv", "contact", "Contactez-nous pour cette prestation");?>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+
+
+    </div>
+
+    <!-- MOBILE -->
+
+    <div class="home-res">
+
     <section id="service-second">
+        <h2>Graphisme</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+        <br>
+        <?php tyrobtn("contact.php?name=graph", "contact", "Contactez-nous pour cette prestation");?>
+    </section>
+
+    <section id="service-second-but">
+        <h2>Musicales</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+        <br>
+        <?php tyrobtn("contact.php?name=music", "contact", "Contactez-nous pour cette prestation");?>
+    </section>
+
+    <section id="service-second-but">
         <h2>Minecraft</h2>
         <p>Prestation où nous réalisons le développement de votre mod ou de votre plugin.<br>
             Nous pouvons également configurer votre serveur, nos équipes ont beaucoup travaillé avec ce jeu et nous sommes en mesure de réaliser toutes vos demandes concernant celui-ci.</p>
@@ -136,6 +249,8 @@
         <br>
         <?php tyrobtn("contact.php?name=serv", "contact", "Contactez-nous pour cette prestation");?>
     </section>
+
+    </div>
     <br><br>
 </main>
 

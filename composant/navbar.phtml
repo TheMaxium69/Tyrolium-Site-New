@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-custom navbar-mainbg navbar-dark fixed-top">
     <img style="margin-left: 20px" src="http://tyrolium.fr/Contenu/Image/Tyrolium Site.png" alt="TyroliumLogo" width="40px" class="d-inline-block align-text-top nav-anim">
-    <a class="navbar-brand navbar-logo" href="javascript:redirect(1)">Tyrolium</a>
+    <a class="navbar-brand navbar-logo" href="javascript:redirect(1)">Tyrolium <?php if($env_isEvent_5Year){?><span class="badge badge-warning">5 ans !</span><?php } ?></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -12,7 +12,6 @@
 for ($i = 0; $i <= $nbBack-1; $i++) {
     $j = 0;
     $j = $i+1;
-
 
     if ($env_isAccount == false && $j <= 5){
             if ($j == $page){
@@ -45,3 +44,39 @@ for ($i = 0; $i <= $nbBack-1; $i++) {
         <script src="javascript/darkmode.js"></script>
     </div>
 </nav>
+
+<?php if ($env_isEvent_5Year) { ?>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://unpkg.com/izitoast/dist/js/iziToast.min.js'></script>
+
+<script>
+        iziToast.settings({
+            timeout: 3000,
+            resetOnHover: true,
+            transitionIn: 'flipInX',
+            transitionOut: 'flipOutX',
+            position: 'topRight',
+            onOpen: function () {
+                console.log('callback abriu!');
+            },
+            onClose: function () {
+                console.log("callback fechou!");
+            }
+        });
+
+        if(Text != 1){
+            iziToast.info({
+                title: '5 ans !',
+                theme: 'light',
+
+                iconUrl: 'https://tyrolium.fr/Contenu/Image/Tyrolium%20Site.png',
+
+                backgroundColor: '#ffc107',
+
+                timeout: 20000,
+
+                position: 'bottomCenter',
+                message: ' Tyrolium souffle sa 5ieme bougie 🎉 <a target="_blank" href="https://www.youtube.com/channel/UCY7TQJxzGSawF0YnixBAAXA" style="text-decoration: underline">Regarder la vidéo de l\'annivairesaire</a>'
+            });
+        }
+</script> <?php } ?>

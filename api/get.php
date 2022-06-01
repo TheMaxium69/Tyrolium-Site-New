@@ -51,6 +51,10 @@ if (!empty($_GET['firstName']) && !empty($_GET['lastName']) && !empty($_GET['ema
         } else if ( $_GET['prestation'] == "form-p3"){
             $sendObject->prestation = "Serveur";
         } else if ( $_GET['prestation'] == "form-p4"){
+            $sendObject->prestation = "Graphisme";
+        }else if ( $_GET['prestation'] == "form-p5"){
+            $sendObject->prestation = "Musicales";
+        }else if ( $_GET['prestation'] == "form-p6"){
             $sendObject->prestation = "Autre";
         } else {
             $sendObject->prestation = "Autre";
@@ -60,18 +64,26 @@ if (!empty($_GET['firstName']) && !empty($_GET['lastName']) && !empty($_GET['ema
         if ( $_GET['projet'] == "0"){
             $sendObject->projet = "TyroServ";
         } else if ( $_GET['projet'] == "1"){
-            $sendObject->projet = "Gamenium";
+            $sendObject->projet = "SolidServ";
         } else if ( $_GET['projet'] == "2"){
-            $sendObject->projet = "TyroDiscord";
+            $sendObject->projet = "Gamenium";
         } else if ( $_GET['projet'] == "3"){
-            $sendObject->projet = "TyroStudio";
+            $sendObject->projet = "TyroDiscord";
         } else if ( $_GET['projet'] == "4"){
-            $sendObject->projet = "Wonderlium";
+            $sendObject->projet = "TyroStudio";
         } else if ( $_GET['projet'] == "5"){
-            $sendObject->projet = "Sélémusium";
+            $sendObject->projet = "Wonderlium";
         } else if ( $_GET['projet'] == "6"){
-            $sendObject->projet = "TyroShop";
+            $sendObject->projet = "Sélémusium";
         } else if ( $_GET['projet'] == "7"){
+            $sendObject->projet = "TyroShop";
+        } else if ( $_GET['projet'] == "8"){
+            $sendObject->projet = "DuoGramme";
+        } else if ( $_GET['projet'] == "9"){
+            $sendObject->projet = "TyroStudent";
+        } else if ( $_GET['projet'] == "10"){
+            $sendObject->projet = "Chantium";
+        } else if ( $_GET['projet'] == "11"){
             $sendObject->projet = "Autre";
         } else {
             $sendObject->projet = "Autre";

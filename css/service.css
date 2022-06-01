@@ -92,12 +92,15 @@
     margin-bottom: 25px;
     max-width: 100%;
 
-    transition: filter 0.5s ease-out;
-    will-change: filter;
+
+    transform: translate3d(0, 0, 0);
+    transition: transform 0.2s ease-out;
+    will-change: transform;
 }
 
 .pricing-img:hover{
-    filter: invert(100%);
+    transform: translate(0, -5px);
+    transform: translate3d(0, -5px, 0);
 }
 
 .pricing-header {
@@ -187,7 +190,46 @@ a.pricing-button{
     font-size: 28px;
 }
 
+@media (max-width: 991px) {
+    br#991none{
+        display: none;
+    }
+    #hratom{
+        margin-top: 20px;
+    }
+    #service-start{
+        max-width: unset!important;
+        margin-left: unset!important;
+        margin-right: unset!important;
+        width: 100%!important;
 
+        padding-right: unset;
+        padding-left: unset;
+
+        display: initial;
+        -ms-flex-wrap: unset;
+        flex-wrap: unset;
+
+    }
+
+    #service-start .col-9{
+        -ms-flex: unset;
+        flex: unset;
+        max-width: unset;
+    }
+
+    #service-start .col-3{
+        display: none;
+    }
+
+    #service-start .col-9 p.container{
+        max-width: unset!important;
+        margin-left: unset!important;
+        margin-right: unset!important;
+        width: 100%!important;
+    }
+
+}
 .tyrobuttonNone {
     font-family: "Helvetica", "Arial", sans-serif;
     display: inline-block;

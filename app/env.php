@@ -5,6 +5,7 @@ $APP_ENV = "PROD";
 
 // FALSE or TRUE
 $env_isAccount = false;
+$env_isEvent_5Year = true;
 
 
 $env_url = "https://tyrolium.fr";
@@ -35,11 +36,12 @@ $env_back = array (
     $env_urlImage . "Background16",
     $env_urlImage . "Background15",
     $env_urlImage . "Background7",
-    $env_urlImage . "Background17",
+    $env_urlImage . "background13",
     $env_urlImage . "Background14",
     $env_urlImage . "Background18.jpeg",
     $env_urlImage . "Background21.jpg",
     $env_urlImage . "Background20.jpg",
+    $env_urlImage . "Background4"
 );
 
 $env_perso = array(
@@ -169,6 +171,7 @@ $env_projet = array(
     "Sélémusium",
     "TyroShop",
     "DuoGramme",
+    "TyroStudent",
     "Chantium",
     "Autre",
 );
@@ -178,6 +181,8 @@ $env_presta = array(
     "Minecraft",
     "Bot Discord",
     "Serveur",
+    "Graphisme",
+    "Musicales",
     "Autre",
 );
 
@@ -592,6 +597,28 @@ $env_story = array(
         "btn" => array(
             "url" => 'https://solidserv.fr',
             "text" => 'Allez sur le site'
+        ),
+    ),
+
+    array(
+        "date" => '20 Mai 2022',
+        "title" => 'Changement de logo pour Sélémusium',
+        "content" => 'Changement du logo du projet Musical de Tyrolium',
+        "picture" => $env_assets . 'story/Sélémusium2.png',
+        "btn" => array(
+            "url" => 'https://tyrolium.fr/Contenu/Image/Selemusium.png',
+            "text" => 'Voir l\'image'
+        ),
+    ),
+
+    array(
+        "date" => '20 Mai 2022',
+        "title" => 'Création du projet TyroStudent',
+        "content" => 'Projet de Formation de Tyrolium',
+        "picture" => $env_assets . 'story/TyroStudent.png',
+        "btn" => array(
+            "url" => 'https://tyrolium.fr/Contenu/Image/TyroStudent.png',
+            "text" => 'Voir l\'image'
         ),
     ),
 

@@ -47,6 +47,10 @@
                                                         echo "Bot Discord";
                                                     } else if ($_GET['name'] == "serv") {
                                                         echo "Serveur";
+                                                    } else if ($_GET['name'] == "graph") {
+                                                        echo "Graphisme";
+                                                    } else if ($_GET['name'] == "music") {
+                                                        echo "Musicales";
                                                     } ?>
                                                 </option>
                                             <?php } else { ?>
@@ -79,6 +83,10 @@
                                                                         $pGet = "p2";
                                                                     } else if ($_GET['name'] == "serv") {
                                                                         $pGet = "p3";
+                                                                    } else if ($_GET['name'] == "graph") {
+                                                                        $pGet = "p4";
+                                                                    } else if ($_GET['name'] == "music") {
+                                                                        $pGet = "p5";
                                                                     } ?>
                                                         <option hidden value="form-<?php echo $pGet?>">null</option>
                                                     <?php } else { ?>
