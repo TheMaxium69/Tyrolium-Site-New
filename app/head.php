@@ -10,7 +10,7 @@ function head($page)
     } else if ($page == 3){
         $title = "Projet | Tyrolium Site";
     } else if ($page == 4){
-        $title = "Colaboration | Tyrolium Site";
+        $title = "Collaboration | Tyrolium Site";
     } else if ($page == 5){
         $title = "Histoire | Tyrolium Site";
     } else if ($page == 7){

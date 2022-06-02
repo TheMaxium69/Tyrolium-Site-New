@@ -141,12 +141,6 @@ $env_perso = array(
         "instagram" => "https://www.instagram.com/angelique.hrd/",
     ),
 
-    array("name" => "Théotime Vandevoorde Rostankowski",
-        "role" => "Builder Minecraft",
-        "icon" => "Théotime_Vandevoorde_Rostankowski.jpg",
-        "instagram" => "https://www.instagram.com/theotimevr_/",
-    ),
-
     array("name" => "Arthur Verschelde",
         "role" => "Builder Minecraft,<br> Responsable E-Commerce",
         "icon" => "Arthur_Verschelde.jpg",
