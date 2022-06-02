@@ -52,6 +52,7 @@ $env_perso = array(
         "instagram" => "https://instagram.com/the_maxime_san",
         "github" => "https://github.com/TheMaxium69",
         "linkedin" => "https://linkedin.com/in/maxime-tournier-tyrolium",
+        "twitter" => "https://twitter.com/MaximeTournier2",
 
         ),
 
@@ -65,7 +66,7 @@ $env_perso = array(
     ),
 
     array("name" => "Pierre-Louis Devaud",
-        "role" => "Conseillez Technique,<br> Responsable Communication",
+        "role" => "Conseiller Technique,<br> Responsable Communication",
         "icon" => "Pierre-Louis_Devaud.jpg",
         "instagram" => "https://www.instagram.com/pl_dev54/",
         "twitch" => "https://www.twitch.tv/piplextv",
@@ -74,7 +75,7 @@ $env_perso = array(
     ),
 
     array("name" => "Norman Jorge De Freitas",
-        "role" => "Manager, Écrivain,<br> Compositeur",
+        "role" => "Manager(euse), Écrivain(e),<br> Compositeur(ice)",
         "icon" => "Norman_Jorge_De_Freitas.jpg",
         "instagram" => "https://www.instagram.com/rayquacondasensei_off/",
         "linkedin" => "https://www.linkedin.com/in/norman-jorge-de-freitas-0a736a203/",
@@ -99,7 +100,7 @@ $env_perso = array(
     ),
 
     array("name" => "L&eacute;na Chervier",
-        "role" => "Assistante de direction,<br> community manager",
+        "role" => "Assistante Administrative,<br> community manager",
         "icon" => "Léna_Chervier.jpg",
         "instagram" => "https://www.instagram.com/lena_cherv/",
         "linkedin" => "https://www.linkedin.com/in/l%C3%A9na-chervier-645470228/",
@@ -119,27 +120,37 @@ $env_perso = array(
         "instagram" => "https://www.instagram.com/viking_senpai/",
     ),
 
+    array("name" => "Mathis Dubief",
+        "role" => "Journaliste Jeux Vidéo, Modérateur",
+        "icon" => "Mathis_Dubief.jpg",
+        "instagram" => "https://www.instagram.com/m2k_hide.chr/",
+        "twitter" => "https://twitter.com/Mathis45920873",
+    ),
 
+     array("name" => "Wassim Bouridah",
+        "role" => "Ingénieur R&D,<br> Monteur-Vidéo",
+        "icon" => "Wassim_Bouridah.jpg",
+        "instagram" => "https://www.instagram.com/wassinobi/",
+        "youtube" => "https://www.youtube.com/channel/UCBuxMq0h-WQJi5_e6My9GYg",
+        "linkedin" => "https://www.linkedin.com/in/wassim-bouridah/",
+    ),
 
     array("name" => "Angélique Herard",
-        "role" => "Modérateur, Assistante",
+        "role" => "Modérateur",
         "icon" => "Angélique_Herard.jpg",
         "instagram" => "https://www.instagram.com/angelique.hrd/",
-
-        ),
+    ),
 
     array("name" => "Théotime Vandevoorde Rostankowski",
-        "role" => "Builder, Graphiste",
+        "role" => "Builder Minecraft",
         "icon" => "Théotime_Vandevoorde_Rostankowski.jpg",
         "instagram" => "https://www.instagram.com/theotimevr_/",
-
-        ),
+    ),
 
     array("name" => "Arthur Verschelde",
-        "role" => "Builder, Graphiste",
+        "role" => "Builder Minecraft,<br> Responsable E-Commerce",
         "icon" => "Arthur_Verschelde.jpg",
-
-        ),
+    ),
 
 );
 

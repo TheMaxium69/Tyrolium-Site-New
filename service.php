@@ -137,7 +137,7 @@
                     Dans ce domaine très important pour vos projets, nous sommes capables de vous faire l'entièreté de votre identité visuelle.<br>
                     Nous vous accompagnerons pour créer votre logo, illustration ou même vos posts réseaux. 
                     Nous sommes dans la capacité de vous aider à choisir et réaliser votre branding, votre charte graphique et vos couleurs.
-                    Cette prestation sers avant tout à vous accompagner dans les choix graphiques à votre projet.</p>
+                    Cette prestation sers avant tout à vous accompagner dans les choix graphiques de votre projet.</p>
                     <div style="text-align: center">
                         <?php tyrobtn("contact.php?name=graph", "contact", "Contactez-nous pour cette prestation");?>
                     </div>
