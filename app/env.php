@@ -121,7 +121,7 @@ $env_perso = array(
     ),
 
     array("name" => "Mathis Dubief",
-        "role" => "Journaliste Jeux Vidéo, Modérateur",
+        "role" => "Journaliste Jeux Vidéo,<br> Modérateur",
         "icon" => "Mathis_Dubief.jpg",
         "instagram" => "https://www.instagram.com/m2k_hide.chr/",
         "twitter" => "https://twitter.com/Mathis45920873",
