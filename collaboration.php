@@ -44,21 +44,25 @@
                             if(!empty($perso['twitter'])) { ?>
                                 <li><a href="<?php echo $perso['twitter']; ?>" class="fab fa-twitter" aria-hidden="true"></a></li>
                             <?php }
-                            if(!empty($perso['github'])) { ?>
-                                <li><a href="<?php echo $perso['github']; ?>" class="fab fa-github" aria-hidden="true"></a></li>
-                            <?php }
                             if(!empty($perso['youtube'])) { ?>
                                 <li><a href="<?php echo $perso['youtube']; ?>" class="fab fa-youtube" aria-hidden="true"></a></li>
                             <?php }
                             if(!empty($perso['soundcloud'])) { ?>
                                 <li><a href="<?php echo $perso['soundcloud']; ?>" class="fab fa-soundcloud" aria-hidden="true"></a></li>
                             <?php }
-                            if(!empty($perso['linkedin'])) { ?>
-                                <li><a href="<?php echo $perso['linkedin']; ?>" class="fab fa-linkedin" aria-hidden="true"></a></li>
+                            if(!empty($perso['github'])) { ?>
+                                <li><a href="<?php echo $perso['github']; ?>" class="fab fa-github" aria-hidden="true"></a></li>
+                            <?php }
+                            if(!empty($perso['behance'])) { ?>
+                                <li><a href="<?php echo $perso['behance']; ?>" class="fab fa-behance" aria-hidden="true"></a></li>
                             <?php }
                             if(!empty($perso['twitch'])) { ?>
                                 <li><a href="<?php echo $perso['twitch']; ?>" class="fab fa-twitch" aria-hidden="true"></a></li>
                             <?php }
+                            if(!empty($perso['linkedin'])) { ?>
+                                <li><a href="<?php echo $perso['linkedin']; ?>" class="fab fa-linkedin" aria-hidden="true"></a></li>
+                            <?php }
+
 
                             ?>
                         </ul>

@@ -4,7 +4,7 @@
 $APP_ENV = "PROD";
 
 // FALSE or TRUE
-$env_isAccount = false;
+$env_isAccount = true;
 $env_isEvent_5Year = false;
 
 
@@ -57,11 +57,12 @@ $env_perso = array(
         ),
 
     array("name" => "Maewan Marthelot",
-        "role" => "Graphiste, Monteur-vidéo,<br> Vidéaste, Animateur 2D",
+        "role" => "Graphiste, Monteur-Vidéo,<br> Vidéaste, Animateur 2D",
         "icon" => "Maewan_Marthelot.jpg",
         "instagram" => "https://www.instagram.com/maewanm/",
         "youtube" => "https://www.youtube.com/c/MA3WAN",
-        "linkedin" => "https://www.linkedin.com/in/ma%C3%ABwan-marthelot-01744b203"
+        "linkedin" => "https://www.linkedin.com/in/ma%C3%ABwan-marthelot-01744b203",
+        "behance" => "https://www.behance.net/mawanmarthelot"
 
     ),
 
@@ -82,25 +83,25 @@ $env_perso = array(
 
         ),
 
+    array("name" => "Wassim Bouridah",
+        "role" => "Ingénieur R&D,<br> Monteur-Vidéo",
+        "icon" => "Wassim_Bouridah.jpg",
+        "instagram" => "https://www.instagram.com/wassinobi/",
+        "youtube" => "https://www.youtube.com/channel/UCBuxMq0h-WQJi5_e6My9GYg",
+        "linkedin" => "https://www.linkedin.com/in/wassim-bouridah/",
+    ),
+
     array("name" => "Edward Thouvenin",
         "role" => "Compositeur,<br> Beatmaker",
         "icon" => "Edward_Thouvenin.jpg",
         "instagram" => "https://www.instagram.com/edward_el_renard/",
         "soundcloud" => "https://soundcloud.com/wared-22283149",
+        "linkedin" => "https://www.linkedin.com/in/edward-thouvenin-040ba823b/"
 
         ),
 
-    array("name" => "Flavien Dechoz",
-        "role" => "Modérateur, <br> support technique",
-        "icon" => "Flavien_Dechoz.jpg",
-        "twitter" => "https://twitter.com/flavien_dechoz",
-        "instagram" => "https://www.instagram.com/flaviendechoz/",
-        "youtube" => "https://www.youtube.com/channel/UCx-qCuv3FRGKbls2UckYkcQ",
-        "facebook" => "https://www.facebook.com/flavien.dechoz69",
-    ),
-
     array("name" => "L&eacute;na Chervier",
-        "role" => "Assistante Administrative,<br> community manager",
+        "role" => "Assistante Administrative,<br> Community Manager",
         "icon" => "Léna_Chervier.jpg",
         "instagram" => "https://www.instagram.com/lena_cherv/",
         "linkedin" => "https://www.linkedin.com/in/l%C3%A9na-chervier-645470228/",
@@ -112,6 +113,15 @@ $env_perso = array(
         "icon" => "Luigi_Guyot.jpg",
         "linkedin" => "https://www.linkedin.com/in/luigi-guyot-56aa9722b/",
 
+    ),
+
+    array("name" => "Flavien Dechoz",
+        "role" => "Modérateur, <br> Support Technique",
+        "icon" => "Flavien_Dechoz.jpg",
+        "twitter" => "https://twitter.com/flavien_dechoz",
+        "instagram" => "https://www.instagram.com/flaviendechoz/",
+        "youtube" => "https://www.youtube.com/channel/UCx-qCuv3FRGKbls2UckYkcQ",
+        "facebook" => "https://www.facebook.com/flavien.dechoz69",
     ),
 
     array("name" => "Dylan Argentino",
@@ -127,24 +137,11 @@ $env_perso = array(
         "twitter" => "https://twitter.com/Mathis45920873",
     ),
 
-     array("name" => "Wassim Bouridah",
-        "role" => "Ingénieur R&D,<br> Monteur-Vidéo",
-        "icon" => "Wassim_Bouridah.jpg",
-        "instagram" => "https://www.instagram.com/wassinobi/",
-        "youtube" => "https://www.youtube.com/channel/UCBuxMq0h-WQJi5_e6My9GYg",
-        "linkedin" => "https://www.linkedin.com/in/wassim-bouridah/",
-    ),
-
     array("name" => "Angélique Herard",
         "role" => "Modérateur",
         "icon" => "Angélique_Herard.jpg",
         "instagram" => "https://www.instagram.com/angelique.hrd/",
-    ),
-
-    array("name" => "Arthur Verschelde",
-        "role" => "Builder Minecraft,<br> Responsable E-Commerce",
-        "icon" => "Arthur_Verschelde.jpg",
-    ),
+    ),  
 
 );
 
@@ -163,7 +160,7 @@ $env_page_logo = array(
     "fas fa-dice-d6",
     "fas fa-handshake",
     "fas fa-book",
-    "far fa-user",
+    "fas fa-user",
 );
 
 $env_projet = array(

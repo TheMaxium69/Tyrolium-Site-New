@@ -65,7 +65,7 @@
     display: block;
     font-size: 15px;
     color: #7a7b7c;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 
 .our-team .social {

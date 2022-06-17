@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-custom navbar-mainbg navbar-dark fixed-top">
-    <img style="margin-left: 20px" src="http://tyrolium.fr/Contenu/Image/Tyrolium Site.png" alt="TyroliumLogo" width="40px" class="d-inline-block align-text-top nav-anim">
+    <img style="margin-left: 20px" src="http://tyrolium.fr/Contenu/Image/<?php if ($env_isEvent_5Year) { echo "Tyrolium5Year Site.png"; } else { echo "Tyrolium Site.png"; } ?>" alt="TyroliumLogo" width="40px" class="d-inline-block align-text-top nav-anim">
     <a class="navbar-brand navbar-logo" href="javascript:redirect(1)">Tyrolium <?php if($env_isEvent_5Year){?><span class="badge badge-warning">5 ans !</span><?php } ?></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>

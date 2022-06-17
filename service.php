@@ -163,18 +163,19 @@
                 <img class="img-home" src="assets/Music_Monochromatic.png">
             </div>
         </section>
-
-        <section id="service-second-but" class="container row">
+        
+        <section id="service-second" class="container row">
             <div class="col-6" style="text-align: end">
-                <img class="img-home" src="assets/Mc_Monochromatic.png" style="width: 96%; height: 100%">
+                <img class="img-home" src="assets/User%20interface_Monochromatic.png" style="width: 96%; height: 100%">
             </div>
             <div class="container col-5">
                 <article id="art-home">
-                    <h2 class="art">Minecraft</h2>
-                    <p class="art">Prestation où nous réalisons le développement de votre mod ou de votre plugin.<br>
-                        Nous pouvons également configurer votre serveur, nos équipes ont beaucoup travaillé avec ce jeu et nous sommes en mesure de réaliser toutes vos demandes concernant celui-ci.</p>
+                    <h2 class="art">Montage Vidéo / Animation</h2>
+                    <p class="art">
+                    JE SAIS PAS QUOI METTRE
+                    </p>
                     <div style="text-align: center">
-                        <?php tyrobtn("contact.php?name=mc", "contact", "Contactez-nous pour cette prestation");?>
+                        <?php tyrobtn("contact.php?name=anim", "contact", "Contactez-nous pour cette prestation");?>
                     </div>
                 </article>
             </div>
@@ -183,6 +184,25 @@
         <section id="service-second-but" class="container row">
             <div class="container col-5">
                 <article>
+                    <h2 class="art">Minecraft</h2>
+                    <p class="art">Prestation où nous réalisons le développement de votre mod ou de votre plugin.<br>
+                        Nous pouvons également configurer votre serveur, nos équipes ont beaucoup travaillé avec ce jeu et nous sommes en mesure de réaliser toutes vos demandes concernant celui-ci.</p>
+                    <div style="text-align: center">
+                        <?php tyrobtn("contact.php?name=mc", "contact", "Contactez-nous pour cette prestation");?>
+                    </div>
+                </article>
+            </div>
+            <div class="col-6">
+                <img class="img-home" src="assets/Mc_Monochromatic.png" style="width: 96%; height: 100%">
+            </div>
+        </section>
+
+        <section id="service-second-but" class="container row">
+            <div class="col-6">
+                <img class="img-home" src="assets/Online%20storage_Monochromatic.png" style="width: 100%;">
+            </div>
+            <div class="container col-5">
+                <article id="art-home">
                     <h2 class="art">Configurations Serveur</h2>
                     <p class="art">Nous pouvons vous conseiller ou/et vous configurer vos serveurs.
                         Linux est parfois compliqué à comprendre.
@@ -192,17 +212,11 @@
                     </div>
                 </article>
             </div>
-            <div class="col-6">
-                <img class="img-home" src="assets/Online%20storage_Monochromatic.png">
-            </div>
         </section>
 
         <section id="service-second-but" class="container row">
-            <div class="col-6" style="text-align: end">
-                <img class="img-home" src="assets/Social%20Media_Monochromatic.png" style="width: 96%; height: 100%">
-            </div>
             <div class="container col-5">
-                <article id="art-home">
+                <article>
                     <h2 class="art">Bot Discord</h2>
                     <p class="art">Nous sommes capable de vous créer votre bot discord, autant pour automatiser ou personnaliser les moindres fonctionnalités de vos serveurs discord.
                         Nous pouvons aussi le lier à des API et autres logiciels ou applications.</p>
@@ -210,6 +224,9 @@
                         <?php tyrobtn("contact.php?name=serv", "contact", "Contactez-nous pour cette prestation");?>
                     </div>
                 </article>
+            </div>
+            <div class="col-6" style="text-align: end">
+                <img class="img-home" src="assets/Social%20Media_Monochromatic.png" style="width: 96%; height: 100%">
             </div>
         </section>
 
