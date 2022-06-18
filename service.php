@@ -128,7 +128,7 @@
 
         <section id="service-second" class="container row">
             <div class="col-6" style="text-align: end">
-                <img class="img-home" src="assets/Designer%20_Monochromatic.png" style="width: 96%; height: 100%">
+                <img class="img-home" src="assets/Designer%20_Monochromatic.png" style="width: 100%; height: 100%">
             </div>
             <div class="container col-5">
                 <article id="art-home">
@@ -160,7 +160,7 @@
                 </article>
             </div>
             <div class="col-6">
-                <img class="img-home" src="assets/Music_Monochromatic.png">
+                <img class="img-home" src="assets/Music_Monochromatic.png" style="width: 100%">
             </div>
         </section>
         
@@ -172,7 +172,12 @@
                 <article id="art-home">
                     <h2 class="art">Montage Vidéo / Animation</h2>
                     <p class="art">
-                    JE SAIS PAS QUOI METTRE
+                    Nos équipes peuvent vous aider dans vos projets audiovisuel.
+Vous voulez impacter vos client avec une animation ou un montage vidéo ?
+<br>
+Vous êtes un vidéaste plein d'idées et vous voulez un monteur qui vous simplifie votre travail ?
+<br>
+Avec cette prestation nos équipes pourront vous accompagner dans vos projets et réaliser vos animations, vidéos promotionnelles ou vos vidéos personnelles pour votre propre projet.
                     </p>
                     <div style="text-align: center">
                         <?php tyrobtn("contact.php?name=anim", "contact", "Contactez-nous pour cette prestation");?>

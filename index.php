@@ -92,15 +92,22 @@
         <?php if($env_isAccount == true) { ?>
             <!-- PC - ACCOUNT -->
 
-    <section id="home-account">
+    <section id="home-account" style="padding-bottom: 25px;">
         <div class="container row">
             <div class="col-6">
-                <img class="img-home" src="assets/Information_flow_Monochromatic.png">
+                <img class="img-home" src="assets/Information_flow_Monochromatic.png" style="margin-top: 12px;">
             </div>
             <div class="container col-4">
                 <article>
-                    <h2 class="art">Account</h2>
-                    <p class="art">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,</p>
+                    <h2 class="art">Les Compte Useritium</h2>
+                    <p class="art" style='    padding-bottom: 10px;
+    margin-top: -21px;'>Les comptes Useritium sont proposés par Tyrolium, afin de vous proposer une adresse mail personnelle.
+
+Ces comptes vous offrent un cloud, de plus, ils permettent egalement de pouvoir gérer vos jeux vidéos, vos serveurs.
+                        
+Ils vous permettent également de connaître l'avancée de vos demandes de prestations.
+
+Ces comptes sont aussi une garantie de sécurité de vos données, nous nous engageons à ne jamais partager ou divulguer quelconques informations vous concernant.</p>
                     <div style="text-align: center">
                         <?php tyrobtn("account.php", "account", "Plus d'info");?>
                     </div>
@@ -135,7 +142,7 @@
             <article>
                 <h2 class="art">Indépendant et Français</h2>
                 <p class="art">Le but de Tyrolium est d'exploiter au mieux le potentiel de ses employés pour créer des projets toujours plus ambitieux.
-                    Les fonds générés par nos prestations sont injectés dans l'entreprise pour financer des projets.
+                    Les fonds générés par nos prestations sont injectés dans l'entreprise pour financer des projets.<!--Nous nous engagons à être le plus proche et efficace possible de nos clients et des gens qui nous suivent et nous permettent d'exister.-->
                 </p><p class="art">
                     L'objectif de Tyrolium est de concurrencer le monde et les géants de notre domaine en restant français.
                 </p><p class="art">
@@ -217,7 +224,7 @@
                     <div class="container col-4">
                         <article>
                             <h2 class="art-res">Nos Prestations</h2>
-                            <p class="art-res">Tyrolium vous propose des prestations de services, notamment dans le développement de sites Web, d'applications, l'hébergement de serveurs, le développement minecraft et des bots (discord ou autre) pour les particuliers et les professionnels. Les fonds générés par ces prestations seront investis dans les projets de l'entreprise.</p>
+                            <p class="art-res">Tyrolium vous propose des prestations de services, notamment dans le développement de sites Web, d'applications, l'hébergement de serveurs, le développement minecraft et des bots (discord ou autre) pour les particuliers et les professionnels. Les fonds générés par ces prestations seront investis dans les projets de l'entreprise. </p>
                             <div>
                                 <div class="" style="width: 60%; margin-left: 20%">
                                     <img src="assets/Team_work_Monochromatic.png" width="100%" height="100%">
@@ -344,7 +351,7 @@
                     <article>
                         <h2 class="art-res">Indépendant et Français</h2>
                         <p class="art-res">Le but de Tyrolium est d'exploiter au mieux le potentiel de ses employés pour créer des projets toujours plus ambitieux.
-                            Les fonds générés par nos prestations sont injectés dans l'entreprise pour financer des projets.</p>
+                            Les fonds générés par nos prestations sont injectés dans l'entreprise pour financer des projets. </p>
                         <p class="art-res">
                             L'objectif de Tyrolium est de concurrencer le monde et les géants de notre domaine en restant français.
                         </p><p class="art-res">

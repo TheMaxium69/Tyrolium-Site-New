@@ -629,8 +629,8 @@ $env_story = array(
     ///POUR LES 5 ANS
     array(
         "date" => '9 Juillet 2022',
-        "title" => 'Vidéo Des 5 ans',
-        "content" => 'Tyrolium a réalisé une vidéo d\'animations pour ces 5 ans qui retrace toute son histoire ',
+        "title" => 'Vidéo des 5 Ans',
+        "content" => 'Tyrolium a réalisé une vidéo d\'animation pour ses 5 ans qui retrace toute son histoire',
         "picture" => $env_assets . 'story/miniature5ans.png',
         "btn" => array(
             "url" => 'https://www.youtube.com/watch?v=CScP1Zg4Sm8',
@@ -641,7 +641,7 @@ $env_story = array(
     array(
         "date" => '9 Juillet 2022',
         "title" => 'Annonce de la saison 3 de TyroServ',
-        "content" => 'Lors de la vidéo des 5 ans de Tyrolium, TyroServ Annonce avec un teaser la saison 3, accompagner d\'un nouveau logo',
+        "content" => 'Lors de la vidéo des 5 ans de Tyrolium, TyroServ annonce avec un teaser la saison 3 également accompagnée d\'un nouveau logo',
         "picture" => $env_assets . 'story/TyroServS3.png',
         "btn" => array(
             "url" => 'https://youtu.be/YA_p5xfBKjA',
@@ -652,7 +652,7 @@ $env_story = array(
     array(
         "date" => '9 Juillet 2022',
         "title" => 'Annonce du Première Album de Sélémusium',
-        "content" => 'Lors de la vidéo des 5 ans de Tyrolium, Sélémusium sort avec un trailer, la sorti de son première album Artomyx',
+        "content" => 'Lors de la vidéo des 5 ans de Tyrolium, Sélémusium sort avec un trailer, la sortie d\'Artomyx, son premier album',
         "btn" => array(
             "url" => 'https://youtu.be/s_6V9HDs4YA',
             "text" => 'Voir la vidéo'
@@ -662,7 +662,7 @@ $env_story = array(
     array(
         "date" => '9 Juillet 2022',
         "title" => 'Annonce des Comptes Useritium',
-        "content" => 'Lors de la vidéo des 5 ans de Tyrolium, Tyrolium à annoncé le lancement des Comptes Useritium',
+        "content" => 'Lors de la vidéo des 5 ans de Tyrolium a été annoncé le lancement des comptes Useritium',
         "btn" => array(
             "url" => 'https://youtu.be/zJ3rbBJCYdM',
             "text" => 'Voir la vidéo'
@@ -672,7 +672,7 @@ $env_story = array(
     array(
         "date" => '9 Juillet 2022',
         "title" => 'Lancement du site TyroBirthday',
-        "content" => 'Pour les 5 ans, Tyrolium a l\'ancé un site',
+        "content" => 'Pour les 5 ans, Tyrolium a l\'ancé un site pour l\'occasion',
         "btn" => array(
             "url" => 'https://birthday.tyrolium.fr',
             "text" => 'Allez sur le site'
@@ -684,7 +684,7 @@ $env_story = array(
     array(
         "date" => '11 Juillet 2022',
         "title" => 'Lancement du Première Album de Sélémusium',
-        "content" => 'Sélémusium sort son première album sur toute les plateforme, un site à été créer pour l\'occasion',
+        "content" => 'Sélémusium sort son premier album sur toutes les plateformes, un site a été créé pour l\'occasion',
         "picture" => $env_assets . 'story/Artomyx.png',
         "btn" => array(
             "url" => 'https://artomyx.selemusium.xyz',
@@ -697,7 +697,8 @@ $env_story = array(
     array(
         "date" => '13 Juillet 2022',
         "title" => 'Lancement des Animations',
-        "content" => 'Tyrolium à sorti une animations sur tout les projects de Tyrolium, dispo sur la page Project de ce site',
+        "content" => 'Tyrolium a sorti une animation sur tous ses projets. <br>
+Elle est disponible sur la page projets de ce site',
     ),
     
     //Pour le 15 Juillet
@@ -705,7 +706,7 @@ $env_story = array(
     array(
         "date" => '15 Juillet 2022',
         "title" => 'Reboot de Wonderlium',
-        "content" => 'Wonderlium reboot, et reprend des vidéo et regulière et une nouvelle charte graphique sur ça chaine',
+        "content" => 'Reboot de Wonderlium et reprise des vidéos régulières avec une nouvelle charte graphique',
     ),
 
 
