@@ -66,6 +66,11 @@
                     </div>
                 </section>
 
+                <div class="container">
+
+    <hr style="background: rgb(161, 161, 161); margin-top:45px" >
+                </div>
+                
                 <section id="service-second-but" class="container row">
                     <div class="container col-5">
                         <article>

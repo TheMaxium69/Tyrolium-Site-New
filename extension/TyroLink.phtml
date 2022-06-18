@@ -37,4 +37,6 @@
 <script src="javascript/redirect.js"></script>
 <script src="javascript/navbar.js"></script>
 <script src="javascript/cheatcode.js"></script>
-<script src="javascript/project.js"></script>
+<?php if($env_isAnimProject){
+    echo '<script src="javascript/project.js"></script>';
+} ?>
