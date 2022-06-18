@@ -101,7 +101,9 @@
                     <small>TyroStudio ®</small><br>
                     <small>Gamenium ®</small><br>
                     <small>Sélémusium ®</small><br>
-                    <small >Wonderlium ®</small><br>
+                    <small>Wonderlium ®</small><br>
+                    <small>Useritium ®</small><br>
+                    <small>TyroStudent ®</small><br>
                     <small>-Minerais TyroServ protégés-</small><br>
                     <small>Rhodonium ®</small><br>
                     <small>Aventurium ®</small><br>
@@ -126,6 +128,8 @@
                     <small>© 2022 SoundCloud Operations, Inc. / copyright@soundcloud.com</small><br>
                     <small>2022 © BâtirPositif</small><br>
                     <small>Mojang © 2009-2022</small><br>
+                    <small>© 2022 Adobe.</small><br>
+                    <small>2022 © CLS-Habitat</small><br>
                 </div>
             </div>
         </div>

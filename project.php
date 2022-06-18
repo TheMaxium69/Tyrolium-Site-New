@@ -92,7 +92,7 @@
         <ul>
 
             <li id="a0">
-                <img class="logo" src="http://tyrolium.fr/Contenu/Image/Tyrolium ServerMC S2.png" alt="TyroservLogo">
+                <img class="logo" src="assets/anim/TyroServS3.png" logo="assets/anim/TyroServS3.png" gif="assets/anim/TyroServ%20Anim.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="TyroservLogo">
                 <h2>TyroServ</h2>
                 <p>Serveur moddé sur le jeu Minecraft.</p>
                 <small>Disponible entièrement sur le site officiel.</small><br>

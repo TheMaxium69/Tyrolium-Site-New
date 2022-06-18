@@ -60,11 +60,24 @@ main#story h1 {
     max-width: 100%;
 }
 
-/*Si marche pas desactive ça (pense a la media aussi)*/
-/* :nth-last-child(even) */
+
+/*-------------------------------*/
+/*TEXT PROTECTION DATE*/
+
+/*PAIRE*/
 .timeline-item:nth-last-child(even) .timeline-content h2{
     max-width: 60%;
 }
+
+/*IN PAIRE*/
+/*.timeline-item:nth-last-child(even) .timeline-content h2{
+    max-width: 100%;
+}
+
+.timeline-item .timeline-content h2{
+    max-width: 60%;
+}*/
+/*-------------------------------*/
 
 .timeline-item:nth-child(even) .timeline-content::after {
     content: "";

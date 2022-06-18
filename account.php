@@ -17,8 +17,6 @@
 	            particule($colorCookie) ?>
 	        </div>
 	    </section>
-
-        <style></style>
         
         <section id="connection" class="container">
         
@@ -34,7 +32,7 @@
                 <p >Les Comptes Useritium Sortirons le <strong>30 Sptembre 2022</strong>, Vous pourrez créer tout ça ici ou sur sont site, et profitez des nombreuse fonctionnalité disponible en dessous</p>
                 <hr class="my-4">
                 <p class="lead">Pour voir plus d'information sur les comptes Useritium nous vous inviton a regarder le trailer ou à allez sur le site officiel des comptes.</p>
-                <?php tyrobtn("https://useritium.fr", "buttonAccount", "Voir le trailer");?>
+                <?php tyrobtn("https://youtu.be/zJ3rbBJCYdM", "buttonAccount", "Voir le trailer");?>
                 <?php tyrobtn("https://useritium.fr", "buttonAccount", "Site Officiel");?>
             </div>
 
