@@ -58,7 +58,7 @@ $env_perso = array(
         ),
 
     array("name" => "Maewan Marthelot",
-        "role" => "Graphiste, Monteur-Vidéo,<br> Vidéaste, Animateur 2D",
+        "role" => "Graphiste, Monteur-Vidéo,<br> Animateur 2D",
         "icon" => "Maewan_Marthelot.jpg",
         "instagram" => "https://www.instagram.com/maewanm/",
         "youtube" => "https://www.youtube.com/c/MA3WAN",
@@ -68,7 +68,7 @@ $env_perso = array(
     ),
 
     array("name" => "Pierre-Louis Devaud",
-        "role" => "Conseiller Technique,<br> Responsable Communication",
+        "role" => "Responsable Communication,<br> Conseiller Technique",
         "icon" => "Pierre-Louis_Devaud.jpg",
         "instagram" => "https://www.instagram.com/pl_dev54/",
         "twitch" => "https://www.twitch.tv/piplextv",
@@ -77,7 +77,7 @@ $env_perso = array(
     ),
 
     array("name" => "Norman Jorge De Freitas",
-        "role" => "Manager(euse), Écrivain(e),<br> Compositeur(ice)",
+        "role" => " Compositeur(ice),<br> Écrivain(e)",
         "icon" => "Norman_Jorge_De_Freitas.jpg",
         "instagram" => "https://www.instagram.com/rayquacondasensei_off/",
         "linkedin" => "https://www.linkedin.com/in/norman-jorge-de-freitas-0a736a203/",
@@ -85,7 +85,7 @@ $env_perso = array(
         ),
 
     array("name" => "Wassim Bouridah",
-        "role" => "Ingénieur R&D,<br> Monteur-Vidéo",
+        "role" => "Responsable Communication,<br> Ingénieur R&D",
         "icon" => "Wassim_Bouridah.jpg",
         "instagram" => "https://www.instagram.com/wassinobi/",
         "youtube" => "https://www.youtube.com/channel/UCBuxMq0h-WQJi5_e6My9GYg",
@@ -117,7 +117,7 @@ $env_perso = array(
     ),
 
     array("name" => "Flavien Dechoz",
-        "role" => "Modérateur, <br> Support Technique",
+        "role" => "Support Technique,<br> Modérateur ",
         "icon" => "Flavien_Dechoz.jpg",
         "twitter" => "https://twitter.com/flavien_dechoz",
         "instagram" => "https://www.instagram.com/flaviendechoz/",
@@ -126,7 +126,7 @@ $env_perso = array(
     ),
 
     array("name" => "Dylan Argentino",
-        "role" => "Designer,<br> Dessinateur",
+        "role" => "Dessinateur,<br> Designer",
         "icon" => "Dylan_Argentino.jpg",
         "instagram" => "https://www.instagram.com/viking_senpai/",
     ),
@@ -139,7 +139,7 @@ $env_perso = array(
     ),
 
     array("name" => "Angélique Herard",
-        "role" => "Modérateur",
+        "role" => "Modératrice",
         "icon" => "Angélique_Herard.jpg",
         "instagram" => "https://www.instagram.com/angelique.hrd/",
     ),  
