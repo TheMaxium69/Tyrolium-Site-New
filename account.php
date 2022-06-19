@@ -28,7 +28,7 @@
             <br>
 
             <div class="jumbotron">
-                <h1 class="display-4"> <i class="fa fa-info-circle"></i> Les comptes ne sont pas disponible</h1>
+                <h1 class="display-4 accountDisplay"> <i class="fa fa-info-circle"></i> Les comptes ne sont pas disponible</h1>
                 <p >Les comptes Useritium sortiront le <strong>30 septembre 2022</strong>, vous pourrez créer votre compte ici ou sur son site.
 Découvrez également des nombreuses fonctionnalités disponibles en dessous</p>
                 <hr class="my-4">
@@ -48,6 +48,22 @@ Découvrez également des nombreuses fonctionnalités disponibles en dessous</p>
                 #btn-buttonAccount{
                     font-size: 12px;
                 }
+                
+                @media(max-width: 970px){
+                    h1.accountDisplay{
+                        font-size: 2.5rem;
+                    }
+                    
+                    #service-second{
+                        padding: 20px 30px 0;
+                    }
+
+                    #service-second-but{
+                        padding: 20px 30px 0;
+                    }
+                }
+                
+                
             </style>
         </section>
 
@@ -259,18 +275,151 @@ Ces comptes sont aussi une garantie de sécurité de vos données, nous nous eng
         
         
     <section id="service-second-but">
-        <h2>Musicales</h2>
+        <h2>Synchronisation avec tous vos Sites</h2>
         <p>
-        Cette prestation peut accompagner les entreprises dans leurs identités musicales.
-        On l'oublie souvent, mais l'identité musicale est le meilleur moyen de ne pas vous faire oublier par vos clients.<br><br>
-        De plus, nous proposons également des créations musicales pour les particuliers qui voudraient créer leur albums/EP/jingles/singles/domaine de l'audiovisuel. 
-        </p><div>
+                                Synchronisez les comptes Useritium avec tous nos sites et les sites de nos partenaires, cela permet d'avoir un seul compte et un seul mot de passe afin de simplifier toutes vos connexions et vos créations de comptes.<br><br>
+Vous pourrez consulter tous les sites ou vous êtes connectés sur le pannel 
+Cette synchronisation permet aussi de voir toutes vos informations sur le site de Useritium
+                            </p><div>
                             <div class="" style="width: 60%; margin-left: 20%">
-                                <img src="assets/Music_Monochromatic.png" width="100%" height="100%">
+                                <img src="assets/World%20wide%20web_Monochromatic.png" width="100%" height="100%">
                             </div>
                         </div>
                     <br>
     </section>
+        
+    <section id="service-second-but">
+        <h2>
+        Votre boîte Mail
+        </h2>
+        <p>
+        
+        
+                                La boîte mail de Useritium à énormément d'avantages.
+Elle chiffre vos données et vos informations personnelles, elle est facile d'utilisation, elle est également très intuitive et pratique.<br><br>
+
+Votre mail sera personnalisé, avec des adresses mail comme<br><br> 
+
+exemple@useritium.fr 
+ou 
+exemple@tyromail.fr <br><br>
+
+Nous nous engageons enfin, à ne jamais vendre ou divulguer vos données et informations personnelles.
+        </p><div>
+                            <div class="" style="width: 60%; margin-left: 20%">
+                                <img src="assets/Sending%20emails_Monochromatic.png" width="100%" height="100%">
+                            </div>
+                        </div>
+                    <br>
+    </section>
+        
+    <section id="service-second-but">
+        <h2>
+        Votre Cloud personnel
+        </h2>
+        <p>
+        
+        
+                                Le cloud offert avec le compte Useritium permet de synchroniser toutes vos images, tous vos documents, vos fichiers que vous pourrez retrouver sur tous vos appareils.<br><br>
+Ce cloud est chiffré et protégé et aucune information personnelle ne sera divulguée à des fins commerciales. 
+        </p><div>
+                            <div class="" style="width: 60%; margin-left: 20%">
+                                <img src="assets/Data%20storage_Monochromatic.png" width="100%" height="100%">
+                            </div>
+                        </div>
+                    <br>
+    </section>
+        
+        
+    <section id="service-second-but">
+        <h2>
+        Créez vos Documents et vos Notes
+        </h2>
+        <p>
+        
+        
+                                Les comptes Useritium permettent de créer des notes et tout autre type de documents (tableurs, présentations...).<br><br>
+Toutes ces notes et ces documents seront également synchronisés sur tous vos appareils. 
+        </p><div>
+                            <div class="" style="width: 60%; margin-left: 20%">
+                                <img src="assets/Files%20And%20Folder_Monochromatic.svg" width="100%" height="100%">
+                            </div>
+                        </div>
+                    <br>
+    </section>
+        
+        
+    <section id="service-second-but">
+        <h2>
+        Panel de Prestations
+        </h2>
+        <p>
+        
+        
+Tyrolium produit des prestations de sites web, graphisme, musiques...
+Nos clients pourront retrouver l'avancée en temps réel de leurs prestations ainsi que toute information complémentaire afin de simplifier la prise de contact. <br><br>
+En effet, nous voulons être proches de nos clients, ils pourront alors également nous contacter pour des questions, des modifications ou toute autre demande concernant leurs prestations en cours.
+        </p><div>
+                            <div class="" style="width: 60%; margin-left: 20%">
+                                <img src="assets/Consulting_Monochromatic.png" width="100%" height="100%">
+                            </div>
+                        </div>
+                    <br>
+    </section><section id="service-second-but">
+        <h2>
+        Retrouvez vos Jeux Vidéo
+        </h2>
+        <p>
+        
+                                Vous retrouverez ici tous les jeux vidéos que vous possédez, dont ceux de <a class="textAccount" href="https://tyroserv.fr">TyroServ</a> et <a class="textAccount" href="https://www.linkedin.com/company/tyrostudio">TyroStudio</a> ainsi que ceux de nos futurs partenaires.<br><br>
+Vos sauvegardes y seront stockées <br><br> Ainsi vous pourrez également ajouter vos amis et consulter leur profil
+        
+        </p><div>
+                            <div class="" style="width: 60%; margin-left: 20%">
+                                <img src="assets/Gaming%20_Monochromatic.png" width="100%" height="100%">
+                            </div>
+                        </div>
+                    <br>
+    </section><section id="service-second-but">
+        <h2>
+        Gérez tous vos Serveurs
+        </h2>
+        <p>
+        
+                                Vous pourrez retrouver dans cette section, tous vos comptes achetés par notre filiale SolidServ.<br><br>
+Dans ce pannel il vous sera possible de faire toute la gestion de vos serveurs, gérer les accès de vos différents utilisateurs, et accéder à vos bases de données ainsi, que tout synchroniser grâce aux comptes Useritium. 
+        
+        </p><div>
+                            <div class="" style="width: 60%; margin-left: 20%">
+                                <img src="assets/Data%20Hosting_Monochromatic.png" width="100%" height="100%">
+                            </div>
+                        </div>
+                    <br>
+    </section><section id="service-second-but">
+        <h2>
+        Nos Engagements
+        </h2>
+        <p>
+                            Tyrolium s'engage au près de vous avec les comptes Useritium et leur fonctionnalités sur différents points.<br><br>
+
+A fournir un travail et un relationnel de qualité.<br>
+
+La gestion de nos serveurs et nos infrastructures sont 100% éco responsables.<br>
+
+Vos données et informations personnelles sont cryptées.<br>
+
+Vos données et informations personnelles ne seront jamais divulguées ou vendues pour quelque raison que ce soit.<br>
+                        
+                            Tous nos codes et applications sont open source<br>
+        
+        </p><div>
+                            <div class="" style="width: 60%; margin-left: 20%">
+                                <img src="assets/Online%20protection_Monochromatic.png" width="100%" height="100%">
+                            </div>
+                        </div>
+                    <br>
+    </section>
+        
         
         
         
