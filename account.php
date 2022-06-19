@@ -33,7 +33,7 @@
 Découvrez également des nombreuses fonctionnalités disponibles en dessous</p>
                 <hr class="my-4">
                 <p class="lead">Pour voir plus d'informations sur les comptes Useritium, nous vous invitons à regarder le trailer ou à aller sur le site officiel des comptes</p>
-                <?php tyrobtn("https://youtu.be/zJ3rbBJCYdM", "buttonAccount", "Voir le trailer");?>
+                <?php tyrobtn("https://www.youtube.com/watch?v=zJ3rbBJCYdM", "buttonAccount", "Voir le trailer");?>
                 <?php tyrobtn("https://useritium.fr", "buttonAccount", "Site Officiel");?>
             </div>
 

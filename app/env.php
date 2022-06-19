@@ -5,7 +5,7 @@ $APP_ENV = "PROD";
 
 // FALSE or TRUE
 $env_isAccount = true;
-$env_isEvent_5Year = false;
+$env_isEvent_5Year = true;
 $env_isAnimProject = true;
 
 
@@ -633,7 +633,7 @@ $env_story = array(
         "content" => 'Tyrolium a réalisé une vidéo d\'animation pour ses 5 ans qui retrace toute son histoire',
         "picture" => $env_assets . 'story/miniature5ans.png',
         "btn" => array(
-            "url" => 'https://www.youtube.com/watch?v=CScP1Zg4Sm8',
+            "url" => 'https://www.youtube.com/watch?v=fRjkVPeCDDI',
             "text" => 'Voir la vidéo'
         ),
     ),
@@ -644,7 +644,7 @@ $env_story = array(
         "content" => 'Lors de la vidéo des 5 ans de Tyrolium, TyroServ annonce avec un teaser la saison 3 également accompagnée d\'un nouveau logo',
         "picture" => $env_assets . 'story/TyroServS3.png',
         "btn" => array(
-            "url" => 'https://youtu.be/YA_p5xfBKjA',
+            "url" => 'https://www.youtube.com/watch?v=mJBL1gSKTdk',
             "text" => 'Voir la vidéo'
         ),
     ),
@@ -654,7 +654,7 @@ $env_story = array(
         "title" => 'Annonce du Première Album de Sélémusium',
         "content" => 'Lors de la vidéo des 5 ans de Tyrolium, Sélémusium sort avec un trailer, la sortie d\'Artomyx, son premier album',
         "btn" => array(
-            "url" => 'https://youtu.be/s_6V9HDs4YA',
+            "url" => 'https://www.youtube.com/watch?v=s_6V9HDs4YA',
             "text" => 'Voir la vidéo'
         ),
     ),
@@ -664,7 +664,7 @@ $env_story = array(
         "title" => 'Annonce des Comptes Useritium',
         "content" => 'Lors de la vidéo des 5 ans de Tyrolium a été annoncé le lancement des comptes Useritium',
         "btn" => array(
-            "url" => 'https://youtu.be/zJ3rbBJCYdM',
+            "url" => 'https://www.youtube.com/watch?v=zJ3rbBJCYdM',
             "text" => 'Voir la vidéo'
         ),
     ),
