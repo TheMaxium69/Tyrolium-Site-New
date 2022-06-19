@@ -250,8 +250,14 @@ Avec cette prestation nos équipes pourront vous accompagner dans vos projets et
                     Nous vous accompagnerons pour créer votre logo, illustration ou même vos posts réseaux. 
                     Nous sommes dans la capacité de vous aider à choisir et réaliser votre branding, votre charte graphique et vos couleurs.
                     Cette prestation sers avant tout à vous accompagner dans les choix graphiques à votre projet.</p>
+                        <div>
+                            <div class="" style="width: 60%; margin-left: 20%">
+                                <img src="assets/Designer%20_Monochromatic.png" width="100%" height="100%">
+                            </div>
+                        </div>
                     <br>
         <?php tyrobtn("contact.php?name=graph", "contact", "Contactez-nous pour cette prestation");?>
+                        
     </section>
 
     <section id="service-second-but">
@@ -260,15 +266,43 @@ Avec cette prestation nos équipes pourront vous accompagner dans vos projets et
         Cette prestation peut accompagner les entreprises dans leurs identités musicales.
         On l'oublie souvent, mais l'identité musicale est le meilleur moyen de ne pas vous faire oublier par vos clients.<br><br>
         De plus, nous proposons également des créations musicales pour les particuliers qui voudraient créer leur albums/EP/jingles/singles/domaine de l'audiovisuel. 
-        </p><br>
+        </p><div>
+                            <div class="" style="width: 60%; margin-left: 20%">
+                                <img src="assets/Music_Monochromatic.png" width="100%" height="100%">
+                            </div>
+                        </div>
+                    <br>
         <?php tyrobtn("contact.php?name=music", "contact", "Contactez-nous pour cette prestation");?>
+    </section>
+        
+    <section id="service-second-but">
+        <h2>Montage Vidéo / Animation</h2>
+        <p>
+        Nos équipes peuvent vous aider dans vos projets audiovisuel.
+Vous voulez impacter vos client avec une animation ou un montage vidéo ?
+<br>
+Vous êtes un vidéaste plein d'idées et vous voulez un monteur qui vous simplifie votre travail ?
+<br>
+Avec cette prestation nos équipes pourront vous accompagner dans vos projets et réaliser vos animations, vidéos promotionnelles ou vos vidéos personnelles pour votre propre projet.
+        </p><div>
+                            <div class="" style="width: 60%; margin-left: 20%">
+                                <img src="assets/User%20interface_Monochromatic.png" width="100%" height="100%">
+                            </div>
+                        </div>
+                    <br>
+        <?php tyrobtn("contact.php?name=anim", "contact", "Contactez-nous pour cette prestation");?>
     </section>
 
     <section id="service-second-but">
         <h2>Minecraft</h2>
         <p>Prestation où nous réalisons le développement de votre mod ou de votre plugin.<br>
             Nous pouvons également configurer votre serveur, nos équipes ont beaucoup travaillé avec ce jeu et nous sommes en mesure de réaliser toutes vos demandes concernant celui-ci.</p>
-        <br>
+                        <div>
+                            <div class="" style="width: 60%; margin-left: 20%">
+                                <img src="assets/Mc_Monochromatic.png" width="100%" height="100%">
+                            </div>
+                        </div>
+                    <br>
         <?php tyrobtn("contact.php?name=mc", "contact", "Contactez-nous pour cette prestation");?>
     </section>
     <section id="service-second-but">
@@ -276,14 +310,24 @@ Avec cette prestation nos équipes pourront vous accompagner dans vos projets et
         <p>Nous pouvons vous conseiller ou/et vous configurer vos serveurs.
             Linux est parfois compliqué à comprendre.
             Nous pouvons installer et mettre en place toutes vos demandes sur vos serveurs en fonction de vos besoins. </p>
-        <br>
+        <div>
+                            <div class="" style="width: 60%; margin-left: 20%">
+                                <img src="assets/Online%20storage_Monochromatic.png" width="100%" height="100%">
+                            </div>
+                        </div>
+                    <br>
         <?php tyrobtn("contact.php?name=serv", "contact", "Contactez-nous pour cette prestation");?>
     </section>
     <section id="service-second-but">
         <h2>Bot Discord</h2>
         <p>Nous sommes capable de vous créer votre bot discord, autant pour automatiser ou personnaliser les moindres fonctionnalités de vos serveurs discord.
             Nous pouvons aussi le lier à des API et autres logiciels ou applications.</p>
-        <br>
+        <div>
+                            <div class="" style="width: 60%; margin-left: 20%">
+                                <img src="assets/Social%20Media_Monochromatic.png" width="100%" height="100%">
+                            </div>
+                        </div>
+                    <br>
         <?php tyrobtn("contact.php?name=bot", "contact", "Contactez-nous pour cette prestation");?>
     </section>
     

@@ -42,6 +42,9 @@ Découvrez également des nombreuses fonctionnalités disponibles en dessous</p>
                 .jumbotron{
                     background: #26272b;
                 }
+                body.light .jumbotron{
+                    background: #e1e1e1;
+                }
                 #btn-buttonAccount{
                     font-size: 12px;
                 }
@@ -224,6 +227,55 @@ Vos données et informations personnelles ne seront jamais divulguées ou vendue
                 </section>
 
             </div>
+        
+        
+        
+
+    <div class="home-res">
+    
+        
+    <section id="service-second">
+        <h2>A propos des comptes Useritium</h2>
+        <p>
+         Les comptes Useritium sont proposés par Tyrolium, afin de vous proposer une adresse mail spécialisée et personnelle.<br><br>
+
+Ces comptes vous offrent un cloud et des fonctionnalités pour la création de documents ou de notes, de plus, ils permettent egalement de pouvoir gérer vos jeux vidéos ou vos serveurs personnels et/ou professionnels.<br><br>
+
+Ils vous permettent également de connaître l'avancée de vos demandes de prestations.<br><br>
+
+Ces comptes sont aussi une garantie de sécurité de vos données, nous nous engageons à ne jamais partager ou divulguer quelconques informations vous concernant ou liées à ces comptes (projet open source).
+        </p>
+                        <div>
+                            <div class="" style="width: 60%; margin-left: 20%">
+                                <img src="assets/Information%20carousel_Monochromatic.png" width="100%" height="100%">
+                            </div>
+                        </div>
+                    <br>
+                        
+    </section>
+        
+        
+    <hr style="background: rgb(161, 161, 161); margin-top:45px" >
+        
+        
+    <section id="service-second-but">
+        <h2>Musicales</h2>
+        <p>
+        Cette prestation peut accompagner les entreprises dans leurs identités musicales.
+        On l'oublie souvent, mais l'identité musicale est le meilleur moyen de ne pas vous faire oublier par vos clients.<br><br>
+        De plus, nous proposons également des créations musicales pour les particuliers qui voudraient créer leur albums/EP/jingles/singles/domaine de l'audiovisuel. 
+        </p><div>
+                            <div class="" style="width: 60%; margin-left: 20%">
+                                <img src="assets/Music_Monochromatic.png" width="100%" height="100%">
+                            </div>
+                        </div>
+                    <br>
+    </section>
+        
+        
+        
+        
+    </div>
 
         <br><br>
     </main>
