@@ -4,9 +4,9 @@
 $APP_ENV = "PROD";
 
 // FALSE or TRUE
-$env_isAccount = true;
-$env_isEvent_5Year = true;
-$env_isAnimProject = true;
+$env_isAccount = false;
+$env_isEvent_5Year = false;
+$env_isAnimProject = false;
 
 
 $env_url = "https://tyrolium.fr";
@@ -627,7 +627,7 @@ $env_story = array(
     
     
     ///POUR LES 5 ANS
-    array(
+    /*array(
         "date" => '9 Juillet 2022',
         "title" => 'Vidéo des 5 Ans',
         "content" => 'Tyrolium a réalisé une vidéo d\'animation pour ses 5 ans qui retrace toute son histoire',
@@ -677,11 +677,11 @@ $env_story = array(
             "url" => 'https://birthday.tyrolium.fr',
             "text" => 'Allez sur le site'
         ),
-    ),
+    ),*/
     
     //Pour le 11 Juillet
     
-    array(
+    /*array(
         "date" => '11 Juillet 2022',
         "title" => 'Lancement du Première Album de Sélémusium',
         "content" => 'Sélémusium sort son premier album sur toutes les plateformes, un site a été créé pour l\'occasion',
@@ -690,25 +690,25 @@ $env_story = array(
             "url" => 'https://artomyx.selemusium.xyz',
             "text" => 'Allez sur le site'
         ),
-    ),
+    ),*/
     
     //Pour le 13 Juillet
     
-    array(
+    /*array(
         "date" => '13 Juillet 2022',
         "title" => 'Lancement des Animations',
         "content" => 'Tyrolium a sorti une animation sur tous ses projets. <br>
 Elle est disponible sur la page projets de ce site',
     ),
-    
+    */
     //Pour le 15 Juillet
     
-    array(
+    /*array(
         "date" => '15 Juillet 2022',
         "title" => 'Reboot de Wonderlium',
         "content" => 'Reboot de Wonderlium et reprise des vidéos régulières avec une nouvelle charte graphique',
     ),
-
+*/
 
 
 );
