@@ -186,6 +186,12 @@ i.footer {
     background-color: #000000
 }
 
+.social-icons a.tiktok:hover
+{
+    background-color: #000000
+}
+
+
 @media (max-width:767px)
 {
     .social-icons li.title
