@@ -220,11 +220,12 @@
                                     <textarea placeholder="Entrez un messsage" name="text"></textarea>
                                 </div>
                             </div>
+                            
                             <div class="col-12">
                             
-                                <div class="single-input">
+                                <div class="single-input text-center">  
                                     
-                                    <div class="g-recaptcha" data-sitekey="<?= $env_captcha_clientid ?>"></div>
+                                    <div class="g-recaptcha" data-theme="<?php if (empty($_COOKIE["color"])){ echo "dark"; }else{echo $_COOKIE["color"]; } ?>" data-sitekey="<?= $env_captcha_clientid ?>"></div>
                                 </div>
                             </div>
 
@@ -233,8 +234,7 @@
                                     <input type="submit" name="submit" value="Envoyer">
                                 </div>
                             </div>
-
-
+                            
                         </div>
                     </form>
                 </div>
@@ -260,17 +260,32 @@
     <script  src="javascript/notif.js"></script>
 
 
-    <?php if (!empty($_GET['err'])) {?>
-    <script>
-        if(Text != 1){
-            iziToast.error({
-                title: 'Erreur',
-                position: 'bottomRight',
-                message: 'Une erreur est survenue | Code : <?php echo $_GET['err']; ?>'
-            });
-        }
-    </script>
-    <?php } ?>
+    <?php if (!empty($_GET['err'])) {
+        
+        if($_GET['err'] == "C404"){ ?>
+             <script>
+                if(Text != 1){
+                    iziToast.error({
+                        title: 'Erreur',
+                        position: 'bottomRight',
+                        message: 'reCAPTCHA Erreur | Code : <?php echo $_GET['err']; ?>'
+                    });
+                }
+            </script>
+    
+    <?php } else { ?>
+        
+            <script>
+                if(Text != 1){
+                    iziToast.error({
+                        title: 'Erreur',
+                        position: 'bottomRight',
+                        message: 'Une erreur est survenue | Code : <?php echo $_GET['err']; ?>'
+                    });
+                }
+            </script>
+        
+    <?php } } ?>
 
     <?php if (!empty($_GET['true'])) {?>
         <script>

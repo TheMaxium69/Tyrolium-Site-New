@@ -22,19 +22,25 @@ $env_pp = $env_assets . "pp/";
 $env_pp_default = $env_pp . "Default.jpg";
 
 
-require "./../reCAPTCHA.php";
+
 
 if ($APP_ENV == "PROD"){
+    include "/home/tyroliumfg/reCAPTCHA.php";
+    
     $env_bd_contact = "api/get.php";
     
     $env_captcha_clientid = $TyroliumSite_ClientID;
     $env_captcha_servid = $TyroliumSite_ServID;
 } else if ($APP_ENV == "DEV"){
+    include "D:/xampp/htdocs/reCAPTCHA.php";
+    
     $env_bd_contact = "api/get.php";
     
     $env_captcha_clientid = $Localhost_ClientID;
     $env_captcha_servid = $Localhost_ServID;
 } else if ($APP_ENV == "TEST"){
+    include "D:/xampp/htdocs/reCAPTCHA.php";
+    
     $env_bd_contact = "https://tyrolium.fr/api/get.php";   
     
     $env_captcha_clientid = $Localhost_ClientID;

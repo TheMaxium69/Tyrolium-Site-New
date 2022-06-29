@@ -67,11 +67,13 @@
                     <small>- Particule.JS-2.0.0</small><br>
                     <small>- ScrollReveal-3.3.1</small><br>
                     <small>- Iconscout-2.1.9</small><br>
+                    <small>- reCaptcha-Php-Lib-1.2.4</small><br>
                     <small>- Normalize</small><br>
-                    <small>- GoogleFront</small><br>
+                    <small>- Google Front</small><br>
                     <small>- iziToast</small><br>
                     <p class="no-p">Extentions</p>
-                    <small>- GoogleAnalytics</small><br>
+                    <small>- Google Analytics</small><br>
+                    <small>- Google reCAPTCHA</small><br>
                     <small>- PhpMyAdmin</small><br>
                     <small>- MySQL</small><br>
                     <p class="no-p">Languages</p>

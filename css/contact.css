@@ -291,3 +291,7 @@ select{
     color: #C7C7C7;
 }
 
+div.g-recaptcha{
+    margin: 0 auto;
+    width: 304px;
+}
