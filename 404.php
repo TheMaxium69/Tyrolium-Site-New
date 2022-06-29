@@ -14,9 +14,11 @@
     margin: 70px 15px;">
     
         <h1>Page d'erreur</h1>
-        <?php tyrobtn("index.php", "service", "Revenir sur la page d'accueille");?>
+        <?php tyrobtn("index.php", "service", "Revenir sur la page d'accueil");?>
 
     </div>
+
+    <br><br><br>
     
 </main>
 
