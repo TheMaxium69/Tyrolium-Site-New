@@ -172,6 +172,8 @@
                 <p>Projet de création de musique.</p>
                 <!--<small>Nouvel Album disponible sur le site officiel.</small><br>-->
                 <a href="https://selemusium.xyz/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
+                <a href="https://open.spotify.com/artist/2yWQ9fey7HTSX7ChOfvl3R" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/spotify.png" alt="spotify"/></a>
+                <a href="https://www.deezer.com/fr/artist/174249627" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/deezer.png" alt="deezer"/></a>
                 <a href="https://soundcloud.com/selemusium" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/soundcloud.png" alt="soundcloud"/></a>
                 <a href="https://www.instagram.com/selemusium/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
                 <a href="https://www.youtube.com/channel/UC71QZyaMR2AiK00Hz7fZ_gw/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/youtube.png" alt="youtube"/></a>

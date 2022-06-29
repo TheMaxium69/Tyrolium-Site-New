@@ -1,7 +1,7 @@
 <?php
 
 //PROD or DEV or TEST
-$APP_ENV = "PROD";
+$APP_ENV = "DEV";
 
 // FALSE or TRUE
 $env_isAccount = false;
@@ -21,13 +21,27 @@ $env_pp = $env_assets . "pp/";
 
 $env_pp_default = $env_pp . "Default.jpg";
 
+
+require "./../reCAPTCHA.php";
+
 if ($APP_ENV == "PROD"){
     $env_bd_contact = "api/get.php";
+    
+    $env_captcha_clientid = $TyroliumSite_ClientID;
+    $env_captcha_servid = $TyroliumSite_ServID;
 } else if ($APP_ENV == "DEV"){
     $env_bd_contact = "api/get.php";
+    
+    $env_captcha_clientid = $Localhost_ClientID;
+    $env_captcha_servid = $Localhost_ServID;
 } else if ($APP_ENV == "TEST"){
-    $env_bd_contact = "https://tyrolium.fr/api/get.php";
+    $env_bd_contact = "https://tyrolium.fr/api/get.php";   
+    
+    $env_captcha_clientid = $Localhost_ClientID;
+    $env_captcha_servid = $Localhost_ServID;
 }
+
+
 
 
 $env_back = array (
@@ -66,15 +80,7 @@ $env_perso = array(
         "behance" => "https://www.behance.net/mawanmarthelot"
 
     ),
-
-    array("name" => "Pierre-Louis Devaud",
-        "role" => "Responsable Communication,<br> Conseiller Technique",
-        "icon" => "Pierre-Louis_Devaud.jpg",
-        "instagram" => "https://www.instagram.com/pl_dev54/",
-        "twitch" => "https://www.twitch.tv/piplextv",
-        "linkedin" => "https://www.linkedin.com/in/pierre-louis-devaud-574035236/"
-
-    ),
+    
 
     array("name" => "Norman Jorge De Freitas",
         "role" => " Compositeur(ice),<br> Écrivain(e)",
@@ -83,7 +89,7 @@ $env_perso = array(
         "linkedin" => "https://www.linkedin.com/in/norman-jorge-de-freitas-0a736a203/",
 
         ),
-
+    
     array("name" => "Wassim Bouridah",
         "role" => "Responsable Communication,<br> Ingénieur R&D",
         "icon" => "Wassim_Bouridah.jpg",
@@ -92,6 +98,16 @@ $env_perso = array(
         "linkedin" => "https://www.linkedin.com/in/wassim-bouridah/",
     ),
 
+    
+    array("name" => "Pierre-Louis Devaud",
+        "role" => "Responsable Communication,<br> Conseiller Technique",
+        "icon" => "Pierre-Louis_Devaud.jpg",
+        "instagram" => "https://www.instagram.com/pl_dev54/",
+        "twitch" => "https://www.twitch.tv/piplextv",
+        "linkedin" => "https://www.linkedin.com/in/pierre-louis-devaud-574035236/"
+
+    ),
+    
     array("name" => "Edward Thouvenin",
         "role" => "Compositeur,<br> Beatmaker",
         "icon" => "Edward_Thouvenin.jpg",
@@ -186,6 +202,7 @@ $env_presta = array(
     "Serveur",
     "Graphisme",
     "Musicales",
+    "Vidéos/Animations",
     "Autre",
 );
 

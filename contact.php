@@ -51,6 +51,8 @@
                                                         echo "Graphisme";
                                                     } else if ($_GET['name'] == "music") {
                                                         echo "Musicales";
+                                                    } else if ($_GET['name'] == "anim") {
+                                                        echo "Vidéos";
                                                     } ?>
                                                 </option>
                                             <?php } else { ?>
@@ -87,6 +89,8 @@
                                                                         $pGet = "p4";
                                                                     } else if ($_GET['name'] == "music") {
                                                                         $pGet = "p5";
+                                                                    } else if ($_GET['name'] == "anim") {
+                                                                        $pGet = "p6";
                                                                     } ?>
                                                         <option hidden value="form-<?php echo $pGet?>">null</option>
                                                     <?php } else { ?>
@@ -214,6 +218,13 @@
                                 <div class="single-input">
                                     <i class="fas fa-comment-dots"></i>
                                     <textarea placeholder="Entrez un messsage" name="text"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                            
+                                <div class="single-input">
+                                    
+                                    <div class="g-recaptcha" data-sitekey="<?= $env_captcha_clientid ?>"></div>
                                 </div>
                             </div>
 

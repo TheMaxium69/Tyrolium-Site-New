@@ -22,7 +22,7 @@ function insert(sendRequest $requestFinal){
     if ($APP_ENV == "PROD"){
         include "/home/tyroliumfg/DB-tyroliumfguser.php";
     } else if ($APP_ENV == "DEV"){
-        include "D:/wamp64/www/DB-tyroliumfguser.php";
+        include "D:/xampp/htdocs/DB-tyroliumfguser.php";
     } else if ($APP_ENV == "TEST"){
         include "/var/www/html/test/DB-vps.php";
     }

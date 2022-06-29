@@ -55,6 +55,8 @@ if (!empty($_GET['firstName']) && !empty($_GET['lastName']) && !empty($_GET['ema
         }else if ( $_GET['prestation'] == "form-p5"){
             $sendObject->prestation = "Musicales";
         }else if ( $_GET['prestation'] == "form-p6"){
+            $sendObject->prestation = "Animations";
+        }else if ( $_GET['prestation'] == "form-p7"){
             $sendObject->prestation = "Autre";
         } else {
             $sendObject->prestation = "Autre";

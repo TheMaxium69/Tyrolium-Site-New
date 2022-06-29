@@ -88,45 +88,60 @@
 
 
     <section id="partenaire" class="container">
+        
         <div class="row">
             <div class="col">
-                <a href="https://www.linkedin.com/company/lafrenchtech-onelse/">
+                <a href="https://www.linkedin.com/company/lafrenchtech-onelse/" title="French Tech One Lyon St-Étienne">
                     <img src="<?php echo $env_assets; ?>part/frenchtechlyon.png" alt="frenchtech">
                 </a>
             </div>
+            
             <div class="col">
-                <a href="https://batirpositif.com">
+                <a href="https://www.linkedin.com/company/g%C3%A9n%C3%A9ration-ium/" title="Génératium IUM">
+                    <img src="<?php echo $env_assets; ?>part/Generatium-ium.png" alt="generatium-ium">
+                </a>
+            </div>
+            
+            <div class="col">
+                <a href="https://batirpositif.com" title="Bâtir Positif - Ingénierie Responsable">
                     <img src="<?php echo $env_assets; ?>part/bt.jpg" alt="batirpositif">
                 </a>
             </div>
             <div class="col">
-                <a>
+                <a title="Studio Solunias">
                     <img src="<?php echo $env_assets; ?>part/solunias.png" alt="solunias">
                 </a>
             </div>
-
-
         </div>
+        
         <div class="row">
             <div class="col">
-                <a href="https://www.linkedin.com/company/maxime-serveur/">
+                <a href="https://www.linkedin.com/company/maxime-serveur/" title="Maxime/SERVEUR">
                     <img src="<?php echo $env_assets; ?>part/Maxime-SERVEUR.jpg" alt="maxime-serveur">
                 </a>
             </div>
             <div class="col">
-                <a href="https://www.linkedin.com/company/maxime-minecraft/">
+                <a href="https://www.linkedin.com/company/maxime-minecraft/" title="Maxime/MINECRAFT">
                     <img src="<?php echo $env_assets; ?>part/Maxime-MINECRAFT.png" alt="maxime-minecraft">
                 </a>
             </div>
             <div class="col">
-                <a href="https://www.youtube.com/channel/UCEc-KcQQcZ15htg1KT2H5xg">
+                <a href="https://www.youtube.com/channel/UCEc-KcQQcZ15htg1KT2H5xg" title="MA3WAN">
                     <img src="<?php echo $env_assets?>part/ma3wan.webp" alt="ma3wan">
                 </a>
             </div>
+            
+            <div class="col">
+                <a href="https://www.instagram.com/thenextdoor.xyz/" title="The Next Door">
+                    <img src="<?php echo $env_assets; ?>part/The-Next-Door.png" alt="The-Next-Door">
+                </a>
+            </div>
+            
         </div>
+        
         <br>
     </section>
-
+    
     <br>
     <hr class="container" style="background: rgba(161,161,161,0.6);">
 
@@ -141,42 +156,42 @@
     <section id="recrut">
         <ul class="container">
             <li>
-                <h3>DÉVELOPPEUR</h3>
+                <h3>DÉVELOPPEUR<br>INFORMATIQUE</h3>
                 <br>
                 <?php tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLSer9XcD21PCCqawiHfF82hhX1O-RUWattlnGf0o1iWu5mdLwg/viewform?usp=sf_link", "recru", "Accedez au formulaire");?>
             </li>
             <li>
-                <h3>GRAPHISTE-DESIGNER</h3>
+                <h3>GRAPHISTE,<br>DESIGNER</h3>
                 <br>
                 <?php tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLSeqvsgsvkItfJyu09LvRGLyMyOczVliqTg2bF5QWFUi6GSIcw/viewform?usp=sf_link", "recru", "Accedez au formulaire");?>
             </li>
             <li>
-                <h3>MONTEUR-VIDÉO</h3>
+                <h3>MONTEUR<br>VIDÉO</h3>
                 <br>
                 <?php tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLSeKHDYQTqZvkFK89LO1T5UQG1BoZcDIFz_n1KBA5tXNqyplzw/viewform?usp=sf_link", "recru", "Accedez au formulaire");?>
             </li>
             <li>
-                <h3>BUILDER-MINECRAFT</h3>
+                <h3>BUILDER<br>MINECRAFT</h3>
                 <br>
                 <?php tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLScKQkZcm5bEyT1P06yWF3NSR9-23wE_msztn_QcDf9G-HRU5g/viewform?usp=sf_link", "recru", "Accedez au formulaire");?>
             </li>
             <li>
-                <h3>COMPOSITEUR-MUSICIEN-CHANTEUR</h3>
+                <h3>COMPOSITEUR, MUSICIEN, <br>CHANTEUR</h3>
                 <br>
                 <?php tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLSfV4Nb3D_S1EALC-INAt7M5uxwQHv3h0j3ltms1rtqVOgGWYQ/viewform?usp=sf_link", "recru", "Accedez au formulaire");?>
             </li>
             <li>
-                <h3>MODÉRATEUR-ASSISTANT</h3>
+                <h3>MODÉRATEUR, <br>ASSISTANT</h3>
                 <br>
                 <?php tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLSc9DeAU_koGj3UJNYiB7judKpzkIPDUvDXGmvvs9z3cDF7XpA/viewform?usp=sf_link", "recru", "Accedez au formulaire");?>
             </li>
             <li>
-                <h3>ANIMATEUR-DISCORD</h3>
+                <h3>ANIMATEUR<br>DISCORD</h3>
                 <br>
                 <?php tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLSflU5SxdYVPOnyJZB0SWi4xNjqNJAFycPAMBAQkJDY_uzHu6w/viewform?usp=sf_link", "recru", "Accedez au formulaire");?>
             </li>
             <li>
-                <h3>COMMUNITY-MANGER</h3>
+                <h3>COMMUNITY<br>MANAGER</h3>
                 <br>
                 <?php tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLSdlVrklk0i8NPk8VqcK3ueDt6pOoM4LTHBiYnpovWjFDvKyCQ/viewform?usp=sf_link", "recru", "Accedez au formulaire");?>
             </li>
