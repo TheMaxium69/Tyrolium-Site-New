@@ -1,11 +1,11 @@
 <?php
 
 //PROD or DEV or TEST
-$APP_ENV = "DEV";
+$APP_ENV = "PROD";
 
 // FALSE or TRUE
-$env_isAccount = TRUE;
-$env_isEvent_5Year = TRUE;
+$env_isAccount = true;
+$env_isEvent_5Year = true;
 $env_isAnimProject = false;
 
 
@@ -106,7 +106,7 @@ $env_perso = array(
 
     
     array("name" => "Pierre-Louis Devaud",
-        "role" => "Responsable Communication,<br> Conseiller Technique",
+        "role" => "Responsable Marketing,<br> Conseiller Technique",
         "icon" => "Pierre-Louis_Devaud.jpg",
         "instagram" => "https://www.instagram.com/pl_dev54/",
         "twitch" => "https://www.twitch.tv/piplextv",
