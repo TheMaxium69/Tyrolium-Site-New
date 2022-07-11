@@ -77,14 +77,12 @@ $env_perso = array(
 
         ),
 
-    array("name" => "Maewan Marthelot",
-        "role" => "Graphiste, Monteur-Vidéo,<br> Animateur 2D",
-        "icon" => "Maewan_Marthelot.jpg",
-        "instagram" => "https://www.instagram.com/maewanm/",
-        "youtube" => "https://www.youtube.com/c/MA3WAN",
-        "linkedin" => "https://www.linkedin.com/in/ma%C3%ABwan-marthelot-01744b203",
-        "behance" => "https://www.behance.net/mawanmarthelot"
-
+    array("name" => "Wassim Bouridah",
+        "role" => "Responsable Communication,<br> Ingénieur R&D",
+        "icon" => "Wassim_Bouridah.jpg",
+        "instagram" => "https://www.instagram.com/wassinobi/",
+        "youtube" => "https://www.youtube.com/channel/UCBuxMq0h-WQJi5_e6My9GYg",
+        "linkedin" => "https://www.linkedin.com/in/wassim-bouridah/",
     ),
     
 
@@ -96,14 +94,17 @@ $env_perso = array(
 
         ),
     
-    array("name" => "Wassim Bouridah",
-        "role" => "Responsable Communication,<br> Ingénieur R&D",
-        "icon" => "Wassim_Bouridah.jpg",
-        "instagram" => "https://www.instagram.com/wassinobi/",
-        "youtube" => "https://www.youtube.com/channel/UCBuxMq0h-WQJi5_e6My9GYg",
-        "linkedin" => "https://www.linkedin.com/in/wassim-bouridah/",
-    ),
+    
+    array("name" => "Maewan Marthelot",
+        "role" => "Graphiste, Monteur-Vidéo,<br> Animateur 2D",
+        "icon" => "Maewan_Marthelot.jpg",
+        "instagram" => "https://www.instagram.com/maewanm/",
+        "youtube" => "https://www.youtube.com/c/MA3WAN",
+        "linkedin" => "https://www.linkedin.com/in/ma%C3%ABwan-marthelot-01744b203",
+        "behance" => "https://www.behance.net/mawanmarthelot"
 
+    ),
+    
     
     array("name" => "Pierre-Louis Devaud",
         "role" => "Responsable Marketing,<br> Conseiller Technique",
