@@ -190,7 +190,14 @@ i.footer {
 {
     background-color: #000000
 }
-
+.social-icons a.telegram:hover
+{
+    background-color:#22A7E7
+}
+.social-icons a.gettr:hover
+{
+    background-color:#D80000
+}
 
 @media (max-width:767px)
 {

@@ -92,10 +92,10 @@
         <ul>
 
             <li id="a0">
-                <img class="logo" src="http://tyrolium.fr/Contenu/Image/Tyrolium ServerMC S2.png" <?php /* src="assets/anim/TyroServ%20Anim.png" */ ?> logo="assets/anim/TyroServ%20Anim.png" gif="assets/anim/tyroserv.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="TyroservLogo">
+                <img class="logo" src="assets/anim/TyroServ%20Anim.png" logo="assets/anim/TyroServ%20Anim.png" gif="assets/anim/tyroserv.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="TyroservLogo">
                 <h2>TyroServ</h2>
                 <p>Serveur moddé sur le jeu Minecraft.</p>
-                <!--<small>Saison 3 disponible en printemps 2023.</small><br>-->
+                <small>Saison 3 disponible en printemps 2023.</small><br>
                 <a href="https://tyroserv.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
                 <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
                 <a href="https://www.instagram.com/tyroliumserver/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
@@ -157,6 +157,7 @@
                 <img class="logo" src="http://tyrolium.fr/Contenu/Image/Wonderlium.png" logo="http://tyrolium.fr/Contenu/Image/Wonderlium.png" gif="assets/anim/Wonderlium%20Anim.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="WonderliumLogo">
                 <h2>Wonderlium</h2>
                 <p>Collectif réalisant des vidéos<br> sur l'univers geek.</p>
+                <small>Nouvelle vidéo disponible sur notre chaine youtube.</small><br>
                 <a href="https://www.youtube.com/channel/UC8tEUehEz2p53Pw8wSky3TQ" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/youtube.png" alt="youtube"/> Allez sur notre chaine</a><br>
                 <a href="http://site.wonderlium.yt" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/></a>
                 <a href="https://www.instagram.com/wonderlium/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
@@ -170,7 +171,7 @@
                 <img class="logo" src="assets/anim/Selemusium%20Anim.png" logo="assets/anim/Selemusium%20Anim.png" gif="assets/anim/Selemusium%20Anim.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="SelemusiumLogo">
                 <h2>Sélémusium</h2>
                 <p>Projet de création de musique.</p>
-                <!--<small>Nouvel Album disponible sur le site officiel.</small><br>-->
+                <small>Nouvel Album disponible sur le site officiel.</small><br>
                 <a href="https://selemusium.xyz/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
                 <a href="https://open.spotify.com/artist/2yWQ9fey7HTSX7ChOfvl3R" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/spotify.png" alt="spotify"/></a>
                 <a href="https://www.deezer.com/fr/artist/174249627" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/deezer.png" alt="deezer"/></a>
