@@ -1,11 +1,11 @@
 <?php
 
 //PROD or DEV or TEST
-$APP_ENV = "PROD";
+$APP_ENV = "DEV";
 
 // FALSE or TRUE
-$env_isAccount = false;
-$env_isEvent_5Year = false;
+$env_isAccount = TRUE;
+$env_isEvent_5Year = TRUE;
 $env_isAnimProject = false;
 
 
@@ -131,6 +131,11 @@ $env_perso = array(
 
     ),
 
+    array("name" => "André Fernandes",
+        "role" => "Développeur,<br> Graphiste",
+        "icon" => "André_Fernandes.jpg"
+    ),
+
     array("name" => "Luigi Guyot",
         "role" => "UX/UI Designer,<br> Modérateur",
         "icon" => "Luigi_Guyot.jpg",
@@ -164,7 +169,9 @@ $env_perso = array(
         "role" => "Modératrice",
         "icon" => "Angélique_Herard.jpg",
         "instagram" => "https://www.instagram.com/angelique.hrd/",
-    ),  
+    ),
+
+
 
 );
 
@@ -650,7 +657,7 @@ $env_story = array(
     
     
     ///POUR LES 5 ANS
-    /*array(
+    array(
         "date" => '9 Juillet 2022',
         "title" => 'Vidéo des 5 Ans',
         "content" => 'Tyrolium a réalisé une vidéo d\'animation pour ses 5 ans qui retrace toute son histoire',
@@ -700,11 +707,27 @@ $env_story = array(
             "url" => 'https://birthday.tyrolium.fr',
             "text" => 'Allez sur le site'
         ),
-    ),*/
-    
+    ),
+
+
+    //Pour le 10 Juillet
+
+    array(
+        "date" => '15 Juillet 2022',
+        "title" => 'Reboot de Wonderlium',
+        "content" => 'Reboot de Wonderlium et reprise des vidéos régulières avec une nouvelle charte graphique',
+    ),
+
+    array(
+        "date" => '15 Juillet 2022',
+        "title" => 'Troisième vidéo de Wonderlium',
+        "content" => 'Il s\'agit de la troisième vidéo du projet Wonderlium, sur la naissance du Vidéo-Jouet',
+    ),
+
+
     //Pour le 11 Juillet
     
-    /*array(
+    array(
         "date" => '11 Juillet 2022',
         "title" => 'Lancement du Première Album de Sélémusium',
         "content" => 'Sélémusium sort son premier album sur toutes les plateformes, un site a été créé pour l\'occasion',
@@ -713,25 +736,18 @@ $env_story = array(
             "url" => 'https://artomyx.selemusium.xyz',
             "text" => 'Allez sur le site'
         ),
-    ),*/
+    ),
     
     //Pour le 13 Juillet
     
     /*array(
         "date" => '13 Juillet 2022',
         "title" => 'Lancement des Animations',
-        "content" => 'Tyrolium a sorti une animation sur tous ses projets. <br>
-Elle est disponible sur la page projets de ce site',
+        "content" => 'Tyrolium a sorti une animation sur tous ses projets. <br> Elle est disponible sur la page projets de ce site',
     ),
     */
-    //Pour le 15 Juillet
     
-    /*array(
-        "date" => '15 Juillet 2022',
-        "title" => 'Reboot de Wonderlium',
-        "content" => 'Reboot de Wonderlium et reprise des vidéos régulières avec une nouvelle charte graphique',
-    ),
-*/
+
 
 
 );
