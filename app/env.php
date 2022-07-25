@@ -1,12 +1,12 @@
 <?php
 
 //PROD or DEV or TEST
-$APP_ENV = "DEV";
+$APP_ENV = "PROD";
 
 // FALSE or TRUE
 $env_isAccount = true;
-$env_isEvent_5Year = true;
-$env_isAnimProject = false;
+$env_isEvent_5Year = false;
+$env_isAnimProject = true;
 
 
 $env_url = "https://tyrolium.fr";
@@ -164,6 +164,12 @@ $env_perso = array(
         "icon" => "Mathis_Dubief.jpg",
         "instagram" => "https://www.instagram.com/m2k_hide.chr/",
         "twitter" => "https://twitter.com/Mathis45920873",
+    ),
+
+    array("name" => "Delphine Rodriguez",
+        "role" => "Développeur",
+        "icon" => "Delphine_Rodriguez.jpg",
+        "github" => "https://github.com/delphine38",
     ),
 
     array("name" => "Angélique Herard",
