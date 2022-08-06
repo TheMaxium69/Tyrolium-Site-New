@@ -3,6 +3,7 @@ function navbar($page)
 {
 
     require "env.php";
+    require "lang.php";
 
     require_once "./composant/navbar.phtml";
 

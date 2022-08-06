@@ -1,7 +1,7 @@
 <?php
 
 //PROD or DEV or TEST
-$APP_ENV = "PROD";
+$APP_ENV = "DEV";
 
 // FALSE or TRUE
 $env_isAccount = true;

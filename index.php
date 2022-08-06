@@ -7,7 +7,7 @@
             <div id="head">
                 <h1>Tyrolium</h1>
                 <a href="#btn-up"><p>
-                    DÉCOUVREZ QUI NOUS SOMMES
+                    <?= $lang[$page]["head"] ?>
                 </p></a>
             </div>
             <?php if (empty($_COOKIE["color"])){ $colorCookie = "dark"; }else{ $colorCookie = $_COOKIE["color"]; }

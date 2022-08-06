@@ -16,11 +16,11 @@ for ($i = 0; $i <= $nbBack-1; $i++) {
     if ($env_isAccount == false && $j <= 5){
             if ($j == $page){
                 echo '<li class="nav-item active">
-                          <a class="nav-link active" href="javascript:void(0);"><i class="'. $env_page_logo[$i] .'"></i>'. $env_page[$i] .'</a>
+                          <a class="nav-link active" href="javascript:void(0);"><i class="'. $env_page_logo[$i] .'"></i>'. $lang['navbar'][$i] .'</a>
                       </li>';
             } else {
                 echo '<li class="nav-item">
-                          <a class="nav-link" href="javascript:redirect('. $j .');"><i class="'. $env_page_logo[$i] .'"></i>'. $env_page[$i] .'</a>
+                          <a class="nav-link" href="javascript:redirect('. $j .');"><i class="'. $env_page_logo[$i] .'"></i>'. $lang['navbar'][$i] .'</a>
                       </li>';
             }
 
@@ -28,16 +28,51 @@ for ($i = 0; $i <= $nbBack-1; $i++) {
 
             if ($j == $page){
                 echo '<li class="nav-item active">
-                              <a class="nav-link active" href="javascript:void(0);"><i class="'. $env_page_logo[$i] .'"></i>'. $env_page[$i] .'</a>
+                              <a class="nav-link active" href="javascript:void(0);"><i class="'. $env_page_logo[$i] .'"></i>'. $lang['navbar'][$i] .'</a>
                           </li>';
             } else {
                 echo '<li class="nav-item">
-                              <a class="nav-link" href="javascript:redirect('. $j .');"><i class="'. $env_page_logo[$i] .'"></i>'. $env_page[$i] .'</a>
+                              <a class="nav-link" href="javascript:redirect('. $j .');"><i class="'. $env_page_logo[$i] .'"></i>'. $lang['navbar'][$i] .'</a>
                           </li>';
             }
     }
 
 }?>
+            
+            
+            <!--LANG TEMPORAIRE-->
+            <li class="nav-item lang">
+                <?php if ($_SESSION['lang'] == "fr_FR"){ ?>
+    
+                <a href="?lang=en_US"><img src="https://flagicons.lipis.dev/flags/4x3/fr.svg" alt="fr"></a>
+    
+                <?php } else { ?> 
+                
+                <a href="?lang=fr_FR"><img src="https://flagicons.lipis.dev/flags/4x3/gb.svg" alt="gb"></a>
+                
+                <?php } ?>
+            </li>
+            
+            <style>
+            
+                
+                
+                #navbarSupportedContent ul li.lang a{
+                    padding-top: 20px;
+                    padding-right: 11px;
+                    padding-bottom: 20px;
+                    padding-left: 0px;
+                }
+            
+                li.lang img{
+                    width: 25px;
+                    
+                }
+            
+            </style>
+            <!--LANG TEMPORAIRE-->   
+                
+                
         </ul>
         <div style="width: 40px;"></div>
         <div class="btn-darkmode"><?php if (empty($_COOKIE["color"])){ echo "<i class='fas fa-moon'></i>"; }else{ if ($_COOKIE["color"] == "light"){ ?><i class="fas fa-sun"></i><?php }else{ ?><i class="fas fa-moon"></i><?php }  } ?></div>
