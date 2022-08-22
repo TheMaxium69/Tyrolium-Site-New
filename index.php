@@ -26,12 +26,8 @@
         </div>
         <div class="container col-5">
             <article id="art-home">
-                <h2 class="art">A propos de Tyrolium</h2>
-                <h3 class="art">Tyrolium est une entreprise multisectorielle qui travaille sur plusieurs projets, principalement sur du développement Web mais aussi notamment du développement de jeux vidéos ou d'applications, de la musique, ou de l'audiovisuel.</h3>
-                <br>
-                <h3 class="art">Elle propose principalement des prestations de services de création de site Web et d'applications pour les particuliers et les professionnels.</h3>
-                <br>
-                <h3 class="art">Les profits générés par ces prestations seront directement investies dans les projets de l'entreprise.</h3>
+                <h2 class="art"><?= $lang[$page]["about"]["title"] ?></h2>
+                <h3 class="art"><?= $lang[$page]["about"]["txt"] ?></h3>
             </article>
         </div>
     </section>
@@ -41,10 +37,10 @@
     <section id="home-service" class="container row">
         <div class="container col-4">
             <article>
-                <h2 class="art">Nos Prestations</h2>
-                <p class="art">Tyrolium vous propose des prestations de services, notamment dans le développement de sites Web, d'applications, l'hébergement de serveurs, le développement minecraft et des bots (discord ou autre) pour les particuliers et les professionnels. Les fonds générés par ces prestations seront investis dans les projets de l'entreprise.</p>
+                <h2 class="art"><?= $lang[$page]["service"]["title"] ?></h2>
+                <p class="art"><?= $lang[$page]["service"]["txt"] ?></p>
                 <div style="text-align: center">
-                    <?php tyrobtn("service.php", "service", "Liste de nos Prestations");?>
+                    <?php tyrobtn("service.php", "service", $lang[$page]["service"]["btn"]);?>
                 </div>
             </article>
         </div>
@@ -59,13 +55,10 @@
         </div>
         <div class="container col-4">
             <article>
-                <h2 class="art">Nos Projets</h2>
-                <p class="art">De nos jours, nous sommes beaucoup à rêver de créer nos propres projets. Tyrolium a réussi le pari de réaliser les rêves de nos employés passionnés.
-                    Nous sommes fiers de ce que nous accomplissons tous les jours.
-                    Nous vous proposons des projets de grande ampleur toujours avec la passion de toutes nos équipes.
-                    Tyrolium veut vous proposer des projets bien realisés, de quoi vous divertir ou vous simplifier la vie. </p>
+                <h2 class="art"><?= $lang[$page]["project"]["title"] ?></h2>
+                <p class="art"><?= $lang[$page]["project"]["txt"] ?></p>
                 <div style="text-align: center">
-                    <?php tyrobtn("project.php", "project", "Tout nos Projets");?>
+                    <?php tyrobtn("project.php", "project", $lang[$page]["project"]["btn"]);?>
                 </div>
             </article>
         </div>
@@ -74,13 +67,10 @@
     <section id="home-collaboration" class="container row">
         <div class="container col-4">
             <article>
-                <h2 class="art">Nos Collaborations</h2>
-                <p class="art">Tyrolium est une entreprise qui est formée de plusieurs équipes, elle sont dirigés principalement dans les projets de l'entreprise ainsi que les prestations proposées.
-                    Ces équipes sont formées de personnes motivées, dynamiques et investies dans les projets et dans l'entreprise.
-
-                    Nous recrutons tout type de profil, les seuls pré-requis sont d'être intéressé et motivé par les projets qui vous attire. </p>
+                <h2 class="art"><?= $lang[$page]["collab"]["title"] ?></h2>
+                <p class="art"><?= $lang[$page]["collab"]["txt"] ?></p>
                 <div style="text-align: center">
-                    <?php tyrobtn("collaboration.php", "collaboration", "Nos Collaborations");?>
+                    <?php tyrobtn("collaboration.php", "collaboration", $lang[$page]["collab"]["btn"]);?>
                 </div>
             </article>
         </div>
@@ -99,17 +89,11 @@
             </div>
             <div class="container col-4">
                 <article>
-                    <h2 class="art">Les Compte Useritium</h2>
+                    <h2 class="art"><?= $lang[$page]["account"]["title"] ?></h2>
                     <p class="art" style='    padding-bottom: 10px;
-    margin-top: -21px;'>Les comptes Useritium sont proposés par Tyrolium, afin de vous proposer une adresse mail personnelle.
-
-Ces comptes vous offrent un cloud, de plus, ils permettent egalement de pouvoir gérer vos jeux vidéos, vos serveurs.
-                        
-Ils vous permettent également de connaître l'avancée de vos demandes de prestations.
-
-Ces comptes sont aussi une garantie de sécurité de vos données, nous nous engageons à ne jamais partager ou divulguer quelconques informations vous concernant.</p>
+    margin-top: -21px;'><?= $lang[$page]["account"]["txt"] ?></p>
                     <div style="text-align: center">
-                        <?php tyrobtn("account.php", "account", "Plus d'info");?>
+                        <?php tyrobtn("account.php", "account", $lang[$page]["account"]["btn"]);?>
                     </div>
                 </article>
             </div>
@@ -119,13 +103,10 @@ Ces comptes sont aussi une garantie de sécurité de vos données, nous nous eng
     <section id="home-story" class="container row">
         <div class="container col-4">
             <article>
-                <h2 class="art">Notre Histoire</h2>
-                <p class="art">Voilà depuis 2017 que Tyrolium existe et fait mûrir des projets et les gens qui ont travaillés et travaillent encore dessus.
-                    Pendant ces 5 années, une évolution s'est faite sentir et nous allons détailler cette évolution dans l'ordre chronologique et vous raconter les points clés de celle-ci.
-
-                    N'oubliez pas cependant que l'évolution n'est pas la fin, elle n'est que le début de la poussée qui nous emmènera au sommet, tant que l'on peux faire mieux ça ne sera jamais terminé.</p>
+                <h2 class="art"><?= $lang[$page]["story"]["title"] ?></h2>
+                <p class="art"><?= $lang[$page]["story"]["txt"] ?></p>
                 <div style="text-align: center">
-                    <?php tyrobtn("story.php", "story", "Voir l'Histoire de Tyrolium");?>
+                    <?php tyrobtn("story.php", "story", $lang[$page]["story"]["btn"]);?>
                 </div>
             </article>
         </div>
@@ -140,13 +121,8 @@ Ces comptes sont aussi une garantie de sécurité de vos données, nous nous eng
         </div>
         <div class="container col-4">
             <article>
-                <h2 class="art">Indépendant et Français</h2>
-                <p class="art">Le but de Tyrolium est d'exploiter au mieux le potentiel de ses employés pour créer des projets toujours plus ambitieux.
-                    Les fonds générés par nos prestations sont injectés dans l'entreprise pour financer des projets.<!--Nous nous engagons à être le plus proche et efficace possible de nos clients et des gens qui nous suivent et nous permettent d'exister.-->
-                </p><p class="art">
-                    L'objectif de Tyrolium est de concurrencer le monde et les géants de notre domaine en restant français.
-                </p><p class="art">
-                    Fait en France, par des français.</p></article>
+                <h2 class="art"><?= $lang[$page]["french"]["title"] ?></h2>
+                <p class="art"><?= $lang[$page]["french"]["txt"] ?></p></article>
         </div>
     </section>
 
@@ -300,8 +276,8 @@ Ces comptes sont aussi une garantie de sécurité de vos données, nous nous eng
             <section id="home-account">
                 <div class="container col-4">
                     <article>
-                        <h2 class="art-res">Account</h2>
-                        <p class="art-res">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,</p>
+                        <h2 class="art-res">Les Compte Useritium</h2>
+                        <p class="art-res">Les comptes Useritium sont proposés par Tyrolium, afin de vous proposer une adresse mail personnelle. Ces comptes vous offrent un cloud, de plus, ils permettent egalement de pouvoir gérer vos jeux vidéos, vos serveurs. Ils vous permettent également de connaître l'avancée de vos demandes de prestations. Ces comptes sont aussi une garantie de sécurité de vos données, nous nous engageons à ne jamais partager ou divulguer quelconques informations vous concernant.</p>
                         <div>
                             <div class="" style="width: 60%; margin-left: 20%">
                                 <img src="assets/Information_flow_Monochromatic.png" width="100%" height="100%">

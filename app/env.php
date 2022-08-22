@@ -1,7 +1,7 @@
 <?php
 
 //PROD or DEV or TEST
-$APP_ENV = "DEV";
+$APP_ENV = "TEST";
 
 // FALSE or TRUE
 $env_isAccount = true;
@@ -112,7 +112,6 @@ $env_perso = array(
         "instagram" => "https://www.instagram.com/pl_dev54/",
         "twitch" => "https://www.twitch.tv/piplextv",
         "linkedin" => "https://www.linkedin.com/in/pierre-louis-devaud-574035236/"
-
     ),
     
     array("name" => "Edward Thouvenin",
@@ -130,11 +129,6 @@ $env_perso = array(
         "instagram" => "https://www.instagram.com/lena_cherv/",
         "linkedin" => "https://www.linkedin.com/in/l%C3%A9na-chervier-645470228/",
 
-    ),
-
-    array("name" => "André Fernandes",
-        "role" => "Développeur,<br> Graphiste",
-        "icon" => "André_Fernandes.jpg"
     ),
 
     array("name" => "Luigi Guyot",
@@ -165,9 +159,13 @@ $env_perso = array(
         "instagram" => "https://www.instagram.com/m2k_hide.chr/",
         "twitter" => "https://twitter.com/Mathis45920873",
     ),
-
+       
+    /*array(
+        "vide" => true,
+    ),*/
+    
     array("name" => "Delphine Rodriguez",
-        "role" => "Développeur",
+        "role" => "Développeuse",
         "icon" => "Delphine_Rodriguez.jpg",
         "github" => "https://github.com/delphine38",
     ),
@@ -177,8 +175,6 @@ $env_perso = array(
         "icon" => "Angélique_Herard.jpg",
         "instagram" => "https://www.instagram.com/angelique.hrd/",
     ),
-
-
 
 );
 

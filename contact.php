@@ -55,6 +55,11 @@
                                                         echo "Vidéos";
                                                     } ?>
                                                 </option>
+                                            <?php } else if(!empty($_GET['partenaire'])) { ?>
+
+                                        <input type="hidden" name="raison" value="form-3">
+                                        <select class="dynamicSelect-select" name="raison" disabled style="color: #0854ff">
+                                                <option hidden value="form-3">Collaboration</option>
                                             <?php } else { ?>
 
                                         <select class="dynamicSelect-select" name="raison" required>
@@ -62,7 +67,7 @@
                                             <?php } ?>
                                                 <option value="form-1">Prestations</option>
                                                 <option value="form-2">Projets</option>
-                                                <option value="form-3">Colaboration</option>
+                                                <option value="form-3">Collaboration</option>
                                                 <option value="form-4">Aide/Bug</option>
                                                 <option value="form-5">Autre</option>
                                         </select>

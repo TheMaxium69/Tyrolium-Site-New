@@ -14,8 +14,16 @@
         <div class="container">
             <div class="row">
 
-                <?php foreach ($env_perso as $perso){ ?>
-
+                <?php foreach ($env_perso as $perso){ 
+                
+                
+                if(!empty($perso['vide'])){ ?>
+                    
+                    <div class="user-vide col-12 col-sm-6 col-md-4 col-lg-3"></div>
+                    
+                <?php } else {
+                
+                ?>
 
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="our-team">
@@ -63,13 +71,13 @@
                                 <li><a href="<?php echo $perso['linkedin']; ?>" class="fab fa-linkedin" aria-hidden="true"></a></li>
                             <?php }
 
-
                             ?>
                         </ul>
                     </div>
                 </div>
+            
 
-                <?php } ?>
+                <?php } } ?>
 
             </div>
         </div>
@@ -138,7 +146,10 @@
             </div>
             
         </div>
-        
+        <br>
+        <section id="service-start-but">
+        <?php tyrobtn("contact.php?partenaire=true", "devpart", "Devenir notre Partenaire");?>
+        </section>
         <br>
     </section>
     

@@ -2,16 +2,12 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-6">
-                <h6>à propos</h6>
-                <p class="text-justify">Tyrolium est une entreprise multisectorielle qui travaille sur plusieurs projets, principalement sur du développement Web mais aussi notamment du développement de jeux vidéos ou d'applications, de la musique, ou de l'audiovisuel.
-
-                    Elle propose principalement des prestations de services de création de site Web et d'applications pour les particuliers et les professionnels.
-
-                    Les profits générés par ces prestations seront directement investies dans les projets de l'entreprise.</p>
+                <h6><?= $lang['footer']["title"][0] ?></h6>
+                <p class="text-justify"><?= $lang['footer']["about-text"] ?></p>
             </div>
 
             <div class="footlink col-xs-6 col-md-3">
-                <h6>CATÉGORIES</h6>
+                <h6><?= $lang['footer']["title"][1] ?></h6>
                 <ul class="footer-links">
                     <?php  $nbBack = count($env_page);
 
@@ -20,9 +16,9 @@
                         $j = $i+1;
 
                         if ($env_isAccount == false && $j <= 5){
-                            echo '<li><a href="javascript:redirect('. $j .');">'. $env_page[$i] .'</a></li>';
+                            echo '<li><a href="javascript:redirect('. $j .');">'. $lang['page'][$i] .'</a></li>';
                         } else if ($env_isAccount == true) {
-                            echo '<li><a href="javascript:redirect('. $j .');">'. $env_page[$i] .'</a></li>';
+                            echo '<li><a href="javascript:redirect('. $j .');">'. $lang['page'][$i] .'</a></li>';
                         }
 
                     }?>
@@ -30,14 +26,14 @@
             </div>
 
             <div class="footlink col-xs-6 col-md-3">
-                <h6>AUTRES LIENS</h6>
+                <h6><?= $lang['footer']["title"][2] ?></h6>
                 <ul class="footer-links">
-                    <li><a href="more.php">Plus d'Infos</a></li>
-                    <li><a href="contact.php">Contactez-nous</a></li>
-                    <li><a href="https://tyrolium.fr/Status/">Api Des Serveurs</a></li>
-                    <li><a href="https://tyrolium.fr/Panel/">Panel Admin</a></li>
-                    <li><a href="https://github.com/TheMaxium69?tab=repositories">Nos Repository</a></li>
-                    <li><a href="https://birthday.tyrolium.fr/">Anniversaire</a></li>
+                    <li><a href="more.php"><?= $lang["footer"]["other-page"][0] ?></a></li>
+                    <li><a href="contact.php"><?= $lang["footer"]["other-page"][1] ?></a></li>
+                    <li><a href="https://tyrolium.fr/Status/"><?= $lang["footer"]["other-page"][2] ?></a></li>
+                    <li><a href="https://tyrolium.fr/Panel/"><?= $lang['footer']["other-page"][3] ?></a></li>
+                    <li><a href="https://github.com/TheMaxium69?tab=repositories"><?= $lang['footer']["other-page"][4] ?></a></li>
+                    <li><a href="https://birthday.tyrolium.fr/"><?= $lang['footer']["other-page"][5] ?></a></li>
                 </ul>
             </div>
         </div>
