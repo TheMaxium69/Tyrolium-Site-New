@@ -123,13 +123,13 @@ $env_perso = array(
 
         ),
 
-    array("name" => "L&eacute;na Chervier",
+    /*array("name" => "L&eacute;na Chervier",
         "role" => "Assistante Administrative,<br> Community Manager",
         "icon" => "Léna_Chervier.jpg",
         "instagram" => "https://www.instagram.com/lena_cherv/",
         "linkedin" => "https://www.linkedin.com/in/l%C3%A9na-chervier-645470228/",
 
-    ),
+    ),*/
 
     array("name" => "Luigi Guyot",
         "role" => "UX/UI Designer,<br> Modérateur",
@@ -170,11 +170,11 @@ $env_perso = array(
         "github" => "https://github.com/delphine38",
     ),
 
-    array("name" => "Angélique Herard",
+    /*array("name" => "Angélique Herard",
         "role" => "Modératrice",
         "icon" => "Angélique_Herard.jpg",
         "instagram" => "https://www.instagram.com/angelique.hrd/",
-    ),
+    ),*/
 
 );
 
