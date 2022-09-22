@@ -4,7 +4,7 @@
 <?php if($env_isAccount == true) { ?>
     <main>
 
-    	<section id="particule">
+    	<section id="particule" style="margin-bottom: 50px;">
 	        <div id="particule">
 	            <div id="head" style="
                 margin-top: 80px;">
@@ -78,14 +78,14 @@ Découvrez également des nombreuses fonctionnalités disponibles en dessous</p>
                             <div class="col_md_login">
                                 <div class="cont_ba_opcitiy">
                                     <h2>Connexion</h2>  
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> 
+                                    <p>Connectez-vous et accedez à votre panel</p> 
                                     <a href="connect.php" class="btn btn_login">Se connecter</a>
                                 </div>
                             </div>
                             <div class="col_md_sign_up">
                                 <div class="cont_ba_opcitiy">
                                     <h2>Inscription</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <p>Inscrivez-vous, ça vous prendre moin d'1 min</p>
                                     <a href="connect.php" class="btn btn_sign_up">S'incrire</a>
                                 </div>
                             </div>
@@ -112,13 +112,17 @@ Découvrez également des nombreuses fonctionnalités disponibles en dessous</p>
     text-align: center;
     font-family: "Open Sans", sans-serif;
   }
-  
+  #connection a{
+    color: white;
+  }
+
   #connection a:hover{
     color: white;
   }
 
 
   .cotn_principal {
+    margin-top: -115px;
     /* position: absolute; */
     width: 100%;
     display: flex;

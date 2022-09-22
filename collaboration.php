@@ -99,52 +99,66 @@
         
         <div class="row">
             <div class="col">
-                <a href="https://www.linkedin.com/company/lafrenchtech-onelse/" title="French Tech One Lyon St-Étienne">
+                <a target="_bank" href="https://www.lafrenchtech-onelse.com/" title="French Tech One Lyon St-Étienne">
                     <img src="<?php echo $env_assets; ?>part/frenchtechlyon.png" alt="frenchtech">
+                </a>
+            </div>
+
+            <div class="col">
+                <a target="_bank" href="https://www.auvergnerhonealpes.fr/" title="La Region Auvergne-Rhône-Alpes">
+                    <img src="<?php echo $env_assets; ?>part/auvergne-Rhone-Alphes.png" alt="Auvergne-Rhône-Alphes">
                 </a>
             </div>
             
             <div class="col">
-                <a href="https://www.linkedin.com/company/g%C3%A9n%C3%A9ration-ium/" title="Génératium IUM">
+                <a target="_bank" href="https://www.linkedin.com/company/g%C3%A9n%C3%A9ration-ium/" title="Génératium IUM">
                     <img src="<?php echo $env_assets; ?>part/Generatium-ium.png" alt="generatium-ium">
                 </a>
             </div>
             
-            <div class="col">
-                <a href="https://batirpositif.com" title="Bâtir Positif - Ingénierie Responsable">
-                    <img src="<?php echo $env_assets; ?>part/bt.jpg" alt="batirpositif">
-                </a>
-            </div>
-            <div class="col">
-                <a title="Studio Solunias">
-                    <img src="<?php echo $env_assets; ?>part/solunias.png" alt="solunias">
-                </a>
-            </div>
         </div>
         
         <div class="row">
+
             <div class="col">
-                <a href="https://www.linkedin.com/company/maxime-serveur/" title="Maxime/SERVEUR">
-                    <img src="<?php echo $env_assets; ?>part/Maxime-SERVEUR.jpg" alt="maxime-serveur">
+                <a target="_bank" href="https://batirpositif.com" title="Bâtir Positif - Ingénierie Responsable">
+                    <img src="<?php echo $env_assets; ?>part/bt.jpg" alt="batirpositif">
                 </a>
             </div>
+            
             <div class="col">
-                <a href="https://www.linkedin.com/company/maxime-minecraft/" title="Maxime/MINECRAFT">
-                    <img src="<?php echo $env_assets; ?>part/Maxime-MINECRAFT.png" alt="maxime-minecraft">
+                <a target="_bank" title="Studio Solunias">
+                    <img src="<?php echo $env_assets; ?>part/solunias.png" alt="solunias">
                 </a>
             </div>
+            
             <div class="col">
-                <a href="https://www.youtube.com/channel/UCEc-KcQQcZ15htg1KT2H5xg" title="MA3WAN">
+                <a target="_bank" href="https://www.youtube.com/channel/UCEc-KcQQcZ15htg1KT2H5xg" title="MA3WAN">
                     <img src="<?php echo $env_assets?>part/ma3wan.webp" alt="ma3wan">
                 </a>
             </div>
             
+        </div>
+        <div class="row">
+
             <div class="col">
-                <a href="https://www.twitch.tv/auroretvv" title="AuroreTVv">
-                    <img src="<?php echo $env_assets; ?>part/AuroreTVv.jpg" alt="AuroreTVv">
+                <a target="_bank" href="https://www.linkedin.com/company/maxime-serveur/" title="Maxime/SERVEUR">
+                    <img src="<?php echo $env_assets; ?>part/Maxime-SERVEUR.jpg" alt="maxime-serveur">
                 </a>
             </div>
             
+            <div class="col">
+                <a target="_bank" href="https://www.linkedin.com/company/maxime-minecraft/" title="Maxime/MINECRAFT">
+                    <img src="<?php echo $env_assets; ?>part/Maxime-MINECRAFT.png" alt="maxime-minecraft">
+                </a>
+            </div>
+
+            <div class="col">
+                <a target="_bank" href="https://www.twitch.tv/auroretvv" title="AuroreTVv">
+                    <img src="<?php echo $env_assets; ?>part/AuroreTVv.jpg" alt="AuroreTVv">
+                </a>
+            </div>
+
         </div>
         <br>
         <section id="service-start-but">

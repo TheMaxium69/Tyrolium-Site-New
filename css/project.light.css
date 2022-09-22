@@ -4,7 +4,11 @@ body.light #projet {
     color: #2a2a2a;
 }
 
-body.light #projet .btn {
+body.light #projet li{
+    color: white;
+}
+
+/* body.light #projet .btn {
     background-color: rgb(13 14 52);
     color: white;
 }
@@ -16,4 +20,4 @@ body.light #projet .btn:hover {
 
 body.light #projet .icon {
     filter: invert(100%);
-}
+} */

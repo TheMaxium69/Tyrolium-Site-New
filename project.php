@@ -43,9 +43,9 @@
                 echo '
                 body.light #projet ul li#a'. $i .'{
                     background: linear-gradient(
-                            to right,
-                            #e1e1e1 25%,
-                            rgba(0, 0, 0, 0.2) 50%
+                        to right,
+                        #151515 30%,
+                        rgba(0, 0, 0, 0.2) 50%
                     ),
                     url("'. $env_back[$i] .'");
                     background-size: cover;
@@ -96,7 +96,7 @@
                 <h2>TyroServ</h2>
                 <p>Serveur moddé sur le jeu Minecraft.</p>
                 <small>Saison 3 disponible en printemps 2023.</small><br>
-                <a href="https://tyroserv.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
+                <a href="https://www.tyroserv.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
                 <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
                 <a href="https://www.instagram.com/tyroliumserver/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
                 <a href="https://twitter.com/tyrolium" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/twitter.png" alt="twitter"/></a>
@@ -219,7 +219,7 @@
             <li id="a9">
                 <img class="logo" src="http://tyrolium.fr/Contenu/Image/Chantium.png" logo="http://tyrolium.fr/Contenu/Image/Chantium.png" gif="assets/anim/Chantium%20Anim.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="ChantiumLogo">
                 <h2>Chantium</h2>
-                <p>SOON</p>
+                <p>Application de gestion afin de simplifier la communication<br> des different cores de métier sur un chantier</p>
                 <small>En collaboration avec l'entreprise "<a class="btn-part" href="https://batirpositif.com">Bâtir Positif</a>" .</small><br>
             </li>
         </ul>
