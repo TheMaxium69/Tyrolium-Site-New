@@ -39,10 +39,11 @@ for ($i = 0; $i <= $nbBack-1; $i++) {
 
 }?>
             
-            
+            <?php if ($env_isMultilang == true){ ?>
             <!--LANG TEMPORAIRE-->
             <li class="nav-item lang">
-                <?php if ($_SESSION['lang'] == "fr_FR"){ ?>
+                <?php
+                if ($_SESSION['lang'] == "fr_FR"){ ?>
     
                 <a href="?lang=en_US"><img src="https://flagicons.lipis.dev/flags/4x3/fr.svg" alt="fr"></a>
     
@@ -52,7 +53,6 @@ for ($i = 0; $i <= $nbBack-1; $i++) {
                 
                 <?php } ?>
             </li>
-            
             <style>
             
                 
@@ -71,7 +71,7 @@ for ($i = 0; $i <= $nbBack-1; $i++) {
             
             </style>
             <!--LANG TEMPORAIRE-->   
-                
+            <?php } ?>    
                 
         </ul>
         <div style="width: 40px;"></div>

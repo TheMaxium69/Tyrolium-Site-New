@@ -7,7 +7,8 @@ $APP_ENV = "TEST";
 $env_isAccount = true;
 $env_isEvent_5Year = false;
 $env_isAnimProject = true;
-
+$env_isUseritium = true;
+$env_isMultilang = false;
 
 $env_url = "https://tyrolium.fr";
 
