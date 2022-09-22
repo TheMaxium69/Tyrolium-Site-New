@@ -19,6 +19,8 @@ function head($page)
         $title = "Plus d'Infos | Tyrolium Site";
     } else if ($page == 8){
         $title = "Contacte | Tyrolium Site";
+    } else if ($page == 9){
+        $title = "Connexion | Tyrolium Site";
     } else {
         $title = "404 | Tyrolium Site";
     }
