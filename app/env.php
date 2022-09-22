@@ -77,13 +77,13 @@ $env_perso = array(
 
         ),
 
-    array("name" => "Wassim Bouridah",
+    /* array("name" => "Wassim Bouridah",
         "role" => "Responsable Communication,<br> Ingénieur R&D",
         "icon" => "Wassim_Bouridah.jpg",
         "instagram" => "https://www.instagram.com/wassinobi/",
         "youtube" => "https://www.youtube.com/channel/UCBuxMq0h-WQJi5_e6My9GYg",
         "linkedin" => "https://www.linkedin.com/in/wassim-bouridah/",
-    ),
+    ), */
     
 
     array("name" => "Norman Jorge De Freitas",

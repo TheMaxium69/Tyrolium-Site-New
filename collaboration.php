@@ -140,8 +140,8 @@
             </div>
             
             <div class="col">
-                <a href="https://www.instagram.com/thenextdoor.xyz/" title="The Next Door">
-                    <img src="<?php echo $env_assets; ?>part/The-Next-Door.png" alt="The-Next-Door">
+                <a href="https://www.twitch.tv/auroretvv" title="AuroreTVv">
+                    <img src="<?php echo $env_assets; ?>part/AuroreTVv.jpg" alt="AuroreTVv">
                 </a>
             </div>
             
