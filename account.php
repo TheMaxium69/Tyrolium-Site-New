@@ -92,12 +92,12 @@ Découvrez également des nombreuses fonctionnalités disponibles en dessous</p>
                         </div>
                         <div class="cont_back_info">
                             <div class="cont_img_back_grey">
-                                <img src="http://localhost/TyroMail/assets/wallpaper3.jpg" alt="" />
+                                <img src="./assets/user2.jpg" alt="" />
                             </div>
                         </div>
                         <div class="cont_forms" >
                             <div class="cont_img_back_">
-                                <img src="http://localhost/TyroMail/assets/wallpaper3.jpg" alt="" />
+                                <img src="./assets/user1.jpg" alt="" />
                             </div>
                         </div>
                     </div>
@@ -200,6 +200,17 @@ Découvrez également des nombreuses fonctionnalités disponibles en dessous</p>
   
   .cont_img_back_grey > img {
     width: 100%;
+    opacity: unset;
+    animation-name: animar_fondo;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    filter: brightness(50%);
+  }
+
+  body.light .cont_img_back_grey > img {
+    width: 100%;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     opacity: 0.2;
@@ -218,6 +229,17 @@ Découvrez également des nombreuses fonctionnalités disponibles en dessous</p>
   }
   
   .cont_img_back_ > img {
+    width: 100%;
+    opacity: unset;
+    animation-name: animar_fondo;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    filter: brightness(50%);
+  }
+
+  body.light .cont_img_back_ > img {
     width: 100%;
     opacity: 0.3;
     animation-name: animar_fondo;
