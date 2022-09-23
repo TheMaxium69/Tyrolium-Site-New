@@ -48,6 +48,7 @@
                                                             <input type="password" name="passwordSignUp" class="form-style" placeholder="Ton Mot De Passe" id="logpass" autocomplete="off">
                                                             <i class="input-icon uil uil-lock-alt"></i>
                                                         </div>
+                                                        <input type="hidden" name="site" value="2">
                                                         <input class="btn mt-4" type="submit" value="Envoyer"></input>
                                                     </div>
                                                 </form>
