@@ -32,6 +32,7 @@ if ($APP_ENV == "PROD"){
     $env_captcha_servid = $TyroliumSite_ServID;
 
     $env_useritium_site = "https://useritium.fr";
+    $env_connectUrl = "https://tyrolium.fr/";
 
 } else if ($APP_ENV == "DEV"){
     include "D:/xampp/htdocs/reCAPTCHA.php";
@@ -42,6 +43,8 @@ if ($APP_ENV == "PROD"){
     $env_captcha_servid = $Localhost_ServID;
 
     $env_useritium_site = "http://localhost/TyroMail";
+    $env_connectUrl = "http://localhost/Tyrolium-Site-New/";
+
 } else if ($APP_ENV == "TEST"){
     include "D:/xampp/htdocs/reCAPTCHA.php";
     
@@ -51,6 +54,7 @@ if ($APP_ENV == "PROD"){
     $env_captcha_servid = $Localhost_ServID;
 
     $env_useritium_site = "http://localhost/TyroMail";
+    $env_connectUrl = "http://localhost/Tyrolium-Site-New/";
 }
 
 $env_useritium_urlconnect = $env_useritium_site . "/connect.php";
