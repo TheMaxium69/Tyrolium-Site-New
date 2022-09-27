@@ -72,7 +72,8 @@ $env_back = array (
     $env_urlImage . "Background18.jpeg",
     $env_urlImage . "Background21.jpg",
     $env_urlImage . "Background20.jpg",
-    $env_urlImage . "Background4"
+    $env_urlImage . "Background4",
+    $env_urlImage . "Background22",
 );
 
 $env_perso = array(
@@ -754,13 +755,17 @@ $env_story = array(
     
     //Pour le 13 Juillet
     
-    /*array(
+    array(
         "date" => '13 Juillet 2022',
         "title" => 'Lancement des Animations',
         "content" => 'Tyrolium a sorti une animation sur tous ses projets. <br> Elle est disponible sur la page projets de ce site',
     ),
-    */
     
+    array(
+        "date" => '27 Septembre 2022',
+        "title" => 'Création Influnias',
+        "content" => 'bleubleu',
+    ),
 
 
 
