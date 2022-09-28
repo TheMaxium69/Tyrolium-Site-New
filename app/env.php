@@ -764,7 +764,12 @@ $env_story = array(
     array(
         "date" => '27 Septembre 2022',
         "title" => 'Création Influnias',
-        "content" => 'bleubleu',
+        "content" => 'Création de l\'agence de portage de Tyrolium appeler Influnias, avec sont logo',
+        "picture" => $env_assets . 'story/Influnias.png',
+        "btn" => array(
+            "url" => 'https://tyrolium.fr/Contenu/Image/Influnias.png',
+            "text" => 'Voir l\'image'
+        ),
     ),
 
 

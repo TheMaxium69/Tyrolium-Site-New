@@ -107,15 +107,6 @@
                 <a href="https://www.linkedin.com/company/tyroserv" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/linkedIn.png" alt="linkedin"/></a>
             </li>
 
-            <li id="a11">
-                <img class="logo" src="https://tyrolium.fr/Contenu/Image/Influnias.png" logo="https://tyrolium.fr/Contenu/Image/Influnias.png" gif="https://tyrolium.fr/Contenu/Image/Influnias.png" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="InfluniasLogo">
-                <h2>Influnias</h2>
-                <p>Agence de portage d'influencer.</p>
-                <a href="https://www.instagram.com/influnias/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/> Allez sur notre Instagram</a><br>
-                <a href="https://discord.gg/ycwWzmCQNx" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
-                <a href="https://www.linkedin.com/company/influnias" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/linkedIn.png" alt="linkedin"/></a>
-            </li>
-
             <li id="a8">
                 <img class="logo" src="assets/anim/SolidServ%20Anim.png" logo="assets/anim/SolidServ%20Anim.png" gif="http://tyrolium.fr/Contenu/Image/SolidServ%20Anim2.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="SolidServLogo">
                 <h2>SolidServ</h2>
@@ -129,6 +120,20 @@
                 <a href="https://github.com/SolidServ" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/github.png" alt="github"/></a>
                 <a href="https://www.tiktok.com/@solidserv?" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/tiktok.png" alt="tiktok"/></a>
                 <a href="https://www.linkedin.com/company/solidserv" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/linkedIn.png" alt="linkedin"/></a>
+            </li>
+
+            <li id="a11">
+                <img class="logo" src="assets/anim/Influnias%20Anim.png" logo="assets/anim/Influnias%20Anim.png" gif="assets/anim/Influnias%20Anim.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="InfluniasLogo">
+                <h2>Influnias</h2>
+                <p>Agence de portage d'influencer.</p>
+                <a href="https://www.instagram.com/influnias/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/> Allez sur notre Instagram</a><br>
+                <a href="https://discord.gg/ycwWzmCQNx" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
+                <a href="https://twitter.com/influnias" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/twitter.png" alt="twitter"/></a>
+                <a href="https://www.youtube.com/channel/UCm0ASpIy2CJsS9hzVedo_yg" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/youtube.png" alt="youtube"/></a>
+                <a href="https://github.com/Influnias" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/github.png" alt="github"/></a>
+                <a href="https://www.tiktok.com/@influnias?" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/tiktok.png" alt="tiktok"/></a>
+                <a href="https://www.twitch.tv/influnias" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/twitch.png" alt="twitch"/></a>
+                <a href="https://www.linkedin.com/company/influnias" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/linkedIn.png" alt="linkedin"/></a>
             </li>
 
             <li id="a1">
