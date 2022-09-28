@@ -104,6 +104,11 @@ Découvrez également des nombreuses fonctionnalités disponibles en dessous</p>
 
                 </div>
             </div>
+
+            <div class="cotn_mobile">
+                <?php tyrobtn("connect.php", "insciption", "Se connecter / S'incrire");?>
+            </div>
+            <br>
             <style>
 
   #connection {
@@ -485,6 +490,19 @@ Découvrez également des nombreuses fonctionnalités disponibles en dessous</p>
     float: left;
     margin: 10px;
     margin-left: 30px;
+  }
+
+  
+  @media (max-width: 699px) {
+    .cotn_principal{
+      display: none;
+    }
+  }
+
+  @media (min-width: 700px) {
+    .cotn_mobile{
+      display: none;
+    }
   }
             </style>
             <?php } ?>
