@@ -126,7 +126,8 @@
                 <img class="logo" src="assets/anim/Influnias%20Anim.png" logo="assets/anim/Influnias%20Anim.png" gif="assets/anim/Influnias%20Anim.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="InfluniasLogo">
                 <h2>Influnias</h2>
                 <p>Agence de portage d'influencer.</p>
-                <a href="https://www.instagram.com/influnias/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/> Allez sur notre Instagram</a><br>
+                <a href="https://www.influnias.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
+                <a href="https://www.instagram.com/influnias/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
                 <a href="https://discord.gg/ycwWzmCQNx" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
                 <a href="https://twitter.com/influnias" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/twitter.png" alt="twitter"/></a>
                 <a href="https://www.youtube.com/channel/UCm0ASpIy2CJsS9hzVedo_yg" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/youtube.png" alt="youtube"/></a>
