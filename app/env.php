@@ -164,9 +164,9 @@ $env_perso = array(
         "instagram" => "https://www.instagram.com/viking_senpai/",
     ),
 
-    array(
-        "vide" => true,
-    ),
+    // array(
+    //     "vide" => true,
+    // ),
     array("name" => "Mathis Dubief",
         "role" => "Journaliste Jeux Vidéo,<br> Modérateur",
         "icon" => "Mathis_Dubief.jpg",
@@ -174,7 +174,11 @@ $env_perso = array(
         "twitter" => "https://twitter.com/Mathis45920873",
     ),
        
-    
+    array("name" => "Daniel Taniou",
+        "role" => "Modérateur,<br> Linguiste",
+        "icon" => "Daniel_Taniou.jpg",
+        "youtube" => "https://youtube.com/c/Eroniage",
+    ),
     
     array("name" => "Delphine Rodriguez",
         "role" => "Développeuse",

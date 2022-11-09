@@ -109,6 +109,12 @@
                     <img src="<?php echo $env_assets; ?>part/auvergne-Rhone-Alphes.png" alt="Auvergne-Rhône-Alphes">
                 </a>
             </div>
+
+            <div class="col">
+                <a target="_bank" href="https://www.grandest.fr/" title="La Region Grand Est">
+                    <img src="<?php echo $env_assets; ?>part/grandest.png" alt="Grand Est">
+                </a>
+            </div>
             
             <div class="col">
                 <a target="_bank" href="https://www.linkedin.com/company/g%C3%A9n%C3%A9ration-ium/" title="Génératium IUM">
@@ -137,9 +143,21 @@
                     <img src="<?php echo $env_assets?>part/ma3wan.webp" alt="ma3wan">
                 </a>
             </div>
+
+            <div class="col">
+                <a target="_bank" href="https://www.twitch.tv/auroretvv" title="AuroreTVv">
+                    <img src="<?php echo $env_assets; ?>part/AuroreTVv.jpg" alt="AuroreTVv">
+                </a>
+            </div>
             
         </div>
         <div class="row">
+
+            <div class="col">
+                <a target="_bank" href="https://youtube.com/c/Eroniage" title="Eroniage">
+                    <img src="<?php echo $env_assets; ?>part/Eroniage.png" alt="Eroniage">
+                </a>
+            </div>
 
             <div class="col">
                 <a target="_bank" href="https://www.linkedin.com/company/maxime-serveur/" title="Maxime/SERVEUR">
@@ -154,8 +172,8 @@
             </div>
 
             <div class="col">
-                <a target="_bank" href="https://www.twitch.tv/auroretvv" title="AuroreTVv">
-                    <img src="<?php echo $env_assets; ?>part/AuroreTVv.jpg" alt="AuroreTVv">
+                <a target="_bank" href="https://www.linkedin.com/company/doublet-creator/" title="DoubleT">
+                    <img src="<?php echo $env_assets; ?>part/DoubleT.png" alt="DoubleT">
                 </a>
             </div>
 
