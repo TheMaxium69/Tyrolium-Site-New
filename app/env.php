@@ -84,7 +84,7 @@ $env_perso = array(
         "instagram" => "https://instagram.com/the_maxime_san",
         "github" => "https://github.com/TheMaxium69",
         "linkedin" => "https://linkedin.com/in/maxime-tournier-tyrolium",
-        "twitter" => "https://twitter.com/MaximeTournier2",
+        "tiktok" => "https://www.tiktok.com/@themaximesan",
 
         ),
 
@@ -178,6 +178,9 @@ $env_perso = array(
         "role" => "Modérateur,<br> Linguiste",
         "icon" => "Daniel_Taniou.jpg",
         "youtube" => "https://youtube.com/c/Eroniage",
+        "instagram" => "https://www.instagram.com/eroniage_off/",
+        "twitter" => "https://twitter.com/Eroniage_ytb",
+        "twitch" => "https://www.twitch.tv/eroniage",
     ),
     
     array("name" => "Delphine Rodriguez",

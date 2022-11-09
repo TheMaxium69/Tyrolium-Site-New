@@ -70,6 +70,9 @@
                             if(!empty($perso['linkedin'])) { ?>
                                 <li><a href="<?php echo $perso['linkedin']; ?>" class="fab fa-linkedin" aria-hidden="true"></a></li>
                             <?php }
+                            if(!empty($perso['tiktok'])) { ?>
+                                <li><a href="<?php echo $perso['tiktok']; ?>" class="fab fa-tiktok" aria-hidden="true"></a></li>
+                            <?php }
 
                             ?>
                         </ul>
