@@ -34,7 +34,11 @@
 
             ),
             
-            "about-text" => "Tyrolium est une entreprise multisectorielle qui travaille sur plusieurs projets, principalement sur du développement Web mais aussi notamment du développement de jeux vidéos ou d'applications, de la musique, ou de l'audiovisuel. Elle propose principalement des prestations de services de création de site Web et d'applications pour les particuliers et les professionnels. Les profits générés par ces prestations seront directement investies dans les projets de l'entreprise."
+            "about-text" => "Tyrolium est une entreprise multisectorielle qui travaille sur plusieurs projets, principalement du développement Web mais également du développement de jeux vidéos et d'applications, de la musique, ou encore de l'audiovisuel.
+
+            Elle propose principalement des prestations pour la création de site Web et d'applications pour les particuliers et les professionnels.
+            
+            Les profits générés par ces prestations sont directement investies dans les projets de l'entreprise."
 
         ),
         
@@ -45,11 +49,11 @@
             "about" => array(
             
                 "title" => "A propos de Tyrolium",
-                "txt" => 'Tyrolium est une entreprise multisectorielle qui travaille sur plusieurs projets, principalement sur du développement Web mais aussi notamment du développement de jeux vidéos ou d\'applications, de la musique, ou de l\'audiovisuel.</h3>
+                "txt" => 'Tyrolium est une entreprise multisectorielle qui travaille sur plusieurs projets, principalement du développement Web mais également du développement de jeux vidéos et d\'applications, de la musique, ou encore de l\'audiovisuel.</h3>
                 <br>
-                <h3 class="art">Elle propose principalement des prestations de services de création de site Web et d\'applications pour les particuliers et les professionnels.</h3>
+                <h3 class="art">Elle propose principalement des prestations pour la création de site Web et d\'applications pour les particuliers et les professionnels.</h3>
                 <br>
-                <h3 class="art">Les profits générés par ces prestations seront directement investies dans les projets de l\'entreprise.'
+                <h3 class="art">Les profits générés par ces prestations sont directement investies dans les projets de l\'entreprise.'
             
             ),
             
