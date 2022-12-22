@@ -6,6 +6,7 @@ $APP_ENV = "DEV";
 // FALSE or TRUE
 $env_isAccount = true;
 $env_isEvent_5Year = false;
+$env_isEvent_Noel2022 = true;
 $env_isAnimProject = true;
 $env_isUseritium = true;
 $env_isMultilang = false;
