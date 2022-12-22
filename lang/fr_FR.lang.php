@@ -53,7 +53,17 @@
                 <br>
                 <h3 class="art">Elle propose principalement des prestations pour la création de site Web et d\'applications pour les particuliers et les professionnels.</h3>
                 <br>
-                <h3 class="art">Les profits générés par ces prestations sont directement investies dans les projets de l\'entreprise.'
+                <h3 class="art">Les profits générés par ces prestations sont directement investies dans les projets de l\'entreprise.
+                
+                
+                <br>-------------<br>
+
+                *Beta*
+                Tyrolium est une entreprise qui réalise des project autour de la tech et d\'internet, son objectif est de réunir toute une jeune génération afin de créer des projet et des passsion dans notre équipe,<br>
+    
+                Les compétence que nous acquéront grace a tout ces projet nous permet de réalisé des prestation dans des entreprise a fin de financer nos projet et de toujousr allez plus loin de nos envie, et nos idée
+    
+                '
             
             ),
             
