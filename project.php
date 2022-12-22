@@ -1,4 +1,4 @@
-<?php include "app/app.php"; $page = 3; head($page); ?>
+<?php include "app/app.php"; $page = 2; head($page); ?>
 <body onLoad="cookie()" class="<?php if (empty($_COOKIE["color"])){ echo "dark"; }else{echo $_COOKIE["color"]; } ?>"> <header> <?php navbar($page); ?> </header>
 
 <main>
@@ -17,11 +17,6 @@
                 <br>
             </div>
         </div>
-        <style>
-
-
-        </style>
-
 
         <hr id="hratom" style="background: rgb(161, 161, 161);">
         <br>
@@ -170,6 +165,67 @@
                 <a href="https://www.linkedin.com/company/tyrostudio" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/linkedIn.png" alt="linkedin"/></a>
             </li>
 
+            
+            <bottom id="btn-old-project">
+                
+                <label>Voir les anciens projets</label><br>
+                <i class="fas fa-chevron-down"></i>
+        
+            </bottom>
+
+            <style>
+            
+                #btn-old-project{
+                    width: 100%;
+                }
+
+
+            </style>
+
+        </ul>
+
+        <br><br>
+
+        <style id="old-script">
+
+            #old-project{
+                display: none;
+            }
+
+
+        </style>
+
+        <script>
+
+        var oldbtn = document.getElementById("btn-old-project");
+
+        oldbtn.addEventListener("click", e => {
+            let articleOld = document.getElementById("old-script")
+
+            articleOld.innerHTML = '#old-project{display: unset;}';
+
+        });
+
+        </script>
+
+    <div id="old-project">
+        
+        <br><br>
+
+            <div id="project-atom" class="row container">
+
+                <div class="col-8">
+                        <h2>Nos Ancien Projets</h2>
+                        <br id="991none">
+                        <p class="container">Il s'agit des projects que nous avons décidez de fermez au furs a mesure des année</p>
+                </div>
+                <div class="col-4">
+                    <img src="assets/atom_project.png" style="width: 100%;">
+                    <br>
+                </div>
+            </div>
+
+        <ul>    
             <li id="a4">
                 <img class="logo" src="http://tyrolium.fr/Contenu/Image/Wonderlium.png" logo="http://tyrolium.fr/Contenu/Image/Wonderlium.png" gif="assets/anim/Wonderlium%20Anim.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="WonderliumLogo">
                 <h2>Wonderlium</h2>
@@ -238,7 +294,7 @@
                 <small>En collaboration avec l'entreprise "<a class="btn-part" href="https://batirpositif.com">Bâtir Positif</a>" .</small><br>
             </li>
         </ul>
-
+    </div>
         <style>
 
             .btn-part:hover{

@@ -5,8 +5,8 @@
         "page" => array(
         
             "Accueil",
-            "Prestation",
             "Projet",
+            "Prestation",
             "Collaboration",
             "Histoire",
             "Compte"

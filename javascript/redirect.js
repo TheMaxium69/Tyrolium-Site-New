@@ -4,11 +4,11 @@ function redirect(page){
         window.location.href='./';
     }
 
-    if (page === 2){
+    if (page === 3){
         window.location.href='./service.php';
     }
 
-    if (page === 3){
+    if (page === 2){
         window.location.href='./project.php';
     }
 

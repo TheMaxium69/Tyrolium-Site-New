@@ -199,8 +199,8 @@ $env_perso = array(
 
 $env_page = array(
     "Accueil",
-    "Prestation",
     "Projet",
+    "Prestation",
     "Collaboration",
     "Histoire",
     "Compte"
@@ -208,8 +208,8 @@ $env_page = array(
 
 $env_page_logo = array(
     "fas fa-home",
-    "fas fa-tags",
     "fas fa-dice-d6",
+    "fas fa-tags",
     "fas fa-handshake",
     "fas fa-book",
     "fas fa-user",

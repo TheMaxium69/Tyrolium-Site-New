@@ -5,8 +5,8 @@
         "page" => array(
         
             "Home",
-            "Service",
             "Project",
+            "Service",
             "Collaboration",
             "Story",
             "Account"

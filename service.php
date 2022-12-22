@@ -1,4 +1,4 @@
-<?php include "app/app.php"; $page = 2; head($page); ?>
+<?php include "app/app.php"; $page = 3; head($page); ?>
 <body onLoad="cookie()" class="<?php if (empty($_COOKIE["color"])){ echo "dark"; }else{echo $_COOKIE["color"]; } ?>"> <header> <?php navbar($page); ?> </header>
 
 <main>
@@ -148,7 +148,7 @@
             </div>
         </section>
 
-        <section id="service-second-but" class="container row">
+        <!-- <section id="service-second-but" class="container row">
             <div class="container col-5">
                 <article>
                     <h2 class="art">Musicales</h2>
@@ -158,14 +158,14 @@
                     De plus, nous proposons également des créations musicales pour les particuliers qui voudraient créer leur albums/EP/jingles/singles/domaine de l'audiovisuel. 
                     </p>
                     <div style="text-align: center">
-                        <?php tyrobtn("contact.php?name=music", "contact", "Contactez-nous pour cette prestation");?>
+                        <?php //tyrobtn("contact.php?name=music", "contact", "Contactez-nous pour cette prestation");?>
                     </div>
                 </article>
             </div>
             <div class="col-6">
                 <img class="img-home" src="assets/Music_Monochromatic.png" style="width: 100%">
             </div>
-        </section>
+        </section> -->
         
         <section id="service-second" class="container row">
             <div class="col-6" style="text-align: end">
@@ -263,7 +263,7 @@ Avec cette prestation nos équipes pourront vous accompagner dans vos projets et
                         
     </section>
 
-    <section id="service-second-but">
+    <!-- <section id="service-second-but">
         <h2>Musicales</h2>
         <p>
         Cette prestation peut accompagner les entreprises dans leurs identités musicales.
@@ -275,8 +275,8 @@ Avec cette prestation nos équipes pourront vous accompagner dans vos projets et
                             </div>
                         </div>
                     <br>
-        <?php tyrobtn("contact.php?name=music", "contact", "Contactez-nous pour cette prestation");?>
-    </section>
+        <?php //tyrobtn("contact.php?name=music", "contact", "Contactez-nous pour cette prestation");?>
+    </section> -->
         
     <section id="service-second-but">
         <h2>Montage Vidéo / Animation</h2>
