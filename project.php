@@ -144,18 +144,6 @@
                 <a href="https://www.linkedin.com/company/gamenium" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/linkedIn.png" alt="linkedin"/></a>
             </li>
 
-            <li id="a2">
-                <img class="logo" src="https://tyrolium.fr/Contenu/Image/TyroDiscord.png" logo="https://tyrolium.fr/Contenu/Image/TyroDiscord.png" gif="assets/anim/TyroDiscord%20Anim.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="TyroDiscord">
-                <h2>TyroDiscord</h2>
-                <p>Projet de bot et logiciel pour<br> améliorer l'expérience de Discord.</p>
-                <small>Disponible entièrement sur le site officiel.</small><br>
-                <a href="https://www.tyrodiscord.xyz/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
-                <a href="https://www.instagram.com/tyrodiscord/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
-                <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
-                <a href="https://github.com/TyroDiscord" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/github.png" alt="github"/></a>
-                <a href="https://www.linkedin.com/company/tyrodiscord" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/linkedIn.png" alt="linkedin"/></a>
-            </li>
-
             <li id="a3">
                 <img class="logo" src="http://tyrolium.fr/Contenu/Image/Tyrolium Studio.png" logo="http://tyrolium.fr/Contenu/Image/Tyrolium Studio.png" gif="assets/anim/TyroStudio%20Anim.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="StudioLogo">
                 <h2>TyroStudio</h2>
@@ -198,11 +186,25 @@
         <script>
 
         var oldbtn = document.getElementById("btn-old-project");
+        let tempProject = 1;
 
         oldbtn.addEventListener("click", e => {
+            
             let articleOld = document.getElementById("old-script")
 
-            articleOld.innerHTML = '#old-project{display: unset;}';
+            if(tempProject == 1){
+
+                articleOld.innerHTML = '#old-project{display: unset;}';
+                oldbtn.innerHTML = ' <label>Voir les anciens projets</label><br><i class="fas fa-chevron-up"></i>';
+                tempProject = 2;
+
+            } else {
+
+                articleOld.innerHTML = '#old-project{display: none;}';
+                oldbtn.innerHTML = ' <label>Voir les anciens projets</label><br><i class="fas fa-chevron-down"></i>';
+                tempProject = 1;
+
+            }
 
         });
 
@@ -214,18 +216,15 @@
 
             <div id="project-atom" class="row container">
 
-                <div class="col-8">
+                <div class="col">
                         <h2>Nos Ancien Projets</h2>
                         <br id="991none">
                         <p class="container">Il s'agit des projects que nous avons décidez de fermez au furs a mesure des année</p>
                 </div>
-                <div class="col-4">
-                    <img src="assets/atom_project.png" style="width: 100%;">
-                    <br>
-                </div>
             </div>
 
         <ul>    
+            <h3>Add Freenium</h3>
             <li id="a4">
                 <img class="logo" src="http://tyrolium.fr/Contenu/Image/Wonderlium.png" logo="http://tyrolium.fr/Contenu/Image/Wonderlium.png" gif="assets/anim/Wonderlium%20Anim.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="WonderliumLogo">
                 <h2>Wonderlium</h2>
@@ -256,6 +255,18 @@
                 <a href="https://github.com/Selemusium" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/github.png" alt="github"/></a>
                 <a href="https://www.tiktok.com/@selemusium?" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/tiktok.png" alt="tiktok"/></a>
                 <a href="https://www.linkedin.com/company/selemusium" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/linkedIn.png" alt="linkedin"/></a>
+            </li>
+
+            <li id="a2">
+                <img class="logo" src="https://tyrolium.fr/Contenu/Image/TyroDiscord.png" logo="https://tyrolium.fr/Contenu/Image/TyroDiscord.png" gif="assets/anim/TyroDiscord%20Anim.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="TyroDiscord">
+                <h2>TyroDiscord</h2>
+                <p>Projet de bot et logiciel pour<br> améliorer l'expérience de Discord.</p>
+                <small>Disponible entièrement sur le site officiel.</small><br>
+                <a href="https://www.tyrodiscord.xyz/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
+                <a href="https://www.instagram.com/tyrodiscord/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
+                <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
+                <a href="https://github.com/TyroDiscord" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/github.png" alt="github"/></a>
+                <a href="https://www.linkedin.com/company/tyrodiscord" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/linkedIn.png" alt="linkedin"/></a>
             </li>
 
             <li id="a6">

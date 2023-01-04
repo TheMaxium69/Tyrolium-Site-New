@@ -7,10 +7,10 @@ $APP_ENV = "DEV";
 $env_isAccount = true;
 $env_isEvent_5Year = false;
 $env_isEvent_Noel2022 = false;
-$env_isEvent_year2023 = true;
+$env_isEvent_year2023 = false;
 $env_isAnimProject = true;
 $env_isUseritium = true;
-$env_isMultilang = false;
+$env_isMultilang = true;
 
 $env_url = "https://tyrolium.fr";
 
@@ -37,7 +37,7 @@ if ($APP_ENV == "PROD"){
     $env_connectUrl = "https://tyrolium.fr/";
 
 } else if ($APP_ENV == "DEV"){
-    include "D:/xampp/htdocs/reCAPTCHA.php";
+    include "D:/wamp64/www/reCAPTCHA.php";
     
     $env_bd_contact = "api/get.php";
     
@@ -48,7 +48,7 @@ if ($APP_ENV == "PROD"){
     $env_connectUrl = "http://localhost/Tyrolium-Site-New/";
 
 } else if ($APP_ENV == "TEST"){
-    include "D:/xampp/htdocs/reCAPTCHA.php";
+    include "D:/wamp64/www/reCAPTCHA.php";
     
     $env_bd_contact = "https://tyrolium.fr/api/get.php";   
     
