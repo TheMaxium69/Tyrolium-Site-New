@@ -224,10 +224,9 @@
             </div>
 
         <ul>    
-            <h3>Add Freenium</h3>
             <li id="a4">
                 <img class="logo" src="http://tyrolium.fr/Contenu/Image/Wonderlium.png" logo="http://tyrolium.fr/Contenu/Image/Wonderlium.png" gif="assets/anim/Wonderlium%20Anim.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="WonderliumLogo">
-                <h2>Wonderlium</h2>
+                <h2>Wonderlium<br><span class="badge badge-pill badge-danger">Fermer</span></h2>
                 <p>Collectif réalisant des vidéos<br> sur l'univers geek.</p>
                 <small>Nouvelle vidéo disponible sur notre chaine youtube.</small><br>
                 <a href="https://www.youtube.com/channel/UC8tEUehEz2p53Pw8wSky3TQ" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/youtube.png" alt="youtube"/> Allez sur notre chaine</a><br>
@@ -242,7 +241,7 @@
 
             <li id="a5">
                 <img class="logo" src="assets/anim/Selemusium%20Anim.png" logo="assets/anim/Selemusium%20Anim.png" gif="assets/anim/Selemusium%20Anim.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="SelemusiumLogo">
-                <h2>Sélémusium</h2>
+                <h2>Sélémusium<br><span class="badge badge-pill badge-danger">Fermer</span></h2>
                 <p>Projet de création de musique.</p>
                 <small>Nouvel Album disponible sur le site officiel.</small><br>
                 <a href="https://selemusium.xyz/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
@@ -259,7 +258,7 @@
 
             <li id="a2">
                 <img class="logo" src="https://tyrolium.fr/Contenu/Image/TyroDiscord.png" logo="https://tyrolium.fr/Contenu/Image/TyroDiscord.png" gif="assets/anim/TyroDiscord%20Anim.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="TyroDiscord">
-                <h2>TyroDiscord</h2>
+                <h2>TyroDiscord<br><span class="badge badge-pill badge-primary">Transformer</span></h2>
                 <p>Projet de bot et logiciel pour<br> améliorer l'expérience de Discord.</p>
                 <small>Disponible entièrement sur le site officiel.</small><br>
                 <a href="https://www.tyrodiscord.xyz/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
@@ -271,7 +270,7 @@
 
             <li id="a6">
                 <img class="logo" src="https://tyrolium.fr/Contenu/Image/TyroShop.png" logo="https://tyrolium.fr/Contenu/Image/TyroShop.png" gif="assets/anim/TyroShop%20Anim.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="ShopLogo">
-                <h2>TyroShop</h2>
+                <h2>TyroShop<br><span class="badge badge-pill badge-primary">Transformer</span></h2>
                 <p>Notre boutique avec des collections<br> faites par nos graphistes.</p>
                 <small>Disponible entièrement sur le site officiel.</small><br>
                 <a href="http://shop.tyrolium.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
@@ -283,7 +282,7 @@
 
             <li id="a7">
                 <img class="logo" src="https://tyrolium.fr/Contenu/Image/DuoGramme.png" logo="https://tyrolium.fr/Contenu/Image/DuoGramme.png" gif="assets/anim/DuoGramme%20Anim.gif"  onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="Duo-Gramme">
-                <h2>DuoGramme</h2>
+                <h2>DuoGramme<br><span class="badge badge-pill badge-danger">Fermer</span></h2>
                 <p>Projet de plusieurs concepts divertissements<br> et informatifs sur les réseaux sociaux.</p>
                 <small>En collaboration avec l'entreprise "<a class="btn-part" href="https://www.youtube.com/c/MA3WAN">MA3WAN</a>" .</small><br>
                 <a href="https://www.instagram.com/nftgramme/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/> Allez sur notre Instagram</a><br>
@@ -293,16 +292,35 @@
 
             <li id="a10">
                 <img class="logo" src="https://tyrolium.fr/Contenu/Image/TyroStudent.png" logo="http://tyrolium.fr/Contenu/Image/TyroStudent.png" gif="assets/anim/TyroStudent%20Anim.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="TyroStudent">
-                <h2>TyroStudent</h2>
+                <h2>TyroStudent<br><span class="badge badge-pill badge-warning">Non abouti</span></h2>
                 <p>Projet de Formation de Tyrolium</p>
                 <a href="https://www.linkedin.com/company/tyrostudent" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/linkedIn.png" alt="linkedin"/> Allez sur notre Linkedin</a><br>
             </li>
 
             <li id="a9">
                 <img class="logo" src="http://tyrolium.fr/Contenu/Image/Chantium.png" logo="http://tyrolium.fr/Contenu/Image/Chantium.png" gif="assets/anim/Chantium%20Anim.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="ChantiumLogo">
-                <h2>Chantium</h2>
+                <h2>Chantium<br><span class="badge badge-pill badge-info">En Attente</span></h2>
                 <p>Application de gestion afin de simplifier la communication<br> des different cores de métier sur un chantier</p>
                 <small>En collaboration avec l'entreprise "<a class="btn-part" href="https://batirpositif.com">Bâtir Positif</a>" .</small><br>
+            </li>
+
+            <li id="a12">
+                <img class="logo" src="http://tyrolium.fr/Contenu/Image/Freenium.png" alt="FreeniumLogo">
+                <h2>Freenium<br><span class="badge badge-pill badge-primary infoNew-A12">Transformer</span></h2>
+
+                <!-- Text Old -->
+                <div class="infoOld-A12" style="display: none;">
+                    <p>Il s'agit de gna gna gna gna</p>
+                    <a href="https://www.linkedin.com/company/tyrostudent" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/linkedIn.png" alt="linkedin"/> Allez sur notre Linkedin</a><br>
+                </div>
+                <!-- Text Explication -->
+                <div class="infoNew-A12">
+                    <p>Le projet était gnagna gnagna</p>    
+                    <small>Stat : NB</small><br>
+                </div>
+
+                <hr style="width: 70%;background: white;margin-left: auto;margin-right: auto;">
+                <bottom class="btn btnInfoOld btnInfoOld-A12" onclick="oldProjectBtn('12','def')"><i class="fas fa-chevron-down"></i> Version d'avant</bottom>
             </li>
         </ul>
     </div>

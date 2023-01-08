@@ -37,7 +37,7 @@ if ($APP_ENV == "PROD"){
     $env_connectUrl = "https://tyrolium.fr/";
 
 } else if ($APP_ENV == "DEV"){
-    include "D:/wamp64/www/reCAPTCHA.php";
+    include "E:/LocalHost/reCAPTCHA.php";
     
     $env_bd_contact = "api/get.php";
     
@@ -48,7 +48,7 @@ if ($APP_ENV == "PROD"){
     $env_connectUrl = "http://localhost/Tyrolium-Site-New/";
 
 } else if ($APP_ENV == "TEST"){
-    include "D:/wamp64/www/reCAPTCHA.php";
+    include "E:/LocalHost/reCAPTCHA.php";
     
     $env_bd_contact = "https://tyrolium.fr/api/get.php";   
     
@@ -76,6 +76,7 @@ $env_back = array (
     $env_urlImage . "Background20.jpg",
     $env_urlImage . "Background4",
     $env_urlImage . "Background22",
+    $env_urlImage . "Background11.png"
 );
 
 $env_perso = array(
@@ -99,13 +100,13 @@ $env_perso = array(
     ), */
     
 
-    array("name" => "Norman Jorge De Freitas",
-        "role" => " Compositeur(ice),<br> Écrivain(e)",
-        "icon" => "Norman_Jorge_De_Freitas.jpg",
-        "instagram" => "https://www.instagram.com/rayquacondasensei_off/",
-        "linkedin" => "https://www.linkedin.com/in/norman-jorge-de-freitas-0a736a203/",
+    // array("name" => "Norman Jorge De Freitas",
+    //     "role" => " Compositeur(ice),<br> Écrivain(e)",
+    //     "icon" => "Norman_Jorge_De_Freitas.jpg",
+    //     "instagram" => "https://www.instagram.com/rayquacondasensei_off/",
+    //     "linkedin" => "https://www.linkedin.com/in/norman-jorge-de-freitas-0a736a203/",
 
-        ),
+    //     ),
     
     
     array("name" => "Maewan Marthelot",
@@ -127,14 +128,13 @@ $env_perso = array(
         "linkedin" => "https://www.linkedin.com/in/pierre-louis-devaud-574035236/"
     ),
     
-    array("name" => "Edward Thouvenin",
-        "role" => "Compositeur,<br> Beatmaker",
-        "icon" => "Edward_Thouvenin.jpg",
-        "instagram" => "https://www.instagram.com/edward_el_renard/",
-        "soundcloud" => "https://soundcloud.com/wared-22283149",
-        "linkedin" => "https://www.linkedin.com/in/edward-thouvenin-040ba823b/"
-
-        ),
+    // array("name" => "Edward Thouvenin",
+    //     "role" => "Compositeur,<br> Beatmaker",
+    //     "icon" => "Edward_Thouvenin.jpg",
+    //     "instagram" => "https://www.instagram.com/edward_el_renard/",
+    //     "soundcloud" => "https://soundcloud.com/wared-22283149",
+    //     "linkedin" => "https://www.linkedin.com/in/edward-thouvenin-040ba823b/"
+    //     ),
 
     /*array("name" => "L&eacute;na Chervier",
         "role" => "Assistante Administrative,<br> Community Manager",
@@ -160,11 +160,11 @@ $env_perso = array(
         "facebook" => "https://www.facebook.com/flavien.dechoz69",
     ),
 
-    array("name" => "Dylan Argentino",
-        "role" => "Dessinateur,<br> Designer",
-        "icon" => "Dylan_Argentino.jpg",
-        "instagram" => "https://www.instagram.com/viking_senpai/",
-    ),
+    // array("name" => "Dylan Argentino",
+    //     "role" => "Dessinateur,<br> Designer",
+    //     "icon" => "Dylan_Argentino.jpg",
+    //     "instagram" => "https://www.instagram.com/viking_senpai/",
+    // ),
 
     // array(
     //     "vide" => true,

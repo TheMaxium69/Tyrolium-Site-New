@@ -5,9 +5,9 @@ function head($page)
 
     if ($page == 1) {
         $title = "Tyrolium Site";
-    } else if ($page == 2){
-        $title = "Prestation | Tyrolium Site";
     } else if ($page == 3){
+        $title = "Prestation | Tyrolium Site";
+    } else if ($page == 2){
         $title = "Projet | Tyrolium Site";
     } else if ($page == 4){
         $title = "Collaboration | Tyrolium Site";
