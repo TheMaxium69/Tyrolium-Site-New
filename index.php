@@ -37,28 +37,28 @@
     <section id="home-service" class="container row">
         <div class="container col-4">
             <article>
-                <h2 class="art"><?= $lang[$page]["service"]["title"] ?></h2>
-                <p class="art"><?= $lang[$page]["service"]["txt"] ?></p>
+                <h2 class="art"><?= $lang[$page]["project"]["title"] ?></h2>
+                <p class="art"><?= $lang[$page]["project"]["txt"] ?></p>
                 <div style="text-align: center">
-                    <?php tyrobtn("service.php", "service", $lang[$page]["service"]["btn"]);?>
+                    <?php tyrobtn("project.php", "project", $lang[$page]["project"]["btn"]);?>
                 </div>
             </article>
         </div>
         <div class="col-6">
-            <img class="img-home" src="assets/Team_work_Monochromatic.png">
+            <img class="img-home" src="assets/Startup_Monochromatic.png">
         </div>
     </section>
 
     <section id="home-project" class="container row">
         <div class="col-6">
-            <img class="img-home" src="assets/Startup_Monochromatic.png">
+            <img class="img-home" src="assets/Team_work_Monochromatic.png">
         </div>
         <div class="container col-4">
             <article>
-                <h2 class="art"><?= $lang[$page]["project"]["title"] ?></h2>
-                <p class="art"><?= $lang[$page]["project"]["txt"] ?></p>
+                <h2 class="art"><?= $lang[$page]["service"]["title"] ?></h2>
+                <p class="art"><?= $lang[$page]["service"]["txt"] ?></p>
                 <div style="text-align: center">
-                    <?php tyrobtn("project.php", "project", $lang[$page]["project"]["btn"]);?>
+                    <?php tyrobtn("service.php", "service", $lang[$page]["service"]["btn"]);?>
                 </div>
             </article>
         </div>

@@ -167,7 +167,7 @@
             </div>
         </section> -->
         
-        <section id="service-second" class="container row">
+        <!-- <section id="service-second" class="container row">
             <div class="col-6" style="text-align: end">
                 <img class="img-home" src="assets/User%20interface_Monochromatic.png" style="width: 96%; height: 100%">
             </div>
@@ -183,11 +183,11 @@ Vous êtes un vidéaste plein d'idées et vous voulez un monteur qui vous simpli
 Avec cette prestation nos équipes pourront vous accompagner dans vos projets et réaliser vos animations, vidéos promotionnelles ou vos vidéos personnelles pour votre propre projet.
                     </p>
                     <div style="text-align: center">
-                        <?php tyrobtn("contact.php?name=anim", "contact", "Contactez-nous pour cette prestation");?>
+                        <?php //tyrobtn("contact.php?name=anim", "contact", "Contactez-nous pour cette prestation");?>
                     </div>
                 </article>
             </div>
-        </section>
+        </section> -->
 
         <section id="service-second-but" class="container row">
             <div class="container col-5">
@@ -222,21 +222,21 @@ Avec cette prestation nos équipes pourront vous accompagner dans vos projets et
             </div>
         </section>
 
-        <section id="service-second-but" class="container row">
+        <!-- <section id="service-second-but" class="container row">
             <div class="container col-5">
                 <article>
                     <h2 class="art">Bot Discord</h2>
                     <p class="art">Nous sommes capable de vous créer votre bot discord, autant pour automatiser ou personnaliser les moindres fonctionnalités de vos serveurs discord.
                         Nous pouvons aussi le lier à des API et autres logiciels ou applications.</p>
                     <div style="text-align: center">
-                        <?php tyrobtn("contact.php?name=serv", "contact", "Contactez-nous pour cette prestation");?>
+                        <?php //tyrobtn("contact.php?name=serv", "contact", "Contactez-nous pour cette prestation");?>
                     </div>
                 </article>
             </div>
             <div class="col-6" style="text-align: end">
                 <img class="img-home" src="assets/Social%20Media_Monochromatic.png" style="width: 96%; height: 100%">
             </div>
-        </section>
+        </section> -->
 
 
 
@@ -278,7 +278,7 @@ Avec cette prestation nos équipes pourront vous accompagner dans vos projets et
         <?php //tyrobtn("contact.php?name=music", "contact", "Contactez-nous pour cette prestation");?>
     </section> -->
         
-    <section id="service-second-but">
+    <!-- <section id="service-second-but">
         <h2>Montage Vidéo / Animation</h2>
         <p>
         Nos équipes peuvent vous aider dans vos projets audiovisuel.
@@ -293,8 +293,8 @@ Avec cette prestation nos équipes pourront vous accompagner dans vos projets et
                             </div>
                         </div>
                     <br>
-        <?php tyrobtn("contact.php?name=anim", "contact", "Contactez-nous pour cette prestation");?>
-    </section>
+        <?php //tyrobtn("contact.php?name=anim", "contact", "Contactez-nous pour cette prestation");?>
+    </section> -->
 
     <section id="service-second-but">
         <h2>Minecraft</h2>
