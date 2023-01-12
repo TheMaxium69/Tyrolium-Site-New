@@ -195,29 +195,6 @@
 
         <hr style="background: rgb(161, 161, 161); margin-top: 40px; margin-bottom: 40px">
 
-
-                <section id="home-service">
-                    <div class="container col-4">
-                        <article>
-                            <h2 class="art-res">Nos Prestations</h2>
-                            <p class="art-res">Tyrolium vous propose des prestations de services, notamment dans le développement de sites Web, d'applications, l'hébergement de serveurs, le développement minecraft et des bots (discord ou autre) pour les particuliers et les professionnels. Les fonds générés par ces prestations seront investis dans les projets de l'entreprise. </p>
-                            <div>
-                                <div class="" style="width: 60%; margin-left: 20%">
-                                    <img src="assets/Team_work_Monochromatic.png" width="100%" height="100%">
-                                </div>
-                                <div class="" style="text-align: center; margin-top: 15px" >
-                                    <?php tyrobtn("service.php", "service", "Liste de nos Prestations");?>
-                                    <style>
-                                        .tyrobutton{
-                                            width: 100%;
-                                        }
-                                    </style>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                </section>
-
                 <section id="home-project">
                     <div class="container col-4">
                         <article>
@@ -242,6 +219,30 @@
                         </article>
                     </div>
                 </section>
+
+                <section id="home-service">
+                    <div class="container col-4">
+                        <article>
+                            <h2 class="art-res">Nos Prestations</h2>
+                            <p class="art-res">Tyrolium vous propose des prestations de services, notamment dans le développement de sites Web, d'applications, l'hébergement de serveurs, le développement minecraft et des bots (discord ou autre) pour les particuliers et les professionnels. Les fonds générés par ces prestations seront investis dans les projets de l'entreprise. </p>
+                            <div>
+                                <div class="" style="width: 60%; margin-left: 20%">
+                                    <img src="assets/Team_work_Monochromatic.png" width="100%" height="100%">
+                                </div>
+                                <div class="" style="text-align: center; margin-top: 15px" >
+                                    <?php tyrobtn("service.php", "service", "Liste de nos Prestations");?>
+                                    <style>
+                                        .tyrobutton{
+                                            width: 100%;
+                                        }
+                                    </style>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                
 
 
                 <section id="home-collaboration">

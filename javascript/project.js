@@ -51,7 +51,7 @@ function oldProjectBtn(nbId, status) {
 
     let elementBtn = document.querySelector(classBtn)
 
-    elementBtn.setAttribute("onclick", "oldProjectBtn('12','"+NewStatus+"')");
+    elementBtn.setAttribute("onclick", "oldProjectBtn('"+nbId+"','"+NewStatus+"')");
     elementBtn.innerHTML = '<i class="fas fa-chevron-down"></i> '+NewTextBtn;
 
 

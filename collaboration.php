@@ -82,6 +82,16 @@
 
                 <?php } } ?>
 
+                
+            </div>
+            <div style="text-align: center">
+            
+            <small>Un grand remerciement à <strong>Norman Jorge De Freitas</strong> et <strong>Wassim Bouridah</strong> qui travaille activement mais qui ne sont pas membre du projet</small>
+            
+            <br><br>
+
+            <?php tyrobtn("collaboration.php#recrut", "joinmembre", "Rejoindre l'équipe");?>
+        
             </div>
         </div>
 
@@ -118,10 +128,10 @@
                     <img src="<?php echo $env_assets; ?>part/grandest.png" alt="Grand Est">
                 </a>
             </div>
-            
+
             <div class="col">
-                <a target="_bank" href="https://www.linkedin.com/company/g%C3%A9n%C3%A9ration-ium/" title="Génératium IUM">
-                    <img src="<?php echo $env_assets; ?>part/Generatium-ium.png" alt="generatium-ium">
+                <a target="_bank" href="https://batirpositif.com" title="Bâtir Positif - Ingénierie Responsable">
+                    <img src="<?php echo $env_assets; ?>part/bt.jpg" alt="batirpositif">
                 </a>
             </div>
             
@@ -130,35 +140,8 @@
         <div class="row">
 
             <div class="col">
-                <a target="_bank" href="https://batirpositif.com" title="Bâtir Positif - Ingénierie Responsable">
-                    <img src="<?php echo $env_assets; ?>part/bt.jpg" alt="batirpositif">
-                </a>
-            </div>
-            
-            <div class="col">
                 <a target="_bank" title="Studio Solunias">
                     <img src="<?php echo $env_assets; ?>part/solunias.png" alt="solunias">
-                </a>
-            </div>
-            
-            <div class="col">
-                <a target="_bank" href="https://www.youtube.com/channel/UCEc-KcQQcZ15htg1KT2H5xg" title="MA3WAN">
-                    <img src="<?php echo $env_assets?>part/ma3wan.webp" alt="ma3wan">
-                </a>
-            </div>
-
-            <div class="col">
-                <a target="_bank" href="https://www.twitch.tv/auroretvv" title="AuroreTVv">
-                    <img src="<?php echo $env_assets; ?>part/AuroreTVv.jpg" alt="AuroreTVv">
-                </a>
-            </div>
-            
-        </div>
-        <div class="row">
-
-            <div class="col">
-                <a target="_bank" href="https://youtube.com/c/Eroniage" title="Eroniage">
-                    <img src="<?php echo $env_assets; ?>part/Eroniage.png" alt="Eroniage">
                 </a>
             </div>
 
@@ -173,19 +156,63 @@
                     <img src="<?php echo $env_assets; ?>part/Maxime-MINECRAFT.png" alt="maxime-minecraft">
                 </a>
             </div>
-
-            <div class="col">
-                <a target="_bank" href="https://www.linkedin.com/company/doublet-creator/" title="DoubleT">
-                    <img src="<?php echo $env_assets; ?>part/DoubleT.png" alt="DoubleT">
-                </a>
-            </div>
-
+            
         </div>
         <br>
         <section id="service-start-but">
         <?php tyrobtn("contact.php?partenaire=true", "devpart", "Devenir notre Partenaire");?>
         </section>
         <br>
+    </section>
+
+    <section id="projet" class="container">
+        <br>
+        <h2>Ceux qu'on Sponsorise</h2>
+        <p>Il s'agit d'organisations, de personnalités et de travailleurs d'internet que nous sponsorisons afin de les soutenir dans leurs projets.</p>
+        <br>
+    </section>
+
+
+    <section id="partenaire" class="container">
+        
+        <div class="row">
+            
+            <div class="col">
+                <a target="_bank" href="https://www.linkedin.com/company/g%C3%A9n%C3%A9ration-ium/" title="Génératium IUM">
+                    <img src="<?php echo $env_assets; ?>part/Generatium-ium.png" alt="generatium-ium">
+                </a>
+            </div>
+
+            <div class="col">
+                <a target="_bank" href="https://www.youtube.com/channel/UCEc-KcQQcZ15htg1KT2H5xg" title="MA3WAN">
+                    <img src="<?php echo $env_assets?>part/ma3wan.webp" alt="ma3wan">
+                </a>
+            </div>
+
+            <div class="col">
+                <a target="_bank" href="https://youtube.com/c/Eroniage" title="Eroniage">
+                    <img src="<?php echo $env_assets; ?>part/Eroniage.png" alt="Eroniage">
+                </a>
+            </div>
+            
+        </div>
+        
+        <div class="row">
+
+            <div class="col">
+                <a target="_bank" href="https://www.twitch.tv/auroretvv" title="AuroreTVv">
+                    <img src="<?php echo $env_assets; ?>part/AuroreTVv.jpg" alt="AuroreTVv">
+                </a>
+            </div>
+
+            <div class="col">
+                <a target="_bank" href="https://www.linkedin.com/company/doublet-creator/" title="DoubleT">
+                    <img src="<?php echo $env_assets; ?>part/DoubleT.png" alt="DoubleT">
+                </a>
+            </div>
+            
+        </div>
+
     </section>
     
     <br>

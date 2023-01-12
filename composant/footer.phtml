@@ -21,19 +21,28 @@
                             echo '<li><a href="javascript:redirect('. $j .');">'. $lang['page'][$i] .'</a></li>';
                         }
 
-                    }?>
+                    }
+                    
+                    
+                    echo '<li><a href="more.php">Plus d\'infos</a></li>';
+                    ?>
+
+                    
                 </ul>
             </div>
 
             <div class="footlink col-xs-6 col-md-3">
                 <h6><?= $lang['footer']["title"][2] ?></h6>
                 <ul class="footer-links">
-                    <li><a href="more.php"><?= $lang["footer"]["other-page"][0] ?></a></li>
+                    <!-- <li><a href="more.php"><?= $lang["footer"]["other-page"][0] ?></a></li> -->
                     <li><a href="contact.php"><?= $lang["footer"]["other-page"][1] ?></a></li>
-                    <li><a href="https://tyrolium.fr/Status/"><?= $lang["footer"]["other-page"][2] ?></a></li>
-                    <li><a href="https://tyrolium.fr/Panel/"><?= $lang['footer']["other-page"][3] ?></a></li>
-                    <li><a href="https://github.com/orgs/Tyrolium/repositories"><?= $lang['footer']["other-page"][4] ?></a></li>
-                    <li><a href="https://birthday.tyrolium.fr/"><?= $lang['footer']["other-page"][5] ?></a></li>
+                    <li><a target="_bank" href="http://shop.tyrolium.fr">Boutique Goodies</a></li>
+                    <li><a target="_bank" href="https://useritium.fr">Compte Useritium</a></li>
+                    <li><a target="_bank" href="https://tyrolium.fr/Status/"><?= $lang["footer"]["other-page"][2] ?></a></li>
+                    <li><a target="_bank" href="https://tyrolium.fr/Panel/"><?= $lang['footer']["other-page"][3] ?></a></li>
+                    <li><a target="_bank" href="https://github.com/orgs/Tyrolium/repositories"><?= $lang['footer']["other-page"][4] ?></a></li>
+                    <li><a target="_bank" href="https://birthday.tyrolium.fr/"><?= $lang['footer']["other-page"][5] ?></a></li>        
+                    <!-- <li><a href="https://tyrodiscord.xyz/">Discord</a></li> -->
                 </ul>
             </div>
         </div>

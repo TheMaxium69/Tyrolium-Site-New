@@ -149,4 +149,10 @@
 
 #projet .btnInfoOld{
     width: 40%;
+    background-color: #000079;
+    color: white;
+}
+
+#projet .btnInfoOld:hover{
+    background-color: #4141ff;
 }
