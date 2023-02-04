@@ -86,7 +86,7 @@
             </div>
             <div style="text-align: center">
             
-            <small>Un grand remerciement à <strong>Norman Jorge De Freitas</strong> et <strong>Wassim Bouridah</strong> qui travaille activement mais qui ne sont pas membre du projet</small>
+            <small>Un grand remerciement à <strong>Norman Jorge De Freitas</strong> et <strong>Wassim Bouridah</strong> qui travaillent activement mais ne sont pas membres du projet</small>
             
             <br><br>
 

@@ -37,7 +37,7 @@
                     <small>- Norman Jorge De Freitas</small><br>
                     <small>- Myriam Tournier</small><br>
                     <small>- Steeve Tournier</small><br>
-                    <small>- Jade Pluqet</small><br>
+                    <small>- Jade Pluquet</small><br>
                     <p class="no-p">Maquettage</p>
                     <small>- Maxime Tournier</small><br>
                     <p class="no-p">Graphismes</p>
