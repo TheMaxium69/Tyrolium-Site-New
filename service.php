@@ -99,9 +99,9 @@
                         <br><br>
                         Useritium :
                         <a target="_blank" href="https://useritium.fr">Lien</a>
-                        <br><br>
+                        <!-- <br><br>
                         CLS-Habitat :
-                        <a target="_blank" href="https://cls-habitat.fr">Lien</a>
+                        <a target="_blank" href="https://cls-habitat.fr">Lien</a> -->
                         <br><br>
                         Groupe Cloudy :
                         <a target="_blank">Soon</a>
