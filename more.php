@@ -14,7 +14,7 @@
             <div style="text-align: center">
                 <h2 style="text-align: center; margin-bottom: 20px; color: #0049ee"><i class="fas fa-scroll"></i>Administratif de l'entreprise</h2>
                 <p>Tyrolium est une entreprise à but lucratif, toute création de l'entreprise nous appartient.</p>
-                <p>Copyright © Tyrolium. 2017-2022<br> © 2022 Tyrolium, Ent.<br>All Right Reserved ©Tyrolium</p>
+                <p>Copyright © Tyrolium. 2023<br> © 2017-2023 Tyrolium, Ent.<br>All Right Reserved ©Tyrolium</p>
                 <p>Fondé par Maxime Tournier</p>
                 <p>Siret : <br> 91027536100012</p>
                 <p>Siège Social : <br> 252, Avenue Jean Jaurès 69150 Décines-Charpieu</p>
@@ -90,7 +90,7 @@
             <h2 style="margin-top: 20px;text-align: center; margin-bottom: 10px; color: #0049ee"><i class="fas fa-balance-scale"></i>Droits</h2>
             <div style="text-align: center">
                 <p class="no-p bold">L'intégralité du site et de ses contenus postés sur les serveurs, les contenus mis en ligne qui sont rendus publics, les images, les textes et tout les écrits, le design, le code-source, les logos, les visuels, les photos ainsi que les produits, appartiennent entièrement à Tyrolium.
-                    <br>Cela grâce au copyright (© 2022 Tyrolium, Ent.)
+                    <br>Cela grâce au copyright (© 2017-2023 Tyrolium, Ent.)
                     <br>Et à l'article L111-1 du code de la propriété intellectuelle française.</p>
             </div>
             <br>
@@ -107,32 +107,34 @@
                     <small>Wonderlium ®</small><br>
                     <small>Useritium ®</small><br>
                     <small>TyroStudent ®</small><br>
+                    <small>Influnias ®</small><br>
+                    <small>Vturias ®</small><br>
                     <small>-Minerais TyroServ protégés-</small><br>
                     <small>Rhodonium ®</small><br>
                     <small>Aventurium ®</small><br>
                     <small>Yellorium ®</small><br>
                     <small>Volcanium ®</small><br>
-                    <p class="no-p"> © 2022 Tyrolium, Ent.</p>
+                    <p class="no-p"> © 2017-2023 Tyrolium, Ent.</p>
                     <br>
                 </div>
                 <div class="col-6 textmore">
                     <p class="no-p" style="margin-bottom: 10px">- Tous les logos utilisés appartiennent à leur créateur.
                         Seuls les logos de Tyrolium nous appartiennent.</p>
-                    <small>© 2022 Tyrolium, Ent.</small><br>
-                    <small>© 2022 Google LLC</small><br>
-                    <small>© 2022 Meta</small><br>
-                    <small>© 2022 Twitter, Inc.</small><br>
-                    <small>© 2022 Discord / copyright@discord.com</small><br>
-                    <small>LinkedIn Corporation © 2022</small><br>
-                    <small>© 2022 GitHub, Inc.</small><br>
-                    <small>© 2022 Overwolf</small><br>
-                    <small>© 2022 Twitch Interactive, Inc.</small><br>
-                    <small>© 2022 TikTok</small><br>
-                    <small>© 2022 SoundCloud Operations, Inc. / copyright@soundcloud.com</small><br>
-                    <small>2022 © BâtirPositif</small><br>
-                    <small>Mojang © 2009-2022</small><br>
-                    <small>© 2022 Adobe.</small><br>
-                    <small>2022 © CLS-Habitat</small><br>
+                    <small>© 2017-2023 Tyrolium, Ent.</small><br>
+                    <small>© 2023 Google LLC</small><br>
+                    <small>© 2023 Meta</small><br>
+                    <small>© 2023 Twitter, Inc.</small><br>
+                    <small>© 2023 Discord / copyright@discord.com</small><br>
+                    <small>LinkedIn Corporation © 2023</small><br>
+                    <small>© 2023 GitHub, Inc.</small><br>
+                    <small>© 2023 Overwolf</small><br>
+                    <small>© 2023 Twitch Interactive, Inc.</small><br>
+                    <small>© 2023 TikTok</small><br>
+                    <small>© 2023 SoundCloud Operations, Inc. / copyright@soundcloud.com</small><br>
+                    <small>2023 © BâtirPositif</small><br>
+                    <small>Mojang © 2009-2023</small><br>
+                    <small>© 2023 Adobe.</small><br>
+                    <small>2023 © CLS-Habitat</small><br>
                 </div>
             </div>
         </div>
