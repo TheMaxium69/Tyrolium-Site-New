@@ -91,6 +91,81 @@ $env_perso = array(
 
         ),
 
+    
+    array("name" => "Maewan Marthelot",
+        "role" => "Responsable Projet,<br> Graphiste, Monteur-Vidéo",
+        "icon" => "Maewan_Marthelot.jpg",
+        "instagram" => "https://www.instagram.com/maewanm/",
+        "youtube" => "https://www.youtube.com/c/MA3WAN",
+        "linkedin" => "https://www.linkedin.com/in/ma%C3%ABwan-marthelot-01744b203",
+        "behance" => "https://www.behance.net/mawanmarthelot"
+
+    ),
+    
+    
+    array("name" => "Pierre-Louis Devaud",
+        "role" => "Responsable Projet,<br> Conseiller Technique",
+        "icon" => "Pierre-Louis_Devaud.jpg",
+        "instagram" => "https://www.instagram.com/pl_dev54/",
+        "twitch" => "https://www.twitch.tv/piplextv",
+        "linkedin" => "https://www.linkedin.com/in/pierre-louis-devaud-574035236/"
+    ),
+
+    array("name" => "Daniel Taniou",
+        "role" => "Graphiste, Modérateur,<br> Linguiste",
+        "icon" => "Daniel_Taniou.jpg",
+        "youtube" => "https://youtube.com/c/Eroniage",
+        "instagram" => "https://www.instagram.com/eroniage_off/",
+        "twitter" => "https://twitter.com/Eroniage_ytb",
+        "twitch" => "https://www.twitch.tv/eroniage",
+    ),
+
+    array("name" => "Ren LIM",
+    "role" => "Graphiste, Monteur-Vidéo",
+    "icon" => "Ren_Lim.jpg",
+    "tiktok" => "https://www.tiktok.com/@ren.justme?lang=fr",
+    ),
+
+    array("name" => "Mathis Dubief",
+        "role" => "Journaliste Jeux Vidéo,<br> Modérateur",
+        "icon" => "Mathis_Dubief.jpg",
+        "instagram" => "https://www.instagram.com/m2k_hide.chr/",
+        "twitter" => "https://twitter.com/Mathis45920873",
+    ),
+    
+
+    
+
+    array("name" => "Delphine Rodriguez",
+        "role" => "Développeuse Web",
+        "icon" => "Delphine_Rodriguez.jpg",
+        "github" => "https://github.com/delphine38",
+    ),
+    
+       
+    array("name" => "Luigi Guyot",
+        "role" => "UX/UI Designer,<br> Modérateur",
+        "icon" => "Luigi_Guyot.jpg",
+        "linkedin" => "https://www.linkedin.com/in/luigi-guyot-56aa9722b/",
+
+    ),
+
+
+    array("name" => "Flavien Dechoz",
+        "role" => "Support Technique,<br> Modérateur ",
+        "icon" => "Flavien_Dechoz.jpg",
+        "twitter" => "https://twitter.com/flavien_dechoz",
+        "instagram" => "https://www.instagram.com/flaviendechoz/",
+        "youtube" => "https://www.youtube.com/channel/UCx-qCuv3FRGKbls2UckYkcQ",
+        "facebook" => "https://www.facebook.com/flavien.dechoz69",
+    ),
+
+    // array(
+    //     "vide" => true,
+    // ),
+    
+    
+
     /* array("name" => "Wassim Bouridah",
         "role" => "Responsable Communication,<br> Ingénieur R&D",
         "icon" => "Wassim_Bouridah.jpg",
@@ -107,27 +182,7 @@ $env_perso = array(
     //     "linkedin" => "https://www.linkedin.com/in/norman-jorge-de-freitas-0a736a203/",
 
     //     ),
-    
-    
-    array("name" => "Maewan Marthelot",
-        "role" => "Graphiste, Monteur-Vidéo,<br> Animateur 2D",
-        "icon" => "Maewan_Marthelot.jpg",
-        "instagram" => "https://www.instagram.com/maewanm/",
-        "youtube" => "https://www.youtube.com/c/MA3WAN",
-        "linkedin" => "https://www.linkedin.com/in/ma%C3%ABwan-marthelot-01744b203",
-        "behance" => "https://www.behance.net/mawanmarthelot"
 
-    ),
-    
-    
-    array("name" => "Pierre-Louis Devaud",
-        "role" => "Responsable Marketing,<br> Conseiller Technique",
-        "icon" => "Pierre-Louis_Devaud.jpg",
-        "instagram" => "https://www.instagram.com/pl_dev54/",
-        "twitch" => "https://www.twitch.tv/piplextv",
-        "linkedin" => "https://www.linkedin.com/in/pierre-louis-devaud-574035236/"
-    ),
-    
     // array("name" => "Edward Thouvenin",
     //     "role" => "Compositeur,<br> Beatmaker",
     //     "icon" => "Edward_Thouvenin.jpg",
@@ -135,30 +190,6 @@ $env_perso = array(
     //     "soundcloud" => "https://soundcloud.com/wared-22283149",
     //     "linkedin" => "https://www.linkedin.com/in/edward-thouvenin-040ba823b/"
     //     ),
-
-    /*array("name" => "L&eacute;na Chervier",
-        "role" => "Assistante Administrative,<br> Community Manager",
-        "icon" => "Léna_Chervier.jpg",
-        "instagram" => "https://www.instagram.com/lena_cherv/",
-        "linkedin" => "https://www.linkedin.com/in/l%C3%A9na-chervier-645470228/",
-
-    ),*/
-
-    array("name" => "Luigi Guyot",
-        "role" => "UX/UI Designer,<br> Modérateur",
-        "icon" => "Luigi_Guyot.jpg",
-        "linkedin" => "https://www.linkedin.com/in/luigi-guyot-56aa9722b/",
-
-    ),
-
-    array("name" => "Flavien Dechoz",
-        "role" => "Support Technique,<br> Modérateur ",
-        "icon" => "Flavien_Dechoz.jpg",
-        "twitter" => "https://twitter.com/flavien_dechoz",
-        "instagram" => "https://www.instagram.com/flaviendechoz/",
-        "youtube" => "https://www.youtube.com/channel/UCx-qCuv3FRGKbls2UckYkcQ",
-        "facebook" => "https://www.facebook.com/flavien.dechoz69",
-    ),
 
     // array("name" => "Dylan Argentino",
     //     "role" => "Dessinateur,<br> Designer",
@@ -169,33 +200,22 @@ $env_perso = array(
     // array(
     //     "vide" => true,
     // ),
-    array("name" => "Mathis Dubief",
-        "role" => "Journaliste Jeux Vidéo,<br> Modérateur",
-        "icon" => "Mathis_Dubief.jpg",
-        "instagram" => "https://www.instagram.com/m2k_hide.chr/",
-        "twitter" => "https://twitter.com/Mathis45920873",
-    ),
-       
-    array("name" => "Daniel Taniou",
-        "role" => "Modérateur,<br> Linguiste",
-        "icon" => "Daniel_Taniou.jpg",
-        "youtube" => "https://youtube.com/c/Eroniage",
-        "instagram" => "https://www.instagram.com/eroniage_off/",
-        "twitter" => "https://twitter.com/Eroniage_ytb",
-        "twitch" => "https://www.twitch.tv/eroniage",
-    ),
-    
-    array("name" => "Delphine Rodriguez",
-        "role" => "Développeuse",
-        "icon" => "Delphine_Rodriguez.jpg",
-        "github" => "https://github.com/delphine38",
-    ),
+
+    /*array("name" => "L&eacute;na Chervier",
+        "role" => "Assistante Administrative,<br> Community Manager",
+        "icon" => "Léna_Chervier.jpg",
+        "instagram" => "https://www.instagram.com/lena_cherv/",
+        "linkedin" => "https://www.linkedin.com/in/l%C3%A9na-chervier-645470228/",
+
+    ),*/
 
     /*array("name" => "Angélique Herard",
         "role" => "Modératrice",
         "icon" => "Angélique_Herard.jpg",
         "instagram" => "https://www.instagram.com/angelique.hrd/",
     ),*/
+
+   
 
 );
 
