@@ -88,8 +88,7 @@ $env_perso = array(
         "github" => "https://github.com/TheMaxium69",
         "linkedin" => "https://linkedin.com/in/maxime-tournier-tyrolium",
         "tiktok" => "https://www.tiktok.com/@themaximesan",
-
-        ),
+    ),
 
     
     array("name" => "Maewan Marthelot",
@@ -117,13 +116,13 @@ $env_perso = array(
         "youtube" => "https://youtube.com/c/Eroniage",
         "instagram" => "https://www.instagram.com/eroniage_off/",
         "twitter" => "https://twitter.com/Eroniage_ytb",
-        "twitch" => "https://www.twitch.tv/eroniage",
+        "tiktok" => "https://www.tiktok.com/@eroniage_",
     ),
 
     array("name" => "Ren LIM",
-    "role" => "Graphiste, Monteur-Vidéo",
-    "icon" => "Ren_Lim.jpg",
-    "tiktok" => "https://www.tiktok.com/@ren.justme?lang=fr",
+        "role" => "Graphiste, Monteur-Vidéo",
+        "icon" => "Ren_Lim.jpg",
+        "tiktok" => "https://www.tiktok.com/@ren.justme?lang=fr",
     ),
 
     array("name" => "Mathis Dubief",
@@ -132,9 +131,6 @@ $env_perso = array(
         "instagram" => "https://www.instagram.com/m2k_hide.chr/",
         "twitter" => "https://twitter.com/Mathis45920873",
     ),
-    
-
-    
 
     array("name" => "Delphine Rodriguez",
         "role" => "Développeuse Web",
