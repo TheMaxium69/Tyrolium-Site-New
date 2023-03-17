@@ -120,7 +120,7 @@ $env_perso = array(
     ),
 
     array("name" => "Ren LIM",
-        "role" => "Graphiste, Monteur-Vidéo",
+        "role" => "Graphiste,<br> Monteur-Vidéo",
         "icon" => "Ren_Lim.jpg",
         "tiktok" => "https://www.tiktok.com/@ren.justme?lang=fr",
     ),
