@@ -131,7 +131,7 @@ $env_perso = array(
         "instagram" => "https://www.instagram.com/m2k_hide.chr/",
         "twitter" => "https://twitter.com/Mathis45920873",
     ),
-
+    
     array("name" => "Delphine Rodriguez",
         "role" => "Développeuse Web",
         "icon" => "Delphine_Rodriguez.jpg",
