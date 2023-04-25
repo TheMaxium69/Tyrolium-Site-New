@@ -135,7 +135,20 @@ $env_perso = array(
     array("name" => "Delphine Rodriguez",
         "role" => "Développeuse Web",
         "icon" => "Delphine_Rodriguez.jpg",
+        "linkedin" => "https://www.linkedin.com/in/delphine-rodriguez/",
         "github" => "https://github.com/delphine38",
+    ),
+
+    array("name" => "Maxime Grandidier",
+        "role" => "Développeuse Web",
+        "icon" => "Maxime_Grandidier.jpg",
+        "linkedin" => "https://www.linkedin.com/in/maxime-grandidier-b18a27243/",
+        "instagram" => "https://www.instagram.com/okuni_de/",
+    ),
+    
+    
+    array(
+        "vide" => true,
     ),
     
        
@@ -156,9 +169,6 @@ $env_perso = array(
         "facebook" => "https://www.facebook.com/flavien.dechoz69",
     ),
 
-    // array(
-    //     "vide" => true,
-    // ),
     
     
 
