@@ -129,19 +129,15 @@
                 </a>
             </div>
 
-            <div class="col">
-                <a target="_bank" href="https://batirpositif.com" title="Bâtir Positif - Ingénierie Responsable">
-                    <img src="<?php echo $env_assets; ?>part/bt.jpg" alt="batirpositif">
-                </a>
-            </div>
+           
             
         </div>
         
         <div class="row">
 
             <div class="col">
-                <a target="_bank" title="Studio Solunias">
-                    <img src="<?php echo $env_assets; ?>part/solunias.png" alt="solunias">
+                <a target="_bank" href="https://batirpositif.com" title="Bâtir Positif - Ingénierie Responsable">
+                    <img src="<?php echo $env_assets; ?>part/bt.jpg" alt="batirpositif">
                 </a>
             </div>
 
@@ -180,12 +176,6 @@
             <div class="col">
                 <a target="_bank" href="https://www.linkedin.com/company/g%C3%A9n%C3%A9ration-ium/" title="Génératium IUM">
                     <img src="<?php echo $env_assets; ?>part/Generatium-ium.png" alt="generatium-ium">
-                </a>
-            </div>
-
-            <div class="col">
-                <a target="_bank" href="https://www.youtube.com/channel/UCEc-KcQQcZ15htg1KT2H5xg" title="MA3WAN">
-                    <img src="<?php echo $env_assets?>part/ma3wan.webp" alt="ma3wan">
                 </a>
             </div>
 
