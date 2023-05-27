@@ -91,7 +91,7 @@ $env_perso = array(
     ),
 
     
-    array("name" => "Maewan Marthelot",
+    /*array("name" => "Maewan Marthelot",
         "role" => "Responsable Projet,<br> Graphiste, Monteur-Vidéo",
         "icon" => "Maewan_Marthelot.jpg",
         "instagram" => "https://www.instagram.com/maewanm/",
@@ -99,7 +99,7 @@ $env_perso = array(
         "linkedin" => "https://www.linkedin.com/in/ma%C3%ABwan-marthelot-01744b203",
         "behance" => "https://www.behance.net/mawanmarthelot"
 
-    ),
+    ),*/
     
     
     array("name" => "Pierre-Louis Devaud",
@@ -139,7 +139,7 @@ $env_perso = array(
         "github" => "https://github.com/delphine38",
     ),
 
-    array("name" => "Maxime Grandidier",
+    /*array("name" => "Maxime Grandidier",
         "role" => "Développeuse Web",
         "icon" => "Maxime_Grandidier.jpg",
         "linkedin" => "https://www.linkedin.com/in/maxime-grandidier-b18a27243/",
@@ -149,7 +149,7 @@ $env_perso = array(
     
     array(
         "vide" => true,
-    ),
+    ),*/
     
        
     array("name" => "Luigi Guyot",
