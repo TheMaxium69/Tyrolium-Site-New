@@ -119,6 +119,12 @@ $env_perso = array(
         "tiktok" => "https://www.tiktok.com/@eroniage_",
     ),
 
+    array("name" => "Lola Dutouquet",
+        "role" => "Rédactrice, Linguiste",
+        "icon" => "Lola_Dutouquet.jpg",
+        "instagram" => "https://www.instagram.com/???/",
+    ),
+
     array("name" => "Ren LIM",
         "role" => "Graphiste,<br> Monteur-Vidéo",
         "icon" => "Ren_Lim.jpg",
