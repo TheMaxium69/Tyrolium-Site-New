@@ -120,9 +120,9 @@ $env_perso = array(
     ),
 
     array("name" => "Lola Dutouquet",
-        "role" => "Rédactrice, Linguiste",
+        "role" => "Rédactrice,<br> Linguiste",
         "icon" => "Lola_Dutouquet.jpg",
-        "instagram" => "https://www.instagram.com/???/",
+        "instagram" => "https://www.instagram.com/l_o._.la/",
     ),
 
     array("name" => "Ren LIM",
