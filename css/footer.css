@@ -9,6 +9,8 @@ i.footer {
     font-size:15px;
     line-height:24px;
     color: #9e9d9d;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .site-footer hr
 {

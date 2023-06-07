@@ -76,12 +76,19 @@
 /* other*/
 #home-tyro, #home-story, #home-french, #home-account, #home-service, #home-project, #home-collaboration {
     margin-bottom: 120px;
+    
+    text-align: justify;
 }
 
 #home-account {
     background-color: #26272b;
 }
 
+h2.art i,
+h2.art-res i {
+    margin-right: 2px;
+    color: #1325d7;
+}
 
 h2.art{
     padding-top: 60px;

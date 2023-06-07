@@ -22,6 +22,8 @@
 .navbar-mainbg{
     background-color: #26272b;
     padding: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 #navbarSupportedContent{
     overflow: hidden;
