@@ -20,10 +20,24 @@
     }
 }
 
+#particule div#head img#head-img{
+    width: 379px;
+    margin-top: 87px;
+
+    transform: translate3d(0, 0, 0);
+    transition: transform 0.2s ease-out;
+    will-change: transform;
+}
+
+#particule div#head  img#head-img:hover{
+    transform: translate3d(0, 3px, 0)scale(1.1);
+}
+
 #particule div#head h1{
     text-align: center;
     font-size: 110px;
-    color: #1325d7;
+    /* color: #1325d7; */
+    color: white;
     margin: unset;
 
     font-family: 'Lato', sans-serif;
@@ -55,6 +69,11 @@
 }
 
 @media (max-width: 535px){
+    #particule div#head img#head-img{
+        width: 260px;
+        margin-top: 95px;
+    }
+
     #particule div#head h1{
         font-size: 65px;
     }

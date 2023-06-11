@@ -4,6 +4,9 @@
 <main>
     <section id="particule">
         <div id="particule">
+            <div id="head" style="margin-top: unset; text-align: center">
+                <img id="head-img" src="https://tyrolium.fr/Contenu/Image/Tyrolium Site.png"> 
+            </div>
             <div id="head">
                 <h1>Tyrolium</h1>
                 <a href="#btn-up"><p>
