@@ -90,7 +90,7 @@
                 <img class="logo" src="assets/anim/TyroServ%20Anim.png" logo="assets/anim/TyroServ%20Anim.png" gif="assets/anim/tyroserv.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="TyroservLogo">
                 <h2>TyroServ</h2>
                 <p>Serveur moddé sur le jeu Minecraft.</p>
-                <small>Saison 3 disponible en printemps 2023.</small><br>
+                <!-- <small>Saison 3 disponible en printemps 2023.</small><br> -->
                 <a href="https://www.tyroserv.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
                 <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
                 <a href="https://www.instagram.com/tyroliumserver/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
@@ -100,6 +100,20 @@
                 <a href="https://www.curseforge.com/minecraft/mc-mods/tyromod/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/curse.png" alt="curseforge"/></a>
                 <a href="https://www.tiktok.com/@tyroserv?" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/tiktok.png" alt="tiktok"/></a>
                 <a href="https://www.linkedin.com/company/tyroserv" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/linkedIn.png" alt="linkedin"/></a>
+            </li>
+
+            <li id="a8">
+                <img class="logo" src="assets/anim/SolidServ%20Anim.png" logo="assets/anim/SolidServ%20Anim.png" gif="http://tyrolium.fr/Contenu/Image/SolidServ%20Anim2.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="SolidServLogo">
+                <h2>SolidServ</h2>
+                <p>Projet d'hébergeur de serveur.</p>
+                <a href="https://solidserv.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
+                <a href="https://discord.gg/ycwWzmCQNx" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
+                <a href="https://www.instagram.com/solidserv/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
+                <a href="https://twitter.com/solid_serv" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/twitter.png" alt="twitter"/></a>
+                <a href="https://www.youtube.com/channel/UCB3F4NN820r3Se4ZZinQpHA" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/youtube.png" alt="youtube"/></a>
+                <a href="https://github.com/SolidServ" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/github.png" alt="github"/></a>
+                <a href="https://www.tiktok.com/@solidserv?" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/tiktok.png" alt="tiktok"/></a>
+                <a href="https://www.linkedin.com/company/solidserv" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/linkedIn.png" alt="linkedin"/></a>
             </li>
 
             <li id="a11">
@@ -115,20 +129,6 @@
                 <a href="https://www.tiktok.com/@influnias?" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/tiktok.png" alt="tiktok"/></a>
                 <a href="https://www.twitch.tv/influnias" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/twitch.png" alt="twitch"/></a>
                 <a href="https://www.linkedin.com/company/influnias" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/linkedIn.png" alt="linkedin"/></a>
-            </li>
-
-            <li id="a8">
-                <img class="logo" src="assets/anim/SolidServ%20Anim.png" logo="assets/anim/SolidServ%20Anim.png" gif="http://tyrolium.fr/Contenu/Image/SolidServ%20Anim2.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="SolidServLogo">
-                <h2>SolidServ</h2>
-                <p>Projet d'hébergeur de serveur.</p>
-                <a href="https://solidserv.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
-                <a href="https://discord.gg/ycwWzmCQNx" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
-                <a href="https://www.instagram.com/solidserv/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
-                <a href="https://twitter.com/solid_serv" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/twitter.png" alt="twitter"/></a>
-                <a href="https://www.youtube.com/channel/UCB3F4NN820r3Se4ZZinQpHA" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/youtube.png" alt="youtube"/></a>
-                <a href="https://github.com/SolidServ" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/github.png" alt="github"/></a>
-                <a href="https://www.tiktok.com/@solidserv?" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/tiktok.png" alt="tiktok"/></a>
-                <a href="https://www.linkedin.com/company/solidserv" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/linkedIn.png" alt="linkedin"/></a>
             </li>
 
 

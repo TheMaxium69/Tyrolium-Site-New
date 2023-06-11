@@ -8,7 +8,7 @@
                 <img id="head-img" src="https://tyrolium.fr/Contenu/Image/Tyrolium Site.png"> 
             </div>
             <div id="head">
-                <h1>Tyrolium</h1>
+                <h1>Tyrolium</h1><script src="javascript/textanime.js"></script>
                 <a href="#btn-up"><p>
                     <?= $lang[$page]["head"] ?>
                 </p></a>

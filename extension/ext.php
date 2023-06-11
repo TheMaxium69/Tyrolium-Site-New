@@ -10,5 +10,6 @@ require_once "TyroLink.phtml";
 require_once "JQuery.phtml";
 require_once "GoogleAnalytics.phtml";
 require_once "GoogleReCAPTCHA.phtml";
+require_once "TypeWriterJS.phtml";
 
 ?>
