@@ -200,6 +200,19 @@ i.footer {
 {
     background-color:#D80000
 }
+.social-icons a.threads:hover
+{
+    background-color: #000000
+}
+
+.threads img{
+    width: 19px;
+}
+
+.gettr img{
+    width: 24px;
+}
+
 
 @media (max-width:767px)
 {

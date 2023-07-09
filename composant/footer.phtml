@@ -67,8 +67,28 @@
                     <li><a class="tiktok" href="https://www.tiktok.com/@tyrolium"><i class="fab fa-tiktok footer"></i></a></li>
                     <li><a class="twitch" href="https://twitch.tv/tyrolium"><i class="fab fa-twitch footer"></i></a></li>
                     <li><a class="github" href="https://github.com/tyrolium"><i class="fab fa-github footer"></i></a></li>
-                    <li><a class="gettr" href="https://gettr.com/user/tyrolium"><i class="fas fa-fire footer"></i></a></li>
+                    <li><a class="gettr" href="https://gettr.com/user/tyrolium"><i class="fas fa-gettr footer"><img src="assets/logo/Gettr.png"></i></a></li>
                     <li><a class="telegram" href="https://t.me/tyrolium"><i class="fab fa-telegram-plane footer"></i></a></li>
+                    <li><a class="threads" href="https://www.threads.net/@tyroliumentertainment"><i class="fab fa-threads footer"><img src="assets/logo/Threads.png"></i></a></li>                    
+                    
+
+                    <script>
+
+                        $("li a").hover(
+                            function() {
+                                var oldSrc = $(this).children("i").children("img").attr("src");
+                                $(this).children("i").children("img").attr("src", oldSrc.replace(".png", "_hover.png"));
+                            }, 
+                            function() {
+                                var newSrc = $(this).children("i").children("img").attr("src");
+                                $(this).children("i").children("img").attr("src", newSrc.replace("_hover.png", ".png"));
+                            }
+                        );
+
+                    </script>
+                
+                
+                
                 </ul>
             </div>
         </div>
