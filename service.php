@@ -85,9 +85,12 @@
                 <div class="popup__content">
                     <div class="popup__close"></div>
                     <h3 class="popup__heading">Nos réalisations</h3>
-                    <p class="popup__text" style="">
-                        Voici les sites que nous avons réaliser
-                        <br><br>
+                    <div class="popup__text" style="">
+                    <p>Voici les sites que nous avons réaliser</p>
+                    <br>
+                    <div class="row">
+                        <div class="col">
+
                         Bâtir Positif :
                         <a target="_blank" href="https://batirpositif.com">Lien</a>
                         <br><br>
@@ -118,7 +121,45 @@
                         Tyrolium :
                         <a target="_blank">Ici</a>
                         <br><br>
-                    </p>
+
+
+                        </div>
+                        <div class="col">
+
+                        Bâtir Positif :
+                        <a target="_blank" href="https://batirpositif.com">Lien</a>
+                        <br><br>
+                        SolidServ :
+                        <a target="_blank" href="https://solidserv.fr">Lien</a>
+                        <br><br>
+                        Sélémusium :
+                        <a target="_blank" href="https://selemusium.xyz">Lien</a>
+                        <br><br>
+                        TyroServ :
+                        <a target="_blank" href="https://tyroserv.fr">Lien</a>
+                        <br><br>
+                        TyroDiscord :
+                        <a target="_blank" href="https://www.tyrodiscord.xyz">Lien</a>
+                        <br><br>
+                        Influnias :
+                        <a target="_blank" href="https://www.influnias.fr">Lien</a>
+                        <br><br>
+                        Useritium :
+                        <a target="_blank" href="https://useritium.fr">Lien</a>
+                        <!-- <br><br>
+                        CLS-Habitat :
+                        <a target="_blank" href="https://cls-habitat.fr">Lien</a> -->
+                        <br><br>
+                        Groupe Cloudy :
+                        <a target="_blank">Soon</a>
+                        <br><br>
+                        Tyrolium :
+                        <a target="_blank">Ici</a>
+                        <br><br>
+
+                        </div>
+                    </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -217,8 +258,8 @@
         <section id="service-solidserv" class="service-ecart"> 
             <div class="container row">
                 <div class="col-6" style="text-align: center;">        
-                    <a href="">
-                        <img class="img-solidserv img-home" src="assets/Information_flow_Monochromatic.png">
+                    <a href="https://solidserv.fr">
+                        <img class="img-solidserv img-home" src="assets/solidserv_service.png">
                     </a>
                 </div>
                 <div class="container col-5">

@@ -2,6 +2,69 @@
 <body onLoad="cookie()" class="<?php if (empty($_COOKIE["color"])){ echo "dark"; }else{echo $_COOKIE["color"]; } ?>"> <header> <?php navbar($page); ?> </header>
 
 <main>
+<section id="projet" class="container">
+        <br>
+        <h2>Nos Partenaire</h2>
+        <p>Voici les entreprises, organisations et collectivités qui nous font confiance, et qu'on travaille activement à l'amélioration et la création de projets.</p>
+        <br>
+    </section>
+
+
+    <section id="partenaire" class="container">
+        
+        <div class="row">
+            <div class="col">
+                <a target="_bank" href="https://www.lafrenchtech-onelse.com/" title="French Tech One Lyon St-Étienne">
+                    <img src="<?php echo $env_assets; ?>part/frenchtechlyon.png" alt="frenchtech">
+                </a>
+            </div>
+
+            <div class="col">
+                <a target="_bank" href="https://www.auvergnerhonealpes.fr/" title="La Region Auvergne-Rhône-Alpes">
+                    <img src="<?php echo $env_assets; ?>part/auvergne-Rhone-Alphes.png" alt="Auvergne-Rhône-Alphes">
+                </a>
+            </div>
+
+            <div class="col">
+                <a target="_bank" href="https://www.grandest.fr/" title="La Region Grand Est">
+                    <img src="<?php echo $env_assets; ?>part/grandest.png" alt="Grand Est">
+                </a>
+            </div>
+
+            <div class="col">
+                <a target="_bank" href="https://www.linkedin.com/company/g%C3%A9n%C3%A9ration-ium/" title="Génératium IUM">
+                    <img src="<?php echo $env_assets; ?>part/Generatium-ium.png" alt="generatium-ium">
+                </a>
+            </div>
+
+            <div class="col">
+                <a target="_bank" href="https://batirpositif.com" title="Bâtir Positif - Ingénierie Responsable">
+                    <img src="<?php echo $env_assets; ?>part/bt.jpg" alt="batirpositif">
+                </a>
+            </div>
+            
+        </div>
+        
+        <div class="row">
+
+            
+            
+        </div>
+        <br>
+        <section id="service-start-but">
+        <?php tyrobtn("contact.php?partenaire=true", "devpart", "Devenir notre Partenaire");?>
+        </section>
+        <br>
+    </section>
+
+
+
+
+    <br>
+    <hr class="container" style="background: rgba(161,161,161,0.6);">
+
+
+
     <section id="projet" class="container">
         <br>
         <h2>Notre Équipe</h2>
@@ -86,60 +149,60 @@
             </div>
             <div style="text-align: center">
             
-            <small>Un grand remerciement à <strong>Norman Jorge De Freitas</strong> et <strong>Wassim Bouridah</strong> qui travaillent activement mais ne sont pas membres du projet</small>
+            <small>Un grand remerciement à nos freelance qui travaillent activement mais ne sont pas membres du projet</small>
             
             <br><br>
 
-            <?php tyrobtn("collaboration.php#recrut", "joinmembre", "Rejoindre l'équipe");?>
+            <?php //tyrobtn("collaboration.php#recrut", "joinmembre", "Rejoindre l'équipe");?>
+            
+            <?php tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLSdRZ5UxQCDDXHHx6xQKxgrS_JiwAZnr4QQbPs3glVem5-cOnA/viewform?usp=sf_link", "joinmembre", "Rejoindre l'équipe");?>
         
             </div>
         </div>
 
     </section>
 
+
     <br>
     <hr class="container" style="background: rgba(161,161,161,0.6);">
+    
 
     <section id="projet" class="container">
         <br>
-        <h2>Nos Partenaire</h2>
-        <p>Voici les entreprises, organisations et collectivités qui nous font confiance, et qu'on travaille activement à l'amélioration et la création de projets.</p>
+        <h2>Ceux qu'on Sponsorise</h2>
+        <p>Il s'agit d'organisations, de personnalités et de travailleurs d'internet que nous sponsorisons afin de les soutenir dans leurs projets.</p>
         <br>
     </section>
 
 
-    <section id="partenaire" class="container">
+    <section id="partenaire" class="container" style="
+    padding-bottom: 30px;">
         
         <div class="row">
+            
             <div class="col">
-                <a target="_bank" href="https://www.lafrenchtech-onelse.com/" title="French Tech One Lyon St-Étienne">
-                    <img src="<?php echo $env_assets; ?>part/frenchtechlyon.png" alt="frenchtech">
+                <a target="_bank" href="https://www.twitch.tv/auroretvv" title="AuroreTVv">
+                    <img src="<?php echo $env_assets; ?>part/AuroreTVv.jpg" alt="AuroreTVv">
                 </a>
             </div>
 
             <div class="col">
-                <a target="_bank" href="https://www.auvergnerhonealpes.fr/" title="La Region Auvergne-Rhône-Alpes">
-                    <img src="<?php echo $env_assets; ?>part/auvergne-Rhone-Alphes.png" alt="Auvergne-Rhône-Alphes">
+                <a target="_bank" href="https://www.twitch.tv/doublet_creator" title="DoubleT">
+                    <img src="<?php echo $env_assets; ?>part/DoubleT.png" alt="DoubleT">
                 </a>
             </div>
-
+            
             <div class="col">
-                <a target="_bank" href="https://www.grandest.fr/" title="La Region Grand Est">
-                    <img src="<?php echo $env_assets; ?>part/grandest.png" alt="Grand Est">
+                <a target="_bank" href="https://youtube.com/c/Eroniage" title="Eroniage">
+                    <img src="<?php echo $env_assets; ?>part/Eroniage.png" alt="Eroniage">
                 </a>
             </div>
-
-           
             
         </div>
         
         <div class="row">
 
-            <div class="col">
-                <a target="_bank" href="https://batirpositif.com" title="Bâtir Positif - Ingénierie Responsable">
-                    <img src="<?php echo $env_assets; ?>part/bt.jpg" alt="batirpositif">
-                </a>
-            </div>
+            
 
             <div class="col">
                 <a target="_bank" href="https://www.linkedin.com/company/maxime-serveur/" title="Maxime/SERVEUR">
@@ -154,58 +217,10 @@
             </div>
             
         </div>
-        <br>
-        <section id="service-start-but">
-        <?php tyrobtn("contact.php?partenaire=true", "devpart", "Devenir notre Partenaire");?>
-        </section>
-        <br>
-    </section>
-
-    <section id="projet" class="container">
-        <br>
-        <h2>Ceux qu'on Sponsorise</h2>
-        <p>Il s'agit d'organisations, de personnalités et de travailleurs d'internet que nous sponsorisons afin de les soutenir dans leurs projets.</p>
-        <br>
-    </section>
-
-
-    <section id="partenaire" class="container">
-        
-        <div class="row">
-            
-            <div class="col">
-                <a target="_bank" href="https://www.linkedin.com/company/g%C3%A9n%C3%A9ration-ium/" title="Génératium IUM">
-                    <img src="<?php echo $env_assets; ?>part/Generatium-ium.png" alt="generatium-ium">
-                </a>
-            </div>
-
-            <div class="col">
-                <a target="_bank" href="https://youtube.com/c/Eroniage" title="Eroniage">
-                    <img src="<?php echo $env_assets; ?>part/Eroniage.png" alt="Eroniage">
-                </a>
-            </div>
-            
-        </div>
-        
-        <div class="row">
-
-            <div class="col">
-                <a target="_bank" href="https://www.twitch.tv/auroretvv" title="AuroreTVv">
-                    <img src="<?php echo $env_assets; ?>part/AuroreTVv.jpg" alt="AuroreTVv">
-                </a>
-            </div>
-
-            <div class="col">
-                <a target="_bank" href="https://www.linkedin.com/company/doublet-creator/" title="DoubleT">
-                    <img src="<?php echo $env_assets; ?>part/DoubleT.png" alt="DoubleT">
-                </a>
-            </div>
-            
-        </div>
 
     </section>
     
-    <br>
+    <!-- <br>
     <hr class="container" style="background: rgba(161,161,161,0.6);">
 
     <section id="projet" class="container">
@@ -221,51 +236,51 @@
             <li>
                 <h3>DÉVELOPPEUR<br>INFORMATIQUE</h3>
                 <br>
-                <?php tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLSer9XcD21PCCqawiHfF82hhX1O-RUWattlnGf0o1iWu5mdLwg/viewform?usp=sf_link", "recru", "Accedez au formulaire");?>
+                <?php //tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLSer9XcD21PCCqawiHfF82hhX1O-RUWattlnGf0o1iWu5mdLwg/viewform?usp=sf_link", "recru", "Accedez au formulaire");?>
             </li>
             <li>
                 <h3>GRAPHISTE,<br>DESIGNER</h3>
                 <br>
-                <?php tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLSeqvsgsvkItfJyu09LvRGLyMyOczVliqTg2bF5QWFUi6GSIcw/viewform?usp=sf_link", "recru", "Accedez au formulaire");?>
+                <?php //tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLSeqvsgsvkItfJyu09LvRGLyMyOczVliqTg2bF5QWFUi6GSIcw/viewform?usp=sf_link", "recru", "Accedez au formulaire");?>
             </li>
             <li>
                 <h3>MONTEUR<br>VIDÉO</h3>
                 <br>
-                <?php tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLSeKHDYQTqZvkFK89LO1T5UQG1BoZcDIFz_n1KBA5tXNqyplzw/viewform?usp=sf_link", "recru", "Accedez au formulaire");?>
+                <?php //tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLSeKHDYQTqZvkFK89LO1T5UQG1BoZcDIFz_n1KBA5tXNqyplzw/viewform?usp=sf_link", "recru", "Accedez au formulaire");?>
             </li>
             <li>
                 <h3>BUILDER<br>MINECRAFT</h3>
                 <br>
-                <?php tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLScKQkZcm5bEyT1P06yWF3NSR9-23wE_msztn_QcDf9G-HRU5g/viewform?usp=sf_link", "recru", "Accedez au formulaire");?>
+                <?php //tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLScKQkZcm5bEyT1P06yWF3NSR9-23wE_msztn_QcDf9G-HRU5g/viewform?usp=sf_link", "recru", "Accedez au formulaire");?>
             </li>
             <li>
                 <h3>COMPOSITEUR, MUSICIEN, <br>CHANTEUR</h3>
                 <br>
-                <?php tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLSfV4Nb3D_S1EALC-INAt7M5uxwQHv3h0j3ltms1rtqVOgGWYQ/viewform?usp=sf_link", "recru", "Accedez au formulaire");?>
+                <?php //tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLSfV4Nb3D_S1EALC-INAt7M5uxwQHv3h0j3ltms1rtqVOgGWYQ/viewform?usp=sf_link", "recru", "Accedez au formulaire");?>
             </li>
             <li>
                 <h3>MODÉRATEUR, <br>ASSISTANT</h3>
                 <br>
-                <?php tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLSc9DeAU_koGj3UJNYiB7judKpzkIPDUvDXGmvvs9z3cDF7XpA/viewform?usp=sf_link", "recru", "Accedez au formulaire");?>
+                <?php //tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLSc9DeAU_koGj3UJNYiB7judKpzkIPDUvDXGmvvs9z3cDF7XpA/viewform?usp=sf_link", "recru", "Accedez au formulaire");?>
             </li>
             <li>
                 <h3>ANIMATEUR<br>DISCORD</h3>
                 <br>
-                <?php tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLSflU5SxdYVPOnyJZB0SWi4xNjqNJAFycPAMBAQkJDY_uzHu6w/viewform?usp=sf_link", "recru", "Accedez au formulaire");?>
+                <?php //tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLSflU5SxdYVPOnyJZB0SWi4xNjqNJAFycPAMBAQkJDY_uzHu6w/viewform?usp=sf_link", "recru", "Accedez au formulaire");?>
             </li>
             <li>
                 <h3>COMMUNITY<br>MANAGER</h3>
                 <br>
-                <?php tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLSdlVrklk0i8NPk8VqcK3ueDt6pOoM4LTHBiYnpovWjFDvKyCQ/viewform?usp=sf_link", "recru", "Accedez au formulaire");?>
+                <?php //tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLSdlVrklk0i8NPk8VqcK3ueDt6pOoM4LTHBiYnpovWjFDvKyCQ/viewform?usp=sf_link", "recru", "Accedez au formulaire");?>
             </li>
             <li>
                 <h3>MEMBRE SANS COMPÉCENSE PRÉSICE</h3>
                 <br>
-                <?php tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLSdRZ5UxQCDDXHHx6xQKxgrS_JiwAZnr4QQbPs3glVem5-cOnA/viewform?usp=sf_link", "recru", "Accedez au formulaire");?>
+                <?php //tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLSdRZ5UxQCDDXHHx6xQKxgrS_JiwAZnr4QQbPs3glVem5-cOnA/viewform?usp=sf_link", "recru", "Accedez au formulaire");?>
             </li>
         </ul>
 
-    </section>
+    </section> -->
 
 
 </main>
