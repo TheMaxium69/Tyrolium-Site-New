@@ -10,7 +10,7 @@ $env_isEvent_Noel2022 = false;
 $env_isEvent_year2023 = false;
 $env_isAnimProject = true;
 $env_isUseritium = true;
-$env_isMultilang = true;
+$env_isMultilang = false;
 
 $env_url = "https://tyrolium.fr";
 
@@ -234,14 +234,14 @@ $env_perso = array(
     ),
 
     array("name" => "Kevin Muziak",
-        "role" => "Développeuse Web",
+        "role" => "Développeur Web",
         "icon" => "Kevin_Muziak.jpg",
         "linkedin" => "https://www.linkedin.com/in/kevin-muziak/",
         "github" => "https://github.com/Threonaum",
     ),
     
     array("name" => "Clément Charrassier",
-        "role" => "Développeuse Web",
+        "role" => "Développeur Web",
         "icon" => "Clément_Charrassier.jpg",
         "linkedin" => "https://www.linkedin.com/in/cl%C3%A9ment-charrassier-51606027b/",
         "github" => "https://github.com/ClemCH2R2SR",
