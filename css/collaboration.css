@@ -5,7 +5,8 @@
     text-align: center;
     overflow: hidden;
     position: relative;
-    min-height: 302px;
+    min-height: 309px;
+    border-radius: 10px;
 }
 
 .our-team .picture {
@@ -69,6 +70,7 @@
 }
 
 .our-team .social {
+    border-radius: 10px;
     width: 100%;
     padding: 0;
     margin: 0;
@@ -195,4 +197,28 @@ main #recrut {
 
 #btn-devpart {
    font-size: 13px;
+}
+
+#section-fondateur {
+                
+    text-align: justify;
+    margin-bottom: 30px;
+
+}
+
+
+#section-fondateur div.container{
+    background-color: #1c1d22;
+    border-radius: 20px;
+}
+
+#section-fondateur h2.art{
+
+    text-align: start;
+
+}
+
+#section-fondateur .our-team {
+    margin-bottom: 0px;
+    border-radius: 0px
 }

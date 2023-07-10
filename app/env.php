@@ -79,7 +79,7 @@ $env_back = array (
     $env_urlImage . "Background11.png"
 );
 
-$env_perso = array(
+$env_perso_moi = array(
 
     array("name" => "Maxime Tournier",
         "role" => "PDG & Fondateur,<br> Développeur",
@@ -88,7 +88,13 @@ $env_perso = array(
         "github" => "https://github.com/TheMaxium69",
         "linkedin" => "https://linkedin.com/in/maxime-tournier-tyrolium",
         "tiktok" => "https://www.tiktok.com/@themaximesan",
-    ),
+    )
+
+);
+
+$env_perso = array(
+
+    
 
     
     /*array("name" => "Maewan Marthelot",

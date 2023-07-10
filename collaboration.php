@@ -75,6 +75,43 @@
 
     <section id="credit">
         <div class="container">
+
+            <section id="section-fondateur"> 
+                <div class="container row">
+                    <div class="col-6" style="text-align: center;">    
+                            
+                            <div class="">
+                                <div class="">
+                                    <div class="our-team">
+                                        <div class="picture">
+                                            <img class="img-fluid" src="assets/pp/Maxime_Tournier.jpg">
+                                        </div>
+                                        <div class="team-content">
+                                            <h3 class="name">Maxime Tournier</h3>
+                                            <h4 class="title">PDG & Fondateur,<br> Développeur</h4>
+                                        </div>
+                                        <ul class="social">
+                                            <li><a href="https://instagram.com/the_maxime_san" class="fab fa-instagram" aria-hidden="true"></a></li>
+                                            <li><a href="https://github.com/TheMaxium69" class="fab fa-github" aria-hidden="true"></a></li>
+                                            <li><a href="https://linkedin.com/in/maxime-tournier-tyrolium" class="fab fa-linkedin" aria-hidden="true"></a></li>
+                                            <li><a href="https://www.tiktok.com/@themaximesan" class="fab fa-tiktok" aria-hidden="true"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="container col-5">
+                        <article>
+                            <h2 class="art"><i class="fas fa-caret-right"></i> Fondateur de Tyrolium</h2>
+                            <p class="art" style='padding-bottom: 10px; margin-top: -21px;'>
+                            Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme
+                            </p>
+                            
+                        </article>
+                    </div>
+                </div>
+            </section>
+
             <div class="row">
 
                 <?php foreach ($env_perso as $perso){ 
