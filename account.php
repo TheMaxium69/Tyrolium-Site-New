@@ -2,9 +2,9 @@
 <body onLoad="cookie()" class="<?php if (empty($_COOKIE["color"])){ echo "dark"; }else{echo $_COOKIE["color"]; } ?>"> <header> <?php navbar($page); ?> </header>
 
 <?php if($env_isAccount == true) { ?>
-    <main>
+    <main class="account-main">
 
-    	<section id="particule" style="margin-bottom: 50px;">
+    	<!-- <section id="particule" style="margin-bottom: 50px;">
 	        <div id="particule">
 	            <div id="head" style="
                 margin-top: 80px;">
@@ -13,10 +13,28 @@
 	                    DÉCOUVREZ LES COMPTES USERITIUM
 	                </p></a>
 	            </div>
-	            <?php if (empty($_COOKIE["color"])){ $colorCookie = "dark"; }else{ $colorCookie = $_COOKIE["color"]; }
-	            particule($colorCookie) ?>
+	            <?php // if (empty($_COOKIE["color"])){ $colorCookie = "dark"; }else{ $colorCookie = $_COOKIE["color"]; }
+	            // particule($colorCookie) ?>
 	        </div>
-	    </section>
+	    </section> -->
+
+      <section id="particule" style="margin-bottom: 50px;">
+        <div id="particule">
+            <div id="head" style="margin-top: -31px; text-align: center">
+                <img id="head-img" src="https://tyrolium.fr/Contenu/Image/Tyrolium Site.png"> 
+            </div>
+            <div id="head" style="
+                margin-top: 50px;
+                ">
+                <h1>Compte<br> <c class="change">Tyrolium</c></h1><script src="javascript/textanime-account.js"></script>
+                <a href="#btn-up"><p>
+                  LES COMPTES CRÉÉ PAR TYROLIUM
+                </p></a>
+            </div>
+            <?php if (empty($_COOKIE["color"])){ $colorCookie = "dark"; }else{ $colorCookie = $_COOKIE["color"]; }
+            particule($colorCookie) ?>
+        </div>
+    </section>
         
         
         <?php if($env_isUseritium == false){ ?>
@@ -512,22 +530,37 @@ Découvrez également des nombreuses fonctionnalités disponibles en dessous</p>
 
         <div id="btn-up"></div>
 
+
+        <style>
+
+          .account-main #service-second-but h2.art, .account-main #service-second h2.art{
+              text-align: start;
+          }
+
+          .account-main #service-second-but p.art, .account-main #service-second p.art{
+              text-align: justify;
+          }
+
+
+
+        </style>
+
         <!--PC-->
             <div class="home-desktop">
 
                 <section id="service-second" class="container row">
                     <div class="col-6" style="text-align: end">
                         <img class="img-home" src="assets/Information%20carousel_Monochromatic.png" style="width: 96%;
-    margin-top: 110px;">
+    margin-top: 65px;">
                     </div>
                     <div class="container col-5">
                         <article id="art-home">
-                            <h2 class="art">A propos des comptes Useritium</h2>
-                            <p class="art">Les comptes Useritium sont proposés par Tyrolium, afin de vous proposer une adresse mail spécialisée et personnelle.<br><br>
+                            <h2 class="art"><i class="fas fa-caret-right"></i> A propos des comptes Useritium</h2>
+                            <p class="art">Les comptes Useritium sont proposés par Tyrolium, afin de vous proposer une adresse mail spécialisée et personnelle.<br>
 
-Ces comptes vous offrent un cloud et des fonctionnalités pour la création de documents ou de notes, de plus, ils permettent egalement de pouvoir gérer vos jeux vidéos ou vos serveurs personnels et/ou professionnels.<br><br>
+Ces comptes vous offrent un cloud et des fonctionnalités pour la création de documents ou de notes, de plus, ils permettent egalement de pouvoir gérer vos jeux vidéos ou vos serveurs personnels et/ou professionnels.<br>
 
-Ils vous permettent également de connaître l'avancée de vos demandes de prestations.<br><br>
+Ils vous permettent également de connaître l'avancée de vos demandes de prestations.<br>
 
 Ces comptes sont aussi une garantie de sécurité de vos données, nous nous engageons à ne jamais partager ou divulguer quelconques informations vous concernant ou liées à ces comptes (projet open source).</p>
                         </article>
@@ -542,9 +575,9 @@ Ces comptes sont aussi une garantie de sécurité de vos données, nous nous eng
                 <section id="service-second-but" class="container row">
                     <div class="container col-5">
                         <article>
-                            <h2 class="art">Synchronisation avec tous vos Sites</h2>
+                            <h2 class="art"><i class="fas fa-caret-right"></i> Synchronisation avec tous vos Sites</h2>
                             <p class="art">
-                                Synchronisez les comptes Useritium avec tous nos sites et les sites de nos partenaires, cela permet d'avoir un seul compte et un seul mot de passe afin de simplifier toutes vos connexions et vos créations de comptes.<br><br>
+                                Synchronisez les comptes Useritium avec tous nos sites et les sites de nos partenaires, cela permet d'avoir un seul compte et un seul mot de passe afin de simplifier toutes vos connexions et vos créations de comptes.<br>
 Vous pourrez consulter tous les sites ou vous êtes connectés sur le pannel 
 Cette synchronisation permet aussi de voir toutes vos informations sur le site de Useritium
                             </p>
@@ -557,20 +590,20 @@ Cette synchronisation permet aussi de voir toutes vos informations sur le site d
 
                 <section id="service-second-but" class="container row">
                     <div class="col-6" style="text-align: end">
-                        <img class="img-home" src="assets/Sending%20emails_Monochromatic.png" style="width: 100%; margin-top: 70px">
+                        <img class="img-home" src="assets/Sending%20emails_Monochromatic.png" style="width: 100%; margin-top: 17px">
                     </div>
                     <div class="container col-5">
                         <article id="art-home">
-                            <h2 class="art">Votre boîte Mail</h2>
+                            <h2 class="art"><i class="fas fa-caret-right"></i> Votre boîte Mail</h2>
                             <p class="art">
                                 La boîte mail de Useritium à énormément d'avantages.
-Elle chiffre vos données et vos informations personnelles, elle est facile d'utilisation, elle est également très intuitive et pratique.<br><br>
+Elle chiffre vos données et vos informations personnelles, elle est facile d'utilisation, elle est également très intuitive et pratique.<br>
 
-Votre mail sera personnalisé, avec des adresses mail comme<br><br> 
+Votre mail sera personnalisé, avec des adresses mail comme<br>
 
 exemple@useritium.fr 
 ou 
-exemple@tyromail.fr <br><br>
+exemple@tyromail.fr <br>
 
 Nous nous engageons enfin, à ne jamais vendre ou divulguer vos données et informations personnelles.
                             </p>
@@ -581,9 +614,9 @@ Nous nous engageons enfin, à ne jamais vendre ou divulguer vos données et info
                 <section id="service-second-but" class="container row">
                     <div class="container col-5">
                         <article>
-                            <h2 class="art">Votre Cloud personnel</h2>
+                            <h2 class="art"><i class="fas fa-caret-right"></i> Votre Cloud personnel</h2>
                             <p class="art">
-                                Le cloud offert avec le compte Useritium permet de synchroniser toutes vos images, tous vos documents, vos fichiers que vous pourrez retrouver sur tous vos appareils.<br><br>
+                                Le cloud offert avec le compte Useritium permet de synchroniser toutes vos images, tous vos documents, vos fichiers que vous pourrez retrouver sur tous vos appareils.<br>
 Ce cloud est chiffré et protégé et aucune information personnelle ne sera divulguée à des fins commerciales. 
                             </p>
 
@@ -600,10 +633,10 @@ Ce cloud est chiffré et protégé et aucune information personnelle ne sera div
                     </div>
                     <div class="container col-5">
                         <article id="art-home">
-                            <h2 class="art">Créez vos Documents et vos Notes</h2>
+                            <h2 class="art"><i class="fas fa-caret-right"></i> Créez vos Documents et vos Notes</h2>
                             <p class="art">
 
-                                Les comptes Useritium permettent de créer des notes et tout autre type de documents (tableurs, présentations...).<br><br>
+                                Les comptes Useritium permettent de créer des notes et tout autre type de documents (tableurs, présentations...).<br>
 Toutes ces notes et ces documents seront également synchronisés sur tous vos appareils. 
 
                             </p>
@@ -614,10 +647,10 @@ Toutes ces notes et ces documents seront également synchronisés sur tous vos a
                 <section id="service-second-but" class="container row">
                     <div class="container col-5">
                         <article>
-                            <h2 class="art">Panel de Prestations</h2>
+                            <h2 class="art"><i class="fas fa-caret-right"></i> Panel de Prestations</h2>
                             <p class="art">
 Tyrolium produit des prestations de sites web, graphisme, musiques...
-Nos clients pourront retrouver l'avancée en temps réel de leurs prestations ainsi que toute information complémentaire afin de simplifier la prise de contact. <br><br>
+Nos clients pourront retrouver l'avancée en temps réel de leurs prestations ainsi que toute information complémentaire afin de simplifier la prise de contact. <br>
 En effet, nous voulons être proches de nos clients, ils pourront alors également nous contacter pour des questions, des modifications ou toute autre demande concernant leurs prestations en cours.
 
                             </p>
@@ -634,10 +667,10 @@ En effet, nous voulons être proches de nos clients, ils pourront alors égaleme
                     </div>
                     <div class="container col-5">
                         <article id="art-home">
-                            <h2 class="art">Retrouvez vos Jeux Vidéo</h2>
+                            <h2 class="art"><i class="fas fa-caret-right"></i> Retrouvez vos Jeux Vidéo</h2>
                             <p class="art">
                                 Vous retrouverez ici tous les jeux vidéos que vous possédez, dont ceux de <a class="textAccount" href="https://tyroserv.fr">TyroServ</a> et <a class="textAccount" href="https://www.linkedin.com/company/tyrostudio">TyroStudio</a> ainsi que ceux de nos futurs partenaires.<br><br>
-Vos sauvegardes y seront stockées <br><br> Ainsi vous pourrez également ajouter vos amis et consulter leur profil
+Vos sauvegardes y seront stockées <br> Ainsi vous pourrez également ajouter vos amis et consulter leur profil
                             </p>
                         </article>
                     </div>
@@ -646,9 +679,9 @@ Vos sauvegardes y seront stockées <br><br> Ainsi vous pourrez également ajoute
                 <section id="service-second-but" class="container row">
                     <div class="container col-5">
                         <article>
-                            <h2 class="art">Gérez tous vos Serveurs</h2>
+                            <h2 class="art"><i class="fas fa-caret-right"></i> Gérez tous vos Serveurs</h2>
                             <p class="art">
-                                Vous pourrez retrouver dans cette section, tous vos comptes achetés par notre filiale SolidServ.<br><br>
+                                Vous pourrez retrouver dans cette section, tous vos comptes achetés par notre filiale SolidServ.<br>
 Dans ce pannel il vous sera possible de faire toute la gestion de vos serveurs, gérer les accès de vos différents utilisateurs, et accéder à vos bases de données ainsi, que tout synchroniser grâce aux comptes Useritium. 
                             </p>
                         </article>
@@ -664,8 +697,8 @@ Dans ce pannel il vous sera possible de faire toute la gestion de vos serveurs, 
                     </div>
                     <div class="container col-5">
                         <article id="art-home">
-                            <h2 class="art">Nos Engagements</h2>
-                            Tyrolium s'engage au près de vous avec les comptes Useritium et leur fonctionnalités sur différents points.<br><br>
+                            <h2 class="art"><i class="fas fa-caret-right"></i> Nos Engagements</h2>
+                            Tyrolium s'engage au près de vous avec les comptes Useritium et leur fonctionnalités sur différents points.<br>
 
 A fournir un travail et un relationnel de qualité.<br>
 

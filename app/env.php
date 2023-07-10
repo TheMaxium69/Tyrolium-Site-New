@@ -79,21 +79,17 @@ $env_back = array (
     $env_urlImage . "Background11.png"
 );
 
-$env_perso_moi = array(
+$env_perso = array(
 
-    array("name" => "Maxime Tournier",
+
+    /* array("name" => "Maxime Tournier",
         "role" => "PDG & Fondateur,<br> Développeur",
         "icon" => "Maxime_Tournier.jpg",
         "instagram" => "https://instagram.com/the_maxime_san",
         "github" => "https://github.com/TheMaxium69",
         "linkedin" => "https://linkedin.com/in/maxime-tournier-tyrolium",
         "tiktok" => "https://www.tiktok.com/@themaximesan",
-    )
-
-);
-
-$env_perso = array(
-
+    ) */
     
 
     
@@ -232,6 +228,24 @@ $env_perso = array(
         "icon" => "Angélique_Herard.jpg",
         "instagram" => "https://www.instagram.com/angelique.hrd/",
     ),*/
+
+    array(
+        "vide" => true,
+    ),
+
+    array("name" => "Kevin Muziak",
+        "role" => "Développeuse Web",
+        "icon" => "Kevin_Muziak.jpg",
+        "linkedin" => "https://www.linkedin.com/in/kevin-muziak/",
+        "github" => "https://github.com/Threonaum",
+    ),
+    
+    array("name" => "Clément Charrassier",
+        "role" => "Développeuse Web",
+        "icon" => "Clément_Charrassier.jpg",
+        "linkedin" => "https://www.linkedin.com/in/cl%C3%A9ment-charrassier-51606027b/",
+        "github" => "https://github.com/ClemCH2R2SR",
+    ),
 
    
 

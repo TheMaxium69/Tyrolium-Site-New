@@ -17,6 +17,8 @@
                 <p>Copyright © Tyrolium. 2023<br> © 2017-2023 Tyrolium, Ent.<br>All Right Reserved ©Tyrolium</p>
                 <p>Fondé par Maxime Tournier</p>
                 <p>Siret : <br> 91027536100012</p>
+                <p>Numéro TVA : <br> FR33910275361</p>
+                <p>Activité (Code NAF ou APE) : <br> Programmation informatique (6201Z)</p>
                 <p>Siège Social : <br> 252, Avenue Jean Jaurès 69150 Décines-Charpieu</p>
                 <p>Contact : <br> officiel@tyrolium.fr <br> maxime.tournier@tyrolium.fr<br> +33 6 11 11 26 69</p>
             </div>
@@ -38,12 +40,14 @@
                     <small>- Myriam Tournier</small><br>
                     <small>- Steeve Tournier</small><br>
                     <small>- Jade Pluquet</small><br>
+                    <small>- Lola Dutouquet</small>
+                    <small>- Daniel Taniou</small>
                     <p class="no-p">Maquettage</p>
                     <small>- Maxime Tournier</small><br>
                     <p class="no-p">Graphismes</p>
                     <small>- Maxime Tournier</small><br>
                     <small>- Maewan Marthelot</small><br>
-                    <p class="no-p">Investisseurs</p>
+                    <p class="no-p">Investisseurs (site)</p>
                     <small>- Maxime Tournier</small><br>
                     <small>- Norman Jorge De Freitas</small><br>
                     <small>- Pierre-Louis Devaud</small><br>
@@ -55,12 +59,17 @@
                     <small>- Edward Thouvenin</small><br>
                     <small>- Myriam Tournier</small><br>
                     <small>- Steeve Tournier</small><br>
-                    <p class="no-p">Photographe de la banière de Sélémusium</p>
-                    <small>- Norman Jorge De Freitas</small>
+                    <small>- Jade Pluquet</small><br>
+                    <p class="no-p">Traducteur</p>
+                    <small>- Lola Dutouquet</small><br>
+                    <small>- Daniel Taniou</small><br>
                 </div>
                 <div class="col-6 textmore">
                     <h3 style="margin-bottom: 12px; margin-top: 20px;color: #588aff">Technologies</h3>
+                    <p class="no-p">FrameWork</p>
+                    <small>- TyroSiteFrameWork-1.0.0 </small><br>
                     <p class="no-p">Librairies</p>
+                    <small>- TyroButton-0.0.1-Private</small><br>
                     <small>- Bootstrap-4.3.1 </small><br>
                     <small>- FontAwesome-5.15.4</small><br>
                     <small>- JQuery-3.4.1</small><br>
@@ -72,6 +81,7 @@
                     <small>- Normalize</small><br>
                     <small>- Google Front</small><br>
                     <small>- iziToast</small><br>
+                    <small>- TypeWriterJS</small><br>
                     <p class="no-p">Extentions</p>
                     <small>- Google Analytics</small><br>
                     <small>- Google reCAPTCHA</small><br>
@@ -80,11 +90,14 @@
                     <p class="no-p">Languages</p>
                     <small>- HTML</small><br>
                     <small>- CSS</small><br>
+                    <small>- SCSS</small><br>
                     <small>- JavaScript</small><br>
                     <small>- PHP</small><br>
                     <small>- SQL</small><br>
                     <p class="no-p">Banque à images</p>
                     <small>- www.manypixels.com</small><br>
+                    <p class="no-p">Hebergeur</p>
+                    <small>- SolidServ ® - © 2017-2023 Tyrolium, Ent.</small><br>
                 </div>
             </div>
             <h2 style="margin-top: 20px;text-align: center; margin-bottom: 10px; color: #0049ee"><i class="fas fa-balance-scale"></i>Droits</h2>
@@ -102,6 +115,7 @@
                     <small>TyroDiscord ®</small><br>
                     <small>TyroShop ®</small><br>
                     <small>TyroStudio ®</small><br>
+                    <small>SolidServ ®</small><br>
                     <small>Gamenium ®</small><br>
                     <small>Sélémusium ®</small><br>
                     <small>Wonderlium ®</small><br>
@@ -109,6 +123,7 @@
                     <small>TyroStudent ®</small><br>
                     <small>Influnias ®</small><br>
                     <small>Vturias ®</small><br>
+                    <small>DuoGramme ®</small><br>
                     <small>-Minerais TyroServ protégés-</small><br>
                     <small>Rhodonium ®</small><br>
                     <small>Aventurium ®</small><br>
@@ -135,6 +150,42 @@
                     <small>Mojang © 2009-2023</small><br>
                     <small>© 2023 Adobe.</small><br>
                     <small>2023 © CLS-Habitat</small><br>
+                    <small>© 2023 GETTR USA, Inc.</small><br>
+                    <small>© 2023 Génération IUM, Org.</small><br>
+                </div>
+                <div style="text-align: start">
+                    <h2 style="text-align: center; margin-bottom: 20px; color: #0049ee"><i class="fas fa-globe"></i>Conditions Générales d'Utilisation</h2>
+                    
+                    <p>Les présentes Conditions Générales d'Utilisation (ci-après dénommées les "CGU") régissent l'utilisation du site web <strong>Tyrolium</strong> (ci-après dénommé le "Site") et des services associés (ci-après dénommés les "Services"). Veuillez lire attentivement ces CGU avant d'utiliser le Site. En accédant au Site ou en utilisant les Services, vous acceptez d'être lié par ces CGU.</p>
+
+                    <h3 style="color: #588aff">1. Acceptation des CGU</h3>
+
+                    <p>En accédant au Site ou en utilisant les Services, vous déclarez avoir lu, compris et accepté les présentes CGU. Si vous n'acceptez pas ces CGU, veuillez ne pas utiliser le Site.</p>
+
+                    <h3 style="color: #588aff">2. Utilisation du Site</h3>
+
+                    <p>Vous pouvez utiliser le Site et les Services à des fins personnelles et non commerciales, conformément aux lois et réglementations en vigueur. Vous vous engagez à ne pas utiliser le Site de manière frauduleuse, abusive ou illégale.</p>
+
+                    <h3 style="color: #588aff">3. Propriété intellectuelle</h3>
+
+                    <p>Le Site et son contenu, y compris mais sans s'y limiter, les textes, les images, les graphiques, les logos et les vidéos, sont protégés par des droits de propriété intellectuelle et appartiennent à <strong>Tyrolium</strong>. Vous ne pouvez pas copier, modifier, distribuer ou reproduire le contenu du Site sans autorisation préalable.</p>
+
+                    <h3 style="color: #588aff">4. Limitation de responsabilité</h3>
+
+                    <p>Le Site et les Services sont fournis "tels quels", sans garantie d'aucune sorte, expresse ou implicite. <strong>Tyrolium</strong> ne saurait être tenue responsable des dommages directs, indirects, spéciaux, consécutifs ou punitifs résultant de l'utilisation ou de l'incapacité d'utiliser le Site ou les Services.</p>
+
+                    <h3 style="color: #588aff">5. Liens externes</h3>
+
+                    <p>Le Site peut contenir des liens vers des sites web tiers. <strong>Tyrolium</strong> n'exerce aucun contrôle sur ces sites et n'assume aucune responsabilité quant à leur contenu ou à leur utilisation. L'accès à ces liens externes se fait à vos propres risques.</p>
+
+                    <h3 style="color: #588aff">6. Modification des CGU</h3>
+
+                    <p><strong>Tyrolium</strong> se réserve le droit de modifier ces CGU à tout moment, sans préavis. Les modifications entreront en vigueur dès leur publication sur le Site. Il vous incombe de consulter régulièrement les CGU pour vous tenir informé des éventuelles mises à jour.</p>
+
+                    <h3 style="color: #588aff">7. Droit applicable et juridiction compétente</h3>
+
+                    <p>Les présentes CGU sont régies et interprétées conformément aux lois <strong>Française</strong>. Tout litige découlant de l'utilisation du Site ou des Services relèvera de la compétence exclusive du tribunal de grande instance de <strong>Lyon</strong>.</p>
+
                 </div>
             </div>
         </div>

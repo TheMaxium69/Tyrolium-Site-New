@@ -201,7 +201,7 @@ main #recrut {
 
 #section-fondateur {
                 
-    text-align: justify;
+    text-align: center;
     margin-bottom: 30px;
 
 }
@@ -212,13 +212,12 @@ main #recrut {
     border-radius: 20px;
 }
 
-#section-fondateur h2.art{
-
-    text-align: start;
-
-}
-
 #section-fondateur .our-team {
     margin-bottom: 0px;
     border-radius: 0px
+}
+
+#section-fondateur h2.art {
+    padding-top: 38px;
+    padding-bottom: 30px;
 }

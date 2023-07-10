@@ -95,6 +95,10 @@
                                             <li><a href="https://github.com/TheMaxium69" class="fab fa-github" aria-hidden="true"></a></li>
                                             <li><a href="https://linkedin.com/in/maxime-tournier-tyrolium" class="fab fa-linkedin" aria-hidden="true"></a></li>
                                             <li><a href="https://www.tiktok.com/@themaximesan" class="fab fa-tiktok" aria-hidden="true"></a></li>
+                                            <li><a href="https://www.youtube.com/@TheMaximeSan/" class="fab fa-youtube" aria-hidden="true"></a></li>
+                                            <li><a href="https://twitter.com/MaximeTournier2/" class="fab fa-twitter" aria-hidden="true"></a></li>
+                                            <li><a href="https://twitch.tv/TheMaximeSan" class="fab fa-twitch" aria-hidden="true"></a></li>
+                                            <li><a href="https://www.facebook.com/maxime.tournier.73" class="fab fa-facebook" aria-hidden="true"></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -104,7 +108,9 @@
                         <article>
                             <h2 class="art"><i class="fas fa-caret-right"></i> Fondateur de Tyrolium</h2>
                             <p class="art" style='padding-bottom: 10px; margin-top: -21px;'>
-                            Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme
+                            Félicitations au fondateur pour ses 6 années d'engagement total dans Tyrolium et ses projets. 
+                            Son dévouement exemplaire est une source d'inspiration pour toutes les personnes qui travaillent dans l'entreprise. 
+                            Si Tyrolium est arrivé là où il en est aujourd'hui, c'est bien grâce à Maxime Tournier, celui qui a donné une chance à chacun d'atteindre nos rêves.
                             </p>
                             
                         </article>
