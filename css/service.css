@@ -361,3 +361,22 @@ i.arrow-service{
     position: relative;
 
 }
+
+.service-res h2{
+
+    text-align: center;
+}
+
+.service-res h2 i{
+
+    color: #1325d7;
+
+}
+
+.service-res #service-second-but{
+    
+    padding: 52px 42px 0;
+    margin: auto;
+    max-width: 545px;
+
+}

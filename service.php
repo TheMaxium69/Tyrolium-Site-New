@@ -320,7 +320,7 @@ Avec cette prestation nos équipes pourront vous accompagner dans vos projets et
 
     <!-- MOBILE -->
 
-    <div class="home-res">
+    <div class="home-res service-res">
 
     <!-- <section id="service-second">
         <h2>Graphisme</h2>
@@ -355,7 +355,7 @@ Avec cette prestation nos équipes pourront vous accompagner dans vos projets et
     </section> -->
 
     <section id="service-second-but">
-        <h2>Minecraft</h2>
+        <h2><i class="fas fa-caret-right"></i> Minecraft</h2>
         <p>Prestation où nous réalisons le développement de votre mod ou de votre plugin.<br>
             Nous pouvons également configurer votre serveur, nos équipes ont beaucoup travaillé avec ce jeu et nous sommes en mesure de réaliser toutes vos demandes concernant celui-ci.</p>
                         <div>
@@ -367,7 +367,7 @@ Avec cette prestation nos équipes pourront vous accompagner dans vos projets et
         <?php tyrobtn("contact.php?name=mc", "contact", "Contactez-nous pour cette prestation");?>
     </section>
     <section id="service-second-but">
-        <h2>Configurations Serveur</h2>
+        <h2><i class="fas fa-caret-right"></i> Configurations Serveur</h2>
         <p>Nous pouvons vous conseiller ou/et vous configurer vos serveurs.
             Linux est parfois compliqué à comprendre.
             Nous pouvons installer et mettre en place toutes vos demandes sur vos serveurs en fonction de vos besoins. </p>
@@ -379,8 +379,38 @@ Avec cette prestation nos équipes pourront vous accompagner dans vos projets et
                     <br>
         <?php tyrobtn("contact.php?name=serv", "contact", "Contactez-nous pour cette prestation");?>
     </section>
+
+    <section id="home-account" style="margin-top: 34px;">
+                <div class="container col-4" style="padding-bottom: 38px">
+                    <article>
+                        <h2 class="art-res"><i class="fas fa-arrow-up" style="margin: unset;"></i> Avec SolidServ  <i class="fas fa-arrow-up"></i></h2>
+                        <p class="art-res">Beneficier de 50% de réduction sur tout les serveur de <strong>SolidServ</strong>, notre propre hébergeur serveur créer et porté par Tyrolium et ses équipes</p>
+                        <div>
+                            <div class="" style="width: 60%; margin-left: 20%">
+                                <img src="assets/solidserv_service.png" width="100%" height="100%">
+                            </div>
+                            <div class="" style="text-align: center; margin-top: 15px" >
+                                <?php tyrobtn("https://solidserv.fr", "solidservbtn", "Site de SolidServ");?>
+                                <style>
+                                    .tyrobutton{
+                                        width: 100%;
+                                    }
+                                </style>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
     <section id="service-second-but">
-        <h2>Bot Discord</h2>
+        <h2><i class="fas fa-caret-right"></i> Bot Discord</h2>
         <p>Nous sommes capable de vous créer votre bot discord, autant pour automatiser ou personnaliser les moindres fonctionnalités de vos serveurs discord.
             Nous pouvons aussi le lier à des API et autres logiciels ou applications.</p>
         <div>
@@ -393,7 +423,7 @@ Avec cette prestation nos équipes pourront vous accompagner dans vos projets et
     </section>
     
     <section id="service-second-but">
-        <h2>Montage Vidéo / Animation</h2>
+        <h2><i class="fas fa-caret-right"></i> Montage Vidéo / Animation</h2>
         <p>
         Nos équipes peuvent vous aider dans vos projets audiovisuel.
 Vous voulez impacter vos client avec une animation ou un montage vidéo ?
