@@ -62,3 +62,16 @@ body.light .social-icons a.tiktok:hover
 {
     background-color: #000000
 }
+
+body.light .social-icons a.telegram:hover
+{
+    background-color:#22A7E7
+}
+body.light .social-icons a.gettr:hover
+{
+    background-color:#D80000
+}
+body.light .social-icons a.threads:hover
+{
+    background-color: #000000
+}
