@@ -1,11 +1,11 @@
 <?php
 
 //PROD or DEV or TEST
-$APP_ENV = "DEV";
+$APP_ENV = "PROD";
 
 // FALSE or TRUE
 $env_isAccount = true;
-$env_isEvent_5Year = false;
+$env_isEvent_5Year = true;
 $env_isEvent_Noel2022 = false;
 $env_isEvent_year2023 = false;
 $env_isAnimProject = true;
