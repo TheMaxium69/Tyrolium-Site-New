@@ -38,9 +38,10 @@
                 }';
                 echo '
                 body.light #projet ul li#a'. $i .'{
+                    color: black;
                     background: linear-gradient(
                         to right,
-                        #151515 30%,
+                        white 30%,
                         rgba(0, 0, 0, 0.2) 50%
                     ),
                     url("'. $env_back[$i] .'");
@@ -75,7 +76,7 @@
                         background: linear-gradient(
                                 to bottom,
                                 rgba(0, 0, 0, 0.2) 130px,
-                                #e1e1e1 30%
+                                white 30%
                         ),
                         url("'. $env_back[$i] .'");
                         background-size: cover;

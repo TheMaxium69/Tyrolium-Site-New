@@ -224,7 +224,7 @@
                                     <img src="assets/Startup_Monochromatic.png" width="100%" height="100%">
                                 </div>
                                 <div class="" style="text-align: center; margin-top: 15px" >
-                                    <?php tyrobtn("project.php", "project", "Tout nos Projets");?>
+                                    <?php tyrobtn("project", "project", "Tout nos Projets");?>
                                     <style>
                                         .tyrobutton{
                                             width: 100%;
@@ -246,7 +246,7 @@
                                     <img src="assets/Team_work_Monochromatic.png" width="100%" height="100%">
                                 </div>
                                 <div class="" style="text-align: center; margin-top: 15px" >
-                                    <?php tyrobtn("service.php", "service", "Liste de nos Prestations");?>
+                                    <?php tyrobtn("service", "service", "Liste de nos Prestations");?>
                                     <style>
                                         .tyrobutton{
                                             width: 100%;
@@ -274,7 +274,7 @@
                                     <img src="assets/Brainstorming_session_Monochromatic.png" width="100%" height="100%">
                                 </div>
                                 <div class="" style="text-align: center; margin-top: 15px" >
-                                    <?php tyrobtn("collaboration.php", "collaboration", "Nos Collaborations");?>
+                                    <?php tyrobtn("collaboration", "collaboration", "Nos Collaborations");?>
                                     <style>
                                         .tyrobutton{
                                             width: 100%;
@@ -300,7 +300,7 @@
                                 <img src="assets/Information_flow_Monochromatic.png" width="100%" height="100%">
                             </div>
                             <div class="" style="text-align: center; margin-top: 15px" >
-                                <?php tyrobtn("account.php", "account", "Plus d'info");?>
+                                <?php tyrobtn("account", "account", "Plus d'info");?>
                                 <style>
                                     .tyrobutton{
                                         width: 100%;
@@ -327,7 +327,7 @@
                                 <img src="assets/Timeline_Monochromatic.png" width="100%" height="100%">
                             </div>
                             <div class="" style="text-align: center; margin-top: 15px" >
-                                <?php tyrobtn("story.php", "story", "Voir l'Histoire de Tyrolium");?>
+                                <?php tyrobtn("story", "story", "Voir l'Histoire de Tyrolium");?>
                                 <style>
                                     .tyrobutton{
                                         width: 100%;

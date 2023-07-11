@@ -13,6 +13,15 @@ body.light #projet li{
         color: black;
     }
 }
+body.light #projet .btn:hover {
+    background-color: #d4e1ff;
+}
+
+body.light #projet .btn {
+    background-color: #afc6fd;
+}
+
+
 
 /* body.light #projet .btn {
     background-color: rgb(13 14 52);

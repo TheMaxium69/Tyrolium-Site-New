@@ -94,67 +94,61 @@
                         Bâtir Positif :
                         <a target="_blank" href="https://batirpositif.com">Lien</a>
                         <br><br>
-                        SolidServ :
-                        <a target="_blank" href="https://solidserv.fr">Lien</a>
-                        <br><br>
-                        Sélémusium :
-                        <a target="_blank" href="https://selemusium.xyz">Lien</a>
-                        <br><br>
-                        TyroServ :
-                        <a target="_blank" href="https://tyroserv.fr">Lien</a>
-                        <br><br>
-                        TyroDiscord :
-                        <a target="_blank" href="https://www.tyrodiscord.xyz">Lien</a>
-                        <br><br>
-                        Influnias :
-                        <a target="_blank" href="https://www.influnias.fr">Lien</a>
-                        <br><br>
-                        Useritium :
-                        <a target="_blank" href="https://useritium.fr">Lien</a>
-                        <!-- <br><br>
                         CLS-Habitat :
-                        <a target="_blank" href="https://cls-habitat.fr">Lien</a> -->
+                        <a target="_blank" href="https://cls-habitat.com">Lien</a>
                         <br><br>
                         Groupe Cloudy :
                         <a target="_blank">Soon</a>
                         <br><br>
                         Tyrolium :
                         <a target="_blank">Ici</a>
+                        <br><br>
+                        SolidServ :
+                        <a target="_blank" href="https://solidserv.fr">Lien</a>
+                        <br><br>
+                        Gamenium :
+                        <a target="_blank">Soon</a>
+                        <br><br>
+                        Wonderlium :
+                        <a target="_blank" href="http://site.wonderlium.yt">Lien</a>
+                        <br><br>
+                        Useritium :
+                        <a target="_blank" href="https://useritium.fr">Lien</a>
+                        <br><br>
+                        TyroDiscord :
+                        <a target="_blank" href="https://themaxium69.github.io/TyroDiscord-WebSite/">Lien</a>
                         <br><br>
 
 
                         </div>
                         <div class="col">
 
-                        Bâtir Positif :
-                        <a target="_blank" href="https://batirpositif.com">Lien</a>
+                        Kaleidoscope :
+                        <a target="_blank" href="https://kaleidoscope.tyrolium.fr/">Lien</a>
                         <br><br>
-                        SolidServ :
-                        <a target="_blank" href="https://solidserv.fr">Lien</a>
+                        Génération IUM :
+                        <a target="_blank">Soon</a>
                         <br><br>
-                        Sélémusium :
-                        <a target="_blank" href="https://selemusium.xyz">Lien</a>
+                        Agape :
+                        <a target="_blank">Soon</a>
                         <br><br>
                         TyroServ :
-                        <a target="_blank" href="https://tyroserv.fr">Lien</a>
-                        <br><br>
-                        TyroDiscord :
-                        <a target="_blank" href="https://www.tyrodiscord.xyz">Lien</a>
+                        <a target="_blank" href="https://www.tyroserv.fr">Lien</a>
                         <br><br>
                         Influnias :
                         <a target="_blank" href="https://www.influnias.fr">Lien</a>
                         <br><br>
-                        Useritium :
-                        <a target="_blank" href="https://useritium.fr">Lien</a>
-                        <!-- <br><br>
-                        CLS-Habitat :
-                        <a target="_blank" href="https://cls-habitat.fr">Lien</a> -->
-                        <br><br>
-                        Groupe Cloudy :
+                        Vturias :
                         <a target="_blank">Soon</a>
                         <br><br>
-                        Tyrolium :
-                        <a target="_blank">Ici</a>
+                        Sélémusium :
+                        <a target="_blank" href="http://selemusium.tyrolium.fr">Lien</a>
+                        <br><br>
+                        Artomyx :
+                        <a target="_blank" href="https://themaxium69.github.io/Artomyx-Site/">Lien</a>
+                        <br><br>
+                        Tyrolium Status :
+                        <a target="_blank" href="https://tyrolium.fr/Status/">Lien</a>
                         <br><br>
 
                         </div>
