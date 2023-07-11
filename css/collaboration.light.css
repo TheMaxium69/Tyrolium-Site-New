@@ -10,3 +10,7 @@ body.light #partenaire img{
 body.light .our-team {
     background-color: #e1e1e1;
 }
+
+body.light #section-fondateur div.container {
+    background-color: #e1e1e1;
+}

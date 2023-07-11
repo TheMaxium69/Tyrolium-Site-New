@@ -1,9 +1,13 @@
 <nav class="navbar navbar-expand-custom navbar-mainbg navbar-dark fixed-top">
     <img style="margin-left: 20px" src="http://tyrolium.fr/Contenu/Image/<?php if ($env_isEvent_5Year) { echo "Tyrolium5Year Site.png"; } else { echo "Tyrolium Site.png"; } ?>" alt="TyroliumLogo" width="40px" class="d-inline-block align-text-top nav-anim">
     <a class="navbar-brand navbar-logo" href="javascript:redirect(1)">Tyrolium <?php if($env_isEvent_5Year){?><span class="badge badge-warning">6 ans !</span><?php } ?> <?php if($env_isEvent_Noel2022){?> <span class="badge badge-danger">Joyeux Noël !</span><?php } ?>  <?php if($env_isEvent_year2023){?> <span class="badge badge-success">Bonne Année 2023 !</span><?php } ?></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+    <div>
+        <div class="darkMobile btn-darkmode btn-darkmode1"><?php if (empty($_COOKIE["color"])){ echo "<i class='fas fa-moon'></i>"; }else{ if ($_COOKIE["color"] == "light"){ ?><i class="fas fa-sun"></i><?php }else{ ?><i class="fas fa-moon"></i><?php }  } ?></div>
+        
+        <button class=" navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
             <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
@@ -75,7 +79,7 @@ for ($i = 0; $i <= $nbBack-1; $i++) {
                 
         </ul>
         <div style="width: 40px;"></div>
-        <div class="btn-darkmode"><?php if (empty($_COOKIE["color"])){ echo "<i class='fas fa-moon'></i>"; }else{ if ($_COOKIE["color"] == "light"){ ?><i class="fas fa-sun"></i><?php }else{ ?><i class="fas fa-moon"></i><?php }  } ?></div>
+        <div class="darkDesktop btn-darkmode btn-darkmode2"><?php if (empty($_COOKIE["color"])){ echo "<i class='fas fa-moon'></i>"; }else{ if ($_COOKIE["color"] == "light"){ ?><i class="fas fa-sun"></i><?php }else{ ?><i class="fas fa-moon"></i><?php }  } ?></div>
         <script src="javascript/darkmode.js"></script>
     </div>
 </nav>

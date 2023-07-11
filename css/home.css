@@ -156,6 +156,9 @@ p.art-res{
     #home-tyro, #home-story, #home-french, #home-account, #home-service, #home-project, #home-collaboration {
         margin-bottom: 26px;
     }
+    #home-tyro div.container, #home-story div.container, #home-french div.container, #home-account div.container, #home-service div.container, #home-project div.container, #home-collaboration div.container {
+        max-width: 545px;
+    }
 
     .img-home{
         width: unset;

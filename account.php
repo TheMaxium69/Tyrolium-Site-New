@@ -893,11 +893,7 @@ Vos données et informations personnelles ne seront jamais divulguées ou vendue
                         </div>
                     <br>
     </section>
-        
-        
-        
-        
-        
+     
     </div>
 
         <br><br>

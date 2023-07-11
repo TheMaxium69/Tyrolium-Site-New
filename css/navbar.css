@@ -171,7 +171,6 @@
         left: -25px;
     }
 
-
 }
 
 .navbar-dark .navbar-toggler-icon {
@@ -203,5 +202,32 @@
 
     .btn-darkmode i{
         margin-right: unset;
+    }
+
+    .darkMobile{
+        display: unset;
+        position: absolute;
+        top: 12px;
+        right: 29px;
+    }
+    .darkDesktop{
+        display: none;
+    }
+
+}
+
+
+.navbar button:focus {
+    outline: unset!important;
+}
+
+@media(min-width: 992px){
+    
+
+    .darkMobile{
+        display: none;
+        position: unset;
+        top: unset;
+        right: unset;
     }
 }

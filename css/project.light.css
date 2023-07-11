@@ -8,6 +8,12 @@ body.light #projet li{
     color: white;
 }
 
+@media (max-width: 800px) {
+    body.light #projet li{
+        color: black;
+    }
+}
+
 /* body.light #projet .btn {
     background-color: rgb(13 14 52);
     color: white;

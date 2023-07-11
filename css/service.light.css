@@ -44,7 +44,16 @@ body.light .pricing-header {
 
 body.light .pricing-features-item {
     border-top: 1px solid #b5b5b5;
+    color: #363636;
 }
 body.light .pricing-features-item:last-child {
     border-bottom: 1px solid #b5b5b5;
+}
+
+body.light #service-solidserv div.container {
+    background-color: #e1e1e1;
+}
+
+body.light #service-solidserv-fleche::before {
+    border-color: transparent transparent #e1e1e1 transparent;
 }
