@@ -11,5 +11,6 @@ require_once "JQuery.phtml";
 require_once "GoogleAnalytics.phtml";
 require_once "GoogleReCAPTCHA.phtml";
 require_once "TypeWriterJS.phtml";
+require_once "SplideJS.phtml";
 
 ?>

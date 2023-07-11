@@ -34,6 +34,7 @@
                     url("'. $env_back[$i] .'");
                     background-size: cover;
                     background-position: center 35%;
+                    border-radius: 13px;
                 }';
                 echo '
                 body.light #projet ul li#a'. $i .'{
@@ -45,6 +46,8 @@
                     url("'. $env_back[$i] .'");
                     background-size: cover;
                     background-position: center 35%;
+                    border-radius: 13px;
+                    box-shadow: 0 2px 6px 0 rgba(136, 148, 171, 0.2), 0 24px 20px -24px rgba(71, 82, 107, 0.1);
                 }';
             }
             echo '} @media (max-width: 800px) {';
@@ -58,7 +61,8 @@
                                 #151515 30%
                         ),
                         url("'. $env_back[$i] .'");
-                        background-size: cover;';
+                        background-size: cover;
+                        border-radius: 13px;';
                 if ($i == 0){
                     echo 'background-position: center 300%;';
                 } else {
@@ -74,7 +78,9 @@
                                 #e1e1e1 30%
                         ),
                         url("'. $env_back[$i] .'");
-                        background-size: cover;';
+                        background-size: cover;
+                        border-radius: 13px;
+                        box-shadow: 0 2px 6px 0 rgba(136, 148, 171, 0.2), 0 24px 20px -24px rgba(71, 82, 107, 0.1);';
                 if ($i == 0){
                     echo 'background-position: center 300%;';
                 } else {

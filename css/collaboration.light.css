@@ -8,9 +8,18 @@ body.light #partenaire img{
 }
 
 body.light .our-team {
-    background-color: #e1e1e1;
+    background-color: white;
+    box-shadow: 0 2px 6px 0 rgba(136, 148, 171, 0.2), 0 24px 20px -24px rgba(71, 82, 107, 0.1);
+}
+body.light #section-fondateur .our-team{
+    box-shadow: unset;
 }
 
 body.light #section-fondateur div.container {
-    background-color: #e1e1e1;
+    background-color: white;
+    box-shadow: 0 2px 6px 0 rgba(136, 148, 171, 0.2), 0 24px 20px -24px rgba(71, 82, 107, 0.1);
+}
+
+body.light #section-fondateur div.container div.container {
+    box-shadow: unset;
 }

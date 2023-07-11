@@ -1,7 +1,8 @@
 body.light .site-footer
 {
-    background-color:#e1e1e1;
+    background-color:white;
     color: #2a2a2a;
+    box-shadow: 0 2px 6px 0 rgba(136, 148, 171, 0.2), 0 24px 20px -24px rgba(71, 82, 107, 0.1);
 }
 body.light .site-footer hr
 {
@@ -19,7 +20,7 @@ body.light .footer-links a:active,body.light .footer-links a:focus,body.light .f
 
 body.light .site-footer .social-icons a
 {
-    background-color:white;
+    background-color:#f3f6fd;
 }
 
 body.light  .social-icons a.facebook:hover

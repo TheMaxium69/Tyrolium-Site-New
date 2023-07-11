@@ -82,6 +82,7 @@
                     <small>- Google Front</small><br>
                     <small>- iziToast</small><br>
                     <small>- TypeWriterJS</small><br>
+                    <small>- SplideJS-2.3.1</small><br>
                     <p class="no-p">Extentions</p>
                     <small>- Google Analytics</small><br>
                     <small>- Google reCAPTCHA</small><br>

@@ -100,7 +100,7 @@ main#story h1 {
     position: relative;
     width: 45%;
     padding: 10px 30px;
-    border-radius: 6px;
+    border-radius: 12px;
     background: #8d8c8c;
     box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
 }
@@ -198,6 +198,7 @@ blockquote {
     top: 0;
     right: 0;
     text-transform: uppercase;
+    border-radius: 12px;
 }
 
 @media screen and (max-width: 768px) {

@@ -9,9 +9,11 @@
         <br>
     </section>
 
-
+    <div id="no-container">
     <section id="partenaire" class="container">
         
+    <!-- Desktop -->
+    <div class="part-desktop">
         <div class="row">
             <div class="col">
                 <a target="_bank" href="https://www.lafrenchtech-onelse.com/" title="French Tech One Lyon St-Étienne">
@@ -44,24 +46,203 @@
             </div>
             
         </div>
-        
-        <div class="row">
+    </div>
+        <!-- Mobile -->
+        <div class="part-mobile">
+                <style>
+
+
+            .splide__slide img {
+                width: 150px;
+                border-radius: 33px;
+            }
+
+
+            .splide__slide {
+            min-height: 2px;
+            text-align: center;
+            }
+
+            .splide__pagination {
+                position: relative;
+                z-index: 1;
+                /* bottom: 0.5em; */
+                left: 50%;
+                transform: translateX(-50%);
+                padding: 0;
+                top: 10px;
+            }
+
+            .splide__arrows{
+                display: none;
+            }
+
+            #splide-track{
+                padding-top: 22px;
+                padding-bottom: 19px;
+            }
+
+            </style>
+
+                <div id="splide">
+
+                        <div class="splide__track" id="splide-track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">
+                                    <a target="_bank" href="https://www.lafrenchtech-onelse.com/" title="French Tech One Lyon St-Étienne">
+                                        <img src="<?php echo $env_assets; ?>part/frenchtechlyon.png" alt="frenchtech">
+                                    </a>
+                                </li>
+                                
+                                <li class="splide__slide">
+                                    <a target="_bank" href="https://www.auvergnerhonealpes.fr/" title="La Region Auvergne-Rhône-Alpes">
+                                        <img src="<?php echo $env_assets; ?>part/auvergne-Rhone-Alphes.png" alt="Auvergne-Rhône-Alphes">
+                                    </a>
+                                </li>
+                                        
+                                <li class="splide__slide">
+                                    <a target="_bank" href="https://www.grandest.fr/" title="La Region Grand Est">
+                                        <img src="<?php echo $env_assets; ?>part/grandest.png" alt="Grand Est">
+                                    </a>
+                                </li>
+                                
+                                <li class="splide__slide">
+                                    <a target="_bank" href="https://www.linkedin.com/company/g%C3%A9n%C3%A9ration-ium/" title="Génératium IUM">
+                                        <img src="<?php echo $env_assets; ?>part/Generatium-ium.png" alt="generatium-ium">
+                                    </a>
+                                </li>
+
+                                <li class="splide__slide">
+                                    <a target="_bank" href="https://batirpositif.com" title="Bâtir Positif - Ingénierie Responsable">
+                                        <img src="<?php echo $env_assets; ?>part/bt.jpg" alt="batirpositif">
+                                    </a>
+                                </li>
+                        
+                        
+                            </ul> <!-- /.splide__list -->
+                        </div> <!-- /.splide__track -->
+                </div> <!-- /.splide -->
+
+
+            <!-- 885 -->
+            <script src='https://cdn.jsdelivr.net/npm/@splidejs/splide@2.3.1/dist/js/splide.min.js'></script>
+            <script>
+
+            // SplideJS Slider. See full docs at:
+            // https://splidejs.com/
+            document.addEventListener('DOMContentLoaded', function () {
+            var splide = new Splide('#splide', {
+                type         : 'loop',
+                autoplay     : true,
+                interval     : 1800,
+                focus        : 'center',
+                pagination   : false,
+                arrow        : false,
+                fixedWidth   : 173
+            });
 
             
-            
+            splide.mount();
+
+            });
+
+
+
+            </script>
         </div>
+
+        <style>
+
+
+/* 885 */
+
+@media(max-width: 885px){
+    
+
+    .part-desktop{
+        display: none;
+    }
+
+    .sponso-desktop{
+        display: none;
+    }
+    
+    #no-container .container {
+        max-width: unset;
+        margin-left: unset;
+        margin-right: unset;
+        padding-right: unset;
+        padding-left: unset;
+        width: unset;
+    }
+
+    #section-fondateur .container{
+
+        width: 100%;
+
+    }
+    
+    #section-fondateur .radiusMobile{
+            
+        border-radius: 10px!important;
+
+    }
+
+    #section-fondateur .col-6{
+
+        min-width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+
+    }
+
+    #section-fondateur .col-5{
+        min-width: 100%;
+        margin-bottom: 29px;
+        font-size: 14px;
+    }
+
+    #section-fondateur .mobileDesac{
+        display: none!important;
+    }
+
+
+}
+
+
+
+@media(min-width: 886px){
+    
+    .part-mobile{
+        display: none;
+    }
+    .sponso-mobile{
+        display: none;
+    }
+
+}
+
+
+
+</style>
+
+
+
+
+
+
+
         <br>
         <section id="service-start-but">
         <?php tyrobtn("contact.php?partenaire=true", "devpart", "Devenir notre Partenaire");?>
         </section>
         <br>
     </section>
-
-
+</div>
 
 
     <br>
-    <hr class="container" style="background: rgba(161,161,161,0.6);">
+    <hr class="" style="background: rgba(161,161,161,0.6);">
 
 
 
@@ -77,7 +258,7 @@
         <div class="container">
 
             <section id="section-fondateur"> 
-                <div class="container row">
+                <div class="container row radiusMobile">
                     <div class="col-6" style="text-align: center;">    
                             
                             <div class="">
@@ -97,8 +278,8 @@
                                             <li><a href="https://www.tiktok.com/@themaximesan" class="fab fa-tiktok" aria-hidden="true"></a></li>
                                             <li><a href="https://www.youtube.com/@TheMaximeSan/" class="fab fa-youtube" aria-hidden="true"></a></li>
                                             <li><a href="https://twitter.com/MaximeTournier2/" class="fab fa-twitter" aria-hidden="true"></a></li>
-                                            <li><a href="https://twitch.tv/TheMaximeSan" class="fab fa-twitch" aria-hidden="true"></a></li>
-                                            <li><a href="https://www.facebook.com/maxime.tournier.73" class="fab fa-facebook" aria-hidden="true"></a></li>
+                                            <li class="mobileDesac"><a href="https://twitch.tv/TheMaximeSan" class="fab fa-twitch" aria-hidden="true"></a></li>
+                                            <li class="mobileDesac"><a href="https://www.facebook.com/maxime.tournier.73" class="fab fa-facebook" aria-hidden="true"></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -207,7 +388,7 @@
 
 
     <br>
-    <hr class="container" style="background: rgba(161,161,161,0.6);">
+    <hr class="" style="background: rgba(161,161,161,0.6);">
     
 
     <section id="projet" class="container">
@@ -217,9 +398,12 @@
         <br>
     </section>
 
-
+<div id="no-container">
     <section id="partenaire" class="container" style="
-    padding-bottom: 30px;">
+    padding-bottom: 75px;">
+
+    <!-- desktop -->
+<div class="sponso-desktop">
         
         <div class="row">
             
@@ -260,9 +444,90 @@
             </div>
             
         </div>
+</div>
+<!-- mobile -->
+<div class="sponso-mobile">
 
+
+<div id="splide2">
+
+                        <div class="splide__track" id="splide-track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">
+                                    <a target="_bank" href="https://www.twitch.tv/auroretvv" title="AuroreTVv">
+                                        <img src="<?php echo $env_assets; ?>part/AuroreTVv.jpg" alt="AuroreTVv">
+                                    </a>
+                                </li>
+                                
+                                <li class="splide__slide">
+                                    <a target="_bank" href="https://www.twitch.tv/doublet_creator" title="DoubleT">
+                                        <img src="<?php echo $env_assets; ?>part/DoubleT.png" alt="DoubleT">
+                                    </a>
+                                </li>
+                                        
+                                <li class="splide__slide">
+                                    <a target="_bank" href="https://youtube.com/c/Eroniage" title="Eroniage">
+                                        <img src="<?php echo $env_assets; ?>part/Eroniage.png" alt="Eroniage">
+                                    </a>
+                                </li>
+                                
+                                <li class="splide__slide">
+                                    <a target="_bank" href="https://www.linkedin.com/company/maxime-serveur/" title="Maxime/SERVEUR">
+                                        <img src="<?php echo $env_assets; ?>part/Maxime-SERVEUR.jpg" alt="maxime-serveur">
+                                    </a>
+                                </li>
+
+                                <li class="splide__slide">
+                                    <a target="_bank" href="https://www.linkedin.com/company/maxime-minecraft/" title="Maxime/MINECRAFT">
+                                        <img src="<?php echo $env_assets; ?>part/Maxime-MINECRAFT.png" alt="maxime-minecraft">
+                                    </a>
+                                </li>
+                        
+                        
+                            </ul> <!-- /.splide__list -->
+                        </div> <!-- /.splide__track -->
+                </div> <!-- /.splide -->
+
+
+            <script>
+
+            // SplideJS Slider. See full docs at:
+            // https://splidejs.com/
+            document.addEventListener('DOMContentLoaded', function () {
+            var splide = new Splide('#splide2', {
+                type         : 'loop',
+                autoplay     : true,
+                interval     : 1800,
+                focus        : 'center',
+                pagination   : false,
+                arrow        : false,
+                fixedWidth   : 173
+            });
+
+            
+            splide.mount();
+
+            });
+
+
+
+            </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
     </section>
-    
+        </div>    
     <!-- <br>
     <hr class="container" style="background: rgba(161,161,161,0.6);">
 

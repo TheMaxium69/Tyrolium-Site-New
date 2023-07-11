@@ -7,7 +7,8 @@ body.light .navbar-logo:hover{
 }
 
 body.light .navbar-mainbg{
-    background-color: #e1e1e1;
+    background-color: white;
+    box-shadow: 0 2px 6px 0 rgba(136, 148, 171, 0.2), 0 24px 20px -24px rgba(71, 82, 107, 0.1);
 }
 
 body.light #navbarSupportedContent ul li a{
@@ -19,17 +20,17 @@ body.light #navbarSupportedContent>ul>li.active>a{
 }
 
 body.light .hori-selector{
-    background-color: white;
+    background-color: #f3f6fd;
 }
 
 body.light .hori-selector .right,
 body.light .hori-selector .left{
-    background-color: white;
+    background-color: #f3f6fd;
 }
 
 body.light .hori-selector .right:before,
 body.light .hori-selector .left:before{
-    background-color: #e1e1e1;
+    background-color: white;
 }
 
 body.light .navbar-dark .navbar-toggler-icon {
@@ -38,6 +39,6 @@ body.light .navbar-dark .navbar-toggler-icon {
 
 @media (max-width: 991px) {
     body.light .btn-darkmode{
-        background: #e1e1e1;
+        background: white;
     }
 }
