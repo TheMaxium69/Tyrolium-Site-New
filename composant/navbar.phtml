@@ -119,3 +119,51 @@ for ($i = 0; $i <= $nbBack-1; $i++) {
             });
         }
 </script> <?php } ?>
+
+<?php if ($env_isEvent_TyroServ) { ?>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://unpkg.com/izitoast/dist/js/iziToast.min.js'></script>
+
+<script>
+        iziToast.settings({
+            timeout: 3000,
+            resetOnHover: true,
+            transitionIn: 'flipInX',
+            transitionOut: 'flipOutX',
+            position: 'topRight',
+            onOpen: function () {
+                console.log('callback abriu!');
+            },
+            onClose: function () {
+                console.log("callback fechou!");
+            }
+        });
+
+        if(Text != 1){
+            iziToast.info({
+                title: 'TYROSERV !',
+                theme: 'light',
+
+                iconUrl: 'https://tyrolium.fr/Contenu/Image/Tyrolium%20ServerMC%20Sword%203D.png',
+
+                backgroundColor: '#41b841',
+
+                timeout: 20000,
+
+                position: 'bottomCenter',
+                message: ' TyroServ, notre projet Minecraft, a lancé une nouvelle saison.<br> Pour jouer, rendez-vous sur son site. <a target="_blank" href="https://tyroserv.fr" style="text-decoration: underline">Site de TyroServ</a>'
+            });
+        }
+</script> 
+<style>
+
+
+.iziToast-title{
+
+    margin-top: 8px!important;
+
+}
+
+</style>
+
+<?php } ?>
