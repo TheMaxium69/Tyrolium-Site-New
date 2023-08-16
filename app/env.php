@@ -11,7 +11,7 @@ $env_isEvent_year2023 = false;
 $env_isAnimProject = true;
 $env_isUseritium = true;
 $env_isMultilang = false;
-$env_isEvent_TyroServ = true;
+$env_isEvent_TyroServ = false;
 
 $env_url = "https://tyrolium.fr";
 
