@@ -38,8 +38,9 @@ if ($APP_ENV == "PROD"){
     $env_connectUrl = "https://tyrolium.fr/";
 
 } else if ($APP_ENV == "DEV"){
-    include "E:/LocalHost/reCAPTCHA.php";
-    
+    include "C:/users/mxmto/Developpement/LocalHost/reCAPTCHA.php";
+//    include "E:/LocalHost/reCAPTCHA.php";
+
     $env_bd_contact = "api/get.php";
     
     $env_captcha_clientid = $Localhost_ClientID;
