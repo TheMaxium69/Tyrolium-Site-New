@@ -123,10 +123,65 @@ $env_perso = array(
         "tiktok" => "https://www.tiktok.com/@eroniage_",
     ),
 
-    array("name" => "Lola Dutouquet",
-        "role" => "Rédactrice,<br> Linguiste",
-        "icon" => "Lola_Dutouquet.jpg",
-        "instagram" => "https://www.instagram.com/l_o._.la/",
+    array("name" => "Mathis Dubief",
+        "role" => "Journaliste Jeux Vidéo,<br> Modérateur",
+        "icon" => "Mathis_Dubief.jpg",
+        "instagram" => "https://www.instagram.com/m2k_hide.chr/",
+        "twitter" => "https://twitter.com/Mathis45920873",
+    ),
+
+    array("name" => "Flavien Dechoz",
+        "role" => "Support Technique,<br> Modérateur ",
+        "icon" => "Flavien_Dechoz.jpg",
+        "twitter" => "https://twitter.com/flavien_dechoz",
+        "instagram" => "https://www.instagram.com/flaviendechoz/",
+        "youtube" => "https://www.youtube.com/channel/UCx-qCuv3FRGKbls2UckYkcQ",
+        "facebook" => "https://www.facebook.com/flavien.dechoz69",
+    ),
+
+    array("name" => "Kevin Muziak",
+        "role" => "Développeur Web",
+        "icon" => "Kevin_Muziak.jpg",
+        "linkedin" => "https://www.linkedin.com/in/kevin-muziak/",
+        "github" => "https://github.com/Threonaum",
+    ),
+
+    array("name" => "Clément Charrassier",
+        "role" => "Développeur Web",
+        "icon" => "Clément_Charrassier.jpg",
+        "linkedin" => "https://www.linkedin.com/in/cl%C3%A9ment-charrassier-51606027b/",
+        "github" => "https://github.com/ClemCH2R2SR",
+    ),
+
+    array("name" => "Marilyne Naili",
+        "role" => "Développeur Web",
+        "icon" => "Marilyne_Naili.jpg",
+        "linkedin" => "https://www.linkedin.com/in/marilyne-naili-95005b159/",
+        "github" => "https://github.com/marilyne69230",
+    ),
+
+    array("name" => "Elias Poder",
+        "role" => "Développeur Web",
+        "icon" => "Elias_Poder.jpg",
+        "linkedin" => "https://www.linkedin.com/in/elias-poder",
+        "github" => "https://github.com/elPodemos",
+    ),
+
+
+
+
+    array("name" => "Delphine Rodriguez",
+        "role" => "Développeuse Web",
+        "icon" => "Delphine_Rodriguez.jpg",
+        "linkedin" => "https://www.linkedin.com/in/delphine-rodriguez/",
+        "github" => "https://github.com/delphine38",
+    ),
+
+    array("name" => "Luigi Guyot",
+        "role" => "UX/UI Designer,<br> Modérateur",
+        "icon" => "Luigi_Guyot.jpg",
+        "linkedin" => "https://www.linkedin.com/in/luigi-guyot-56aa9722b/",
+
     ),
 
     array("name" => "Ren LIM",
@@ -135,19 +190,17 @@ $env_perso = array(
         "tiktok" => "https://www.tiktok.com/@ren.justme?lang=fr",
     ),
 
-    array("name" => "Mathis Dubief",
-        "role" => "Journaliste Jeux Vidéo,<br> Modérateur",
-        "icon" => "Mathis_Dubief.jpg",
-        "instagram" => "https://www.instagram.com/m2k_hide.chr/",
-        "twitter" => "https://twitter.com/Mathis45920873",
+    array("name" => "Lola Dutouquet",
+        "role" => "Rédactrice,<br> Linguiste",
+        "icon" => "Lola_Dutouquet.jpg",
+        "instagram" => "https://www.instagram.com/l_o._.la/",
     ),
+
+
+
+
     
-    array("name" => "Delphine Rodriguez",
-        "role" => "Développeuse Web",
-        "icon" => "Delphine_Rodriguez.jpg",
-        "linkedin" => "https://www.linkedin.com/in/delphine-rodriguez/",
-        "github" => "https://github.com/delphine38",
-    ),
+
 
     /*array("name" => "Maxime Grandidier",
         "role" => "Développeuse Web",
@@ -162,22 +215,9 @@ $env_perso = array(
     ),*/
     
        
-    array("name" => "Luigi Guyot",
-        "role" => "UX/UI Designer,<br> Modérateur",
-        "icon" => "Luigi_Guyot.jpg",
-        "linkedin" => "https://www.linkedin.com/in/luigi-guyot-56aa9722b/",
-
-    ),
 
 
-    array("name" => "Flavien Dechoz",
-        "role" => "Support Technique,<br> Modérateur ",
-        "icon" => "Flavien_Dechoz.jpg",
-        "twitter" => "https://twitter.com/flavien_dechoz",
-        "instagram" => "https://www.instagram.com/flaviendechoz/",
-        "youtube" => "https://www.youtube.com/channel/UCx-qCuv3FRGKbls2UckYkcQ",
-        "facebook" => "https://www.facebook.com/flavien.dechoz69",
-    ),
+
 
     
     
@@ -231,23 +271,7 @@ $env_perso = array(
         "instagram" => "https://www.instagram.com/angelique.hrd/",
     ),*/
 
-    array(
-        "vide" => true,
-    ),
 
-    array("name" => "Kevin Muziak",
-        "role" => "Développeur Web",
-        "icon" => "Kevin_Muziak.jpg",
-        "linkedin" => "https://www.linkedin.com/in/kevin-muziak/",
-        "github" => "https://github.com/Threonaum",
-    ),
-    
-    array("name" => "Clément Charrassier",
-        "role" => "Développeur Web",
-        "icon" => "Clément_Charrassier.jpg",
-        "linkedin" => "https://www.linkedin.com/in/cl%C3%A9ment-charrassier-51606027b/",
-        "github" => "https://github.com/ClemCH2R2SR",
-    ),
 
    
 
