@@ -95,16 +95,7 @@ $env_perso = array(
     
 
     
-    /*array("name" => "Maewan Marthelot",
-        "role" => "Responsable Projet,<br> Graphiste, Monteur-Vidéo",
-        "icon" => "Maewan_Marthelot.jpg",
-        "instagram" => "https://www.instagram.com/maewanm/",
-        "youtube" => "https://www.youtube.com/c/MA3WAN",
-        "linkedin" => "https://www.linkedin.com/in/ma%C3%ABwan-marthelot-01744b203",
-        "behance" => "https://www.behance.net/mawanmarthelot"
 
-    ),*/
-    
     
     array("name" => "Pierre-Louis Devaud",
         "role" => "Responsable Projet,<br> Conseiller Technique",
@@ -112,6 +103,16 @@ $env_perso = array(
         "instagram" => "https://www.instagram.com/pl_dev54/",
         "twitch" => "https://www.twitch.tv/piplextv",
         "linkedin" => "https://www.linkedin.com/in/pierre-louis-devaud-574035236/"
+    ),
+
+    array("name" => "Maewan Marthelot",
+        "role" => "Responsable Communication,<br> Graphiste",
+        "icon" => "Maewan_Marthelot.jpg",
+        "instagram" => "https://www.instagram.com/maewanm/",
+        "youtube" => "https://www.youtube.com/c/MA3WAN",
+        "linkedin" => "https://www.linkedin.com/in/ma%C3%ABwan-marthelot-01744b203",
+        "behance" => "https://www.behance.net/mawanmarthelot"
+
     ),
 
     array("name" => "Daniel Taniou",
@@ -128,15 +129,6 @@ $env_perso = array(
         "icon" => "Mathis_Dubief.jpg",
         "instagram" => "https://www.instagram.com/m2k_hide.chr/",
         "twitter" => "https://twitter.com/Mathis45920873",
-    ),
-
-    array("name" => "Flavien Dechoz",
-        "role" => "Support Technique,<br> Modérateur ",
-        "icon" => "Flavien_Dechoz.jpg",
-        "twitter" => "https://twitter.com/flavien_dechoz",
-        "instagram" => "https://www.instagram.com/flaviendechoz/",
-        "youtube" => "https://www.youtube.com/channel/UCx-qCuv3FRGKbls2UckYkcQ",
-        "facebook" => "https://www.facebook.com/flavien.dechoz69",
     ),
 
     array("name" => "Kevin Muziak",
@@ -196,7 +188,14 @@ $env_perso = array(
         "instagram" => "https://www.instagram.com/l_o._.la/",
     ),
 
-
+    array("name" => "Flavien Dechoz",
+        "role" => "Support Technique,<br> Modérateur ",
+        "icon" => "Flavien_Dechoz.jpg",
+        "twitter" => "https://twitter.com/flavien_dechoz",
+        "instagram" => "https://www.instagram.com/flaviendechoz/",
+        "youtube" => "https://www.youtube.com/channel/UCx-qCuv3FRGKbls2UckYkcQ",
+        "facebook" => "https://www.facebook.com/flavien.dechoz69",
+    ),
 
 
     
