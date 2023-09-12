@@ -159,6 +159,11 @@ $env_perso = array(
         "github" => "https://github.com/elPodemos",
     ),
 
+    array("name" => "Yanis Derouiche",
+        "role" => "Développeur Web",
+        "icon" => "Yanis_Derouiche.jpg",
+        "linkedin" => "https://www.linkedin.com/in/yanis-derouiche/",
+    ),
 
 
 
@@ -180,6 +185,10 @@ $env_perso = array(
         "role" => "Graphiste,<br> Monteur-Vidéo",
         "icon" => "Ren_Lim.jpg",
         "tiktok" => "https://www.tiktok.com/@ren.justme?lang=fr",
+    ),
+
+    array(
+        "vide" => true,
     ),
 
     array("name" => "Lola Dutouquet",
