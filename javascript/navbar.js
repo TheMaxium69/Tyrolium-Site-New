@@ -9,7 +9,7 @@ function onglet(){
     $(".hori-selector").css({
         "top":itemPosNewAnimTop.top + "px",
         "left":itemPosNewAnimLeft.left + "px",
-        "height": activeWidthNewAnimHeight + "px",
+        "height": activeWidthNewAnimHeight-10 + "px",
         "width": activeWidthNewAnimWidth + "px"
     });
 }

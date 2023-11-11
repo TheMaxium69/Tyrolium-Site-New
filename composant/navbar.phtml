@@ -1,6 +1,7 @@
 <nav class="navbar navbar-expand-custom navbar-mainbg navbar-dark fixed-top">
-    <img style="margin-left: 20px" src="http://tyrolium.fr/Contenu/Image/<?php if ($env_isEvent_5Year) { echo "Tyrolium5Year Site.png"; } else { echo "Tyrolium Site.png"; } ?>" alt="TyroliumLogo" width="40px" class="d-inline-block align-text-top nav-anim">
-    <a class="navbar-brand navbar-logo" href="javascript:redirect(1)">Tyrolium <?php if($env_isEvent_5Year){?><span class="badge badge-warning">6 ans !</span><?php } ?> <?php if($env_isEvent_Noel2022){?> <span class="badge badge-danger">Joyeux Noël !</span><?php } ?>  <?php if($env_isEvent_year2023){?> <span class="badge badge-success">Bonne Année 2023 !</span><?php } ?></a>
+        <img style="z-index: 10000; margin-left: 20px" src="http://tyrolium.fr/Contenu/Image/<?php if ($env_isEvent_5Year) { echo "Tyrolium5Year Site.png"; } else { echo "Tyrolium Site.png"; } ?>" alt="TyroliumLogo" width="40px" class="d-inline-block align-text-top nav-anim">
+        <a style="z-index: 10000;" class="navbar-brand navbar-logo" href="javascript:redirect(1)">Tyrolium <?php if($env_isEvent_5Year){?><span class="badge badge-warning">6 ans !</span><?php } ?> <?php if($env_isEvent_Noel2022){?> <span class="badge badge-danger">Joyeux Noël !</span><?php } ?>  <?php if($env_isEvent_year2023){?> <span class="badge badge-success">Bonne Année 2023 !</span><?php } ?></a>
+
     <div>
         <div class="darkMobile btn-darkmode btn-darkmode1"><?php if (empty($_COOKIE["color"])){ echo "<i class='fas fa-moon'></i>"; }else{ if ($_COOKIE["color"] == "light"){ ?><i class="fas fa-sun"></i><?php }else{ ?><i class="fas fa-moon"></i><?php }  } ?></div>
         
@@ -30,15 +31,79 @@ for ($i = 0; $i <= $nbBack-1; $i++) {
 
     } else if ($env_isAccount == true) {
 
+        if ($j == 3){
+
+            //TEST PARTI PRESTATION
+            echo '<li class="nav-item" onmouseover="showDropdown()" onmouseout="hideDropdown()">        
+                      <a class="nav-link" href="javascript:redirect('. $j .');"><i class="'. $env_page_logo[$i] .'"></i>'. $lang['page'][$i] .'</a>
+                     <div class="dropdown-content">
+                        <p>TEST</p>
+                    </div>
+                  </li>';
+
+
+
+            ?>
+
+
+                <style>
+
+                    /* Style de base pour le menu déroulant (caché initialement) */
+                    .dropdown-content {
+                        display: none;
+                        position: absolute;
+                        background-color: #26272b;
+                        min-width: 160px;
+                        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+                        z-index: 1;
+                    }
+
+                    /* Style pour les éléments du menu déroulant */
+                    .dropdown-content a {
+                        color: black;
+                        padding: 12px 16px;
+                        text-decoration: none;
+                        display: block;
+                    }
+
+                    /* Style pour le survol des éléments du menu déroulant */
+                    .dropdown-content a:hover {
+                        background-color: #f1f1f1;
+                    }
+
+                </style>
+
+            <script>
+                function showDropdown() {
+                    document.querySelector('.dropdown-content').style.display = 'block';
+                }
+
+                function hideDropdown() {
+                    document.querySelector('.dropdown-content').style.display = 'none';
+                }
+            </script>
+
+
+
+
+
+
+            <?php
+
+
+        } else {
             if ($j == $page){
-                echo '<li class="nav-item active">
-                              <a class="nav-link active" href="javascript:void(0);"><i class="'. $env_page_logo[$i] .'"></i>'. $lang['page'][$i] .'</a>
-                          </li>';
+
+                    echo '<li class="nav-item active">
+                                  <a class="nav-link active" href="javascript:void(0);"><i class="'. $env_page_logo[$i] .'"></i>'. $lang['page'][$i] .'</a>
+                              </li>';
+
             } else {
                 echo '<li class="nav-item">
                               <a class="nav-link" href="javascript:redirect('. $j .');"><i class="'. $env_page_logo[$i] .'"></i>'. $lang['page'][$i] .'</a>
                           </li>';
             }
+        }
     }
 
 }?>

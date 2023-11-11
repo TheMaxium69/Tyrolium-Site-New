@@ -21,12 +21,13 @@
 }
 .navbar-mainbg{
     background-color: #26272b;
+    /*background-color: red;*/
     padding: 0px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 #navbarSupportedContent{
-    overflow: hidden;
+    /*overflow: hidden;*/
     position: relative;
 }
 #navbarSupportedContent ul{
@@ -55,19 +56,19 @@
     background-color: transparent;
     transition: all 0.7s;
 }
-#navbarSupportedContent a:not(:only-child):after {
-    content: "\f105";
-    position: absolute;
-    right: 20px;
-    top: 10px;
-    font-size: 14px;
-    font-family: "Font Awesome 5 Free";
-    display: inline-block;
-    padding-right: 3px;
-    vertical-align: middle;
-    font-weight: 900;
-    transition: 0.5s;
-}
+/*#navbarSupportedContent a:not(:only-child):after {*/
+/*    content: "\f105";*/
+/*    position: absolute;*/
+/*    right: 4px;*/
+/*    top: 23px;*/
+/*    font-size: 14px;*/
+/*    font-family: "Font Awesome 5 Free";*/
+/*    display: inline-block;*/
+/*    padding-right: 3px;*/
+/*    vertical-align: middle;*/
+/*    font-weight: 900;*/
+/*    transition: 0.5s;*/
+/*}*/
 #navbarSupportedContent .active>a:not(:only-child):after {
     transform: rotate(90deg);
 }
@@ -75,8 +76,8 @@
     display:inline-block;
     position:absolute;
     height: 100%;
-    top: 0px;
-    left: 0px;
+    top: -11px;
+    left: -40px;
     transition-duration:0.6s;
     transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
     background-color: #131313;
@@ -90,7 +91,7 @@
     width: 25px;
     height: 25px;
     background-color: #131313;
-    bottom: 10px;
+    bottom: 0px;
 }
 .hori-selector .right{
     right: -25px;
