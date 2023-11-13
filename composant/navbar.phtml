@@ -37,7 +37,18 @@ for ($i = 0; $i <= $nbBack-1; $i++) {
             echo '<li class="nav-item" onmouseover="showDropdown()" onmouseout="hideDropdown()">        
                       <a class="nav-link" href="javascript:redirect('. $j .');"><i class="'. $env_page_logo[$i] .'"></i>'. $lang['page'][$i] .'</a>
                      <div class="dropdown-content">
-                        <p>TEST</p>
+                        
+                        <hr>
+                        <h2><i class="fas fa-globe"></i> Site Web </h2>
+                        <h2><i class="fas fa-server"></i> Serveur  <small>Par notre filaire SolidServ <img src="https://tyrolium.fr/Contenu/Image/SolidServ%20Site.png" alt="solidserv logo"></small> </h2>
+                        <h2><img class="mc-icone" src="https://www.pngall.com/wp-content/uploads/13/Minecraft-Logo-PNG-Image.png" alt="Minecraft Icone"> Minecraft </h2>
+                        <h2><i class="fas fa-film"></i> Montage & Vidéo <small>Par notre partenaire 49volts <img style="margin-top: -5px;" src="assets/part/49volts Site.png" alt="49volts logo"></small> </h2>
+                        
+                        
+                        
+                        
+                        
+                        
                     </div>
                   </li>';
 
@@ -50,12 +61,47 @@ for ($i = 0; $i <= $nbBack-1; $i++) {
 
                     /* Style de base pour le menu déroulant (caché initialement) */
                     .dropdown-content {
+                        border-bottom-left-radius: 10px;
+                        border-bottom-right-radius: 10px;
                         display: none;
                         position: absolute;
                         background-color: #26272b;
                         min-width: 160px;
-                        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+                        /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);*/
                         z-index: 1;
+                        padding: 20px
+                    }
+
+                    .dropdown-content hr{
+                        margin-top: -10px;
+                        background: white;
+                    }
+                    .dropdown-content .mc-icone{
+                        width: 26px;
+                        filter: ();
+                        filter: invert(1);
+                        margin-left: -3px;
+                        margin-top: -5px;
+                        margin-right: 7px;
+
+                        opacity: unset!important;
+                        animation: unset!important;
+                        transform: unset!important;
+                    }
+
+                    .dropdown-content h2{
+                        margin-bottom: 10px;
+                    }
+                    .dropdown-content small{
+                        margin-left: 10px;
+                        font-size: 10px;
+                        text-align: end;
+                    }
+                    .dropdown-content small img{
+                        width: 20px;
+                        opacity: unset!important;
+                        animation: unset!important;
+                        transform: unset!important;
                     }
 
                     /* Style pour les éléments du menu déroulant */
