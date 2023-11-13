@@ -34,15 +34,19 @@ for ($i = 0; $i <= $nbBack-1; $i++) {
         if ($j == 3){
 
             //TEST PARTI PRESTATION
-            echo '<li class="nav-item" onmouseover="showDropdown()" onmouseout="hideDropdown()">        
-                      <a class="nav-link" href="javascript:redirect('. $j .');"><i class="'. $env_page_logo[$i] .'"></i>'. $lang['page'][$i] .'</a>
+            if ($j == $page){
+                echo '<li class="nav-item active"  onmouseover="showDropdown()" onmouseout="hideDropdown()">   ';
+            } else {
+                echo '<li class="nav-item"  onmouseover="showDropdown()" onmouseout="hideDropdown()">   ';
+            }
+            echo '    <a class="nav-link" href="javascript:redirect('. $j .');"><i class="'. $env_page_logo[$i] .'"></i>'. $lang['page'][$i] .'</a>
                      <div class="dropdown-content">
                         
                         <hr>
-                        <h2><i class="fas fa-globe"></i> Site Web </h2>
-                        <h2><i class="fas fa-server"></i> Serveur  <small>Par notre filaire SolidServ <img src="https://tyrolium.fr/Contenu/Image/SolidServ%20Site.png" alt="solidserv logo"></small> </h2>
-                        <h2><img class="mc-icone" src="https://www.pngall.com/wp-content/uploads/13/Minecraft-Logo-PNG-Image.png" alt="Minecraft Icone"> Minecraft </h2>
-                        <h2><i class="fas fa-film"></i> Montage & Vidéo <small>Par notre partenaire 49volts <img style="margin-top: -5px;" src="assets/part/49volts Site.png" alt="49volts logo"></small> </h2>
+                        <h2><i class="fas fa-globe"></i> <span>Site Web</span> </h2>
+                        <h2><i class="fas fa-server"></i> <span>Serveur</span>  <small>Par notre filaire SolidServ <img src="https://tyrolium.fr/Contenu/Image/SolidServ%20Site.png" alt="solidserv logo"></small> </h2>
+                        <h2><img class="mc-icone" src="https://www.pngall.com/wp-content/uploads/13/Minecraft-Logo-PNG-Image.png" alt="Minecraft Icone"> <span>Minecraft</span> </h2>
+                        <h2><i class="fas fa-film"></i> <span>Montage & Vidéo</span> <small>Par notre partenaire 49 Volts <img style="margin-top: -5px;" src="assets/part/49volts Site.png" alt="49volts logo"></small> </h2>
                         
                         
                         
@@ -91,6 +95,9 @@ for ($i = 0; $i <= $nbBack-1; $i++) {
 
                     .dropdown-content h2{
                         margin-bottom: 10px;
+                    }
+                    .dropdown-content span:hover{
+                        text-decoration: underline;
                     }
                     .dropdown-content small{
                         margin-left: 10px;
