@@ -78,7 +78,8 @@ $env_back = array (
     $env_urlImage . "Background20.jpg",
     $env_urlImage . "Background4",
     $env_urlImage . "Background22",
-    $env_urlImage . "Background11.png"
+    $env_urlImage . "Background11.png",
+    $env_urlImage . "Background24.png"
 );
 
 $env_perso = array(
@@ -105,7 +106,7 @@ $env_perso = array(
         "linkedin" => "https://www.linkedin.com/in/pierre-louis-devaud-574035236/"
     ),
 
-    array("name" => "Maewan Marthelot",
+    /*array("name" => "Maewan Marthelot",
         "role" => "Responsable Communication,<br> Graphiste",
         "icon" => "Maewan_Marthelot.jpg",
         "instagram" => "https://www.instagram.com/maewanm/",
@@ -113,7 +114,7 @@ $env_perso = array(
         "linkedin" => "https://www.linkedin.com/in/ma%C3%ABwan-marthelot-01744b203",
         "behance" => "https://www.behance.net/mawanmarthelot"
 
-    ),
+    ),*/
 
     array("name" => "Daniel Taniou",
         "role" => "Graphiste, Modérateur,<br> Linguiste",
@@ -159,11 +160,11 @@ $env_perso = array(
         "github" => "https://github.com/elPodemos",
     ),
 
-    array("name" => "Yanis Derouiche",
+    /*array("name" => "Yanis Derouiche",
         "role" => "Développeur Web",
         "icon" => "Yanis_Derouiche.jpg",
         "linkedin" => "https://www.linkedin.com/in/yanis-derouiche/",
-    ),
+    ),*/
 
 
 
@@ -187,9 +188,9 @@ $env_perso = array(
         "tiktok" => "https://www.tiktok.com/@ren.justme?lang=fr",
     ),
 
-    array(
+    /*array(
         "vide" => true,
-    ),
+    ),*/
 
     array("name" => "Lola Dutouquet",
         "role" => "Rédactrice,<br> Linguiste",
