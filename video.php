@@ -1,20 +1,15 @@
 <?php include "app/app.php"; $page = 3; head($page); ?>
 <body onLoad="cookie()" class="<?php if (empty($_COOKIE["color"])){ echo "dark"; }else{echo $_COOKIE["color"]; } ?>"> <header> <?php navbar($page); ?> </header>
 
-<main>
-    <section id="projet">
-        <br>
-        <h2 class="titleP">Nos Prestations</h2>
-        <p>Cette page contient les prestations, avec ci-dessous toutes les différentes prestations que nous vendons.</p>
-        <br>
-        <hr style="background: rgb(161, 161, 161);">
-        <br>
-    </section>
+<div class="heading-projet-img" id="video-heading"></div>
+
+<main id="service">
+
     <section id="service-start" class="row container">
         <div class="col-9">
-            <h2 class="titleS"><i class="fas fa-caret-right" style="  color: #1325d7;"></i> Audio Visuel</h2>
+            <h2 class="titleP"><i class="fas fa-caret-right" style="  color: #1325d7;"></i> Montage Audio</h2>
             <br id="991none">
-            <p class="container">Lorem ipsu.</p>
+            <p class="container">Ci-dessous les différentes formules sont affichées,<br> nous faisons majoritairement de la création de sites web.</p>
             <br>
         </div>
         <div class="col-3">
@@ -22,9 +17,13 @@
             <br>
         </div>
     </section>
+    <section class="service-page">
+
+    </section>
 
 
 
+    <br><br>
 
 </main>
 
