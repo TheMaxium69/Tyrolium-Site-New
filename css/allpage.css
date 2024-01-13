@@ -23,6 +23,10 @@ i {
     .container {
         width: 90%;
     }
+
+    #offre .container {
+        width: 100%!important;
+    }
 }
 
 .underline {
@@ -77,3 +81,4 @@ i {
     }
 
 }
+

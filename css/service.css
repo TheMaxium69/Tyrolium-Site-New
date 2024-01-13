@@ -486,11 +486,14 @@ i.arrow-service{
 #website-heading{
     background-image: url("https://tyrolium.fr/Contenu/Image/Background3.png");
     background-position: center -269px;
+
+    height: 300px !important;
 }
 
 #server-heading{
     background-image: url("https://tyrolium.fr/Contenu/Image/Background21.jpg");
-    background-position: center -366px;
+    background-position: center -304px;
+    height: 300px !important;
 }#mc-heading{
     background-image: url("https://tyrolium.fr/Contenu/Image/Background6.png");
      background-position: center -283px;

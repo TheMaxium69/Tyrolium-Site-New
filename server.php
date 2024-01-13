@@ -1,5 +1,6 @@
 <?php include "app/app.php"; $page = 3; head($page); ?>
-<body onLoad="cookie()" class="<?php if (empty($_COOKIE["color"])){ echo "dark"; }else{echo $_COOKIE["color"]; } ?>"> <header> <?php navbar($page); ?> </header>
+<body onLoad="cookie()" class="<?php if (empty($_COOKIE["color"])){ echo "dark"; }else{echo $_COOKIE["color"]; } ?>">
+<?php if (!empty($_GET['navbar']) && $_GET['navbar'] == "off") { ?> <style> body{ padding-top: 0px!important;}</style><?php } else { ?><header> <?php navbar($page); ?> </header><?php } ?>
 
 <div class="heading-projet-img" id="server-heading"></div>
 
@@ -10,21 +11,966 @@
 
     <section id="service-start" class="row container">
         <div class="col-9">
-            <h2 class="titleP"><i class="fas fa-caret-right" style="  color: #1325d7;"></i> Server</h2>
+            <h2 class="titleP"><i class="fas fa-caret-right" style="  color: #1325d7;"></i> Serveur Informatique</h2>
             <br id="991none">
-            <p class="container">Ci-dessous les différentes formules sont affichées,<br> nous faisons majoritairement de la création de sites web.</p>
+            <p class="container">Nous somme en mesure de vous offrire une palette de service<br> autour de votre serveur informatique et du déploiement de vos Logiciel.</p>
             <br>
         </div>
         <div class="col-3">
-            <img src="assets/Coding%20_Monochromatic.png" style="width: 125px;margin-left: -185px;">
+            <img src="assets/Online%20storage_Monochromatic.png" style="width: 125px;margin-left: -185px;">
             <br>
         </div>
     </section>
-    <section class="service-page">
+    <br>
+    <hr style="background: rgb(161, 161, 161); margin: 0px 20% ">
+
+    <br>
+
+    <section id="service-start" class="container">
+
+        <h2 class="titleP"><i class="fas fa-caret-right" style="  color: #1325d7;"></i> Nos Formule</h2>
 
     </section>
 
 
+    <section id="offre">
+
+        <div class="row desktop" id="ord2">
+
+
+            <div class="col">
+
+                <div class="trans container" data-size="3">
+
+                    <h2>VPS</h2>
+                    <hr>
+                    <h3><g>à partir de :</g><br> 12€/Mois</h3>
+
+                    <ul>
+                        <li>
+                            Processeur jusqu'a 4.5GHz+
+                        </li>
+
+                        <li>
+                            Ram dédiée jusqu'a 32go
+                        </li>
+
+                        <li>
+                            Stockage <j>SSD NVMe</j> jusqu'a 500go
+                        </li>
+
+                        <li>
+                            Bande passante à partir de <j>250Mbit/s</j>
+                        </li>
+
+                        <li>
+                            Utilisateur root/Administrateur
+                        </li>
+
+                        <li>
+                            Acces <j>SSH/SFTP</j>
+                        </li>
+
+                    </ul>
+
+
+                    <button id="btn-service" class="tyrobutton" data-url="https://solidserv.fr/vps.php">voir plus</button>
+                </div>
+
+            </div>
+
+
+            <div class="col">
+
+                <div class="trans container" data-size="2G">
+
+                    <h2>Site Web</h2>
+                    <hr>
+
+                    <h3><g>à partir de :</g><br> 5€/Mois</h3>
+
+                    <ul>
+                        <li>
+                            Trafic jusqu'à <j>100 000 Visites/Mois</j>
+                        </li>
+
+                        <li>
+                            Compatible <j>PHP</j> (Toute Version)
+                        </li>
+
+                        <li>
+                            Stockage SSD NVMe jusqu'a 100go
+                        </li>
+
+                        <li>
+                            Acces <j>FTP/SFTP</j> et <j>cPanel</j>
+                        </li>
+                        <li>
+                            Installation en 1-clic du <j>SSL</j>
+                        </li>
+                        <li>
+                            Dispo avec Wordpress/Shopify...
+                        </li>
+                        <li>
+                            BDD <j>MySQL/MariaDB</j> Offerte
+                        </li>
+
+                    </ul>
+
+                    <button id="btn-service" class="tyrobutton" data-url="javascript:pageerr1();">indisponible</button>
+                </div>
+
+            </div>
+            <div class="col">
+
+                <div class="trans container" data-size="2D">
+
+                    <h2>Minecraft</h2>
+                    <hr>
+                    <h3><g>à partir de :</g><br> 3€/Mois</h3>
+
+                    <ul>
+                        <li>
+                            Allumé <j>24h/24</j> et <j>7J/7</j>
+                        </li>
+
+                        <li>
+                            Processeur jusqu'a 4.5GHz+
+                        </li>
+
+                        <li>
+                            <j>Slot ilimité</j>
+                        </li>
+
+                        <li>
+                            Ram dédiée jusqu'a 32go
+                        </li>
+                        <li>
+                            Acces <j>FTP/SFTP</j>
+                        </li>
+                        <li>
+                            Spigot/Forge/Sponge/OpenMod ...
+                        </li>
+                        <li>
+                            Panel Pterodactyl
+                        </li>
+
+                    </ul>
+
+
+                    <button id="btn-service" class="tyrobutton" data-url="https://solidserv.fr/minecraft.php">voir plus</button>
+                </div>
+
+            </div>
+            <div class="col">
+
+                <div class="trans container" data-size="1">
+
+                    <h2>FiveM</h2>
+                    <hr>
+                    <h3><g>à partir de :</g><br> 10€/Mois</h3>
+
+                    <ul>
+                        <li>
+                            Processeur jusqu'a 4.5GHz+
+                        </li>
+                        <li>
+                            <j>Anti-DDOS</j> Game
+                        </li>
+
+                        <li>
+                            Uptime de 99%
+                        </li>
+                        <li>
+                            Ram dédiée jusqu'a 32go
+                        </li>
+
+
+                        <li>
+                            Acces <j>FTP/SFTP</j>
+                        </li>
+                        <li>
+                            BDD <j>MySQL/MariaDB</j> Offerte
+                        </li>
+                        <li>
+                            Panel Pterodactyl
+                        </li>
+
+                    </ul>
+
+                    <button id="btn-service" class="tyrobutton" data-url="fivem.php">voir plus</button>
+
+
+                </div>
+
+            </div>
+
+            <div class="col">
+
+                <div class="trans container" data-size="1">
+
+                    <h2>Stockage</h2>
+                    <hr>
+                    <h3><g>à partir de :</g><br> 4.50€/Mois</h3>
+
+                    <ul>
+
+                        <li>
+                            Stockage jusqu'a <j>100To</j>
+                        </li>
+
+                        <li>
+                            Bande passante à partir de 250Mbit/s
+                        </li>
+
+                        <li>
+                            Jusqu'à <j>100 utilisateurs</j> connectés
+                        </li>
+
+                        <li>
+                            Disque dur <j>Raid</j> ou <j>SSD NVMe</j>
+                        </li>
+
+                        <li>
+                            Allumé <j>24h/24</j> et <j>7J/7</j>
+                        </li>
+
+
+                        <li>
+                            Acces FTP/SFTP
+                        </li>
+
+                    </ul>
+
+                    <div>
+
+                        <button id="btn-service" class="tyrobutton" data-url="javascript:pageerr();">indisponible</button>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+        <div class="row desktop">
+
+            <div class="col">
+
+                <div id="o1" class="trans container" data-size="1">
+
+                    <h2>Stockage</h2>
+                    <hr>
+                    <h3><g>à partir de :</g><br> 4.50€/Mois</h3>
+
+                    <ul>
+
+                        <li>
+                            Stockage jusqu'a <j>100To</j>
+                        </li>
+
+                        <li>
+                            Bande passante à partir de 250Mbit/s
+                        </li>
+
+                        <li>
+                            Jusqu'à <j>100 utilisateurs</j> connectés
+                        </li>
+
+                        <li>
+                            Disque dur <j>Raid</j> ou <j>SSD NVMe</j>
+                        </li>
+
+                        <li>
+                            Allumé <j>24h/24</j> et <j>7J/7</j>
+                        </li>
+
+
+                        <li>
+                            Acces FTP/SFTP
+                        </li>
+
+                    </ul>
+
+                    <div>
+
+                        <button id="btn-service" class="tyrobutton" data-url="javascript:pageerr();">indisponible</button>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col">
+
+                <div id="o2" class="trans container" data-size="2G">
+
+                    <h2>Site Web</h2>
+                    <hr>
+
+                    <h3><g>à partir de :</g><br> 5€/Mois</h3>
+
+                    <ul>
+                        <li>
+                            Trafic jusqu'à <j>100 000 Visites/Mois</j>
+                        </li>
+
+                        <li>
+                            Compatible <j>PHP</j> (Toute Version)
+                        </li>
+
+                        <li>
+                            Stockage SSD NVMe jusqu'a 100go
+                        </li>
+
+                        <li>
+                            Acces <j>FTP/SFTP</j> et <j>cPanel</j>
+                        </li>
+                        <li>
+                            Installation en 1-clic du <j>SSL</j>
+                        </li>
+                        <li>
+                            Dispo avec Wordpress/Shopify...
+                        </li>
+                        <li>
+                            BDD <j>MySQL/MariaDB</j> Offerte
+                        </li>
+
+                    </ul>
+
+                    <button id="btn-service" class="tyrobutton" data-url="javascript:pageerr1();">indisponible</button>
+                </div>
+
+            </div>
+            <div class="col">
+
+                <div id="o3" class="trans container" data-size="3">
+
+                    <h2>VPS</h2>
+                    <hr>
+                    <h3><g>à partir de :</g><br> 12€/Mois</h3>
+
+                    <ul>
+                        <li>
+                            Processeur jusqu'a 4.5GHz+
+                        </li>
+
+                        <li>
+                            Ram dédiée jusqu'a 32go
+                        </li>
+
+                        <li>
+                            Stockage <j>SSD NVMe</j> jusqu'a 500go
+                        </li>
+
+                        <li>
+                            Bande passante à partir de <j>250Mbit/s</j>
+                        </li>
+
+                        <li>
+                            Utilisateur root/Administrateur
+                        </li>
+
+                        <li>
+                            Acces <j>SSH/SFTP</j>
+                        </li>
+
+                    </ul>
+
+
+                    <button id="btn-service" class="tyrobutton" data-url="https://solidserv.fr/vps.php">voir plus</button>
+                </div>
+
+            </div>
+            <div class="col">
+
+                <div id="o4" class="trans container" data-size="2D">
+
+                    <h2>Minecraft</h2>
+                    <hr>
+                    <h3><g>à partir de :</g><br> 3€/Mois</h3>
+
+                    <ul>
+                        <li>
+                            Allumé <j>24h/24</j> et <j>7J/7</j>
+                        </li>
+
+                        <li>
+                            Processeur jusqu'a 4.5GHz+
+                        </li>
+
+                        <li>
+                            <j>Slot ilimité</j>
+                        </li>
+
+                        <li>
+                            Ram dédiée jusqu'a 32go
+                        </li>
+                        <li>
+                            Acces <j>FTP/SFTP</j>
+                        </li>
+                        <li>
+                            Spigot/Forge/Sponge/OpenMod ...
+                        </li>
+                        <li>
+                            Panel Pterodactyl
+                        </li>
+
+                    </ul>
+
+
+                    <button id="btn-service" class="tyrobutton" data-url="https://solidserv.fr/minecraft.php">voir plus</button>
+                </div>
+
+            </div>
+            <div class="col">
+
+                <div id="o5" class="trans container" data-size="1">
+
+                    <h2>Dédier</h2>
+                    <hr>
+                    <h3><g>à partir de :</g><br> 60€/Mois</h3>
+
+                    <ul>
+                        <li>
+                            Processeur jusqu'a 4.5GHz+
+                        </li>
+                        <li>
+                            <j>Anti-DDOS</j> Game
+                        </li>
+
+                        <li>
+                            Uptime de 99%
+                        </li>
+                        <li>
+                            Ram dédiée jusqu'a 32go
+                        </li>
+
+
+                        <li>
+                            Acces <j>FTP/SFTP</j>
+                        </li>
+                        <li>
+                            BDD <j>MySQL/MariaDB</j> Offerte
+                        </li>
+                        <li>
+                            Panel Pterodactyl
+                        </li>
+
+                    </ul>
+
+                    <button id="btn-service" class="tyrobutton" data-url="javascript:pageerr2();">INDISPONILE</button>
+
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+        <div class="row mobile">
+
+            <div class="col-6">
+                <div class="row container">
+                    <div class="col-5">
+                        <h2>VPS</h2>
+                        <hr>
+                        <h3><g>à partir de :</g><br> 12€/Mois</h3>
+
+                        <button id="btn-service" class="tyrobutton" data-url="https://solidserv.fr/vps.php">voir plus</button>
+                    </div>
+                    <div class="col-7">
+                        <ul>
+                            <li>
+                                Processeur jusqu'a 4.5GHz+
+                            </li>
+
+                            <li>
+                                Ram dédiée jusqu'a 32go
+                            </li>
+
+                            <li>
+                                Stockage <j>SSD NVMe</j> jusqu'a 500go
+                            </li>
+
+                            <li>
+                                Bande passante à partir de <j>250Mbit/s</j>
+                            </li>
+
+                            <li>
+                                Utilisateur root/Administrateur
+                            </li>
+
+                            <li>
+                                Acces <j>SSH/SFTP</j>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div><div class="col-6">
+                <div class="row container">
+                    <div class="col-5">
+                        <h2>Site Web</h2>
+                        <hr>
+                        <h3><g>à partir de :</g><br> 5€/Mois</h3>
+
+                        <button id="btn-service" class="tyrobutton" data-url="javascript:pageerr1();">indisponibles</button>
+                    </div>
+                    <div class="col-7">
+                        <ul>
+                            <li>
+                                Trafic jusqu'à <j>100 000 Visites/Mois</j>
+                            </li>
+
+                            <li>
+                                Compatible <j>PHP</j> (Toute Version)
+                            </li>
+
+                            <li>
+                                Stockage SSD NVMe jusqu'a 100go
+                            </li>
+
+                            <li>
+                                Acces <j>FTP/SFTP</j> et <j>cPanel</j>
+                            </li>
+                            <li>
+                                Installation en 1-clic du <j>SSL</j>
+                            </li>
+                            <li>
+                                Dispo avec Wordpress/Shopify...
+                            </li>
+                            <li>
+                                BDD <j>MySQL/MariaDB</j> Offerte
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div><div class="col-6">
+                <div class="row container">
+                    <div class="col-5">
+                        <h2>Minecraft</h2>
+                        <hr>
+                        <h3><g>à partir de :</g><br> 3€/Mois</h3>
+
+                        <button id="btn-service" class="tyrobutton" data-url="https://solidserv.fr/minecraft.php">voir plus</button>
+                    </div>
+                    <div class="col-7">
+                        <ul>
+                            <li>
+                                Allumé <j>24h/24</j> et <j>7J/7</j>
+                            </li>
+
+                            <li>
+                                Processeur jusqu'a 4.5GHz+
+                            </li>
+
+                            <li>
+                                <j>Slot ilimité</j>
+                            </li>
+
+                            <li>
+                                Ram dédiée jusqu'a 32go
+                            </li>
+                            <li>
+                                Acces <j>FTP/SFTP</j>
+                            </li>
+                            <li>
+                                Spigot/Forge/Sponge/OpenMod ...
+                            </li>
+                            <li>
+                                Panel Pterodactyl
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div><div class="col-6">
+                <div class="row container">
+                    <div class="col-5">
+                        <h2>Dédier</h2>
+                        <hr>
+                        <h3><g>à partir de :</g><br> 60€/Mois</h3>
+
+                        <button id="btn-service" class="tyrobutton" data-url="javascript:pageerr2();">INDISPONIBLE</button>
+                    </div>
+                    <div class="col-7">
+                        <ul>
+                            <li>
+                                Processeur jusqu'a 4.5GHz+
+                            </li>
+                            <li>
+                                <j>Anti-DDOS</j> Game
+                            </li>
+
+                            <li>
+                                Uptime de 99%
+                            </li>
+                            <li>
+                                Ram dédiée jusqu'a 32go
+                            </li>
+
+
+                            <li>
+                                Acces <j>FTP/SFTP</j>
+                            </li>
+                            <li>
+                                BDD <j>MySQL/MariaDB</j> Offerte
+                            </li>
+                            <li>
+                                Panel Pterodactyl
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><div class="col-6">
+                <div class="row container">
+                    <div class="col-5">
+                        <h2>Stockage</h2>
+                        <hr>
+                        <h3><g>à partir de :</g><br> 4.50€/Mois</h3>
+
+                        <button id="btn-service" class="tyrobutton" data-url="javascript:pageerr();">indisponible</button>
+                    </div>
+                    <div class="col-7">
+                        <ul>
+                            <li>
+                                Stockage jusqu'a <j>100To</j>
+                            </li>
+
+                            <li>
+                                Bande passante à partir de 250Mbit/s
+                            </li>
+
+                            <li>
+                                Jusqu'à <j>100 utilisateurs</j> connectés
+                            </li>
+
+                            <li>
+                                Disque dur <j>Raid</j> ou <j>SSD NVMe</j>
+                            </li>
+
+                            <li>
+                                Allumé <j>24h/24</j> et <j>7J/7</j>
+                            </li>
+
+
+                            <li>
+                                Acces FTP/SFTP
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <style>
+
+        /*************************
+                  OFFRE
+         *************************/
+        #offre {
+            --color-principal: #095bd5;
+            --color-secondaire: #e77908;
+            --color-background: #003f9d;
+
+
+            --color-mc-secondaire: #ff0000;
+        }
+
+        #offre #ord2{
+            display: none;
+        }
+
+        #offre .desktop{
+            max-width: 1474px;
+            margin: 5% auto;
+        }
+        #offre .mobile{
+            display: none;
+        }
+        @media (max-width: 1664px) {
+            #offre .desktop{
+                max-width: unset;
+                margin: 5%;
+            }
+        }
+
+        @media (max-width: 1552px) {
+            #offre .desktop{
+                max-width: unset;
+                margin: 5% 0;
+            }
+        }
+        @media (max-width: 1424px) {
+            #offre .desktop{
+                display: none;
+            }
+            #offre .mobile{
+                display: flex;
+                margin-right: unset;
+                margin-left: unset;
+                margin-top: 5%;
+            }
+
+        }
+        @media (max-width: 505px) {
+            #offre .desktop{
+                display: none;
+            }
+            #offre #ord2{
+                display: initial;
+            }
+            #offre .mobile{
+                display: none;
+            }
+        }
+
+        #offre .mobile .container{
+            height: 200px;
+            box-shadow: 0 0 16px rgb(0 0 0 / 10%);
+            border-radius: 6px;
+            border: solid 1px #26272b;
+            background-color: #26272b;
+        }
+
+        body.light #offre .mobile .container {
+
+            border: solid 1px #e8e8e8;
+            background-color: white;
+
+        }
+
+        #offre .mobile .col-6 {
+            margin: 1% auto;
+            min-width: 500px;
+        }
+
+        #offre .mobile .container .col-7{
+            margin-top: 13px;
+        }
+
+        #offre .mobile .container .col-7 ul{
+            font-size: 14px;
+            margin: 0;
+        }
+
+
+
+        #offre .row .col .container{
+
+            height: 378px;
+
+
+            box-shadow: 0 0 16px rgb(0 0 0 / 10%);
+            border-radius: 6px;
+
+            border: solid 1px #26272b;
+            background-color: #26272b;
+
+            transition: transform 0.3s ease-in;
+
+            position: relative;
+            max-width: 245px;
+            min-width: 245px;
+
+        }
+
+        body.light #offre .row .col .container {
+
+            border: solid 1px #e8e8e8;
+            background-color: white;
+
+        }
+
+
+
+        #offre h2{
+
+            text-align: center;
+            font-size: 28px;
+            margin-top: 23px;
+            margin-bottom: -2px;
+            text-transform: uppercase;
+
+        }
+
+        #offre h3{
+            font-size: 21px;
+            color: var(--color-principal);
+            text-align: center;
+            margin-bottom: 23px;
+
+        }
+
+        #offre g{
+            color: #e3e3e3;
+            text-align: center;
+            font-size: 16px;
+
+        }
+
+        body.light #offre g {
+            color: #959191;
+        }
+
+
+        #offre h3::first-letter {
+            text-transform: uppercase;
+        }
+
+
+        #offre ul{
+            margin: 0 0 0 18px;
+            font-size: 12px;
+            font-weight: 300;
+        }
+
+        #offre li{
+            list-style: url(https://solidserv.fr/assets/check.png);
+        }
+
+        #offre li j{
+            font-weight: 700;
+            color: var(--color-secondaire);
+        }
+
+        #offre .tyrobutton{
+            position: absolute;
+            bottom: 20px;
+            margin-left: 2%;
+            width: 80%;
+            /* margin-left: 15%; */
+            /* margin: 0 auto 0 auto; */
+            font-size: 11px;
+            text-transform: uppercase;
+            transition: transform 0s ease-in;
+        }
+
+
+        /*TRANSFORM*/
+
+        .trans[data-size="3"] {
+            -webkit-transform:scale(1.15); /* Safari et Chrome */
+            -moz-transform:scale(1.15); /* Firefox */
+            -ms-transform:scale(1.15); /* Internet Explorer 9 */
+            -o-transform:scale(1.15); /* Opera */
+            transform:scale(1.15);
+        }
+        .trans[data-size="2D"] {
+            -webkit-transform:scale(1.10); /* Safari et Chrome */
+            -moz-transform:scale(1.10); /* Firefox */
+            -ms-transform:scale(1.10); /* Internet Explorer 9 */
+            -o-transform:scale(1.10); /* Opera */
+            transform: scale(1.10)translate(6px, 0px);
+        }
+        .trans[data-size="2G"] {
+            -webkit-transform:scale(1.10); /* Safari et Chrome */
+            -moz-transform:scale(1.10); /* Firefox */
+            -ms-transform:scale(1.10); /* Internet Explorer 9 */
+            -o-transform:scale(1.10); /* Opera */
+            transform: scale(1.10)translate(-6px, 0px);
+        }
+        .trans[data-size="1"] {
+            -webkit-transform:unset; /* Safari et Chrome */
+            -moz-transform:unset; /* Firefox */
+            -ms-transform:unset; /* Internet Explorer 9 */
+            -o-transform:unset; /* Opera */
+            transform:unset;
+        }
+
+        @media (max-width: 506px) {
+            .trans[data-size="3"] {
+                -webkit-transform:unset; /* Safari et Chrome */
+                -moz-transform:unset; /* Firefox */
+                -ms-transform:unset; /* Internet Explorer 9 */
+                -o-transform:unset; /* Opera */
+                transform:unset;
+            }
+            .trans[data-size="2D"] {
+                -webkit-transform:unset; /* Safari et Chrome */
+                -moz-transform:unset; /* Firefox */
+                -ms-transform:unset; /* Internet Explorer 9 */
+                -o-transform:unset; /* Opera */
+                transform:unset;
+            }
+            .trans[data-size="2G"] {
+                -webkit-transform:unset; /* Safari et Chrome */
+                -moz-transform:unset; /* Firefox */
+                -ms-transform:unset; /* Internet Explorer 9 */
+                -o-transform:unset; /* Opera */
+                transform:unset;
+            }
+            .trans[data-size="1"] {
+                -webkit-transform:unset; /* Safari et Chrome */
+                -moz-transform:unset; /* Firefox */
+                -ms-transform:unset; /* Internet Explorer 9 */
+                -o-transform:unset; /* Opera */
+                transform:unset;
+            }
+
+            #offre .row .col .container{
+                margin: 10px auto;
+            }
+
+        }
+    </style>
+    <script src="https://tyrolium.fr/javascript/tyrobtn.js"></script>
+    <script src="javascript/offre.js"></script>
+
+
+    <style>
+        #service-solidserv div.container:first-child{
+            border: 2px solid transparent;
+            background-color: #4256a40d!important;
+            backdrop-filter: blur(9px);
+            border-radius: 59px;
+        }
+        #service-solidserv div.container:last-child{
+            background-color: transparent!important;
+        }
+
+        #service-solidserv h2.art {
+            padding-top: 35px;
+        }
+    </style>
+
+
+    <section id="service-solidserv" class="service-ecart">
+        <div class="container row">
+            <div class="col-6" style="text-align: center;">
+                <a href="https://solidserv.fr">
+                    <img class="img-solidserv img-home" src="assets/solidserv_service.png">
+                </a>
+            </div>
+            <div class="container col-5">
+                <article>
+                    <h2 class="art"><i class="fas fa-caret-right"></i> Grâce à SolidServ</h2>
+                    <p class="art" style='    padding-bottom: 10px;
+        margin-top: -21px;'>
+
+                        Cette page est proposé par notre propre filaile <strong>SolidServ</strong>, il s'agit notre propre hébergeur serveur créer et porté par Tyrolium et ses équipes depuis plus de 2 ans
+
+                    </p>
+                    <div style="text-align: center">
+                        <?php tyrobtn("https://solidserv.fr", "solidserv", "Site de SolidServ");?>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
 
     <br><br>
 

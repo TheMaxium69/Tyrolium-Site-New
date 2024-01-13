@@ -1,15 +1,30 @@
 <?php include "app/app.php"; $page = 3; head($page); ?>
-<body onLoad="cookie()" class="<?php if (empty($_COOKIE["color"])){ echo "dark"; }else{echo $_COOKIE["color"]; } ?>"> <header> <?php navbar($page); ?> </header>
+<body onLoad="cookie()" class="<?php if (empty($_COOKIE["color"])){ echo "dark"; }else{echo $_COOKIE["color"]; } ?>">
+<?php if (!empty($_GET['navbar']) && $_GET['navbar'] == "off") { ?> <style> body{ padding-top: 0px!important;}</style><?php } else { ?><header> <?php navbar($page); ?> </header><?php } ?>
+
 
 <div class="heading-projet-img" id="website-heading"></div>
 
 <main id="service">
+    <style>
+
+        main {
+
+            background-color: #DFDBE5;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%23cecece' fill-opacity='0.04' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");}
+
+        body.light main{
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%232c2c2c' fill-opacity='0.04' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");!important;
+            }
+
+
+    </style>
 
     <section id="service-start" class="row container">
         <div class="col-9">
             <h2 class="titleP"><i class="fas fa-caret-right" style="  color: #1325d7;"></i> Site Web</h2>
             <br id="991none">
-            <p class="container">Ci-dessous les différentes formules sont affichées,<br> nous faisons majoritairement de la création de sites web.</p>
+            <p class="container">Ci-dessous les différentes formules <br>de création de site web</p>
             <br>
         </div>
         <div class="col-3">
@@ -27,7 +42,7 @@
                         <h2 class="pricing-header"><?php echo $env_presta_web['0'] ?></h2>
                         <br>
                         <p class="pricing-header" style="margin-bottom: -10px; color: #888;">à partir de </p>
-                        <span class="pricing-price">50€</span>
+                        <span class="pricing-price">200€</span>
                         <ul class="pricing-features">
                             <li class="pricing-features-item"><div><span class="underline bold">Concrètement</span> : Il s'agit d'une formule bien pour les porte-folios.
                                     Les sites de présentation juste avec du texte pour présenter un projet.</div>
@@ -36,6 +51,9 @@
                                     Aucune relation avec une API ou une base de données ne sera faite avec cette formule.</div></li>
                         </ul>
                         <span class="pricing-price"></span>
+                        <small>Contact : <br>
+                            officiel@tyrolium.fr<br>
+                            +33 6 11 11 26 69</small><br><br>
                         <?php tyrobtn("contact.php?name=web&form=1", "contact", "Contactez-nous pour cette formule");?>
                     </div>
 
@@ -44,12 +62,15 @@
                         <h2 class="pricing-header"><?php echo $env_presta_web['1'] ?></h2>
                         <br>
                         <p class="pricing-header" style="margin-bottom: -10px; color: #888;">à partir de </p>
-                        <span class="pricing-price">400€</span>
+                        <span class="pricing-price">900€</span>
                         <ul class="pricing-features">
                             <li class="pricing-features-item"><div><span class="underline bold">Concrètement</span> : Il s'agit d'une formule bien pour les entreprises, les sites qui demande plus qu'un simple texte mais une présention qui pourra afficher des informations. Avec cette formule le site pourra être modifier grâce à un panel administrateur.</div></li>
                             <li class="pricing-features-item"><div><span class="underline bold">Techniquement</span> : Il s'agit de plusieurs pages qui pourra être modifiable, on pourra se connecter à des API simple, où l'on utilisera plus régulièrement des FrameWork front-end, avec Php-Object.</div></li>
                         </ul>
                         <span class="pricing-price"></span>
+                        <small>Contact : <br>
+                            officiel@tyrolium.fr<br>
+                            +33 6 11 11 26 69</small><br><br>
                         <?php tyrobtn("contact.php?name=web&form=2", "contact", "Contactez-nous pour cette formule");?>
                     </div>
 
@@ -58,13 +79,16 @@
                         <h2 class="pricing-header"><?php echo $env_presta_web['2'] ?></h2>
                         <br>
                         <p class="pricing-header" style="margin-bottom: -10px; color: #888;">à partir de </p>
-                        <span class="pricing-price">1600€</span>
+                        <span class="pricing-price">3000€</span>
                         <ul class="pricing-features">
                             <li class="pricing-features-item"><div><span class="underline bold">Concrètement</span> : Il s'agit d'une bonne formule notamment pour un gros projet,
                                     créer un réseau social, créer une boutique en ligne, un blog ou une application de gestion personnalisée.</div></li>
                             <li class="pricing-features-item"><div><span class="underline bold"> Techniquement</span> : Cette formule se fera avec un FrameWork front-end et back-end, avec une base de donnée, une création d'API obligatoire, gestion de compte et panel administrateur.</div></li>
                         </ul>
                         <span class="pricing-price"></span>
+                        <small>Contact : <br>
+                            officiel@tyrolium.fr<br>
+                            +33 6 11 11 26 69</small><br><br>
                         <?php tyrobtn("contact.php?name=web&form=3", "contact", "Contactez-nous pour cette formule");?>
                     </div>
 
