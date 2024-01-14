@@ -2,6 +2,8 @@
 <body onLoad="cookie()" class="<?php if (empty($_COOKIE["color"])){ echo "dark"; }else{echo $_COOKIE["color"]; } ?>">
 <?php if (!empty($_GET['navbar']) && $_GET['navbar'] == "off") { ?> <style> body{ padding-top: 0px!important;}</style><?php } else { ?><header> <?php navbar($page); ?> </header><?php } ?>
 
+<?php loader() ?>
+
 <div class="heading-projet-img" id="mc-heading"></div>
 
 <main id="service">
@@ -38,28 +40,28 @@
 
             <div class="col-3" style="min-width: 200px; margin: 0 auto">
 
-                <h1 class="bold">2M</h1>
-                <h3>De téléchargement sur tout moddes et texture pack</h3>
+                <h1 class="bold">8M</h1>
+                <h3>Téléchargement sur tout moddes et texture pack</h3>
 
             </div>
 
             <div class="col-3" style="min-width: 200px; margin: 0 auto">
 
-                <h1>70K</h1>
-                <h3>Joueur unique sur tout nos serveur et évent</h3>
+                <h1>110K</h1>
+                <h3>Joueur unique sur tous nos serveur et évent</h3>
 
             </div>
             <div class="col-3" style="min-width: 200px; margin: 0 auto">
 
                 <h1>+90</h1>
-                <h3>Projet créer et gérer par Tyrolium</h3>
+                <h3>Projet créé et géré par Tyrolium</h3>
 
 
             </div>
             <div class="col-3" style="min-width: 200px; margin: 0 auto">
 
                 <h1>2017</h1>
-                <h3>7 ans d'expertise sur ce jeux</h3>
+                <h3>7 ans d'expertise sur ce jeu</h3>
 
             </div>
 
@@ -78,6 +80,15 @@
             #statMC h1{
                 font-size: 50px;
                 font-weight: bold;
+            }
+
+            @media (max-width: 768px) {
+                #statMC {
+                    width: 100%;
+                }
+                #MyRéalisation {
+                    width: 100%;
+                }
             }
 
         </style>
@@ -103,6 +114,19 @@
 
             }
 
+            .eventmc{
+                width: 90%;
+                max-width: 1408px!important;
+                padding: 20px 60px 41px!important;
+            }
+
+            @media (max-width: 1300px) {
+
+                .eventmc{
+                    width: 100%;
+                }
+            }
+
             #service-second-but{
                 border: 2px solid transparent;
                 background-color: #4256a40d;
@@ -114,20 +138,23 @@
             }
         </style>
 
-         <section id="service-second" class="container row">
-            <div class="col-6" style="text-align: end">
-                <img class="img-home" src="assets/Designer%20_Monochromatic.png" style="width: 100%; height: 100%">
+         <section id="service-second" class="container row eventmc">
+            <div class="col-6" style="text-align: end;display: flex;">
+                <img class="img-home" src="assets/analytics-process-monochromatic.png" style="width: 100%; margin: auto">
             </div>
             <div class="container col-5">
                 <article id="art-home">
                     <h2 class="art">Oraganisaiton d'évenements</h2>
                     <p class="art">
-                    Dans ce domaine très important pour vos projets, nous sommes capables de vous faire l'entièreté de votre identité visuelle.<br>
-                    Nous vous accompagnerons pour créer votre logo, illustration ou même vos posts réseaux.
-                    Nous sommes dans la capacité de vous aider à choisir et réaliser votre branding, votre charte graphique et vos couleurs.
-                    Cette prestation sers avant tout à vous accompagner dans les choix graphiques de votre projet.</p>
+                        Mettez en lumière votre marque en l'incorporant dans une expérience immersive et engageante dans le monde de Minecraft.<br>
+
+                        Nous sommes spécialisés dans la création de campagnes publicitaires innovantes et percutantes au sein du jeu Minecraft, un jeu "bac à sable" populaire. En tant que créateur de serveur Minecraft depuis 2017, nous utilisons ce jeu comme une plateforme de création sans limites pour transformer vos idées en expériences virtuelles captivantes.<br>
+                    </p>
                     <div style="text-align: center">
-                        <?php //tyrobtn("contact.php?name=graph", "contact", "Contactez-nous pour cette prestation");?>
+                        <small>Contact : <br>
+                            officiel@tyrolium.fr<br>
+                            +33 6 11 11 26 69</small><br><br>
+                        <?php tyrobtn("contact.php?name=mc", "contact", "Contactez-nous pour cette prestation");?>
                     </div>
                 </article>
             </div>
@@ -137,16 +164,15 @@
         <section id="service-second-but" class="container row service-ecart">
             <div class="container col-5">
                 <article>
-                    <h2 class="art"><i class="fas fa-caret-right"></i> Dévéloppement de Moddes </h2>
-                    <p class="art">Prestation où nous réalisons le développement de votre mod ou de votre plugin.<br>
-                        Nous pouvons également configurer votre serveur, nos équipes ont beaucoup travaillé avec ce jeu et nous sommes en mesure de réaliser toutes vos demandes concernant celui-ci.</p>
+                    <h2 class="art"><i class="fas fa-caret-right"></i> Dévéloppement de Moddes & Plugin </h2>
+                    <p class="art">Nous offrons un service dédié au développement de votre mod ou plugin Minecraft.<br> Avec l'expertise pour créer des mods utilisant Forge, Fabric ou NeoForged, ainsi que des plugins pour Bukkit, Spigot ou Sponge, nous sommes équipés pour concrétiser vos idées les plus audacieuses, que ce soit pour des projets personnels ou commerciaux.</p>
                     <div style="text-align: center">
                         <?php tyrobtn("contact.php?name=mc", "contact", "Contactez-nous pour cette prestation");?>
                     </div>
                 </article>
             </div>
             <div class="col-6">
-                <img class="img-home" src="assets/Mc_Monochromatic.png" style="width: 96%; height: 100%">
+                <img class="img-home" src="assets/Coding _Monochromatic.png" style="width: 96%; height: 100%">
             </div>
         </section>
 
@@ -156,14 +182,11 @@
             </div>
             <div class="container col-5">
                 <article id="art-home">
-                    <h2 class="art">Création d'assets</h2>
+                    <h2 class="art">Création de Texture</h2>
                     <p class="art">
-                        Dans ce domaine très important pour vos projets, nous sommes capables de vous faire l'entièreté de votre identité visuelle.<br>
-                        Nous vous accompagnerons pour créer votre logo, illustration ou même vos posts réseaux.
-                        Nous sommes dans la capacité de vous aider à choisir et réaliser votre branding, votre charte graphique et vos couleurs.
-                        Cette prestation sers avant tout à vous accompagner dans les choix graphiques de votre projet.</p>
+                        Service de création sur mesure pour vos packs de textures Minecraft. Nous sommes spécialisés dans le développement de packs de textures uniques pour Minecraft, adaptés à vos besoins personnels et commerciaux. nous donnons vie à vos visions les plus créatives en transformant l'esthétique de votre jeu.</p>
                     <div style="text-align: center">
-                        <?php //tyrobtn("contact.php?name=graph", "contact", "Contactez-nous pour cette prestation");?>
+                        <?php tyrobtn("contact.php?name=mc", "contact", "Contactez-nous pour cette prestation");?>
                     </div>
                 </article>
             </div>
@@ -174,17 +197,105 @@
             <div class="container col-5">
                 <article>
                     <h2 class="art"><i class="fas fa-caret-right"></i> Notre Serveur</h2>
-                    <p class="art">Nous sommes capable de vous créer votre bot discord, autant pour automatiser ou personnaliser les moindres fonctionnalités de vos serveurs discord.
-                        Nous pouvons aussi le lier à des API et autres logiciels ou applications.</p>
+                    <p class="art">Tyrolium possède un projet appéler TyroServ, il s'agit d'un serveur PVP/Faction Moddé de renom qui à fait son succès en 2020, il s'agit d'un des plus gros projet de toute l'entreprise ayant atteint le nombre de 80K joueur unique.</p>
                     <div style="text-align: center">
-                        <?php tyrobtn("contact.php?name=serv", "contact", "Contactez-nous pour cette prestation");?>
+                        <?php tyrobtn("https://tyroserv.fr", "contact", "Site de TyroServ");?>
                     </div>
                 </article>
             </div>
             <div class="col-6" style="text-align: end">
-                <img class="img-home" src="assets/Social%20Media_Monochromatic.png" style="width: 96%; height: 100%">
+                <img class="img-home" src="assets/tyroserv_Mono.png" style="width: 96%; height: 100%">
             </div>
         </section>
+
+    </div>
+
+
+    <!-- MOBILE -->
+
+    <div class="home-res service-res">
+
+        <section id="service-second-but">
+            <h2><i class="fas fa-caret-right"></i> Oraganisaiton d'évenements</h2><br>
+            <p>Mettez en lumière votre marque en l'incorporant dans une expérience immersive et engageante dans le monde de Minecraft.
+
+                Nous sommes spécialisés dans la création de campagnes publicitaires innovantes et percutantes au sein du jeu Minecraft, un jeu "bac à sable" populaire. En tant que créateur de serveur Minecraft depuis 2017, nous utilisons ce jeu comme une plateforme de création sans limites pour transformer vos idées en expériences virtuelles captivantes.<br>
+            </p>
+            <div>
+                <div class="" style="width: 60%; margin-left: 20%">
+                    <img src="assets/analytics-process-monochromatic.png" width="100%" height="100%">
+                </div>
+            </div>
+            <br>
+            <p style="text-align: center">
+            <small >Contact : <br>
+                officiel@tyrolium.fr<br>
+                +33 6 11 11 26 69</small></p>
+            <?php tyrobtn("contact.php?name=mc", "contact", "Contactez-nous pour cette prestation");?>
+
+            <br>
+            <br>
+        </section>
+
+
+        <br>
+        <br>
+
+        <section id="service-second-but">
+            <h2><i class="fas fa-caret-right"></i> Dévéloppement de Moddes & Plugin</h2><br>
+            <p>Nous offrons un service dédié au développement de votre mod ou plugin Minecraft. Avec l'expertise pour créer des mods utilisant Forge, Fabric ou NeoForged, ainsi que des plugins pour Bukkit, Spigot ou Sponge, nous sommes équipés pour concrétiser vos idées les plus audacieuses, que ce soit pour des projets personnels ou commerciaux.</p>
+            <div>
+                <div class="" style="width: 60%; margin-left: 20%">
+                    <img src="assets/Coding _Monochromatic.png" width="100%" height="100%">
+                </div>
+            </div>
+            <br>
+            <?php tyrobtn("contact.php?name=mc", "contact", "Contactez-nous pour cette prestation");?>
+
+            <br>
+            <br>
+        </section>
+
+        <br>
+        <br>
+
+        <section id="service-second-but">
+            <h2><i class="fas fa-caret-right"></i> Création de Texture</h2><br>
+            <p> Service de création sur mesure pour vos packs de textures Minecraft. Nous sommes spécialisés dans le développement de packs de textures uniques pour Minecraft, adaptés à vos besoins personnels et commerciaux. nous donnons vie à vos visions les plus créatives en transformant l'esthétique de votre jeu.
+            </p>
+            <div>
+                <div class="" style="width: 60%; margin-left: 20%">
+                    <img src="assets/Designer%20_Monochromatic.png" width="100%" height="100%">
+                </div>
+            </div>
+            <br>
+            <?php tyrobtn("contact.php?name=mc", "contact", "Contactez-nous pour cette prestation");?>
+
+            <br>
+            <br>
+        </section>
+
+        <br>
+        <br>
+
+        <section id="service-second-but">
+            <h2><i class="fas fa-caret-right"></i> Notre Serveur</h2><br>
+            <p>
+                Tyrolium possède un projet appéler TyroServ, il s'agit d'un serveur PVP/Faction Moddé de renom qui à fait son succès en 2020, il s'agit d'un des plus gros projet de toute l'entreprise ayant atteint le nombre de 80K joueur unique.
+            </p>
+            <div>
+                <div class="" style="width: 60%; margin-left: 20%">
+                    <img src="assets/tyroserv_Mono.png" width="100%" height="100%">
+                </div>
+            </div>
+            <br>
+            <?php tyrobtn("https://tyroserv.fr", "contact", "Site de TyroServ");?>
+
+            <br>
+            <br>
+        </section>
+
+
 
     </div>
 

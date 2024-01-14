@@ -1,6 +1,8 @@
 <?php include "app/app.php"; $page = 1; head($page); ?>
 <body onLoad="cookie()" class="<?php if (empty($_COOKIE["color"])){ echo "dark"; }else{echo $_COOKIE["color"]; } ?>"> <header> <?php navbar($page); ?> </header>
 
+<?php loader() ?>
+
 <main>
     <section id="particule">
         <div id="particule">

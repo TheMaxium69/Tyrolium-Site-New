@@ -2,6 +2,8 @@
 <body onLoad="cookie()" class="<?php if (empty($_COOKIE["color"])){ echo "dark"; }else{echo $_COOKIE["color"]; } ?>">
 <?php if (!empty($_GET['navbar']) && $_GET['navbar'] == "off") { ?> <style> body{ padding-top: 0px!important;}</style><?php } else { ?><header> <?php navbar($page); ?> </header><?php } ?>
 
+<?php loader() ?>
+
 <div class="heading-projet-img" id="video-heading"></div>
 
 <main id="service">

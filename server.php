@@ -2,6 +2,8 @@
 <body onLoad="cookie()" class="<?php if (empty($_COOKIE["color"])){ echo "dark"; }else{echo $_COOKIE["color"]; } ?>">
 <?php if (!empty($_GET['navbar']) && $_GET['navbar'] == "off") { ?> <style> body{ padding-top: 0px!important;}</style><?php } else { ?><header> <?php navbar($page); ?> </header><?php } ?>
 
+<?php loader() ?>
+
 <div class="heading-projet-img" id="server-heading"></div>
 
 <main id="service">
@@ -21,10 +23,77 @@
             <br>
         </div>
     </section>
+    <section id="MyRéalisation" class="container">
+
+        <div id="statMC" class="row container">
+
+
+            <div class="col-3" style="min-width: 200px; margin: 0 auto">
+
+                <h1 class="bold">+500</h1>
+                <h3>Nous font déjà confiance dans l'achat de leurs serveurs</h3>
+
+            </div>
+
+            <div class="col-3" style="min-width: 200px; margin: 0 auto">
+
+                <h1>+30</h1>
+                <h3>Entreprise qui a décidé de nous laisser gérer toute leur infrastructure réseau.</h3>
+
+            </div>
+            <div class="col-3" style="min-width: 200px; margin: 0 auto">
+
+                <h1>99%</h1>
+                <h3>Uptime (durée d'activité)<br> de nos serveurs</h3>
+
+
+            </div>
+            <div class="col-3" style="min-width: 200px; margin: 0 auto">
+
+                <h1>2022</h1>
+                <h3>2 ans d'expertise dans l'hébergement de Serveur</h3>
+
+            </div>
+
+
+        </div>
+
+        <style>
+
+            #statMC{
+                max-width: 1279px;
+                margin-bottom: 50px;
+                margin-top: 50px;
+                text-align: center;
+            }
+
+            #statMC h1{
+                font-size: 50px;
+                font-weight: bold;
+            }
+
+            @media (max-width: 768px) {
+                #statMC {
+                    width: 100%;
+                }
+                #MyRéalisation {
+                    width: 100%;
+                }
+            }
+
+        </style>
+
+
+
+
+
+    </section>
+
     <br>
     <hr style="background: rgb(161, 161, 161); margin: 0px 20% ">
 
     <br>
+
 
     <section id="service-start" class="container">
 
@@ -947,30 +1016,66 @@
         }
     </style>
 
+    <div class="home-desktop">
 
-    <section id="service-solidserv" class="service-ecart">
-        <div class="container row">
-            <div class="col-6" style="text-align: center;">
-                <a href="https://solidserv.fr">
-                    <img class="img-solidserv img-home" src="assets/solidserv_service.png">
-                </a>
+        <section id="service-solidserv" class="service-ecart">
+            <div class="container row">
+                <div class="col-6" style="text-align: center;">
+                    <a href="https://solidserv.fr">
+                        <img class="img-solidserv img-home" src="assets/solidserv_service.png">
+                    </a>
+                </div>
+                <div class="container col-5">
+                    <article>
+                        <h2 class="art"><i class="fas fa-caret-right"></i> Grâce à SolidServ</h2>
+                        <p class="art" style='    padding-bottom: 10px;
+            margin-top: -21px;'>
+
+                            Cette page est proposé par notre propre filaile <strong>SolidServ</strong>, il s'agit notre propre hébergeur serveur créer et porté par Tyrolium et ses équipes depuis plus de 2 ans
+
+                        </p>
+                        <div style="text-align: center">
+                            <?php tyrobtn("https://solidserv.fr", "solidserv", "Site de SolidServ");?>
+                        </div>
+                    </article>
+                </div>
             </div>
-            <div class="container col-5">
-                <article>
-                    <h2 class="art"><i class="fas fa-caret-right"></i> Grâce à SolidServ</h2>
-                    <p class="art" style='    padding-bottom: 10px;
-        margin-top: -21px;'>
+        </section>
+    </div>
 
-                        Cette page est proposé par notre propre filaile <strong>SolidServ</strong>, il s'agit notre propre hébergeur serveur créer et porté par Tyrolium et ses équipes depuis plus de 2 ans
+    <style>
+        #service-second-but{
+            border: 2px solid transparent;
+            background-color: #4256a40d;
+            backdrop-filter: blur(9px);
+            border-radius: 59px;
+            padding: 0px 60px 0;
+            margin-top: 30px;
 
-                    </p>
-                    <div style="text-align: center">
-                        <?php tyrobtn("https://solidserv.fr", "solidserv", "Site de SolidServ");?>
-                    </div>
-                </article>
+        }
+    </style>
+
+    <div class="home-res service-res">
+
+        <br>
+        <section id="service-second-but">
+            <h2><i class="fas fa-caret-right"></i> Grâce à SolidServ</h2><br>
+            <p>
+
+                Cette page est proposé par notre propre filaile <strong>SolidServ</strong>, il s'agit notre propre hébergeur serveur créer et porté par Tyrolium et ses équipes depuis plus de 2 ans
+
+            </p>
+            <div>
+                <div class="" style="width: 60%; margin-left: 20%">
+                    <img src="assets/solidserv_service.png" width="100%" height="100%">
+                </div>
             </div>
-        </div>
-    </section>
+            <br>
+            <?php tyrobtn("https://solidserv.fr", "solidserv", "Site de SolidServ");?>
+
+            <br>
+            <br>
+        </section>
 
     <br><br>
 

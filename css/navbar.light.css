@@ -43,6 +43,6 @@ body.light .navbar-dark .navbar-toggler-icon {
 
 @media (max-width: 991px) {
     body.light .btn-darkmode{
-        background: white;
+        background: transparent;
     }
 }

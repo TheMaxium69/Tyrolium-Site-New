@@ -1,6 +1,8 @@
 <?php include "app/app.php"; $page = 5; head($page); ?>
 <body id="story" onLoad="cookie()" class="<?php if (empty($_COOKIE["color"])){ echo "dark"; }else{echo $_COOKIE["color"]; } ?>"> <header> <?php navbar($page); ?> </header>
 
+<?php loader() ?>
+
 <section id="storyhead" class="container">
     <br>
     <h2 style="text-align: center">Notre Histoire</h2>
