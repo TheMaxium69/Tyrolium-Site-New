@@ -87,15 +87,26 @@ i {
 * LOADER
 ************/
 
+
 .loader{
     position: absolute;
-    width: 100vw;
+    width: 98vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0);
     backdrop-filter: blur(50px);
     z-index: 111111111111111111;
     margin-top: -64px;
+
 }
+
+
+/* Pour Firefox */
+@-moz-document url-prefix() {
+    .loader {
+        width: 100vw;
+    }
+}
+
 .fondu-out{
     opacity: 0;
     visibility: hidden;

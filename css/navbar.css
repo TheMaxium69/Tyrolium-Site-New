@@ -29,7 +29,7 @@
 
 .navbar-mainbg{
     background-color: #26272bcc!important;
-    backdrop-filter: blur(20px)!important;
+    backdrop-filter: blur(20px);
 }
 
 
