@@ -157,7 +157,8 @@
                 <img class="logo" src="http://tyrolium.fr/Contenu/Image/Vturias.png" alt="VturiasLogo">
                 <h2>Vturias</h2>
                 <p>Agence de Vtubing.</p>
-                <a href="https://twitter.com/Vturias_Project" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/twitter.png" alt="twitter"/> Allez sur notre Twitter</a><br>
+                <a href="https://vturias.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
+                <a href="https://twitter.com/Vturias_Project" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/twitter.png" alt="twitter"/></a>
                 <a href="https://discord.gg/nUc8kED8st" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
                 <a href="https://www.instagram.com/vturias_project/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
                 <a href="https://www.youtube.com/@VturiasProject" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/youtube.png" alt="youtube"/></a>

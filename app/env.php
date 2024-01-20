@@ -392,6 +392,13 @@ $env_website = array(
             "picture"=>"https://media.discordapp.net/attachments/446049284694081546/1173740182265139290/image.png?ex=65650dba&is=655298ba&hm=d7c1db223bacc0b820c68ac027068fa803355344462037c8a0d21b62ed83245a&=&width=783&height=579"
         ),
     array(
+            "name"=>"Tyrolium SpeedTest",
+            "desc"=>"SpeedTest pour tester sa connexion avec les serveurs interne de Tyrolium",
+            "github"=>"https://github.com/TheMaxium69/Tyrolium-SpeedTest",
+            "url"=>"https://speedtest.tyrolium.fr/",
+            "picture"=>"https://media.discordapp.net/attachments/446049284694081546/1198345260917608519/image.png?ex=65be90fe&is=65ac1bfe&hm=e1a108e2274176e5dfca030d8ef29f7ee25c9c75938d9f0b6207343bc0e93b6c&=&format=webp&quality=lossless&width=865&height=458"
+        ),
+    array(
             "name"=>"C.L.S Habitat",
             "desc"=>"Site de l'entreprise C.L.S Habitat",
             "github"=>"https://github.com/TheMaxium69/CLS.Habitat-WebSite",
@@ -452,6 +459,13 @@ $env_website = array(
             "github"=>"https://github.com/TheMaxium69/Influnias-WebSite-V2",
             "url"=>"https://www.influnias.fr/",
             "picture"=>"https://media.discordapp.net/attachments/446049284694081546/1195882562325860382/image.png?ex=65b59b6d&is=65a3266d&hm=7476031002c8af89f0a644f88d1ba8ac13cf6797cfad315578eea1b131f53535&=&format=webp&quality=lossless&width=957&height=585"
+        ),
+    array(
+            "name"=>"Vturias",
+            "desc"=>"Site Internet de notre Agence de Vtubeur, failaire de Tyrolium",
+            "github"=>"https://github.com/TheMaxium69/Vturias-WebSite",
+            "url"=>"https://vturias.fr/",
+            "picture"=>"https://media.discordapp.net/attachments/446049284694081546/1198346268301344869/image.png?ex=65be91ee&is=65ac1cee&hm=564a68fc78cfd175df6c09f1606873aba06cf45a25c65ad2ede8d4fb35439f6d&=&format=webp&quality=lossless&width=868&height=458"
         ),
 
     array(
