@@ -146,6 +146,18 @@ $env_perso = array(
         "github" => "https://github.com/ClemCH2R2SR",
     ),
 
+    array("name" => "Rayan Quessada",
+        "role" => "Développeur Web",
+        "icon" => "Rayan_Quessada.jpg",
+        "linkedin" => "https://www.linkedin.com/in/rayan%2Dquessada/",
+    ),
+
+    array("name" => "Angelo Fernandez",
+        "role" => "Développeur Web",
+        "icon" => "Angelo_Fernandez.jpg",
+        "linkedin" => "https://www.linkedin.com/in/angelo-fernandez-397b25250/",
+    ),
+
     array("name" => "Marilyne Naili",
         "role" => "Développeur Web",
         "icon" => "Marilyne_Naili.jpg",
@@ -188,9 +200,9 @@ $env_perso = array(
         "tiktok" => "https://www.tiktok.com/@ren.justme?lang=fr",
     ),
 
-    /*array(
+    array(
         "vide" => true,
-    ),*/
+    ),
 
     array("name" => "Lola Dutouquet",
         "role" => "Rédactrice,<br> Linguiste",
