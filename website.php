@@ -315,7 +315,7 @@ foreach ($env_website as $website){
                     $tempStyle = $tempStyle+1;?>
 
                     .card_fond_<?= $tempStyle ?>{
-                        background: url("<?= $website['picture'] ?>");
+                        background: url("assets/site/<?= $website['picture'] ?>.png");
                     }
 
                 <?php } ?>
