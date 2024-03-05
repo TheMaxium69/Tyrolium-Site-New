@@ -146,6 +146,21 @@
                 <a href="https://www.twitch.tv/gamenium_off" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/twitch.png" alt="twitch"/></a>
                 <a href="https://www.linkedin.com/company/gamenium" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/linkedIn.png" alt="linkedin"/></a>
             </li>
+            
+
+            <li id="a13">
+                <img class="logo" src="http://tyrolium.fr/Contenu/Image/Vturias.png" alt="VturiasLogo">
+                <h2>Vturias</h2>
+                <p>Agence de Vtubing.</p>
+                <a href="https://vturias.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
+                <a href="https://twitter.com/Vturias_Project" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/twitter.png" alt="twitter"/></a>
+                <a href="https://discord.gg/nUc8kED8st" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
+                <a href="https://www.instagram.com/vturias_project/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
+                <a href="https://www.youtube.com/@VturiasProject" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/youtube.png" alt="youtube"/></a>
+                <a href="https://www.tiktok.com/@vturias_project" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/tiktok.png" alt="tiktok"/></a>
+                <a href="https://www.linkedin.com/company/vturias/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/linkedIn.png" alt="linkedin"/></a>
+
+            </li>
 
             <li id="a11">
                 <img class="logo" src="assets/anim/Influnias%20Anim.png" logo="assets/anim/Influnias%20Anim.png" gif="assets/anim/Influnias%20Anim.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="InfluniasLogo">
@@ -160,21 +175,6 @@
                 <a href="https://www.tiktok.com/@influnias?" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/tiktok.png" alt="tiktok"/></a>
                 <a href="https://www.twitch.tv/influnias" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/twitch.png" alt="twitch"/></a>
                 <a href="https://www.linkedin.com/company/influnias" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/linkedIn.png" alt="linkedin"/></a>
-            </li>
-
-
-            <li id="a13">
-                <img class="logo" src="http://tyrolium.fr/Contenu/Image/Vturias.png" alt="VturiasLogo">
-                <h2>Vturias</h2>
-                <p>Agence de Vtubing.</p>
-                <a href="https://vturias.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
-                <a href="https://twitter.com/Vturias_Project" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/twitter.png" alt="twitter"/></a>
-                <a href="https://discord.gg/nUc8kED8st" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
-                <a href="https://www.instagram.com/vturias_project/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
-                <a href="https://www.youtube.com/@VturiasProject" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/youtube.png" alt="youtube"/></a>
-                <a href="https://www.tiktok.com/@vturias_project" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/tiktok.png" alt="tiktok"/></a>
-                <a href="https://www.linkedin.com/company/vturias/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/linkedIn.png" alt="linkedin"/></a>
-
             </li>
             
             <bottom id="btn-old-project">
