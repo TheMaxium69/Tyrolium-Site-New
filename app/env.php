@@ -115,16 +115,6 @@ $env_perso = array(
         "behance" => "https://www.behance.net/mawanmarthelot"
 
     ),*/
-
-    array("name" => "Daniel Taniou",
-        "role" => "Graphiste, Modérateur,<br> Linguiste",
-        "icon" => "Daniel_Taniou.jpg",
-        "youtube" => "https://youtube.com/c/Eroniage",
-        "instagram" => "https://www.instagram.com/eroniage_off/",
-        "twitter" => "https://twitter.com/Eroniage_ytb",
-        "tiktok" => "https://www.tiktok.com/@eroniage_",
-    ),
-
     array("name" => "Mathis Dubief",
         "role" => "Journaliste Jeux Vidéo,<br> Modérateur",
         "icon" => "Mathis_Dubief.jpg",
@@ -133,7 +123,7 @@ $env_perso = array(
     ),
 
     array("name" => "Kevin Muziak",
-        "role" => "Développeur Web",
+        "role" => "Développeur Web <br>et Minecraft",
         "icon" => "Kevin_Muziak.jpg",
         "linkedin" => "https://www.linkedin.com/in/kevin-muziak/",
         "github" => "https://github.com/Threonaum",
@@ -158,17 +148,19 @@ $env_perso = array(
         "linkedin" => "https://www.linkedin.com/in/angelo-fernandez-397b25250/",
     ),
 
+//    array("name" => "Adam Magadur",
+//        "role" => "R&D, <br> Administrateur Minecraft",
+//        "icon" => "Adam_Magadur.jpg",
+//        "instagram" => "https://www.instagram.com/adammagadur/",
+//    ),
+
 //    array("name" => "Marilyne Naili",
 //        "role" => "Développeur Web",
 //        "icon" => "Marilyne_Naili.jpg",
 //        "linkedin" => "https://www.linkedin.com/in/marilyne-naili-95005b159/",
 //        "github" => "https://github.com/marilyne69230",
 //    ),
-    array("name" => "Adam Magadur",
-        "role" => "R&D, <br> Administrateur Minecraft",
-        "icon" => "Adam_Magadur.jpg",
-        "instagram" => "https://www.instagram.com/adammagadur/",
-    ),
+
 
     array("name" => "Elias Poder",
         "role" => "Développeur Web",
@@ -183,10 +175,44 @@ $env_perso = array(
         "linkedin" => "https://www.linkedin.com/in/yanis-derouiche/",
     ),*/
 
+    array("name" => "Maktoum Abdelhak",
+        "role" => "Développeur Web",
+        "icon" => "Maktoum_Abdelhak.jpg",
+        "linkedin" => "https://www.linkedin.com/in/maktoum-abdelhak-20478212b/",
+        "github" => "https://github.com/Martav69",
+        "youtube" => "https://www.youtube.com/@Martav69",
+    ),
+
+    array("name" => "Oscar Boguszewski",
+        "role" => "Développeur Web",
+        "icon" => "Oscar_Boguszewski.jpg",
+        "linkedin" => "https://www.linkedin.com/in/oscar-boguszewski-a734902a8/",
+        "github" => "https://github.com/05c4rR",
+    ),
+
+    array("name" => "Adèle Jausons",
+        "role" => "Développeuse Web",
+        "icon" => "Adèle_Jausons.jpg",
+        "linkedin" => "https://www.linkedin.com/in/ad%C3%A8le-jausons-2b55491b7/",
+    ),
+
+    array("name" => "Bastien Thiebaut",
+        "role" => "Développeur Web",
+        "icon" => "Bastien_Thiebaut.jpg",
+        "linkedin" => "https://www.linkedin.com/in/bastien-thiebaut-b055062a5/",
+    ),
+
+    array("name" => "Erynn Vandre",
+        "role" => "Développeuse Web",
+        "icon" => "Erynn_Vandre.jpg",
+        "linkedin" => "https://www.linkedin.com/in/erynn-vandre-6ba319278/",
+    ),
+
+
 
 
     array("name" => "Delphine Rodriguez",
-        "role" => "Développeuse Web",
+        "role" => "Développeuse Web, <br> Data Analyst",
         "icon" => "Delphine_Rodriguez.jpg",
         "linkedin" => "https://www.linkedin.com/in/delphine-rodriguez/",
         "github" => "https://github.com/delphine38",
@@ -199,6 +225,17 @@ $env_perso = array(
 
     ),
 
+
+    array("name" => "Daniel Taniou",
+        "role" => "Graphiste, Modérateur,<br> Linguiste",
+        "icon" => "Daniel_Taniou.jpg",
+        "youtube" => "https://youtube.com/c/Eroniage",
+        "instagram" => "https://www.instagram.com/eroniage_off/",
+        "twitter" => "https://twitter.com/Eroniage_ytb",
+        "tiktok" => "https://www.tiktok.com/@eroniage_",
+    ),
+
+
     array("name" => "Ren LIM",
         "role" => "Graphiste,<br> Monteur-Vidéo",
         "icon" => "Ren_Lim.jpg",
@@ -209,10 +246,25 @@ $env_perso = array(
         "vide" => true,
     ),
 
-    array("name" => "Lola Dutouquet",
-        "role" => "Rédactrice,<br> Linguiste",
-        "icon" => "Lola_Dutouquet.jpg",
-        "instagram" => "https://www.instagram.com/l_o._.la/",
+//    array("name" => "Lola Dutouquet",
+//        "role" => "Rédactrice,<br> Linguiste",
+//        "icon" => "Lola_Dutouquet.jpg",
+//        "instagram" => "https://www.instagram.com/l_o._.la/",
+//    ),
+
+
+
+
+
+
+
+
+    array("name" => "Wassim Bouridah",
+        "role" => "Responsable Indépendant<br> de Communication ",
+        "icon" => "Wassim_Bouridah.jpg",
+        "instagram" => "https://www.instagram.com/wassinobi/",
+        "youtube" => "https://www.youtube.com/channel/UCBuxMq0h-WQJi5_e6My9GYg",
+        "linkedin" => "https://www.linkedin.com/in/wassim-bouridah/",
     ),
 
     array("name" => "Flavien Dechoz",
@@ -243,19 +295,6 @@ $env_perso = array(
        
 
 
-
-
-    
-    
-
-    /* array("name" => "Wassim Bouridah",
-        "role" => "Responsable Communication,<br> Ingénieur R&D",
-        "icon" => "Wassim_Bouridah.jpg",
-        "instagram" => "https://www.instagram.com/wassinobi/",
-        "youtube" => "https://www.youtube.com/channel/UCBuxMq0h-WQJi5_e6My9GYg",
-        "linkedin" => "https://www.linkedin.com/in/wassim-bouridah/",
-    ), */
-    
 
     // array("name" => "Norman Jorge De Freitas",
     //     "role" => " Compositeur(ice),<br> Écrivain(e)",
