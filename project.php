@@ -96,7 +96,7 @@
         <ul>
 
             <li id="a0">
-                <img class="logo" src="assets/anim/TyroServ%20Anim.png" logo="assets/anim/TyroServ%20Anim.png" gif="assets/anim/tyroserv.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="TyroservLogo">
+                <img class="logo" src="https://tyrolium.fr/Contenu/Image/TyroServS3.png" logo="assets/anim/TyroServ%20Anim.png" gif="assets/anim/tyroserv.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="TyroservLogo">
                 <h2>TyroServ</h2>
                 <p>Serveur moddé sur le jeu Minecraft.</p>
                 <small>Saison 2.5 disponible sur notre site.</small><br>
@@ -112,7 +112,7 @@
             </li>   
 
             <li id="a8">
-                <img class="logo" src="assets/anim/SolidServ%20Anim.png" logo="assets/anim/SolidServ%20Anim.png" gif="http://tyrolium.fr/Contenu/Image/SolidServ%20Anim2.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="SolidServLogo">
+                <img class="logo" src="https://tyrolium.fr/Contenu/Image/SolidServ.png" logo="assets/anim/SolidServ%20Anim.png" gif="http://tyrolium.fr/Contenu/Image/SolidServ%20Anim2.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="SolidServLogo">
                 <h2>SolidServ</h2>
                 <p>Projet d'hébergeur de serveur.</p>
                 <a href="https://solidserv.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
@@ -163,7 +163,7 @@
             </li>
 
             <li id="a11">
-                <img class="logo" src="assets/anim/Influnias%20Anim.png" logo="assets/anim/Influnias%20Anim.png" gif="assets/anim/Influnias%20Anim.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="InfluniasLogo">
+                <img class="logo" src="https://tyrolium.fr/Contenu/Image/Influnias.png" logo="assets/anim/Influnias%20Anim.png" gif="assets/anim/Influnias%20Anim.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="InfluniasLogo">
                 <h2>Influnias</h2>
                 <p>Agence de portage d'influencer.</p>
                 <a href="https://www.influnias.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
@@ -277,7 +277,7 @@
             </li>
 
             <li id="a5">
-                <img class="logo" src="assets/anim/Selemusium%20Anim.png" logo="assets/anim/Selemusium%20Anim.png" gif="assets/anim/Selemusium%20Anim.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="SelemusiumLogo">
+                <img class="logo" src="https://tyrolium.fr/Contenu/Image/Selemusium.png" logo="assets/anim/Selemusium%20Anim.png" gif="assets/anim/Selemusium%20Anim.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="SelemusiumLogo">
                 <h2>Sélémusium<br><span class="badge badge-pill badge-danger infoNew-A5">Fermer</span></h2>
 
                 <!-- Text Old -->
