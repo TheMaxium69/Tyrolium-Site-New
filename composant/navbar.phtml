@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-custom navbar-mainbg navbar-dark fixed-top">
         <img style="z-index: 10000; margin-left: 20px" src="http://tyrolium.fr/Contenu/Image/<?php if ($env_isEvent_5Year) { echo "Tyrolium5Year Site.png"; } else { echo "Tyrolium Site.png"; } ?>" alt="TyroliumLogo" width="40px" class="d-inline-block align-text-top nav-anim">
-        <a style="z-index: 10000;" class="navbar-brand navbar-logo" href="javascript:redirect(1)">Tyrolium <?php if($env_isEvent_5Year){?><span class="badge badge-warning">6 ans !</span><?php } ?> <?php if($env_isEvent_Noel2022){?> <span class="badge badge-danger">Joyeux Noël !</span><?php } ?>  <?php if($env_isEvent_year2023){?> <span class="badge badge-success">Bonne Année 2023 !</span><?php } ?></a>
+        <a style="z-index: 10000;" class="navbar-brand navbar-logo" href="javascript:redirect(1)">Tyrolium <?php if($env_isEvent_5Year){?><span class="badge badge-warning">7 ans !</span><?php } ?> <?php if($env_isEvent_Noel2022){?> <span class="badge badge-danger">Joyeux Noël !</span><?php } ?>  <?php if($env_isEvent_year2023){?> <span class="badge badge-success">Bonne Année 2023 !</span><?php } ?></a>
 
     <div>
         <div class="darkMobile btn-darkmode btn-darkmode1"><?php if (empty($_COOKIE["color"])){ echo "<i class='fas fa-moon'></i>"; }else{ if ($_COOKIE["color"] == "light"){ ?><i class="fas fa-sun"></i><?php }else{ ?><i class="fas fa-moon"></i><?php }  } ?></div>
@@ -241,7 +241,7 @@ for ($i = 0; $i <= $nbBack-1; $i++) {
 
         if(Text != 1){
             iziToast.info({
-                title: '6 ans !',
+                title: '7 ans !',
                 theme: 'light',
 
                 iconUrl: 'https://tyrolium.fr/Contenu/Image/Tyrolium%20Site.png',
@@ -251,7 +251,7 @@ for ($i = 0; $i <= $nbBack-1; $i++) {
                 timeout: 20000,
 
                 position: 'bottomCenter',
-                message: ' Tyrolium souffle sa 6ieme bougie 🎉 <a target="_blank" href="https://youtu.be/0kCWkn-WX4w" style="text-decoration: underline">Regarder la vidéo de l\'anniversaire</a>'
+                message: ' Tyrolium souffle sa 7ieme bougie 🎉'
             });
         }
 </script> <?php } ?>
