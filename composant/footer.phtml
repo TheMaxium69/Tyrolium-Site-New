@@ -17,7 +17,7 @@
 
                         if ($env_isAccount == false && $j <= 5){
                             echo '<li><a href="javascript:redirect('. $j .');">'. $lang['page'][$i] .'</a></li>';
-                        } else if ($env_isAccount == true) {
+                        } else if ($env_isAccount == true && $j != 5) {
                             echo '<li><a href="javascript:redirect('. $j .');">'. $lang['page'][$i] .'</a></li>';
                         }
 

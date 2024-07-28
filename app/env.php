@@ -1,11 +1,11 @@
 <?php
 
 //PROD or DEV or TEST
-$APP_ENV = "DEV";
+$APP_ENV = "DEV-LINUX";
 
 // FALSE or TRUE
 $env_isAccount = true;
-$env_isEvent_5Year = true;
+$env_isEvent_5Year = false;
 $env_isEvent_Noel2022 = false;
 $env_isEvent_year2023 = false;
 $env_isAnimProject = true;
@@ -49,11 +49,23 @@ if ($APP_ENV == "PROD"){
     $env_useritium_site = "http://localhost/TyroMail";
     $env_connectUrl = "http://localhost/Tyrolium-Site-New/";
 
+} else if ($APP_ENV == "DEV-LINUX"){
+
+    include "/home/maxime/Developpement/localhost/reCAPTCHA.php";
+
+    $env_bd_contact = "api/get.php";
+
+    $env_captcha_clientid = $Localhost_ClientID;
+    $env_captcha_servid = $Localhost_ServID;
+
+    $env_useritium_site = "http://127.0.0.1/Useritium-WebSite";
+    $env_connectUrl = "http://127.0.0.1/Tyrolium-Site-New/";
+
 } else if ($APP_ENV == "TEST"){
     include "E:/LocalHost/reCAPTCHA.php";
-    
-    $env_bd_contact = "https://tyrolium.fr/api/get.php";   
-    
+
+    $env_bd_contact = "https://tyrolium.fr/api/get.php";
+
     $env_captcha_clientid = $Localhost_ClientID;
     $env_captcha_servid = $Localhost_ServID;
 
@@ -348,7 +360,8 @@ $env_page = array(
     "Prestation",
     "Collaboration",
     "Histoire",
-    "Compte"
+    "Compte",
+    "Contactez-nous"
 );
 
 $env_page_logo = array(
@@ -357,6 +370,7 @@ $env_page_logo = array(
     "fas fa-tags",
     "fas fa-handshake",
     "fas fa-book",
+    "fas fa-user",
     "fas fa-user",
 );
 

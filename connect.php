@@ -32,7 +32,7 @@
                                                         
                                                         <input type="hidden" name="site" value="<?= $env_connectUrl ?>">
                                                         <input class="btn mt-4" type="submit" value="Envoyer"></input>
-                                                        <p class="mb-0 mt-4 text-center"><a href="#0" class="link">Mot de passe oublié?</a></p>
+                                                        <p class="mb-0 mt-4 text-center"><a href="<?= $env_useritium_site ?>/password.php?create=yes" class="link">Mot de passe oublié?</a></p>
                                                     </div>
                                                 </form>
                                             </div>

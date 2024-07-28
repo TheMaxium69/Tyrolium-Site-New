@@ -43,11 +43,11 @@ for ($i = 0; $i <= $nbBack-1; $i++) {
                      <div class="dropdown-content">
                         
                         <hr>
-                        <h2 onclick="window.location.href = \'website\';"><i class="fas fa-globe"></i> <span>Site Web</span> </h2>
-                        <h2 onclick="window.location.href = \'server\';"><i class="fas fa-server"></i> <span>Serveur</span>  <small>Par notre filaire SolidServ <img src="https://tyrolium.fr/Contenu/Image/SolidServ%20Site.png" alt="solidserv logo"></small> </h2>
-                        <h2 onclick="window.location.href = \'minecraft\';"><img class="mc-icone" src="https://www.pngall.com/wp-content/uploads/13/Minecraft-Logo-PNG-Image.png" alt="Minecraft Icone"> <span>Minecraft</span> </h2>
-                        <h2 onclick="window.location.href = \'crm\';"><i class="fas fa-tasks"></i> <span>CRM</span> <small>Par notre CRM Nexiumia <img style="margin-top: -3px;margin-left: 1px" src="https://tyrolium.fr/Contenu/Image/NexiumiaCRM%20Base.png" alt="NexiumiaCRM logo"></small> </h2>
-                        <h2 onclick="window.location.href = \'video\';" style="margin-top: -2px;"><i class="fas fa-film"></i> <span>Montage & Vidéo</span> <small>Par notre partenaire 49 Volts <img style="margin-top: -5px;" src="assets/part/49volts Site.png" alt="49volts logo"></small> </h2>
+                        <h2 onclick="window.location.href = \'website.php\';"><i class="fas fa-globe"></i> <span>Site Web</span> </h2>
+                        <h2 onclick="window.location.href = \'server.php\';"><i class="fas fa-server"></i> <span>Serveur</span>  <small>Par notre filaire SolidServ <img src="https://tyrolium.fr/Contenu/Image/SolidServ%20Site.png" alt="solidserv logo"></small> </h2>
+                        <h2 onclick="window.location.href = \'minecraft.php\';"><img class="mc-icone" src="https://www.pngall.com/wp-content/uploads/13/Minecraft-Logo-PNG-Image.png" alt="Minecraft Icone"> <span>Minecraft</span> </h2>
+                        <h2 onclick="window.location.href = \'crm.php\';"><i class="fas fa-tasks"></i> <span>CRM</span> <small>Par notre CRM Nexiumia <img style="margin-top: -3px;margin-left: 1px" src="https://tyrolium.fr/Contenu/Image/NexiumiaCRM%20Base.png" alt="NexiumiaCRM logo"></small> </h2>
+                        <h2 onclick="window.location.href = \'video.php\';" style="margin-top: -2px;"><i class="fas fa-film"></i> <span>Montage & Vidéo</span> <small>Par notre partenaire 49 Volts <img style="margin-top: -5px;" src="assets/part/49volts Site.png" alt="49volts logo"></small> </h2>
                     </div>
                   </li>';
 //<h2 onclick="window.location.href = \'video\';"><i class="fas fa-film"></i> <span>Montage & Vidéo</span> <small>Par notre partenaire 49 Volts <img style="margin-top: -5px;" src="assets/part/49volts Site.png" alt="49volts logo"></small> </h2>
@@ -163,16 +163,48 @@ for ($i = 0; $i <= $nbBack-1; $i++) {
 
 
         } else {
-            if ($j == $page){
+            if ($j == $page && $j != 5){
 
+                if ($page != 7) {
                     echo '<li class="nav-item active">
-                                  <a class="nav-link active" href="javascript:void(0);"><i class="'. $env_page_logo[$i] .'"></i>'. $lang['page'][$i] .'</a>
+                                  <a class="nav-link active" href="javascript:void(0);"><i class="' . $env_page_logo[$i] . '"></i>' . $lang['page'][$i] . '</a>
                               </li>';
+                } else {
+                    echo '<li class="nav-item active">
+                                  <a class="nav-link active" href="javascript:void(0);">' . $lang['page'][$i] . '</a>
+                              </li>';
+                }
 
-            } else {
+            } else if ($j != 5 && $j != 7) {
                 echo '<li class="nav-item">
                               <a class="nav-link" href="javascript:redirect('. $j .');"><i class="'. $env_page_logo[$i] .'"></i>'. $lang['page'][$i] .'</a>
                           </li>';
+            } else if ($j == 7) {
+                echo '<li class="nav-item contactus">
+                              <a class="nav-link contactus" href="javascript:redirect('. $j .');">'. $lang['page'][$i] .'</a>
+                          </li>';
+                ?>
+
+                <style>
+
+                    /*@media(min-width: 992px){*/
+
+                        #navbarSupportedContent>ul>li.contactus>a {
+                            padding-bottom: 13px;
+                            padding-top: 15px;
+                            margin-top: 6px;
+                            transition-duration: 0.6s;
+                            transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+                            background-color: #001cfa6b;
+                            border-radius: 15px;
+                            box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px, rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+                        }
+                        
+                    /*}*/
+
+                </style>
+
+                <?php
             }
         }
     }

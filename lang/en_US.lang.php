@@ -9,7 +9,8 @@
             "Service",
             "Collaboration",
             "Story",
-            "Account"
+            "Account",
+            "Contact us"
         
         ),
         

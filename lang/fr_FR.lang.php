@@ -9,7 +9,8 @@
             "Prestation",
             "Collaboration",
             "Histoire",
-            "Compte"
+            "Compte",
+            "Contactez-nous"
         
         ),
         
