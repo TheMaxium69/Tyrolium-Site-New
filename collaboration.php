@@ -291,7 +291,7 @@
                         <article>
                             <h2 class="art"><i class="fas fa-caret-right"></i> Fondateur de Tyrolium</h2>
                             <p class="art" style='padding-bottom: 10px; margin-top: -21px;'>
-                            Félicitations au fondateur pour ses 6 années d'engagement total dans Tyrolium et ses projets. 
+                            Félicitations au fondateur pour ses 7 années d'engagement total dans Tyrolium et ses projets.
                             Son dévouement exemplaire est une source d'inspiration pour toutes les personnes qui travaillent dans l'entreprise. 
                             Si Tyrolium est arrivé là où il en est aujourd'hui, c'est bien grâce à Maxime Tournier, celui qui a donné une chance à chacun d'atteindre nos rêves.
                             </p>
