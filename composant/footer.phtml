@@ -17,7 +17,7 @@
 
                         if ($env_isAccount == false && $j <= 5){
                             echo '<li><a href="javascript:redirect('. $j .');">'. $lang['page'][$i] .'</a></li>';
-                        } else if ($env_isAccount == true && $j != 5) {
+                        } else if ($env_isAccount == true && $j != 5 && $j != 3) {
                             echo '<li><a href="javascript:redirect('. $j .');">'. $lang['page'][$i] .'</a></li>';
                         }
 
@@ -40,8 +40,8 @@
                     <li><a target="_bank" href="https://useritium.fr">Compte Useritium</a></li>
                     <li><a target="_bank" href="https://tyrolium.fr/Status/"><?= $lang["footer"]["other-page"][2] ?></a></li>
                     <li><a target="_bank" href="https://tyrolium.fr/Panel/"><?= $lang['footer']["other-page"][3] ?></a></li>
-                    <li><a target="_bank" href="https://github.com/orgs/Tyrolium/repositories"><?= $lang['footer']["other-page"][4] ?></a></li>
-                    <li><a target="_bank" href="https://themaxium69.github.io/TyroDiscord-WebSite/">TyroDiscord</a></li>        
+                    <li><a target="_bank" href="http://repo.tyrolium.fr/"><?= $lang['footer']["other-page"][4] ?></a></li>
+<!--                    <li><a target="_bank" href="https://themaxium69.github.io/TyroDiscord-WebSite/">TyroDiscord</a></li>        -->
                     <!-- <li><a target="_bank" href="https://birthday.tyrolium.fr/">//$lang['footer']["other-page"][5]</a></li>         -->
                     <!-- <li><a href="https://tyrodiscord.xyz/">Discord</a></li> -->
                 </ul>
