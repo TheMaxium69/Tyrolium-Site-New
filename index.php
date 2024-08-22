@@ -47,7 +47,7 @@
                 <h2 class="art"><i class="fas fa-caret-right"></i> <?= $lang[$page]["project"]["title"] ?></h2>
                 <p class="art"><?= $lang[$page]["project"]["txt"] ?></p>
                 <div style="text-align: center">
-                    <?php tyrobtn("project", "project", $lang[$page]["project"]["btn"]);?>
+                    <?php tyrobtn("./project", "project", $lang[$page]["project"]["btn"]);?>
                 </div>
             </article>
         </div>
@@ -70,7 +70,24 @@
                 <h2 class="art"><i class="fas fa-caret-right"></i> <?= $lang[$page]["service"]["title"] ?></h2>
                 <p class="art"><?= $lang[$page]["service"]["txt"] ?></p>
                 <div style="text-align: center">
-                    <?php tyrobtn("service.php", "service", $lang[$page]["service"]["btn"]);?>
+                    <?php tyrobtn("./website.php", "website-service", "Site Web");?>
+                    <?php tyrobtn("./server.php", "server-service", "Serveur");?>
+                    <?php tyrobtn("./minecraft.php", "minecraft-service", "Minecraft");?>
+                    <style>
+                        #btn-website-service{
+                            width: 40%;
+                            margin-right: 10px;
+                        }
+                        #btn-server-service{
+                            width: 40%;
+                        }
+                        #btn-minecraft-service{
+                            margin-top: 10px;
+                            width: 40%;
+                        }
+
+
+                    </style>
                 </div>
             </article>
         </div>
@@ -82,7 +99,7 @@
                 <h2 class="art"><i class="fas fa-caret-right"></i> <?= $lang[$page]["collab"]["title"] ?></h2>
                 <p class="art"><?= $lang[$page]["collab"]["txt"] ?></p>
                 <div style="text-align: center">
-                    <?php tyrobtn("collaboration.php", "collaboration", $lang[$page]["collab"]["btn"]);?>
+                    <?php tyrobtn("./collaboration.php", "collaboration", $lang[$page]["collab"]["btn"]);?>
                 </div>
             </article>
         </div>
@@ -109,7 +126,7 @@
                     <p class="art" style='    padding-bottom: 10px;
     margin-top: -21px;'><?= $lang[$page]["account"]["txt"] ?></p>
                     <div style="text-align: center">
-                        <?php tyrobtn("account.php", "account", $lang[$page]["account"]["btn"]);?>
+                        <?php tyrobtn("./account.php", "account", $lang[$page]["account"]["btn"]);?>
                     </div>
                 </article>
             </div>
@@ -122,7 +139,7 @@
                 <h2 class="art"><i class="fas fa-caret-right"></i> <?= $lang[$page]["story"]["title"] ?></h2>
                 <p class="art"><?= $lang[$page]["story"]["txt"] ?></p>
                 <div style="text-align: center">
-                    <?php tyrobtn("story.php", "story", $lang[$page]["story"]["btn"]);?>
+                    <?php tyrobtn("./story.php", "story", $lang[$page]["story"]["btn"]);?>
                 </div>
             </article>
         </div>

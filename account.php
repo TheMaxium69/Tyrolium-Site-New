@@ -99,14 +99,14 @@ Découvrez également des nombreuses fonctionnalités disponibles en dessous</p>
                                 <div class="cont_ba_opcitiy">
                                     <h2>Connexion</h2>  
                                     <p>Connectez-vous et accedez à votre panel</p> 
-                                    <a href="connect.php" class="btn btn_login">Se connecter</a>
+                                    <a target="_blank" href="https://useritium.fr/connect.php" class="btn btn_login">Se connecter</a>
                                 </div>
                             </div>
                             <div class="col_md_sign_up">
                                 <div class="cont_ba_opcitiy">
                                     <h2>Inscription</h2>
                                     <p>Inscrivez-vous, ça vous prendre moin d'1 min</p>
-                                    <a href="connect.php" class="btn btn_sign_up">S'incrire</a>
+                                    <a target="_blank" href="https://useritium.fr/connect.php" class="btn btn_sign_up">S'incrire</a>
                                 </div>
                             </div>
                         </div>
