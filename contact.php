@@ -19,7 +19,7 @@
         <div class="container">
             <div class="section-contact">
                 <div class="form-contact">
-                    <form method="get" action="<?php echo $env_bd_contact; ?>">
+                    <form id="form-contact-key" method="get" action="<?php echo $env_bd_contact; ?>" onsubmit="handleFormSubmit(event)">
 
                         <h2 style="text-align: center">Motif de contact</h2>
                         <br>
@@ -247,6 +247,39 @@
                 </div>
             </div>
         </div>
+
+        <script>
+            function handleFormSubmit(event) {
+                event.preventDefault(); // Empêche le formulaire de soumettre de manière classique
+
+                // Obtenez les données du formulaire
+                const form = document.getElementById('form-contact-key');
+                const formData = new FormData(form);
+
+                // Première soumission (GET vers votre action PHP)
+                fetch(form.action + '?' + new URLSearchParams(formData), {
+                    method: 'GET',
+                })
+                    .then(response => response.text())
+                    .then(result => {
+                        console.log('Envoyé à l\'action PHP');
+
+                        // Deuxième soumission (POST vers Formspree)
+                        fetch('https://formspree.io/f/xldrpwrr', {
+                            method: 'POST',
+                            body: formData,
+                        })
+                            .then(response => response.text())
+                            .then(result => {
+                                console.log('Envoyé à Formspree');
+
+                                // Une fois les deux soumissions terminées, on peut afficher un message ou rediriger
+                                // alert('Formulaire envoyé avec succès !');
+                            });
+                    })
+                    .catch(error => console.error('Erreur:', error));
+            }
+        </script>
 
         <p style="text-align: center; font-size: 10px; padding: 0px 40px">* Toutes vos informations servent uniquement aux communications entre vous et Tyrolium.
             Elles ne serviront jamais à une autre utilisation. Elle ne seront donc jamais revendues, ou partagées.</p>
