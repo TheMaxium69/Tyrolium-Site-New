@@ -416,8 +416,8 @@
             </div>
 
             <div class="col">
-                <a target="_bank" href="https://www.twitch.tv/doublet_creator" title="DoubleT">
-                    <img src="<?php echo $env_assets; ?>part/DoubleT.png" alt="DoubleT">
+                <a target="_bank" href="https://www.youtube.com/@MAEWANofficiel" title="MAEWAN">
+                    <img src="<?php echo $env_assets; ?>part/MAEWAN.jpg" alt="MAEWAN">
                 </a>
             </div>
             
@@ -431,7 +431,12 @@
         
         <div class="row">
 
-            
+
+            <div class="col">
+                <a target="_bank" href="https://www.twitch.tv/doublet_creator" title="DoubleT">
+                    <img src="<?php echo $env_assets; ?>part/DoubleT.png" alt="DoubleT">
+                </a>
+            </div>
 
             <div class="col">
                 <a target="_bank" href="https://www.linkedin.com/company/maxime-serveur/" title="Maxime/SERVEUR">
@@ -458,6 +463,12 @@
                                 <li class="splide__slide">
                                     <a target="_bank" href="https://www.twitch.tv/auroretvv" title="AuroreTVv">
                                         <img src="<?php echo $env_assets; ?>part/AuroreTVv.jpg" alt="AuroreTVv">
+                                    </a>
+                                </li>
+
+                                <li class="splide__slide">
+                                    <a target="_bank" href="https://www.youtube.com/@MAEWANofficiel" title="MAEWAN">
+                                        <img src="<?php echo $env_assets; ?>part/MAEWAN.jpg" alt="MAEWAN">
                                     </a>
                                 </li>
                                 

@@ -35,7 +35,7 @@
 
             ),
             
-            "about-text" => "Tyrolium est une entreprise multisectorielle qui travaille sur plusieurs projets, principalement du développement Web mais également du développement de jeux vidéos et d'applications, de la musique, ou encore de l'audiovisuel.
+            "about-text" => "Tyrolium est une entreprise multisectorielle qui travaille sur plusieurs projets, principalement du développement Web mais également du développement de jeux vidéos et d'applications, de l'hébergement de serveur, et de l'influence de contenu sur internet.
 
             Elle propose principalement des prestations pour la création de site Web et d'applications pour les particuliers et les professionnels.
             
@@ -50,7 +50,7 @@
             "about" => array(
             
                 "title" => "A propos de Tyrolium",
-                "txt" => 'Tyrolium est une entreprise multisectorielle qui travaille sur plusieurs projets, principalement du développement Web mais également du développement de jeux vidéos et d\'applications, de la musique, ou encore de l\'audiovisuel.</h3>
+                "txt" => 'Tyrolium est une entreprise multisectorielle qui travaille sur plusieurs projets, principalement du développement Web mais également du développement de jeux vidéos et d\'applications, de l\'hébergement de serveur, et de l\'influence de contenu sur internet.</h3>
                 <br>
                 <h3 class="art">Elle propose principalement des prestations pour la création de site Web et d\'applications pour les particuliers et les professionnels.</h3>
                 <br>

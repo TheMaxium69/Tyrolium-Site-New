@@ -115,7 +115,7 @@
                         <h2 class="pricing-header"><?php echo $env_presta_web['0'] ?></h2>
                         <br>
                         <p class="pricing-header" style="margin-bottom: -10px; color: #888;">à partir de </p>
-                        <span class="pricing-price">200€</span>
+                        <span class="pricing-price">450€</span>
                         <ul class="pricing-features">
                             <li class="pricing-features-item"><div><span class="underline bold">Concrètement</span> : Il s'agit d'une formule bien pour les porte-folios.
                                     Les sites de présentation juste avec du texte pour présenter un projet.</div>
@@ -135,7 +135,7 @@
                         <h2 class="pricing-header"><?php echo $env_presta_web['1'] ?></h2>
                         <br>
                         <p class="pricing-header" style="margin-bottom: -10px; color: #888;">à partir de </p>
-                        <span class="pricing-price">900€</span>
+                        <span class="pricing-price">1100€</span>
                         <ul class="pricing-features">
                             <li class="pricing-features-item"><div><span class="underline bold">Concrètement</span> : Il s'agit d'une formule bien pour les entreprises, les sites qui demande plus qu'un simple texte mais une présention qui pourra afficher des informations. Avec cette formule le site pourra être modifier grâce à un panel administrateur.</div></li>
                             <li class="pricing-features-item"><div><span class="underline bold">Techniquement</span> : Il s'agit de plusieurs pages qui pourra être modifiable, on pourra se connecter à des API simple, où l'on utilisera plus régulièrement des FrameWork front-end, avec Php-Object.</div></li>
@@ -152,7 +152,7 @@
                         <h2 class="pricing-header"><?php echo $env_presta_web['2'] ?></h2>
                         <br>
                         <p class="pricing-header" style="margin-bottom: -10px; color: #888;">à partir de </p>
-                        <span class="pricing-price">3000€</span>
+                        <span class="pricing-price">3200€</span>
                         <ul class="pricing-features">
                             <li class="pricing-features-item"><div><span class="underline bold">Concrètement</span> : Il s'agit d'une bonne formule notamment pour un gros projet,
                                     créer un réseau social, créer une boutique en ligne, un blog ou une application de gestion personnalisée.</div></li>

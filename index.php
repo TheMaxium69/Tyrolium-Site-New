@@ -213,7 +213,7 @@
             <div class="container col-4">
                 <article>
                     <h2 class="art-res"><i class="fas fa-caret-right"></i>  A propos de Tyrolium</h2>
-                    <p class="art-res">Tyrolium est une entreprise multisectorielle qui travaille sur plusieurs projets, principalement sur du développement Web mais aussi notamment du développement de jeux vidéos ou d'applications, de la musique, ou de l'audiovisuel.</p>
+                    <p class="art-res">Tyrolium est une entreprise multisectorielle qui travaille sur plusieurs projets, principalement sur du développement Web mais aussi notamment du développement de jeux vidéos ou d'applications, de l'hébergement de serveur, et de l'influence de contenu sur internet.</p>
                     <br>
                     <p class="art-res">Elle propose principalement des prestations de services de création de site Web et d'applications pour les particuliers et les professionnels.</p>
                     <br>

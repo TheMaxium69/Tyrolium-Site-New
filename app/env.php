@@ -78,20 +78,22 @@ $env_useritium_urlconnect = $env_useritium_site . "/connect.php";
 
 $env_back = array (
 
-    $env_urlImage . "Background6",
-    $env_urlImage . "Background2",
-    $env_urlImage . "Background16",
-    $env_urlImage . "Background15",
-    $env_urlImage . "Background7",
-    $env_urlImage . "background13",
-    $env_urlImage . "Background14",
-    $env_urlImage . "Background18.jpeg",
-    $env_urlImage . "Background21.jpg",
-    $env_urlImage . "Background20.jpg",
-    $env_urlImage . "Background4",
-    $env_urlImage . "Background22",
-    $env_urlImage . "Background11.png",
-    $env_urlImage . "Background24.png"
+    $env_urlImage . "Background6", /*TyroServ*/
+    $env_urlImage . "Background2", /*Gamenium*/
+    $env_urlImage . "Background16", /*TyroDiscord*/
+    $env_urlImage . "Background15", /*TyroStudio*/
+    $env_urlImage . "Background7", /*Wonderlium*/
+    $env_urlImage . "background13", /*Sélémusium*/
+    $env_urlImage . "Background14", /*TyroShop*/
+    $env_urlImage . "Background18.jpeg", /*DuoGramme*/
+    $env_urlImage . "Background21.jpg", /*SolidServ*/
+    $env_urlImage . "Background20.jpg", /*Chantium*/
+    $env_urlImage . "Background4", /*TyroStudent*/
+    $env_urlImage . "Background22", /*Influnias*/
+    $env_urlImage . "Background11.png", /*Freenium*/
+    $env_urlImage . "Background24.png", /*Vturias*/
+    $env_urlImage . "Background25.png", /*Avra*/
+    $env_urlImage . "Background26.png" /*NexiumiaCRM*/
 );
 
 $env_perso = array(

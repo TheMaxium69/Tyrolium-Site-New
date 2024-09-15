@@ -22,7 +22,9 @@
                 <p>Numéro TVA : <br> FR33910275361</p>
                 <p>Activité (Code NAF ou APE) : <br> Programmation informatique (6201Z)</p>
                 <p>Siège Social : <br> 252, Avenue Jean Jaurès 69150 Décines-Charpieu</p>
-                <p>Contact : <br> officiel@tyrolium.fr <br> maxime.tournier@tyrolium.fr<br> +33 6 11 11 26 69</p>
+                <p>Établissement secondaire : <br> 44, Avenue Paul Kruger 69100 Villeurbanne</p>
+                <p>Contact Global: <br> officiel@tyrolium.fr <br>  +33 7 56 88 96 97</p>
+                <p>Contact de la Direction: <br> maxime.tournier@tyrolium.fr<br> +33 6 11 11 26 69</p>
             </div>
             <h2 style="margin-top: 20px;text-align: center; color: #0049ee"><i class="fas fa-paperclip"></i>Crédit du Site Web</h2>
             <div class="row">
@@ -42,7 +44,7 @@
                     <small>- Myriam Tournier</small><br>
                     <small>- Steeve Tournier</small><br>
                     <small>- Jade Pluquet</small><br>
-                    <small>- Lola Dutouquet</small>
+                    <small>- Lola Dutouquet</small><br>
                     <small>- Daniel Taniou</small>
                     <p class="no-p">Maquettage</p>
                     <small>- Maxime Tournier</small><br>
@@ -127,7 +129,10 @@
                     <small>Influnias ®</small><br>
                     <small>Vturias ®</small><br>
                     <small>DuoGramme ®</small><br>
+                    <small>NexiumiaCRM ®</small><br>
+                    <small>Avra-Formule ®</small><br>
                     <small>-Minerais TyroServ protégés-</small><br>
+                    <small>Tyrolium ®</small><br>
                     <small>Rhodonium ®</small><br>
                     <small>Aventurium ®</small><br>
                     <small>Yellorium ®</small><br>

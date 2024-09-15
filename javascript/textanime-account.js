@@ -5,7 +5,7 @@ const txtAnim = document.querySelector('#head c.change');
                     deleteSpeed: 20
                 })
 
-                typewriter.typeString('Tyrolium')
+                typewriter.typeString('Useritium')
                 .pauseFor(6000)
                 .deleteAll()
                 .typeString('Useritium')
