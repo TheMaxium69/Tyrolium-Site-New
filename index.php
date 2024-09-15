@@ -265,7 +265,9 @@
                                     <img src="assets/Team_work_Monochromatic.png" width="100%" height="100%">
                                 </div>
                                 <div class="" style="text-align: center; margin-top: 15px" >
-                                    <?php tyrobtn("service", "service", "Liste de nos Prestations");?>
+                                    <?php tyrobtn("./website.php", "website-service", "Site Web");?>
+                                    <?php tyrobtn("./server.php", "server-service", "Serveur");?>
+                                    <?php tyrobtn("./minecraft.php", "minecraft-service", "Minecraft");?>
                                     <style>
                                         .tyrobutton{
                                             width: 100%;
