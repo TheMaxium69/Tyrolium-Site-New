@@ -225,12 +225,12 @@ $env_perso = array(
 
 
 
-    array("name" => "Delphine Rodriguez",
-        "role" => "Développeuse Web, <br> Data Analyst",
-        "icon" => "Delphine_Rodriguez.jpg",
-        "linkedin" => "https://www.linkedin.com/in/delphine-rodriguez/",
-        "github" => "https://github.com/delphine38",
-    ),
+//    array("name" => "Delphine Rodriguez",
+//        "role" => "Développeuse Web, <br> Data Analyst",
+//        "icon" => "Delphine_Rodriguez.jpg",
+//        "linkedin" => "https://www.linkedin.com/in/delphine-rodriguez/",
+//        "github" => "https://github.com/delphine38",
+//    ),
 
     array("name" => "Luigi Guyot",
         "role" => "UX/UI Designer,<br> Modérateur",
@@ -256,9 +256,9 @@ $env_perso = array(
         "tiktok" => "https://www.tiktok.com/@ren.justme?lang=fr",
     ),
 
-    array(
-        "vide" => true,
-    ),
+//    array(
+//        "vide" => true,
+//    ),
 
 //    array("name" => "Lola Dutouquet",
 //        "role" => "Rédactrice,<br> Linguiste",
@@ -273,13 +273,13 @@ $env_perso = array(
 
 
 
-    array("name" => "Wassim Bouridah",
-        "role" => "Responsable Indépendant<br> de Communication ",
-        "icon" => "Wassim_Bouridah.jpg",
-        "instagram" => "https://www.instagram.com/wassinobi/",
-        "youtube" => "https://www.youtube.com/channel/UCBuxMq0h-WQJi5_e6My9GYg",
-        "linkedin" => "https://www.linkedin.com/in/wassim-bouridah/",
-    ),
+//    array("name" => "Wassim Bouridah",
+//        "role" => "Responsable Indépendant<br> de Communication ",
+//        "icon" => "Wassim_Bouridah.jpg",
+//        "instagram" => "https://www.instagram.com/wassinobi/",
+//        "youtube" => "https://www.youtube.com/channel/UCBuxMq0h-WQJi5_e6My9GYg",
+//        "linkedin" => "https://www.linkedin.com/in/wassim-bouridah/",
+//    ),
 
     array("name" => "Flavien Dechoz",
         "role" => "Support Technique,<br> Modérateur ",
