@@ -70,9 +70,9 @@
                 <h2 class="art"><i class="fas fa-caret-right"></i> <?= $lang[$page]["service"]["title"] ?></h2>
                 <p class="art"><?= $lang[$page]["service"]["txt"] ?></p>
                 <div style="text-align: center">
-                    <?php tyrobtn("./website.php", "website-service", "Site Web");?>
-                    <?php tyrobtn("./server.php", "server-service", "Serveur");?>
-                    <?php tyrobtn("./minecraft.php", "minecraft-service", "Minecraft");?>
+                    <?php tyrobtn("./website.php", "website-service", $lang[$page]["service"]["btn1"]);?>
+                    <?php tyrobtn("./server.php", "server-service", $lang[$page]["service"]["btn2"]);?>
+                    <?php tyrobtn("./minecraft.php", "minecraft-service", $lang[$page]["service"]["btn3"]);?>
                     <style>
                         #btn-website-service{
                             width: 40%;
@@ -212,12 +212,8 @@
         <section id="home-tyro">
             <div class="container col-4">
                 <article>
-                    <h2 class="art-res"><i class="fas fa-caret-right"></i>  A propos de Tyrolium</h2>
-                    <p class="art-res">Tyrolium est une entreprise multisectorielle qui travaille sur plusieurs projets, principalement sur du développement Web mais aussi notamment du développement de jeux vidéos ou d'applications, de l'hébergement de serveur, et de l'influence de contenu sur internet.</p>
-                    <br>
-                    <p class="art-res">Elle propose principalement des prestations de services de création de site Web et d'applications pour les particuliers et les professionnels.</p>
-                    <br>
-                    <p class="art-res">Les profits générés par ces prestations seront directement investies dans les projets de l'entreprise.</p>
+                    <h2 class="art-res"><i class="fas fa-caret-right"></i><?= $lang[$page]["about"]["title"] ?></h2>
+                    <p class="art-res"><?= $lang[$page]["about"]["mobile"] ?></p>
                     <div>
                         <div class="" style="width: 60%; margin-left: 20%">
                             <img src="assets/COO_Monochromatic.png" width="100%" height="100%">
@@ -233,17 +229,14 @@
                 <section id="home-project">
                     <div class="container col-4">
                         <article>
-                            <h2 class="art-res"><i class="fas fa-caret-right"></i>  Nos Projets</h2>
-                            <p class="art-res">De nos jours, nous sommes beaucoup à rêver de créer nos propres projets. Tyrolium a réussi le pari de réaliser les rêves de nos employés passionnés.
-                                Nous sommes fiers de ce que nous accomplissons tous les jours.
-                                Nous vous proposons des projets de grande ampleur toujours avec la passion de toutes nos équipes.
-                                Tyrolium veut vous proposer des projets bien realisés, de quoi vous divertir ou vous simplifier la vie.</p>
+                            <h2 class="art-res"><i class="fas fa-caret-right"></i><?= $lang[$page]["project"]["title"] ?></h2>
+                            <p class="art-res"><?= $lang[$page]["project"]["txt"] ?></p>
                             <div>
                                 <div class="" style="width: 60%; margin-left: 20%">
                                     <img src="assets/Startup_Monochromatic.png" width="100%" height="100%">
                                 </div>
                                 <div class="" style="text-align: center; margin-top: 15px" >
-                                    <?php tyrobtn("project", "project", "Tout nos Projets");?>
+                                    <?php tyrobtn("project", "project", $lang[$page]["project"]["btn"]);?>
                                     <style>
                                         .tyrobutton{
                                             width: 100%;
@@ -258,16 +251,16 @@
                 <section id="home-service">
                     <div class="container col-4">
                         <article>
-                            <h2 class="art-res"><i class="fas fa-caret-right"></i>  Nos Prestations</h2>
-                            <p class="art-res">Tyrolium vous propose des prestations de services, notamment dans le développement de sites Web, d'applications, l'hébergement de serveurs, le développement minecraft et des bots (discord ou autre) pour les particuliers et les professionnels. Les fonds générés par ces prestations seront investis dans les projets de l'entreprise. </p>
+                            <h2 class="art-res"><i class="fas fa-caret-right"></i>  <?= $lang[$page]["service"]["title"] ?></h2>
+                            <p class="art-res"><?= $lang[$page]["service"]["txt"] ?> </p>
                             <div>
                                 <div class="" style="width: 60%; margin-left: 20%">
                                     <img src="assets/Team_work_Monochromatic.png" width="100%" height="100%">
                                 </div>
                                 <div class="" style="text-align: center; margin-top: 15px" >
-                                    <?php tyrobtn("./website.php", "website", "Site Web");?><br><br>
-                                    <?php tyrobtn("./server.php", "server", "Serveur");?><br><br>
-                                    <?php tyrobtn("./minecraft.php", "minecraft", "Minecraft");?>
+                                    <?php tyrobtn("./website.php", "website", $lang[$page]["service"]["btn1"]);?><br><br>
+                                    <?php tyrobtn("./server.php", "server", $lang[$page]["service"]["btn2"]);?><br><br>
+                                    <?php tyrobtn("./minecraft.php", "minecraft", $lang[$page]["service"]["btn3"]);?>
                                     <style>
                                         .tyrobutton{
                                             width: 100%;
@@ -285,17 +278,14 @@
                 <section id="home-collaboration">
                     <div class="container col-4">
                         <article>
-                            <h2 class="art-res"><i class="fas fa-caret-right"></i>  Nos Collaborations</h2>
-                            <p class="art-res">Tyrolium est une entreprise qui est formée de plusieurs équipes, elle sont dirigés principalement dans les projets de l'entreprise ainsi que les prestations proposées.
-                                Ces équipes sont formées de personnes motivées, dynamiques et investies dans les projets et dans l'entreprise.
-
-                                Nous recrutons tout type de profil, les seuls pré-requis sont d'être intéressé et motivé par les projets qui vous attire </p>
+                            <h2 class="art-res"><i class="fas fa-caret-right"></i><?= $lang[$page]["collab"]["title"] ?></h2>
+                            <p class="art-res"><?= $lang[$page]["collab"]["txt"] ?></p>
                             <div>
                                 <div class="" style="width: 60%; margin-left: 20%">
                                     <img src="assets/Brainstorming_session_Monochromatic.png" width="100%" height="100%">
                                 </div>
                                 <div class="" style="text-align: center; margin-top: 15px" >
-                                    <?php tyrobtn("collaboration", "collaboration", "Nos Collaborations");?>
+                                    <?php tyrobtn("collaboration", "collaboration", $lang[$page]["collab"]["btn"]);?>
                                     <style>
                                         .tyrobutton{
                                             width: 100%;
@@ -314,14 +304,14 @@
             <section id="home-account">
                 <div class="container col-4" style="padding-bottom: 38px">
                     <article>
-                        <h2 class="art-res"><i class="fas fa-caret-right"></i>  Les Compte Useritium</h2>
-                        <p class="art-res">Les comptes Useritium sont proposés par Tyrolium, afin de vous proposer une adresse mail personnelle. Ces comptes vous offrent un cloud, de plus, ils permettent egalement de pouvoir gérer vos jeux vidéos, vos serveurs. Ils vous permettent également de connaître l'avancée de vos demandes de prestations. Ces comptes sont aussi une garantie de sécurité de vos données, nous nous engageons à ne jamais partager ou divulguer quelconques informations vous concernant.</p>
+                        <h2 class="art-res"><i class="fas fa-caret-right"></i><?= $lang[$page]["account"]["title"] ?></h2>
+                        <p class="art-res"><?= $lang[$page]["account"]["txt"] ?></p>
                         <div>
                             <div class="" style="width: 60%; margin-left: 20%">
                                 <img src="assets/Information_flow_Monochromatic.png" width="100%" height="100%">
                             </div>
                             <div class="" style="text-align: center; margin-top: 15px" >
-                                <?php tyrobtn("account", "account", "Plus d'info");?>
+                                <?php tyrobtn("account", "account", $lang[$page]["account"]["btn"]);?>
                                 <style>
                                     .tyrobutton{
                                         width: 100%;
@@ -338,17 +328,14 @@
             <section id="home-story">
                 <div class="container col-4">
                     <article>
-                        <h2 class="art-res"><i class="fas fa-caret-right"></i>  Notre Histoire</h2>
-                        <p class="art-res">Voilà depuis 2017 que Tyrolium existe et fait mûrir des projets et les gens qui ont travaillé et travaillent encore dessus.
-                            Pendant ces <?= date("Y") - 2017; ?> années, une évolution s'est fait sentir et nous allons détailler cette évolution dans l'ordre chronologique et vous raconter les points clés de celle-ci.
-
-                            N'oubliez pas cependant que l'évolution n'est pas la fin, elle n'est que le début de la poussée qui nous emmènera au sommet, tant que l'on peux faire mieux ça ne sera jamais terminé. </p>
+                        <h2 class="art-res"><i class="fas fa-caret-right"></i>  <?= $lang[$page]["story"]["title"] ?></h2>
+                        <p class="art-res"><?= $lang[$page]["story"]["txt"] ?></p>
                         <div>
                             <div class="" style="width: 60%; margin-left: 20%">
                                 <img src="assets/Timeline_Monochromatic.png" width="100%" height="100%">
                             </div>
                             <div class="" style="text-align: center; margin-top: 15px" >
-                                <?php tyrobtn("story", "story", "Voir l'Histoire de Tyrolium");?>
+                                <?php tyrobtn("story", "story", $lang[$page]["story"]["btn"]);?>
                                 <style>
                                     .tyrobutton{
                                         width: 100%;
@@ -363,13 +350,8 @@
             <section id="home-french">
                 <div class="container col-4">
                     <article>
-                        <h2 class="art-res"><i class="fas fa-caret-right"></i> Indépendant et Français</h2>
-                        <p class="art-res">Le but de Tyrolium est d'exploiter au mieux le potentiel de ses employés pour créer des projets toujours plus ambitieux.
-                            Les fonds générés par nos prestations sont injectés dans l'entreprise pour financer des projets. </p>
-                        <p class="art-res">
-                            L'objectif de Tyrolium est de concurrencer le monde et les géants de notre domaine en restant français.
-                        </p><p class="art-res">
-                            Fait en France, par des français.</p>
+                        <h2 class="art-res"><i class="fas fa-caret-right"></i> <?= $lang[$page]["french"]["title"] ?></h2>
+                        <p class="art-res"><?= $lang[$page]["french"]["mobile"] ?></p>
                         <div>
                             <div class="" style="width: 60%; margin-left: 20%">
                                 <img src="assets/Paris_Monochromatic.png" width="100%" height="100%">
