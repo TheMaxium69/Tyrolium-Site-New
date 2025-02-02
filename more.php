@@ -16,7 +16,7 @@
             <div style="text-align: center">
                 <h2 style="text-align: center; margin-bottom: 20px; color: #0049ee"><i class="fas fa-scroll"></i>Administratif de l'entreprise</h2>
                 <p>Tyrolium est une entreprise à but lucratif, toute création de l'entreprise nous appartient.</p>
-                <p>Copyright © Tyrolium. 2024<br> © 2017-2024 Tyrolium, Ent.<br>All Right Reserved ©Tyrolium</p>
+                <p>Copyright © Tyrolium. <?= date("Y"); ?><br> © 2017-<?= date("Y"); ?> Tyrolium, Ent.<br>All Right Reserved ©Tyrolium</p>
                 <p>Fondé par Maxime Tournier</p>
                 <p>Siret : <br> 91027536100012</p>
                 <p>Numéro TVA : <br> FR33910275361</p>
@@ -102,13 +102,13 @@
                     <p class="no-p">Banque à images</p>
                     <small>- www.manypixels.com</small><br>
                     <p class="no-p">Hebergeur</p>
-                    <small>- SolidServ ® - © 2017-2024 Tyrolium, Ent.</small><br>
+                    <small>- SolidServ ® - © 2017-<?= date("Y"); ?> Tyrolium, Ent.</small><br>
                 </div>
             </div>
             <h2 style="margin-top: 20px;text-align: center; margin-bottom: 10px; color: #0049ee"><i class="fas fa-balance-scale"></i>Droits</h2>
             <div style="text-align: center">
                 <p class="no-p bold">L'intégralité du site et de ses contenus postés sur les serveurs, les contenus mis en ligne qui sont rendus publics, les images, les textes et tout les écrits, le design, le code-source, les logos, les visuels, les photos ainsi que les produits, appartiennent entièrement à Tyrolium.
-                    <br>Cela grâce au copyright (© 2017-2024 Tyrolium, Ent.)
+                    <br>Cela grâce au copyright (© 2017-<?= date("Y"); ?> Tyrolium, Ent.)
                     <br>Et à l'article L111-1 du code de la propriété intellectuelle française.</p>
             </div>
             <br>
@@ -137,29 +137,29 @@
                     <small>Aventurium ®</small><br>
                     <small>Yellorium ®</small><br>
                     <small>Volcanium ®</small><br>
-                    <p class="no-p"> © 2017-2024 Tyrolium, Ent.</p>
+                    <p class="no-p"> © 2017-<?= date("Y"); ?> Tyrolium, Ent.</p>
                     <br>
                 </div>
                 <div class="col-6 textmore">
                     <p class="no-p" style="margin-bottom: 10px">- Tous les logos utilisés appartiennent à leur créateur.
                         Seuls les logos de Tyrolium nous appartiennent.</p>
-                    <small>© 2017-2024 Tyrolium, Ent.</small><br>
-                    <small>© 2024 Google LLC</small><br>
-                    <small>© 2024 Meta</small><br>
-                    <small>© 2024 Twitter, Inc.</small><br>
-                    <small>© 2024 Discord / copyright@discord.com</small><br>
-                    <small>LinkedIn Corporation © 2024</small><br>
-                    <small>© 2024 GitHub, Inc.</small><br>
-                    <small>© 2024 Overwolf</small><br>
-                    <small>© 2024 Twitch Interactive, Inc.</small><br>
-                    <small>© 2024 TikTok</small><br>
-                    <small>© 2024 SoundCloud Operations, Inc. / copyright@soundcloud.com</small><br>
-                    <small>2024 © BâtirPositif</small><br>
-                    <small>Mojang © 2009-2024</small><br>
-                    <small>© 2024 Adobe.</small><br>
-                    <small>2024 © CLS-Habitat</small><br>
-                    <small>© 2024 GETTR USA, Inc.</small><br>
-                    <small>© 2024 Génération IUM, Org.</small><br>
+                    <small>© 2017-<?= date("Y"); ?> Tyrolium, Ent.</small><br>
+                    <small>© <?= date("Y"); ?> Google LLC</small><br>
+                    <small>© <?= date("Y"); ?> Meta</small><br>
+                    <small>© <?= date("Y"); ?> Twitter, Inc.</small><br>
+                    <small>© <?= date("Y"); ?> Discord / copyright@discord.com</small><br>
+                    <small>LinkedIn Corporation © <?= date("Y"); ?></small><br>
+                    <small>© <?= date("Y"); ?> GitHub, Inc.</small><br>
+                    <small>© <?= date("Y"); ?> Overwolf</small><br>
+                    <small>© <?= date("Y"); ?> Twitch Interactive, Inc.</small><br>
+                    <small>© <?= date("Y"); ?> TikTok</small><br>
+                    <small>© <?= date("Y"); ?> SoundCloud Operations, Inc. / copyright@soundcloud.com</small><br>
+                    <small><?= date("Y"); ?> © BâtirPositif</small><br>
+                    <small>Mojang © 2009-<?= date("Y"); ?></small><br>
+                    <small>© <?= date("Y"); ?> Adobe.</small><br>
+                    <small><?= date("Y"); ?> © CLS-Habitat</small><br>
+                    <small>© <?= date("Y"); ?> GETTR USA, Inc.</small><br>
+                    <small>© <?= date("Y"); ?> Génération IUM, Org.</small><br>
                 </div>
                 <div style="text-align: start">
                     <h2 style="text-align: center; margin-bottom: 20px; color: #0049ee"><i class="fas fa-globe"></i>Conditions Générales d'Utilisation</h2>

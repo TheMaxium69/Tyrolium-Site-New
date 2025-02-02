@@ -51,7 +51,7 @@
             <div class="col-3" style="min-width: 200px; margin: 0 auto">
 
                 <h1>2022</h1>
-                <h3>2 ans d'expertise dans l'hébergement de Serveur</h3>
+                <h3><?= date("Y") - 2022; ?> ans d'expertise dans l'hébergement de Serveur</h3>
 
             </div>
 

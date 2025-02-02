@@ -59,7 +59,7 @@
             <div class="col-2" style="min-width: 200px; margin: 0 auto">
 
                 <h1>2019</h1>
-                <h3>5 ans d'expertise dans la création de site web</h3>
+                <h3><?= date("Y") - 2019; ?> ans d'expertise dans la création de site web</h3>
 
             </div>
 

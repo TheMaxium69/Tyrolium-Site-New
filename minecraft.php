@@ -61,7 +61,7 @@
             <div class="col-3" style="min-width: 200px; margin: 0 auto">
 
                 <h1>2017</h1>
-                <h3>7 ans d'expertise sur ce jeu</h3>
+                <h3><?= date("Y") - 2017; ?> ans d'expertise sur ce jeu</h3>
 
             </div>
 

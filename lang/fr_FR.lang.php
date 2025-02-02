@@ -115,7 +115,7 @@ Ces comptes sont aussi une garantie de sécurité de vos données, nous nous eng
                 "title" => "Notre Histoire",
                 "btn" => "Voir l'Histoire de Tyrolium",
                 "txt" => "Voilà depuis 2017 que Tyrolium existe et fait mûrir des projets et les gens qui ont travaillés et travaillent encore dessus.
-                    Pendant ces 7 années, une évolution s'est faite sentir et nous allons détailler cette évolution dans l'ordre chronologique et vous raconter les points clés de celle-ci.
+                    Pendant ces " . (date("Y") - 2017) . " années, une évolution s'est faite sentir et nous allons détailler cette évolution dans l'ordre chronologique et vous raconter les points clés de celle-ci.
 
                     N'oubliez pas cependant que l'évolution n'est pas la fin, elle n'est que le début de la poussée qui nous emmènera au sommet, tant que l'on peux faire mieux ça ne sera jamais terminé."
             
