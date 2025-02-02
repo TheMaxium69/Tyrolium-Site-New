@@ -41,9 +41,15 @@
                 </a>
             </div>
 
+<!--            <div class="col">-->
+<!--                <a target="_bank" href="https://batirpositif.com" title="Bâtir Positif - Ingénierie Responsable">-->
+<!--                    <img src="--><?php //echo $env_assets; ?><!--part/bt.jpg" alt="batirpositif">-->
+<!--                </a>-->
+<!--            </div>-->
+
             <div class="col">
-                <a target="_bank" href="https://batirpositif.com" title="Bâtir Positif - Ingénierie Responsable">
-                    <img src="<?php echo $env_assets; ?>part/bt.jpg" alt="batirpositif">
+                <a target="_blank" href="https://www.instagram.com/maewanm/" title="Saint Balais">
+                    <img src="<?php echo $env_assets; ?>part/saintbalais.png" alt="saint-balais">
                 </a>
             </div>
             
@@ -117,6 +123,12 @@
                                 <li class="splide__slide">
                                     <a target="_bank" href="https://batirpositif.com" title="Bâtir Positif - Ingénierie Responsable">
                                         <img src="<?php echo $env_assets; ?>part/bt.jpg" alt="batirpositif">
+                                    </a>
+                                </li>
+
+                                <li class="splide__slide">
+                                    <a target="_bank" href="https://www.instagram.com/maewanm/" title="Saint Balais">
+                                        <img src="<?php echo $env_assets; ?>part/saintbalais.png" alt="saint-balais">
                                     </a>
                                 </li>
                         
