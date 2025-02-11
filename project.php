@@ -129,7 +129,8 @@
                 <img class="logo" src="http://tyrolium.fr/Contenu/Image/Gamenium.png" logo="http://tyrolium.fr/Contenu/Image/Gamenium.png" gif="https://cdn.discordapp.com/attachments/982397863462072330/982756304617631805/Gamenium_animation.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="GameniumLogo">
                 <h2>Gamenium</h2>
                 <p>Site d'actualités et de critiques<br> de jeux-vidéo.</p>
-                <a href="https://www.instagram.com/gamenium/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/> Allez sur notre Instagram</a><br>
+                <a href="https://gamenium.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
+                <a href="https://www.instagram.com/gamenium/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a><br>
                 <a href="https://www.youtube.com/channel/UCOGbXX9AOJR-dhuvqFufDIQ/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/youtube.png" alt="youtube"/></a>
                 <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
                 <a href="https://www.tiktok.com/@gamenium?" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/tiktok.png" alt="tiktok"/></a>
