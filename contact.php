@@ -296,7 +296,7 @@
     <script src="javascript/form.js"></script>
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
-    <script src='https://unpkg.com/izitoast/dist/js/iziToast.min.js'></script>
+    <script src='izitoast-1.4.0/iziToast.min.js'></script>
     <script  src="javascript/notif.js"></script>
 
 

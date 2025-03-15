@@ -72,7 +72,7 @@
 </main>
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
-    <script src='https://unpkg.com/izitoast/dist/js/iziToast.min.js'></script>
+    <script src='izitoast-1.4.0/iziToast.min.js'></script>
     <script  src="https://tyrolium.fr/javascript/notif.js"></script>
 
 
