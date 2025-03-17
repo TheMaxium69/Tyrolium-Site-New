@@ -6,8 +6,8 @@
 <main>
 <section id="projet" class="container">
         <br>
-        <h2>Nos Partenaire</h2>
-        <p>Voici les entreprises, organisations et collectivités qui nous font confiance, et qu'on travaille activement à l'amélioration et la création de projets.</p>
+        <h2><?= $lang[$page]["part"]["title"] ?></h2>
+        <p><?= $lang[$page]["part"]["txt"] ?></p>
         <br>
     </section>
 
@@ -248,7 +248,7 @@
 
         <br>
         <section id="service-start-but">
-        <?php tyrobtn("contact.php?partenaire=true", "devpart", "Devenir notre Partenaire");?>
+        <?php tyrobtn("contact.php?partenaire=true", "devpart", $lang[$page]["part"]["btn"]);?>
         </section>
         <br>
     </section>
@@ -262,8 +262,8 @@
 
     <section id="projet" class="container">
         <br>
-        <h2>Notre Équipe</h2>
-        <p>Nous sommes une équipe de passionné par notre travail et ce que nous créons tout les jours, nous sommes jeune mais plein d'envie pour notre futur.</p>
+        <h2><?= $lang[$page]["people"]["title"] ?></h2>
+        <p><?= $lang[$page]["people"]["txt"] ?></p>
         <br>
     </section>
 
@@ -283,7 +283,7 @@
                                         </div>
                                         <div class="team-content">
                                             <h3 class="name">Maxime Tournier</h3>
-                                            <h4 class="title">PDG & Fondateur,<br> Développeur</h4>
+                                            <h4 class="title"><?= $lang[$page]["job"][0] ?></h4>
                                         </div>
                                         <ul class="social">
                                             <li><a href="https://instagram.com/the_maxime_san" class="fab fa-instagram" aria-hidden="true"></a></li>
@@ -301,11 +301,9 @@
                     </div>
                     <div class="container col-5">
                         <article>
-                            <h2 class="art"><i class="fas fa-caret-right"></i> Fondateur de Tyrolium</h2>
+                            <h2 class="art"><i class="fas fa-caret-right"></i><?= $lang[$page]["owner"]["title"] ?></h2>
                             <p class="art" style='padding-bottom: 10px; margin-top: -21px;'>
-                            Félicitations au fondateur pour ses 7 années d'engagement total dans Tyrolium et ses projets.
-                            Son dévouement exemplaire est une source d'inspiration pour toutes les personnes qui travaillent dans l'entreprise. 
-                            Si Tyrolium est arrivé là où il en est aujourd'hui, c'est bien grâce à Maxime Tournier, celui qui a donné une chance à chacun d'atteindre nos rêves.
+                                <?= $lang[$page]["owner"]["txt"] ?>
                             </p>
                             
                         </article>
@@ -339,7 +337,7 @@
                         </div>
                         <div class="team-content">
                             <h3 class="name"><?php echo $perso['name']; ?></h3>
-                            <h4 class="title"><?php echo $perso['role']; ?></h4>
+                            <h4 class="title"><?php echo $lang[$page]["job"][$perso['role']]; ?></h4>
                         </div>
                         <ul class="social">
 
@@ -387,13 +385,13 @@
             </div>
             <div style="text-align: center">
             
-            <small>Un grand remerciement à nos freelance qui travaillent activement mais ne sont pas membres du projet</small>
+            <small><?= $lang[$page]["people"]["sub"] ?></small>
             
             <br><br>
 
             <?php //tyrobtn("collaboration.php#recrut", "joinmembre", "Rejoindre l'équipe");?>
             
-            <?php tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLSdRZ5UxQCDDXHHx6xQKxgrS_JiwAZnr4QQbPs3glVem5-cOnA/viewform?usp=sf_link", "joinmembre", "Rejoindre l'équipe");?>
+            <?php tyrobtn("https://docs.google.com/forms/d/e/1FAIpQLSdRZ5UxQCDDXHHx6xQKxgrS_JiwAZnr4QQbPs3glVem5-cOnA/viewform?usp=sf_link", "joinmembre", $lang[$page]["people"]["btn"]);?>
         
             </div>
         </div>
@@ -407,8 +405,8 @@
 
     <section id="projet" class="container">
         <br>
-        <h2>Ceux qu'on Sponsorise</h2>
-        <p>Il s'agit d'organisations, de personnalités et de travailleurs d'internet que nous sponsorisons afin de les soutenir dans leurs projets.</p>
+        <h2><?= $lang[$page]["sponso"]["title"] ?></h2>
+        <p><?= $lang[$page]["sponso"]["txt"] ?></p>
         <br>
     </section>
 

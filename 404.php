@@ -15,8 +15,8 @@
     <div style="text-align: center; 
     margin: 70px 15px;">
     
-        <h1>Page d'erreur</h1>
-        <?php tyrobtn("index.php", "service", "Revenir sur la page d'accueil");?>
+        <h1><?= $lang[$page]["title"] ?></h1>
+        <?php tyrobtn("index.php", "service", $lang[$page]["btn"]);?>
 
     </div>
 

@@ -23,9 +23,9 @@
 
     <section id="service-start" class="row container">
         <div class="col-9">
-            <h2 class="titleP"><i class="fas fa-caret-right" style="  color: #1325d7;"></i> Site Web</h2>
+            <h2 class="titleP"><i class="fas fa-caret-right" style="  color: #1325d7;"></i> <?= $lang[$page]['web']['about']['title'] ?></h2>
             <br id="991none">
-            <p class="container">Ci-dessous les différentes formules <br>de création de site web</p>
+            <p class="container"><?= $lang[$page]['web']['about']['txt'] ?></p>
         </div>
         <div class="col-3">
             <img src="assets/Coding%20_Monochromatic.png" style="width: 125px;margin-left: -185px;">
@@ -39,34 +39,34 @@
             <div class="col-2" style="min-width: 200px; margin: 0 auto">
 
                 <h1 class="bold">12M</h1>
-                <h3>Utilisateur annuel sur les site créé par Tyrolium</h3>
+                <h3><?= $lang[$page]['web']['number'][0] ?></h3>
 
             </div>
 
             <div class="col-2" style="min-width: 200px; margin: 0 auto">
 
                 <h1>+60</h1>
-                <h3>Entreprise qui a décidé de nous laisser créer leurs site internet.</h3>
+                <h3><?= $lang[$page]['web']['number'][1] ?></h3>
 
             </div>
             <div class="col-2" style="min-width: 200px; margin: 0 auto">
 
                 <h1>3</h1>
-                <h3>Semaine en moyenne pour créer votre site internet</h3>
+                <h3><?= $lang[$page]['web']['number'][2] ?></h3>
 
 
             </div>
             <div class="col-2" style="min-width: 200px; margin: 0 auto">
 
                 <h1>2019</h1>
-                <h3><?= date("Y") - 2019; ?> ans d'expertise dans la création de site web</h3>
+                <h3><?= $lang[$page]['web']['number'][3] ?></h3>
 
             </div>
 
             <div class="col-2" style="min-width: 200px; margin: 0 auto">
 
                 <h1>0</h1>
-                <h3>CMS ou Wordpress utilisé sans votre accord </h3>
+                <h3><?= $lang[$page]['web']['number'][4] ?></h3>
 
             </div>
 

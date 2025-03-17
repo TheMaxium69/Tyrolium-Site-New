@@ -8,11 +8,9 @@
         <div id="project-atom" class="row container">
 
             <div class="col-8">
-                    <h2>Nos Projets</h2>
+                    <h2><?= $lang[$page]["about"]['title'] ?></h2>
                     <br id="991none">
-                    <p class="container">Tout nos projets appartiennent à l'entreprise Tyrolium et sont gérés par nos équipes.
-                        Les projets sont entièrement gerez par Tyrolium Mais reste indépendant dans leurs communications,
-                        Ils sont financés par entreprise, le but de Tyrolium est de vivre de nos passions.</p>
+                    <p class="container"><?= $lang[$page]["about"]['txt'] ?></p>
             </div>
             <div class="col-4">
                 <img src="assets/atom_project_new.png" style="width: 100%;">
@@ -97,10 +95,10 @@
 
             <li id="a0">
                 <img class="logo" src="https://tyrolium.fr/Contenu/Image/TyroServS3.png" logo="assets/anim/TyroServ%20Anim.png" gif="assets/anim/tyroserv.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="TyroservLogo">
-                <h2>TyroServ</h2>
-                <p>Serveur moddé sur le jeu Minecraft.</p>
-                <small>Saison 3 disponible en Octobre.</small><br>
-                <a href="https://www.tyroserv.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
+                <h2><?= $lang[$page]["tyroserv"]['title'] ?></h2>
+                <p><?= $lang[$page]["tyroserv"]['content'] ?></p>
+                <?php if ($lang[$page]["tyroserv"]['sub'] !== "") { ?><small><?= $lang[$page]["tyroserv"]['sub'] ?></small><br><?php } ?>
+                <a href="https://www.tyroserv.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/><?= $lang[$page]["tyroserv"]['btn'] ?></a><br>
                 <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
                 <a href="https://www.instagram.com/tyroliumserver/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
                 <a href="https://twitter.com/tyrolium" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/twitter.png" alt="twitter"/></a>
@@ -113,9 +111,10 @@
 
             <li id="a8">
                 <img class="logo" src="https://tyrolium.fr/Contenu/Image/SolidServ.png" logo="assets/anim/SolidServ%20Anim.png" gif="http://tyrolium.fr/Contenu/Image/SolidServ%20Anim2.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="SolidServLogo">
-                <h2>SolidServ</h2>
-                <p>Projet d'hébergeur de serveur.</p>
-                <a href="https://solidserv.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
+                <h2><?= $lang[$page]["solidserv"]['title'] ?></h2>
+                <p><?= $lang[$page]["solidserv"]['content'] ?></p>
+                <?php if ($lang[$page]["solidserv"]['sub'] !== "") { ?><small><?= $lang[$page]["solidserv"]['sub'] ?></small><br><?php } ?>
+                <a href="https://solidserv.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/><?= $lang[$page]["solidserv"]['btn'] ?></a><br>
                 <a href="https://discord.gg/ycwWzmCQNx" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
                 <a href="https://www.instagram.com/solidserv/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
                 <a href="https://twitter.com/solid_serv" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/twitter.png" alt="twitter"/></a>
@@ -127,9 +126,10 @@
 
             <li id="a1">
                 <img class="logo" src="http://tyrolium.fr/Contenu/Image/Gamenium.png" logo="http://tyrolium.fr/Contenu/Image/Gamenium.png" gif="https://cdn.discordapp.com/attachments/982397863462072330/982756304617631805/Gamenium_animation.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="GameniumLogo">
-                <h2>Gamenium</h2>
-                <p>Site d'actualités et de critiques<br> de jeux-vidéo.</p>
-                <a href="https://gamenium.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
+                <h2><?= $lang[$page]["gamenium"]['title'] ?></h2>
+                <p><?= $lang[$page]["gamenium"]['content'] ?></p>
+                <?php if ($lang[$page]["gamenium"]['sub'] !== "") { ?><small><?= $lang[$page]["gamenium"]['sub'] ?></small><br><?php } ?>
+                <a href="https://gamenium.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/><?= $lang[$page]["gamenium"]['btn'] ?></a><br>
                 <a href="https://www.instagram.com/gamenium/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
                 <a href="https://www.youtube.com/channel/UCOGbXX9AOJR-dhuvqFufDIQ/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/youtube.png" alt="youtube"/></a>
                 <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
@@ -140,18 +140,19 @@
 
             <li id="a14">
                 <img class="logo" src="http://tyrolium.fr/Contenu/Image/Avra (Blue).png"  alt="AvraLogo">
-                <h2>Avra</h2>
-                <p>Formule d'accompagnement de projet et d'entreprise.</p>
-                <small>En collaboration avec l'entreprise "<a class="btn-part" href="https://www.youtube.com/c/MA3WAN">MA3WAN</a>" .</small><br>
-                <a href="https://www.avra.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
+                <h2><?= $lang[$page]["avra"]['title'] ?></h2>
+                <p><?= $lang[$page]["avra"]['content'] ?></p>
+                <?php if ($lang[$page]["avra"]['sub'] !== "") { ?><small><?= $lang[$page]["avra"]['sub'] ?></small><br><?php } ?>
+                <a href="https://www.avra.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/><?= $lang[$page]["avra"]['btn'] ?></a><br>
 <!--                <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>-->
             </li>
 
             <li id="a3">
                 <img class="logo" src="http://tyrolium.fr/Contenu/Image/Tyrolium Studio.png" logo="http://tyrolium.fr/Contenu/Image/Tyrolium Studio.png" gif="assets/anim/TyroStudio%20Anim.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="StudioLogo">
-                <h2>TyroStudio</h2>
-                <p>Studio de développement<br> de jeux-vidéo.</p>
-                <a href="https://tyrostudio.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
+                <h2><?= $lang[$page]["tyrostudio"]['title'] ?></h2>
+                <p><?= $lang[$page]["tyrostudio"]['content'] ?></p>
+                <?php if ($lang[$page]["tyrostudio"]['sub'] !== "") { ?><small><?= $lang[$page]["tyrostudio"]['sub'] ?></small><br><?php } ?>
+                <a href="https://tyrostudio.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/><?= $lang[$page]["tyrostudio"]['btn'] ?></a><br>
                 <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
                 <a href="https://www.instagram.com/tyroliumstudio/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
                 <a href="https://www.linkedin.com/company/tyrostudio" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/linkedIn.png" alt="linkedin"/></a>
@@ -160,17 +161,19 @@
 
             <li id="a15">
                 <img class="logo" src="http://tyrolium.fr/Contenu/Image/NexiumiaCRM.png" alt="NexiumiaCRMLogo">
-                <h2>NexiumiaCRM</h2>
-                <p>CRM d'entreprise qui a pour objectif d'être conçu <br> par des experts de la tech, plutôt que par des équipes de commerciaux.</p>
-                <a href="https://nexiumiacrm.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
+                <h2><?= $lang[$page]["nexiumiacrm"]['title'] ?></h2>
+                <p><?= $lang[$page]["nexiumiacrm"]['content'] ?></p>
+                <?php if ($lang[$page]["nexiumiacrm"]['sub'] !== "") { ?><small><?= $lang[$page]["nexiumiacrm"]['sub'] ?></small><br><?php } ?>
+                <a href="https://nexiumiacrm.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/><?= $lang[$page]["nexiumiacrm"]['btn'] ?></a><br>
                 <!--                <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>-->
             </li>
 
             <li id="a13">
                 <img class="logo" src="http://tyrolium.fr/Contenu/Image/Vturias.png" alt="VturiasLogo">
-                <h2>Vturias</h2>
-                <p>Agence de Vtubing.</p>
-                <a href="https://vturias.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
+                <h2><?= $lang[$page]["vturias"]['title'] ?></h2>
+                <p><?= $lang[$page]["vturias"]['content'] ?></p>
+                <?php if ($lang[$page]["vturias"]['sub'] !== "") { ?><small><?= $lang[$page]["vturias"]['sub'] ?></small><br><?php } ?>
+                <a href="https://vturias.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/><?= $lang[$page]["vturias"]['btn'] ?></a><br>
                 <a href="https://twitter.com/Vturias_Project" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/twitter.png" alt="twitter"/></a>
                 <a href="https://discord.gg/nUc8kED8st" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
                 <a href="https://www.instagram.com/vturias_project/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
@@ -182,9 +185,10 @@
 
             <li id="a11">
                 <img class="logo" src="https://tyrolium.fr/Contenu/Image/Influnias.png" logo="assets/anim/Influnias%20Anim.png" gif="assets/anim/Influnias%20Anim.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="InfluniasLogo">
-                <h2>Influnias</h2>
-                <p>Agence de portage d'influencer.</p>
-                <a href="https://www.influnias.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/> Allez sur le site</a><br>
+                <h2><?= $lang[$page]["influnias"]['title'] ?></h2>
+                <p><?= $lang[$page]["influnias"]['content'] ?></p>
+                <?php if ($lang[$page]["influnias"]['sub'] !== "") { ?><small><?= $lang[$page]["influnias"]['sub'] ?></small><br><?php } ?>
+                <a href="https://www.influnias.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/><?= $lang[$page]["influnias"]['btn'] ?></a><br>
                 <a href="https://www.instagram.com/influnias/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
                 <a href="https://discord.gg/ycwWzmCQNx" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
                 <a href="https://twitter.com/influnias" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/twitter.png" alt="twitter"/></a>
@@ -197,7 +201,7 @@
             
             <bottom id="btn-old-project">
                 
-                <label>Voir les anciens projets</label><br>
+                <label><?= $lang[$page]["old-btn"] ?></label><br>
                 <i class="fas fa-chevron-down"></i>
         
             </bottom>
@@ -258,16 +262,16 @@
             <div id="project-atom" class="row container">
 
                 <div class="col">
-                        <h2>Nos Ancien Projets</h2>
+                        <h2><?= $lang[$page]["about-old"]["title"] ?></h2>
                         <br id="991none">
-                        <p class="container">Il s'agit des projets que nous avons décidé de fermer au fur et à mesure des années.</p>
+                        <p class="container"><?= $lang[$page]["about-old"]["txt"] ?></p>
                 </div>
             </div>
 
         <ul>    
             <li id="a4">
                 <img class="logo" src="http://tyrolium.fr/Contenu/Image/Wonderlium.png" logo="http://tyrolium.fr/Contenu/Image/Wonderlium.png" gif="assets/anim/Wonderlium%20Anim.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="WonderliumLogo">
-                <h2>Wonderlium<br><span class="badge badge-pill badge-danger infoNew-A4">Fermer</span></h2>
+                <h2><?= $lang[$page]["wonderlium"]["title"] ?><br><span class="badge badge-pill badge-danger infoNew-A4"><?= $lang[$page]["stat-old"]["red"] ?></span></h2>
 
                 <!-- Text Old -->
                 <div class="infoOld-A4" style="display: none;">
@@ -284,19 +288,19 @@
                 </div>
                 <!-- Text Explication -->
                 <div class="infoNew-A4">
-                    <p>Il s'agissait d'un collectif qui réalisait des vidéos geek. Nous avons réussi à publier 3 vidéos sur notre chaîne YouTube, mais ces vidéos n'ont jamais vraiment fonctionné et, en raison de nombreux changements dans l'équipe, le projet a fini par s'éteindre malgré qu'il s'agissait du premier projet après TyroServ</p>    
+                    <p><?= $lang[$page]["wonderlium"]["content"] ?></p>
                     <!-- <small>Stat : abo:</small><br> -->
                 </div>
 
                 <hr style="width: 70%;background: white;margin-left: auto;margin-right: auto;">
-                <bottom class="btn btnInfoOld btnInfoOld-A4" onclick="oldProjectBtn('4','def')"><i class="fas fa-chevron-down"></i> Version d'avant</bottom>
+                <bottom class="btn btnInfoOld btnInfoOld-A4" onclick="oldProjectBtn('4','def')" data-close="<?= $lang[$page]['btn-old']['close'] ?>" data-open="<?= $lang[$page]['btn-old']['open'] ?>"><i class="fas fa-chevron-down"></i><?= $lang[$page]['btn-old']['open'] ?></bottom>
                 
             
             </li>
 
             <li id="a5">
                 <img class="logo" src="https://tyrolium.fr/Contenu/Image/Selemusium.png" logo="assets/anim/Selemusium%20Anim.png" gif="assets/anim/Selemusium%20Anim.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="SelemusiumLogo">
-                <h2>Sélémusium<br><span class="badge badge-pill badge-danger infoNew-A5">Fermer</span></h2>
+                <h2><?= $lang[$page]["selemusium"]["title"] ?><br><span class="badge badge-pill badge-danger infoNew-A5"><?= $lang[$page]["stat-old"]["red"] ?></span></h2>
 
                 <!-- Text Old -->
                 <div class="infoOld-A5" style="display: none;">
@@ -315,18 +319,18 @@
                 </div>
                 <!-- Text Explication -->
                 <div class="infoNew-A5">
-                    <p>Ce projet de musique avait de grandes ambitions dans un système de recrutement/création, mais les membres qui ont rejoint n'ont pas réussi à faire fonctionner le projet, qui était malheureusement très éloigné de la philosophie de l'entreprise</p>    
+                    <p><?= $lang[$page]["selemusium"]["content"] ?></p>
                     <!-- <small>Stat : NB</small><br> -->
                 </div>
 
                 <hr style="width: 70%;background: white;margin-left: auto;margin-right: auto;">
-                <bottom class="btn btnInfoOld btnInfoOld-A5" onclick="oldProjectBtn('5','def')"><i class="fas fa-chevron-down"></i> Version d'avant</bottom>
-                
+                <bottom class="btn btnInfoOld btnInfoOld-A5" onclick="oldProjectBtn('5','def')" data-close="<?= $lang[$page]['btn-old']['close'] ?>" data-open="<?= $lang[$page]['btn-old']['open'] ?>"><i class="fas fa-chevron-down"></i><?= $lang[$page]['btn-old']['open'] ?></bottom>
+
             </li>
 
             <li id="a2">
                 <img class="logo" src="https://tyrolium.fr/Contenu/Image/TyroDiscord.png" logo="https://tyrolium.fr/Contenu/Image/TyroDiscord.png" gif="assets/anim/TyroDiscord%20Anim.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="TyroDiscord">
-                <h2>TyroDiscord<br><span class="badge badge-pill badge-primary infoNew-A2">Transformer</span></h2>
+                <h2><?= $lang[$page]["tyrodiscord"]["title"] ?><br><span class="badge badge-pill badge-primary infoNew-A2"><?= $lang[$page]["stat-old"]["blue"] ?></span></h2>
 
                 <!-- Text Old -->
                 <div class="infoOld-A2" style="display: none;">
@@ -340,18 +344,18 @@
                 </div>
                 <!-- Text Explication -->
                 <div class="infoNew-A2">
-                    <p>Ce projet de création d'extensions pour Discord se termine en tant que projet mais continuera d'exister dans l'entreprise pour permettre à notre équipe et à certains autres projets de simplifier et d'aider l'utilisation de Discord dans l'entreprise.</p>    
+                    <p><?= $lang[$page]["tyrodiscord"]["content"] ?></p>
                     <!-- <small>Stat : NB</small><br> -->
                 </div>
 
                 <hr style="width: 70%;background: white;margin-left: auto;margin-right: auto;">
-                <bottom class="btn btnInfoOld btnInfoOld-A2" onclick="oldProjectBtn('2','def')"><i class="fas fa-chevron-down"></i> Version d'avant</bottom>
-                
+                <bottom class="btn btnInfoOld btnInfoOld-A2" onclick="oldProjectBtn('2','def')" data-close="<?= $lang[$page]['btn-old']['close'] ?>" data-open="<?= $lang[$page]['btn-old']['open'] ?>"><i class="fas fa-chevron-down"></i><?= $lang[$page]['btn-old']['open'] ?></bottom>
+
             </li>
 
             <li id="a6">
                 <img class="logo" src="https://tyrolium.fr/Contenu/Image/TyroShop.png" logo="https://tyrolium.fr/Contenu/Image/TyroShop.png" gif="assets/anim/TyroShop%20Anim.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="ShopLogo">
-                <h2>TyroShop<br><span class="badge badge-pill badge-primary infoNew-A6">Transformer</span></h2>
+                <h2><?= $lang[$page]["tyroshop"]["title"] ?><br><span class="badge badge-pill badge-primary infoNew-A6"><?= $lang[$page]["stat-old"]["blue"] ?></span></h2>
 
                 <!-- Text Old -->
                 <div class="infoOld-A6" style="display: none;">
@@ -365,18 +369,18 @@
                 </div>
                 <!-- Text Explication -->
                 <div class="infoNew-A6">
-                    <p>Notre boutique de projet se termine en tant que projet, mais continuera à exister dans l'entreprise de la même manière que les comptes Useritium ou Tyrodiscord.</p>    
+                    <p><?= $lang[$page]["tyroshop"]["content"] ?></p>
                     <!-- <small>Stat : NB</small><br> -->
                 </div>
 
                 <hr style="width: 70%;background: white;margin-left: auto;margin-right: auto;">
-                <bottom class="btn btnInfoOld btnInfoOld-A6" onclick="oldProjectBtn('6','def')"><i class="fas fa-chevron-down"></i> Version d'avant</bottom>
-            
+                <bottom class="btn btnInfoOld btnInfoOld-A6" onclick="oldProjectBtn('6','def')" data-close="<?= $lang[$page]['btn-old']['close'] ?>" data-open="<?= $lang[$page]['btn-old']['open'] ?>"><i class="fas fa-chevron-down"></i><?= $lang[$page]['btn-old']['open'] ?></bottom>
+
             </li>
 
             <li id="a7">
                 <img class="logo" src="https://tyrolium.fr/Contenu/Image/DuoGramme.png" logo="https://tyrolium.fr/Contenu/Image/DuoGramme.png" gif="assets/anim/DuoGramme%20Anim.gif"  onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="Duo-Gramme">
-                <h2>DuoGramme<br><span class="badge badge-pill badge-danger infoNew-A7">Fermer</span></h2>
+                <h2><?= $lang[$page]["duogramme"]["title"] ?><br><span class="badge badge-pill badge-danger infoNew-A7"><?= $lang[$page]["stat-old"]["red"] ?></span></h2>
 
                 <!-- Text Old -->
                 <div class="infoOld-A7" style="display: none;">
@@ -388,17 +392,18 @@
                 </div>
                 <!-- Text Explication -->
                 <div class="infoNew-A7">
-                    <p>Ce projet avait pour but de créer des comptes Instagram pour informer un grand nombre de personnes sur des sujets peu connus. Malheureusement, il n'a jamais abouti. En raison des nombreux projets à gérer en même temps, l'équipe n'a jamais pu s'y consacrer pleinement.</p>    
+                    <p><?= $lang[$page]["duogramme"]["content"] ?></p>
                     <!-- <small>Stat : NB</small><br> -->
                 </div>
 
                 <hr style="width: 70%;background: white;margin-left: auto;margin-right: auto;">
-                <bottom class="btn btnInfoOld btnInfoOld-A7" onclick="oldProjectBtn('7','def')"><i class="fas fa-chevron-down"></i> Version d'avant</bottom>
+                <bottom class="btn btnInfoOld btnInfoOld-A7" onclick="oldProjectBtn('7','def')" data-close="<?= $lang[$page]['btn-old']['close'] ?>" data-open="<?= $lang[$page]['btn-old']['open'] ?>"><i class="fas fa-chevron-down"></i><?= $lang[$page]['btn-old']['open'] ?></bottom>
+
             </li>
 
             <li id="a10">
                 <img class="logo" src="https://tyrolium.fr/Contenu/Image/TyroStudent.png" logo="http://tyrolium.fr/Contenu/Image/TyroStudent.png" gif="assets/anim/TyroStudent%20Anim.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="TyroStudent">
-                <h2>TyroStudent<br><span class="badge badge-pill badge-warning infoNew-A10">Non abouti</span></h2>
+                <h2><?= $lang[$page]["tyrostudent"]["title"] ?><br><span class="badge badge-pill badge-warning infoNew-A10"><?= $lang[$page]["stat-old"]["yellow"] ?></span></h2>
 
                 <!-- Text Old -->
                 <div class="infoOld-A10" style="display: none;">
@@ -407,17 +412,18 @@
                 </div>
                 <!-- Text Explication -->
                 <div class="infoNew-A10">
-                    <p>Ce projet n'a réellement jamais vu le jour, seuls des croquis ou des maquettes du projet existent aujourd'hui.</p>    
+                    <p><?= $lang[$page]["tyrostudent"]["content"] ?></p>
                     <!-- <small>Stat : NB</small><br> -->
                 </div>
 
                 <hr style="width: 70%;background: white;margin-left: auto;margin-right: auto;">
-                <bottom class="btn btnInfoOld btnInfoOld-A10" onclick="oldProjectBtn('10','def')"><i class="fas fa-chevron-down"></i> Version d'avant</bottom>
+                <bottom class="btn btnInfoOld btnInfoOld-A10" onclick="oldProjectBtn('10','def')" data-close="<?= $lang[$page]['btn-old']['close'] ?>" data-open="<?= $lang[$page]['btn-old']['open'] ?>"><i class="fas fa-chevron-down"></i><?= $lang[$page]['btn-old']['open'] ?></bottom>
+
             </li>
 
             <li id="a9">
                 <img class="logo" src="http://tyrolium.fr/Contenu/Image/Chantium.png" logo="http://tyrolium.fr/Contenu/Image/Chantium.png" gif="assets/anim/Chantium%20Anim.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="ChantiumLogo">
-                <h2>Chantium<br><span class="badge badge-pill badge-info infoNew-A9">En Attente</span></h2>
+                <h2><?= $lang[$page]["chantium"]["title"] ?><br><span class="badge badge-pill badge-info infoNew-A9"><?= $lang[$page]["stat-old"]["cyan"] ?></span></h2>
 
                 <!-- Text Old -->
                 <div class="infoOld-A9" style="display: none;">
@@ -426,18 +432,18 @@
                 </div>
                 <!-- Text Explication -->
                 <div class="infoNew-A9">
-                    <p>Chantium est en attente de pouvoir continuer, malgré tout, ce projet reste fermé jusqu'à nouvel ordre. Il s'agit d'un projet de création d'une application pour simplifier la communication entre les membres du chantier.</p>    
+                    <p><?= $lang[$page]["chantium"]["content"] ?></p>
                     <!-- <small>Stat : NB</small><br> -->
                 </div>
 
                 <hr style="width: 70%;background: white;margin-left: auto;margin-right: auto;">
-                <bottom class="btn btnInfoOld btnInfoOld-A9" onclick="oldProjectBtn('9','def')"><i class="fas fa-chevron-down"></i> Version d'avant</bottom>
+                <bottom class="btn btnInfoOld btnInfoOld-A9" onclick="oldProjectBtn('9','def')" data-close="<?= $lang[$page]['btn-old']['close'] ?>" data-open="<?= $lang[$page]['btn-old']['open'] ?>"><i class="fas fa-chevron-down"></i><?= $lang[$page]['btn-old']['open'] ?></bottom>
 
             </li>
 
             <li id="a12">
                 <img class="logo" src="http://tyrolium.fr/Contenu/Image/Freenium.png" alt="FreeniumLogo">
-                <h2>Freenium<br><span class="badge badge-pill badge-primary infoNew-A12">Transformer</span></h2>
+                <h2><?= $lang[$page]["freenium"]["title"] ?><br><span class="badge badge-pill badge-primary infoNew-A12"><?= $lang[$page]["stat-old"]["blue"] ?></span></h2>
 
                 <!-- Text Old -->
                 <div class="infoOld-A12" style="display: none;">
@@ -445,12 +451,12 @@
                 </div>
                 <!-- Text Explication -->
                 <div class="infoNew-A12">
-                    <p>Ce projet est à la base des prestations que Tyrolium propose aujourd'hui.</p>    
+                    <p><?= $lang[$page]["freenium"]["content"] ?></p>
                     <!-- <small>Stat : NB</small><br> -->
                 </div>
 
                 <hr style="width: 70%;background: white;margin-left: auto;margin-right: auto;">
-                <bottom class="btn btnInfoOld btnInfoOld-A12" onclick="oldProjectBtn('12','def')"><i class="fas fa-chevron-down"></i> Version d'avant</bottom>
+                <bottom class="btn btnInfoOld btnInfoOld-A12" onclick="oldProjectBtn('12','def')" data-close="<?= $lang[$page]['btn-old']['close'] ?>" data-open="<?= $lang[$page]['btn-old']['open'] ?>"><i class="fas fa-chevron-down"></i><?= $lang[$page]['btn-old']['open'] ?></bottom>
             </li>
         </ul>
     </div>

@@ -6,8 +6,10 @@
 <main>
     <section id="projet">
         <br>
-        <h2 style="font-size: 35px">Plus d'informations</h2>
-        <p style="font-size: 20px" class="container">Retrouvez ici toutes les informations complémentaires de Tyrolium.</p>
+        <h2 style="font-size: 35px"><?= $lang[$page]["about"]["title"] ?></h2>
+        <p style="font-size: 20px" class="container">
+            <?= $lang[$page]["about"]["txt"] ?>
+        </p>
         <br>
         <hr style="background: rgb(161, 161, 161);">
     </section>

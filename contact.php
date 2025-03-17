@@ -6,9 +6,8 @@
 <main>
     <section id="projet">
         <br>
-        <h2>Nous Contacter</h2>
-        <p class="container">Voici la page pour nous contacter, nous vous enverrons un mail à la suite de cette demande.
-            Le délai de réponse sera entre 24h et 72h.</p>
+        <h2><?= $lang[$page]['about']['title'] ?></h2>
+        <p class="container"><?= $lang[$page]['about']['txt'] ?></p>
         <br>
         <hr style="background: rgb(161, 161, 161);">
     </section>
@@ -21,7 +20,7 @@
                 <div class="form-contact">
                     <form id="form-contact-key" method="get" action="<?php echo $env_bd_contact; ?>" onsubmit="handleFormSubmit(event)">
 
-                        <h2 style="text-align: center">Motif de contact</h2>
+                        <h2 style="text-align: center"><?= $lang[$page]['form']['title-select'] ?></h2>
                         <br>
                         <div class="dynamicSelect">
                                 <span class="dynamicSelect-dropdown">
@@ -65,7 +64,7 @@
                                             <?php } else { ?>
 
                                         <select class="dynamicSelect-select" name="raison" required>
-                                                <option hidden value="">Choisis le motif</option>
+                                                <option hidden value=""><?= $lang[$page]['select']['undefine'] ?></option>
                                             <?php } ?>
                                                 <option value="form-1">Prestations</option>
                                                 <option value="form-2">Projets</option>
@@ -194,37 +193,37 @@
 
                             </div>
                         <br>
-                        <h2 style="text-align: center">Vos Informations</h2>
+                        <h2 style="text-align: center"><?= $lang[$page]['form']['title-input'] ?></h2>
 
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="single-input">
                                     <i class="fas fa-user"></i>
-                                    <input type="text" name="firstName" placeholder="Entrez votre prénom" required>
+                                    <input type="text" name="firstName" placeholder="<?= $lang[$page]['form']['firstname'] ?>" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="single-input">
                                     <i class="fas fa-file-signature"></i>
-                                    <input type="text" name="lastName" placeholder="Entrez votre nom" required>
+                                    <input type="text" name="lastName" placeholder="<?= $lang[$page]['form']['lastname'] ?>" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="single-input">
                                     <i class="fas fa-envelope"></i>
-                                    <input type="email" name="email" placeholder="Entrez votre email" required>
+                                    <input type="email" name="email" placeholder="<?= $lang[$page]['form']['mail'] ?>" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="single-input">
                                     <i class="fas fa-phone"></i>
-                                    <input type="text" name="phoneNumber" placeholder="Entrez votre numéro de téléphone">
+                                    <input type="text" name="phoneNumber" placeholder="<?= $lang[$page]['form']['num'] ?>">
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="single-input">
                                     <i class="fas fa-comment-dots"></i>
-                                    <textarea placeholder="Entrez un messsage" name="text"></textarea>
+                                    <textarea placeholder="<?= $lang[$page]['form']['msg'] ?>" name="text"></textarea>
                                 </div>
                             </div>
                             
@@ -238,7 +237,7 @@
 
                             <div class="col-12">
                                 <div class="submit-input text-center">
-                                    <input type="submit" name="submit" value="Envoyer">
+                                    <input type="submit" name="submit" value="<?= $lang[$page]['form']['submit'] ?>">
                                 </div>
                             </div>
                             
@@ -281,14 +280,13 @@
             }
         </script>
 
-        <p style="text-align: center; font-size: 10px; padding: 0px 40px">* Toutes vos informations servent uniquement aux communications entre vous et Tyrolium.
-            Elles ne serviront jamais à une autre utilisation. Elle ne seront donc jamais revendues, ou partagées.</p>
+        <p style="text-align: center; font-size: 10px; padding: 0px 40px">* <?= $lang[$page]['form']['conditions'] ?></p>
 
         <section id="projet">
 
             <hr style="background: rgb(161, 161, 161);">
             <br>
-            <p class="container">Vous pouvez également prendre contact avec nous par notre mail ou par téléphone. <br> <i>officiel@tyrolium.fr</i><br><i>+33 6 11 11 26 69</i></p>
+            <p class="container"><?= $lang[$page]['other'] ?> <br> <i>officiel@tyrolium.fr</i><br><i>+33 6 11 11 26 69</i></p>
             <br>
         </section>
 

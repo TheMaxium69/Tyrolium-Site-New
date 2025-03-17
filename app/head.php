@@ -2,27 +2,28 @@
 function head($page)
 {
 
+    require "lang.php";
 
     if ($page == 1) {
-        $title = "Tyrolium Site";
+        $title =  "Tyrolium";
     } else if ($page == 3){
-        $title = "Prestation | Tyrolium Site";
+        $title = $lang['page'][2] . " | Tyrolium";
     } else if ($page == 2){
-        $title = "Projet | Tyrolium Site";
+        $title = $lang['page'][1] . " | Tyrolium";
     } else if ($page == 4){
-        $title = "Collaboration | Tyrolium Site";
+        $title = $lang['page'][3] . " | Tyrolium";
     } else if ($page == 5){
-        $title = "Histoire | Tyrolium Site";
+        $title = $lang['page'][4] . " | Tyrolium";
     } else if ($page == 6){
-        $title = "Compte | Tyrolium Site";
+        $title = $lang['page'][5] . " | Tyrolium";
     } else if ($page == 8){
-        $title = "Plus d'Infos | Tyrolium Site";
+        $title = $lang['page'][7] . " | Tyrolium";
     } else if ($page == 7){
-        $title = "Contacte | Tyrolium Site";
+        $title = $lang['page'][6] . " | Tyrolium";
     } else if ($page == 9){
-        $title = "Connexion | Tyrolium Site";
+        $title = $lang['page'][8] . " | Tyrolium";
     } else {
-        $title = "404 | Tyrolium Site";
+        $title = $lang['page'][9] . " | Tyrolium";
     }
 
 

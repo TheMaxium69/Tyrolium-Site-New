@@ -10,7 +10,7 @@ $env_isEvent_Noel2022 = false;
 $env_isEvent_year2023 = false;
 $env_isAnimProject = true;
 $env_isUseritium = true;
-$env_isMultilang = false;
+$env_isMultilang = true;
 $env_isEvent_TyroServ = false;
 
 $env_url = "https://tyrolium.fr";
@@ -113,7 +113,7 @@ $env_perso = array(
 
     
     array("name" => "Pierre-Louis Devaud",
-        "role" => "Responsable Projet,<br> Conseiller Technique",
+        "role" => 1,
         "icon" => "Pierre-Louis_Devaud.jpg",
         "instagram" => "https://www.instagram.com/pl_dev54/",
         "twitch" => "https://www.twitch.tv/piplextv",
@@ -130,34 +130,34 @@ $env_perso = array(
 
     ),*/
     array("name" => "Mathis Dubief",
-        "role" => "Journaliste Jeux Vidéo,<br> Modérateur",
+        "role" => 2,
         "icon" => "Mathis_Dubief.jpg",
         "instagram" => "https://www.instagram.com/m2k_hide.chr/",
         "twitter" => "https://twitter.com/Mathis45920873",
     ),
 
     array("name" => "Kevin Muziak",
-        "role" => "Développeur Web <br>et Minecraft",
+        "role" => 3,
         "icon" => "Kevin_Muziak.jpg",
         "linkedin" => "https://www.linkedin.com/in/kevin-muziak/",
         "github" => "https://github.com/Threonaum",
     ),
 
     array("name" => "Clément Charrassier",
-        "role" => "Développeur Web",
+        "role" => 4,
         "icon" => "Clément_Charrassier.jpg",
         "linkedin" => "https://www.linkedin.com/in/cl%C3%A9ment-charrassier-51606027b/",
         "github" => "https://github.com/ClemCH2R2SR",
     ),
 
     array("name" => "Rayan Quessada",
-        "role" => "Développeur Web",
+        "role" => 4,
         "icon" => "Rayan_Quessada.jpg",
         "linkedin" => "https://www.linkedin.com/in/rayan%2Dquessada/",
     ),
 
     array("name" => "Angelo Fernandez",
-        "role" => "Développeur Web",
+        "role" => 4,
         "icon" => "Angelo_Fernandez.jpg",
         "linkedin" => "https://www.linkedin.com/in/angelo-fernandez-397b25250/",
     ),
@@ -177,7 +177,7 @@ $env_perso = array(
 
 
     array("name" => "Elias Poder",
-        "role" => "Développeur Web",
+        "role" => 4,
         "icon" => "Elias_Poder.jpg",
         "linkedin" => "https://www.linkedin.com/in/elias-poder",
         "github" => "https://github.com/elPodemos",
@@ -190,7 +190,7 @@ $env_perso = array(
     ),*/
 
     array("name" => "Maktoum Abdelhak",
-        "role" => "Développeur Web",
+        "role" => 4,
         "icon" => "Maktoum_Abdelhak.jpg",
         "linkedin" => "https://www.linkedin.com/in/maktoum-abdelhak-20478212b/",
         "github" => "https://github.com/Martav69",
@@ -198,26 +198,26 @@ $env_perso = array(
     ),
 
     array("name" => "Oscar Boguszewski",
-        "role" => "Développeur Web",
+        "role" => 4,
         "icon" => "Oscar_Boguszewski.jpg",
         "linkedin" => "https://www.linkedin.com/in/oscar-boguszewski-a734902a8/",
         "github" => "https://github.com/05c4rR",
     ),
 
     array("name" => "Adèle Jausons",
-        "role" => "Développeuse Web",
+        "role" => 4,
         "icon" => "Adèle_Jausons.jpg",
         "linkedin" => "https://www.linkedin.com/in/ad%C3%A8le-jausons-2b55491b7/",
     ),
 
     array("name" => "Bastien Thiebaut",
-        "role" => "Développeur Web",
+        "role" => 4,
         "icon" => "Bastien_Thiebaut.jpg",
         "linkedin" => "https://www.linkedin.com/in/bastien-thiebaut-b055062a5/",
     ),
 
     array("name" => "Erynn Vandre",
-        "role" => "Développeuse Web",
+        "role" => 4,
         "icon" => "Erynn_Vandre.jpg",
         "linkedin" => "https://www.linkedin.com/in/erynn-vandre-6ba319278/",
     ),
@@ -233,7 +233,7 @@ $env_perso = array(
 //    ),
 
     array("name" => "Luigi Guyot",
-        "role" => "UX/UI Designer,<br> Modérateur",
+        "role" => 5,
         "icon" => "Luigi_Guyot.jpg",
         "linkedin" => "https://www.linkedin.com/in/luigi-guyot-56aa9722b/",
 
@@ -241,7 +241,7 @@ $env_perso = array(
 
 
     array("name" => "Daniel Taniou",
-        "role" => "Graphiste, Modérateur,<br> Linguiste",
+        "role" => 6,
         "icon" => "Daniel_Taniou.jpg",
         "youtube" => "https://youtube.com/c/Eroniage",
         "instagram" => "https://www.instagram.com/eroniage_off/",
@@ -251,7 +251,7 @@ $env_perso = array(
 
 
     array("name" => "Ren LIM",
-        "role" => "Graphiste,<br> Monteur-Vidéo",
+        "role" => 7,
         "icon" => "Ren_Lim.jpg",
         "tiktok" => "https://www.tiktok.com/@ren.justme?lang=fr",
     ),
@@ -282,7 +282,7 @@ $env_perso = array(
 //    ),
 
     array("name" => "Flavien Dechoz",
-        "role" => "Support Technique,<br> Modérateur ",
+        "role" => 8,
         "icon" => "Flavien_Dechoz.jpg",
         "twitter" => "https://twitter.com/flavien_dechoz",
         "instagram" => "https://www.instagram.com/flaviendechoz/",

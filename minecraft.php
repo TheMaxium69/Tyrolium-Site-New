@@ -23,9 +23,9 @@
 
     <section id="service-start" class="row container">
         <div class="col-9">
-            <h2 class="titleP"><i class="fas fa-caret-right" style="  color: #1325d7;"></i> Minecraft</h2>
+            <h2 class="titleP"><i class="fas fa-caret-right" style="  color: #1325d7;"></i> <?= $lang[$page]['mc']['about']['title'] ?></h2>
             <br id="991none">
-            <p class="container">Voici tout les travaux que nous réalisons avec Minecraft<br> et quelque chiffre sur nos travaux.</p>
+            <p class="container"><?= $lang[$page]['mc']['about']['txt'] ?></p>
             <br>
         </div>
         <div class="col-3">
@@ -41,27 +41,27 @@
             <div class="col-3" style="min-width: 200px; margin: 0 auto">
 
                 <h1 class="bold">8M</h1>
-                <h3>Téléchargement sur tout moddes et texture pack</h3>
+                <h3><?= $lang[$page]['mc']['number'][0] ?></h3>
 
             </div>
 
             <div class="col-3" style="min-width: 200px; margin: 0 auto">
 
                 <h1>110K</h1>
-                <h3>Joueur unique sur tous nos serveur et évent</h3>
+                <h3><?= $lang[$page]['mc']['number'][1] ?></h3>
 
             </div>
             <div class="col-3" style="min-width: 200px; margin: 0 auto">
 
                 <h1>+90</h1>
-                <h3>Projet créé et géré par Tyrolium</h3>
+                <h3><?= $lang[$page]['mc']['number'][2] ?></h3>
 
 
             </div>
             <div class="col-3" style="min-width: 200px; margin: 0 auto">
 
                 <h1>2017</h1>
-                <h3><?= date("Y") - 2017; ?> ans d'expertise sur ce jeu</h3>
+                <h3><?= $lang[$page]['mc']['number'][3] ?></h3>
 
             </div>
 
@@ -144,17 +144,13 @@
             </div>
             <div class="container col-5">
                 <article id="art-home">
-                    <h2 class="art">Oraganisaiton d'évenements</h2>
-                    <p class="art">
-                        Mettez en lumière votre marque en l'incorporant dans une expérience immersive et engageante dans le monde de Minecraft.<br>
-
-                        Nous sommes spécialisés dans la création de campagnes publicitaires innovantes et percutantes au sein du jeu Minecraft, un jeu "bac à sable" populaire. En tant que créateur de serveur Minecraft depuis 2017, nous utilisons ce jeu comme une plateforme de création sans limites pour transformer vos idées en expériences virtuelles captivantes.<br>
-                    </p>
+                    <h2 class="art"><?= $lang[$page]['mc']['event']['title'] ?></h2>
+                    <p class="art"><?= $lang[$page]['mc']['event']['txt'] ?></p>
                     <div style="text-align: center">
-                        <small>Contact : <br>
+                        <small><?= $lang[$page]['mc']['event']['contact'] ?> : <br>
                             officiel@tyrolium.fr<br>
                             +33 6 11 11 26 69</small><br><br>
-                        <?php tyrobtn("contact.php?name=mc", "contact", "Contactez-nous pour cette prestation");?>
+                        <?php tyrobtn("contact.php?name=mc", "contact", $lang[$page]['mc']['event']['btn']);?>
                     </div>
                 </article>
             </div>
@@ -164,10 +160,10 @@
         <section id="service-second-but" class="container row service-ecart">
             <div class="container col-5">
                 <article>
-                    <h2 class="art"><i class="fas fa-caret-right"></i> Dévéloppement de Moddes & Plugin </h2>
-                    <p class="art">Nous offrons un service dédié au développement de votre mod ou plugin Minecraft.<br> Avec l'expertise pour créer des mods utilisant Forge, Fabric ou NeoForged, ainsi que des plugins pour Bukkit, Spigot ou Sponge, nous sommes équipés pour concrétiser vos idées les plus audacieuses, que ce soit pour des projets personnels ou commerciaux.</p>
+                    <h2 class="art"><i class="fas fa-caret-right"></i><?= $lang[$page]['mc']['dev']['title'] ?></h2>
+                    <p class="art"><?= $lang[$page]['mc']['dev']['txt'] ?></p>
                     <div style="text-align: center">
-                        <?php tyrobtn("contact.php?name=mc", "contact", "Contactez-nous pour cette prestation");?>
+                        <?php tyrobtn("contact.php?name=mc", "contact", $lang[$page]['mc']['dev']['btn']);?>
                     </div>
                 </article>
             </div>
@@ -182,11 +178,12 @@
             </div>
             <div class="container col-5">
                 <article id="art-home">
-                    <h2 class="art">Création de Texture</h2>
+                    <h2 class="art"><?= $lang[$page]['mc']['texture']['title'] ?></h2>
                     <p class="art">
-                        Service de création sur mesure pour vos packs de textures Minecraft. Nous sommes spécialisés dans le développement de packs de textures uniques pour Minecraft, adaptés à vos besoins personnels et commerciaux. nous donnons vie à vos visions les plus créatives en transformant l'esthétique de votre jeu.</p>
+                        <?= $lang[$page]['mc']['texture']['txt'] ?>
+                    </p>
                     <div style="text-align: center">
-                        <?php tyrobtn("contact.php?name=mc", "contact", "Contactez-nous pour cette prestation");?>
+                        <?php tyrobtn("contact.php?name=mc", "contact", $lang[$page]['mc']['texture']['btn']);?>
                     </div>
                 </article>
             </div>
@@ -196,10 +193,11 @@
         <section id="service-second-but" class="container row service-ecart">
             <div class="container col-5">
                 <article>
-                    <h2 class="art"><i class="fas fa-caret-right"></i> Notre Serveur</h2>
-                    <p class="art">Tyrolium possède un projet appéler TyroServ, il s'agit d'un serveur PVP/Faction Moddé de renom qui à fait son succès en 2020, il s'agit d'un des plus gros projet de toute l'entreprise ayant atteint le nombre de 80K joueur unique.</p>
-                    <div style="text-align: center">
-                        <?php tyrobtn("https://tyroserv.fr", "contact", "Site de TyroServ");?>
+                    <h2 class="art"><i class="fas fa-caret-right"></i><?= $lang[$page]['mc']['serv']['title'] ?></h2>
+                    <p class="art">
+                        <?= $lang[$page]['mc']['serv']['txt'] ?>
+                    </p><div style="text-align: center">
+                        <?php tyrobtn("https://tyroserv.fr", "contact", $lang[$page]['mc']['serv']['btn']);?>
                     </div>
                 </article>
             </div>
@@ -216,11 +214,8 @@
     <div class="home-res service-res">
 
         <section id="service-second-but">
-            <h2><i class="fas fa-caret-right"></i> Oraganisaiton d'évenements</h2><br>
-            <p>Mettez en lumière votre marque en l'incorporant dans une expérience immersive et engageante dans le monde de Minecraft.
-
-                Nous sommes spécialisés dans la création de campagnes publicitaires innovantes et percutantes au sein du jeu Minecraft, un jeu "bac à sable" populaire. En tant que créateur de serveur Minecraft depuis 2017, nous utilisons ce jeu comme une plateforme de création sans limites pour transformer vos idées en expériences virtuelles captivantes.<br>
-            </p>
+            <h2><i class="fas fa-caret-right"></i> <?= $lang[$page]['mc']['event']['title'] ?></h2><br>
+            <p><?= $lang[$page]['mc']['event']['txt'] ?></p>
             <div>
                 <div class="" style="width: 60%; margin-left: 20%">
                     <img src="assets/analytics-process-monochromatic.png" width="100%" height="100%">
@@ -228,10 +223,10 @@
             </div>
             <br>
             <p style="text-align: center">
-            <small >Contact : <br>
+            <small><?= $lang[$page]['mc']['event']['contact'] ?> : <br>
                 officiel@tyrolium.fr<br>
                 +33 6 11 11 26 69</small></p>
-            <?php tyrobtn("contact.php?name=mc", "contact", "Contactez-nous pour cette prestation");?>
+            <?php tyrobtn("contact.php?name=mc", "contact", $lang[$page]['mc']['event']['btn']);?>
 
             <br>
             <br>
@@ -242,15 +237,15 @@
         <br>
 
         <section id="service-second-but">
-            <h2><i class="fas fa-caret-right"></i> Dévéloppement de Moddes & Plugin</h2><br>
-            <p>Nous offrons un service dédié au développement de votre mod ou plugin Minecraft. Avec l'expertise pour créer des mods utilisant Forge, Fabric ou NeoForged, ainsi que des plugins pour Bukkit, Spigot ou Sponge, nous sommes équipés pour concrétiser vos idées les plus audacieuses, que ce soit pour des projets personnels ou commerciaux.</p>
+            <h2><i class="fas fa-caret-right"></i> <?= $lang[$page]['mc']['dev']['title'] ?></h2><br>
+            <p><?= $lang[$page]['mc']['dev']['txt'] ?></p>
             <div>
                 <div class="" style="width: 60%; margin-left: 20%">
                     <img src="assets/Coding _Monochromatic.png" width="100%" height="100%">
                 </div>
             </div>
             <br>
-            <?php tyrobtn("contact.php?name=mc", "contact", "Contactez-nous pour cette prestation");?>
+            <?php tyrobtn("contact.php?name=mc", "contact", $lang[$page]['mc']['dev']['btn']);?>
 
             <br>
             <br>
@@ -260,16 +255,15 @@
         <br>
 
         <section id="service-second-but">
-            <h2><i class="fas fa-caret-right"></i> Création de Texture</h2><br>
-            <p> Service de création sur mesure pour vos packs de textures Minecraft. Nous sommes spécialisés dans le développement de packs de textures uniques pour Minecraft, adaptés à vos besoins personnels et commerciaux. nous donnons vie à vos visions les plus créatives en transformant l'esthétique de votre jeu.
-            </p>
+            <h2><i class="fas fa-caret-right"></i> <?= $lang[$page]['mc']['texture']['title'] ?></h2><br>
+            <p> <?= $lang[$page]['mc']['texture']['txt'] ?></p>
             <div>
                 <div class="" style="width: 60%; margin-left: 20%">
                     <img src="assets/Designer%20_Monochromatic.png" width="100%" height="100%">
                 </div>
             </div>
             <br>
-            <?php tyrobtn("contact.php?name=mc", "contact", "Contactez-nous pour cette prestation");?>
+            <?php tyrobtn("contact.php?name=mc", "contact", $lang[$page]['mc']['texture']['btn']);?>
 
             <br>
             <br>
@@ -279,9 +273,9 @@
         <br>
 
         <section id="service-second-but">
-            <h2><i class="fas fa-caret-right"></i> Notre Serveur</h2><br>
+            <h2><i class="fas fa-caret-right"></i> <?= $lang[$page]['mc']['serv']['title'] ?></h2><br>
             <p>
-                Tyrolium possède un projet appéler TyroServ, il s'agit d'un serveur PVP/Faction Moddé de renom qui à fait son succès en 2020, il s'agit d'un des plus gros projet de toute l'entreprise ayant atteint le nombre de 80K joueur unique.
+                <?= $lang[$page]['mc']['serv']['txt'] ?>
             </p>
             <div>
                 <div class="" style="width: 60%; margin-left: 20%">
@@ -289,7 +283,7 @@
                 </div>
             </div>
             <br>
-            <?php tyrobtn("https://tyroserv.fr", "contact", "Site de TyroServ");?>
+            <?php tyrobtn("https://tyroserv.fr", "contact", $lang[$page]['mc']['serv']['btn']);?>
 
             <br>
             <br>
