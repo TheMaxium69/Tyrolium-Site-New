@@ -335,28 +335,28 @@ Les fonds générés par nos prestations sont réinvestis dans l\'entreprise pou
                 ),
 
                 "form-legend" => array(
-                    "prefix-price" => "",
-                    "firstTxt" => "",
-                    "secondTxt" => "",
-                    "contact" => "",
-                    "btn" => "",
+                    "prefix-price" => "à partir de ",
+                    "firstTxt" => "Concrètement",
+                    "secondTxt" => "Techniquement",
+                    "contact" => "Contact",
+                    "btn" => "Contactez-nous pour cette formule",
                 ),
 
                 "form" => array(
                     array(
-                        "name" => "",
-                        "firstTxt" => "",
-                        "secondTxt" => "",
+                        "name" => "Site Personnel",
+                        "firstTxt" => "Il s'agit d'une formule bien pour les porte-folios. Les sites de présentation juste avec du texte pour présenter un projet.",
+                        "secondTxt" => "Il s'agit d'une simple ou de plusieurs pages où l'on travaille juste avec des langages de front-end. Aucune relation avec une API ou une base de données ne sera faite avec cette formule.",
                     ),
                     array(
-                        "name" => "",
-                        "firstTxt" => "",
-                        "secondTxt" => "",
+                        "name" => "Site de Projet",
+                        "firstTxt" => "Il s'agit d'une formule bien pour les entreprises, les sites qui demande plus qu'un simple texte mais une présention qui pourra afficher des informations. Avec cette formule le site pourra être modifier grâce à un panel administrateur.",
+                        "secondTxt" => "Il s'agit de plusieurs pages qui pourra être modifiable, on pourra se connecter à des API simple, où l'on utilisera plus régulièrement des FrameWork front-end, avec Php-Object.",
                     ),
                     array(
-                        "name" => "",
-                        "firstTxt" => "",
-                        "secondTxt" => "",
+                        "name" => "Application Web",
+                        "firstTxt" => "Il s'agit d'une bonne formule notamment pour un gros projet, créer un réseau social, créer une boutique en ligne, un blog ou une application de gestion personnalisée.",
+                        "secondTxt" => "Cette formule se fera avec un FrameWork front-end et back-end, avec une base de donnée, une création d'API obligatoire, gestion de compte et panel administrateur.",
                     )
                 ),
 
@@ -369,9 +369,81 @@ Les fonds générés par nos prestations sont réinvestis dans l\'entreprise pou
 
                 "rea" => array(
                     array(
-                        "name" => "",
-                        "txt" => ""
-                    )
+                        "name"=>"Tyrolium",
+                        "desc"=>"Site officiel de mon entreprise Tyrolium",
+                    ),
+
+                    array(
+                        "name"=>"Bâtir Positif",
+                        "desc"=>"Site de l'entreprise Bâtir positif fait en 2020",
+                    ),
+
+                    array(
+                        "name"=>"SolidServ",
+                        "desc"=>"Site de mon hébergeur de Serveur SolidServ, filaire de Tyrolium",
+
+                    ),
+                    array(
+                        "name"=>"Palais de la sneaks",
+                        "desc"=>"Site Ecommerce de l'entreprise Palais de la sneaks",
+                    ),
+                    array(
+                        "name"=>"TyroServ",
+                        "desc"=>"Site Internet de mon Serveur Minecraft, failaire de Tyrolium",
+                    ),
+                    array(
+                        "name"=>"Tyrolium Uptime",
+                        "desc"=>"Site de verification de l'infrastructure réseau de Tyrolium",
+                    ),
+                    array(
+                        "name"=>"Tyrolium SpeedTest",
+                        "desc"=>"SpeedTest pour tester sa connexion avec les serveurs interne de Tyrolium",
+                    ),
+                    array(
+                        "name"=>"C.L.S Habitat",
+                        "desc"=>"Site de l'entreprise C.L.S Habitat",
+                    ),
+
+                    array(
+                        "name"=>"Wonderlium",
+                        "desc"=>"Site Internet de notre collectif de Vidéaste, failaire de Tyrolium (fait en 2019)",
+                    ),
+
+                    array(
+                        "name"=>"Useritium",
+                        "desc"=>"Site Internet de nos Compte Useritium, failaire de Tyrolium",
+                    ),
+
+                    array(
+                        "name"=>"TyroDiscord",
+                        "desc"=>"Site Internet de nos Projet Discord, failaire de Tyrolium",
+                    ),
+
+                    array(
+                        "name"=>"Kaleidoscope",
+                        "desc"=>"Site du projet de notre Partenaire MA3WAN",
+                    ),
+
+                    array(
+                        "name"=>"Influnias",
+                        "desc"=>"Site Internet de notre Agence d'influenceur, failaire de Tyrolium",
+                    ),
+                    array(
+                        "name"=>"Vturias",
+                        "desc"=>"Site Internet de notre Agence de Vtubeur, failaire de Tyrolium",
+                    ),
+
+                    array(
+                        "name"=>"Sélémusium",
+                        "desc"=>"Site Internet de notre label Musical, failaire de Tyrolium",
+                    ),
+
+
+                    array(
+                        "name"=>"Artomyx",
+                        "desc"=>"Site Internet de l'album du label Musical, failaire de Tyrolium",
+                    ),
+
                 )
 
 

@@ -10,7 +10,7 @@ $env_isEvent_Noel2022 = false;
 $env_isEvent_year2023 = false;
 $env_isAnimProject = true;
 $env_isUseritium = true;
-$env_isMultilang = true;
+$env_isMultilang = false;
 $env_isEvent_TyroServ = false;
 
 $env_url = "https://tyrolium.fr";
@@ -420,7 +420,6 @@ $env_website = array(
 
     array(
             "name"=>"Tyrolium",
-            "desc"=>"Site officiel de mon entreprise Tyrolium",
             "github"=>"https://github.com/TheMaxium69/Tyrolium-Site-New",
             "url"=>"https://tyrolium.fr",
             "picture"=>"tyrolium"
@@ -428,7 +427,6 @@ $env_website = array(
 
     array(
             "name"=>"Bâtir Positif",
-            "desc"=>"Site de l'entreprise Bâtir positif fait en 2020",
             "github"=>"https://github.com/TheMaxium69/BatirPositif-WebSite",
             "url"=>"https://batirpositif.fr",
             "picture"=>"batirpositif"
@@ -436,7 +434,6 @@ $env_website = array(
 
     array(
             "name"=>"SolidServ",
-            "desc"=>"Site de mon hébergeur de Serveur SolidServ, filaire de Tyrolium",
             "github"=>"https://github.com/TheMaxium69/SolidServ-WebSite",
             "url"=>"https://solidserv.fr",
             "picture"=>"solidserv"
@@ -444,50 +441,37 @@ $env_website = array(
         ),
     array(
             "name"=>"Palais de la sneaks",
-            "desc"=>"Site Ecommerce de l'entreprise Palais de la sneaks",
             "github"=>"https://github.com/TheMaxium69/PalaisDeLaSneaks-WebSite",
             "url"=>"https://palaisdelasneaks.fr",
             "picture"=>"palaisdelasneaks"
         ),
     array(
             "name"=>"TyroServ",
-            "desc"=>"Site Internet de mon Serveur Minecraft, failaire de Tyrolium",
             "github"=>"https://github.com/TheMaxium69/TyroServ-WebSite",
             "url"=>"https://tyroserv.fr",
             "picture"=>"tyroserv"
         ),
     array(
             "name"=>"Tyrolium Uptime",
-            "desc"=>"Site de verification de l'infrastructure réseau de Tyrolium",
             "github"=>"https://github.com/TheMaxium69/Tyrolium-Uptime",
             "url"=>"https://tyrolium.fr/uptime/",
             "picture"=>"tyrouptime"
         ),
     array(
             "name"=>"Tyrolium SpeedTest",
-            "desc"=>"SpeedTest pour tester sa connexion avec les serveurs interne de Tyrolium",
             "github"=>"https://github.com/TheMaxium69/Tyrolium-SpeedTest",
             "url"=>"https://speedtest.tyrolium.fr/",
             "picture"=>"speedtest"
         ),
     array(
             "name"=>"C.L.S Habitat",
-            "desc"=>"Site de l'entreprise C.L.S Habitat",
             "github"=>"https://github.com/TheMaxium69/CLS.Habitat-WebSite",
             "url"=>"https://cls-habitat.fr/",
             "picture"=>"cls"
         ),
-    /*array(
-            "name"=>"Groupe Cloudy",
-            "desc"=>"Site du Groupe Cloudy",
-            "github"=>"",
-            "url"=>"",
-            "picture"=>""
-        ),*/
 
     array(
             "name"=>"Wonderlium",
-            "desc"=>"Site Internet de notre collectif de Vidéaste, failaire de Tyrolium (fait en 2019)",
             "github"=>"https://github.com/TheMaxium69/Site-Wonderlium",
             "url"=>"http://site.wonderlium.yt",
             "picture"=>"wonderlium"
@@ -495,7 +479,6 @@ $env_website = array(
 
     array(
             "name"=>"Useritium",
-            "desc"=>"Site Internet de nos Compte Useritium, failaire de Tyrolium",
             "github"=>"https://github.com/TheMaxium69/Useritium-WebSite",
             "url"=>"https://useritium.fr/",
             "picture"=>"useritium"
@@ -503,7 +486,6 @@ $env_website = array(
 
     array(
             "name"=>"TyroDiscord",
-            "desc"=>"Site Internet de nos Projet Discord, failaire de Tyrolium",
             "github"=>"https://github.com/TheMaxium69/TyroDiscord-WebSite",
             "url"=>"https://themaxium69.github.io/TyroDiscord-WebSite/",
             "picture"=>"tyrodiscord"
@@ -511,30 +493,19 @@ $env_website = array(
 
     array(
             "name"=>"Kaleidoscope",
-            "desc"=>"Site du projet de notre Partenaire MA3WAN",
             "github"=>"https://github.com/TheMaxium69/Kaleidoscope-WebSite",
             "url"=>"https://kaleidoscope.tyrolium.fr/",
             "picture"=>"kaleidoscope"
         ),
 
-    /*array(
-            "name"=>"Agape",
-            "desc"=>"Site de l'entreprise Agape",
-            "github"=>"",
-            "url"=>"",
-            "picture"=>"agape"
-        ),*/
-
     array(
             "name"=>"Influnias",
-            "desc"=>"Site Internet de notre Agence d'influenceur, failaire de Tyrolium",
             "github"=>"https://github.com/TheMaxium69/Influnias-WebSite-V2",
             "url"=>"https://www.influnias.fr/",
             "picture"=>"influnias"
         ),
     array(
             "name"=>"Vturias",
-            "desc"=>"Site Internet de notre Agence de Vtubeur, failaire de Tyrolium",
             "github"=>"https://github.com/TheMaxium69/Vturias-WebSite",
             "url"=>"https://vturias.fr/",
             "picture"=>"vturias"
@@ -542,7 +513,6 @@ $env_website = array(
 
     array(
             "name"=>"Sélémusium",
-            "desc"=>"Site Internet de notre label Musical, failaire de Tyrolium",
             "github"=>"https://github.com/TheMaxium69/Selemusium-WebSite",
             "url"=>"http://selemusium.tyrolium.fr/",
             "picture"=>"selemusium"
@@ -551,7 +521,6 @@ $env_website = array(
 
     array(
             "name"=>"Artomyx",
-            "desc"=>"Site Internet de l'album du label Musical, failaire de Tyrolium",
             "github"=>"https://github.com/TheMaxium69/Artomyx-Site",
             "url"=>"https://themaxium69.github.io/Artomyx-Site/",
             "picture"=>"artomyx"
