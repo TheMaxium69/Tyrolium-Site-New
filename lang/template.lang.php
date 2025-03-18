@@ -33,7 +33,7 @@ $lang = array(
             "sub" => '',
         ),
         array(
-            "name" => "CRM",
+            "name" => "",
             "sub" => ''
         ),
     ),
