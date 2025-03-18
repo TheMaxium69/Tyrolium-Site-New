@@ -604,7 +604,7 @@ Les fonds générés par nos prestations sont réinvestis dans l\'entreprise pou
 
                 "solidserv" => array(
                     "title" => "Grâce à SolidServ",
-                    "txt" => "Cette page est proposé par notre propre filaile <strong>SolidServ</strong>, il s'agit notre propre hébergeur serveur créer et porté par Tyrolium et ses équipes depuis ". date("Y") - 2022 ." ans",
+                    "txt" => "Cette page est proposé par notre propre filaile <strong>SolidServ</strong>, il s'agit notre propre hébergeur serveur créer et porté par Tyrolium et ses équipes depuis " . (date("Y") - 2022) ." ans",
                     "btn" => "Site de SolidServ"
                 ),
 
