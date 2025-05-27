@@ -41,15 +41,25 @@
                 </a>
             </div>
 
-<!--            <div class="col">-->
-<!--                <a target="_bank" href="https://batirpositif.com" title="Bâtir Positif - Ingénierie Responsable">-->
-<!--                    <img src="--><?php //echo $env_assets; ?><!--part/bt.jpg" alt="batirpositif">-->
-<!--                </a>-->
-<!--            </div>-->
+            <div class="col">
+                <a target="_bank" href="https://batirpositif.com" title="Bâtir Positif - Ingénierie Responsable">
+                    <img src="<?php echo $env_assets; ?>part/bt.jpg" alt="batirpositif">
+                </a>
+            </div>
+
+        </div>
+        <div class="row" style="  max-width: 440px;
+  margin: auto;">
 
             <div class="col">
-                <a target="_blank" href="https://www.instagram.com/maewanm/" title="Saint Balais">
-                    <img src="<?php echo $env_assets; ?>part/saintbalais.png" alt="saint-balais">
+                <a target="_blank" href="https://www.linkedin.com/company/n00ka/" title="N00ka">
+                    <img src="<?php echo $env_assets; ?>part/n00ka.png" alt="n00Ka">
+                </a>
+            </div>
+
+            <div class="col">
+                <a target="_blank" href="https://www.linkedin.com/company/graphic-n00k/" title="Graphic N00K">
+                    <img src="<?php echo $env_assets; ?>part/graphic-n00k.png" alt="graphic-n00k">
                 </a>
             </div>
             
@@ -58,8 +68,6 @@
         <!-- Mobile -->
         <div class="part-mobile">
                 <style>
-
-
             .splide__slide img {
                 width: 150px;
                 border-radius: 33px;
@@ -127,8 +135,14 @@
                                 </li>
 
                                 <li class="splide__slide">
-                                    <a target="_bank" href="https://www.instagram.com/maewanm/" title="Saint Balais">
-                                        <img src="<?php echo $env_assets; ?>part/saintbalais.png" alt="saint-balais">
+                                    <a target="_bank" href="https://www.linkedin.com/company/n00ka/" title="N00ka">
+                                        <img src="<?php echo $env_assets; ?>part/n00ka.png" alt="n00ka">
+                                    </a>
+                                </li>
+
+                                <li class="splide__slide">
+                                    <a target="_bank" href="https://www.linkedin.com/company/graphic-n00k/" title="Graphic N00K">
+                                        <img src="<?php echo $env_assets; ?>part/graphic-n00k.png" alt="graphic-n00k">
                                     </a>
                                 </li>
                         
