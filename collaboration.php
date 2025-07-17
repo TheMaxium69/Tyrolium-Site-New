@@ -123,7 +123,7 @@
                                 </li>
                                 
                                 <li class="splide__slide">
-                                    <a target="_bank" href="https://www.linkedin.com/company/g%C3%A9n%C3%A9ration-ium/" title="Génératium IUM">
+                                    <a target="_bank" href="https://www.generation-ium.fr/" title="Génératium IUM">
                                         <img src="<?php echo $env_assets; ?>part/Generatium-ium.png" alt="generatium-ium">
                                     </a>
                                 </li>

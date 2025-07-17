@@ -25,7 +25,7 @@
                 <p>Activité (Code NAF ou APE) : <br> Programmation informatique (6201Z)</p>
                 <p>Siège Social : <br> 252, Avenue Jean Jaurès 69150 Décines-Charpieu</p>
                 <p>Établissement secondaire : <br> 44, Avenue Paul Kruger 69100 Villeurbanne</p>
-                <p>Contact Global: <br> officiel@tyrolium.fr <br>  +33 7 56 88 96 97</p>
+                <p>Contact Global: <br> officiel@tyrolium.fr </p>
                 <p>Contact de la Direction: <br> maxime.tournier@tyrolium.fr<br> +33 6 11 11 26 69</p>
             </div>
             <h2 style="margin-top: 20px;text-align: center; color: #0049ee"><i class="fas fa-paperclip"></i>Crédit du Site Web</h2>
