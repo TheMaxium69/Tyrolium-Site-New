@@ -173,7 +173,7 @@
                 <h2><?= $lang[$page]["vturias"]['title'] ?></h2>
                 <p><?= $lang[$page]["vturias"]['content'] ?></p>
                 <?php if ($lang[$page]["vturias"]['sub'] !== "") { ?><small><?= $lang[$page]["vturias"]['sub'] ?></small><br><?php } ?>
-                <a href="https://vturias.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/><?= $lang[$page]["vturias"]['btn'] ?></a><br>
+                <a href="https://www.vturias.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/><?= $lang[$page]["vturias"]['btn'] ?></a><br>
                 <a href="https://twitter.com/Vturias_Project" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/twitter.png" alt="twitter"/></a>
                 <a href="https://discord.gg/nUc8kED8st" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>
                 <a href="https://www.instagram.com/vturias_project/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/instagram.png" alt="instagram"/></a>
