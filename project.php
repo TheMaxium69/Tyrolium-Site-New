@@ -138,15 +138,6 @@
                 <a href="https://www.linkedin.com/company/gamenium" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/linkedIn.png" alt="linkedin"/></a>
             </li>
 
-            <li id="a14">
-                <img class="logo" src="http://tyrolium.fr/Contenu/Image/Avra (Blue).png"  alt="AvraLogo">
-                <h2><?= $lang[$page]["avra"]['title'] ?></h2>
-                <p><?= $lang[$page]["avra"]['content'] ?></p>
-                <?php if ($lang[$page]["avra"]['sub'] !== "") { ?><small><?= $lang[$page]["avra"]['sub'] ?></small><br><?php } ?>
-                <a href="https://www.avra.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/><?= $lang[$page]["avra"]['btn'] ?></a><br>
-<!--                <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>-->
-            </li>
-
             <li id="a3">
                 <img class="logo" src="http://tyrolium.fr/Contenu/Image/Tyrolium Studio.png" logo="http://tyrolium.fr/Contenu/Image/Tyrolium Studio.png" gif="assets/anim/TyroStudio%20Anim.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="StudioLogo">
                 <h2><?= $lang[$page]["tyrostudio"]['title'] ?></h2>
@@ -268,7 +259,8 @@
                 </div>
             </div>
 
-        <ul>    
+        <ul>
+
             <li id="a4">
                 <img class="logo" src="http://tyrolium.fr/Contenu/Image/Wonderlium.png" logo="http://tyrolium.fr/Contenu/Image/Wonderlium.png" gif="assets/anim/Wonderlium%20Anim.gif" onmouseover=hoverProject(this); onmouseout=unHoverProject(this); alt="WonderliumLogo">
                 <h2><?= $lang[$page]["wonderlium"]["title"] ?><br><span class="badge badge-pill badge-danger infoNew-A4"><?= $lang[$page]["stat-old"]["red"] ?></span></h2>
@@ -457,6 +449,15 @@
 
                 <hr style="width: 70%;background: white;margin-left: auto;margin-right: auto;">
                 <bottom class="btn btnInfoOld btnInfoOld-A12" onclick="oldProjectBtn('12','def')" data-close="<?= $lang[$page]['btn-old']['close'] ?>" data-open="<?= $lang[$page]['btn-old']['open'] ?>"><i class="fas fa-chevron-down"></i><?= $lang[$page]['btn-old']['open'] ?></bottom>
+            </li>
+
+            <li id="a14">
+                <img class="logo" src="http://tyrolium.fr/Contenu/Image/Avra (Blue).png"  alt="AvraLogo">
+                <h2><?= $lang[$page]["avra"]['title'] ?></h2>
+                <p><?= $lang[$page]["avra"]['content'] ?></p>
+                <?php if ($lang[$page]["avra"]['sub'] !== "") { ?><small><?= $lang[$page]["avra"]['sub'] ?></small><br><?php } ?>
+                <a href="https://www.avra.fr/" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/link.png" alt="link"/><?= $lang[$page]["avra"]['btn'] ?></a><br>
+                <!--                <a href="https://discord.gg/km8h5jHezt" class="btn" target="_blank" ><img class="icon" src="http://tyrolium.fr/Contenu/Image/icone/discord.png" alt="discord"/></a>-->
             </li>
         </ul>
     </div>
